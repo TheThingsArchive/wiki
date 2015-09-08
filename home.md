@@ -25,12 +25,12 @@ See also [[CurrentNetwork]].
 
 ## Getting Started
 To get started connecting to the The Things Network,
-read our [[GettingStarted]] manual.
+read our technical [[GettingStarted]] manual.
 
-If you want to help building the network itself, get
-in [[contact]]! We're looking for people to step up
-and take responsibility for expanding the network in
-a specific area.
+If you want to help building the network itself from a
+non-technical perspective, get in [[contact]]!
+We're looking for people to step up and take responsibility
+for expanding the network in a specific area.
 
 ## Next Steps
 [Github repositories](https://github.com/TheThingsNetwork)
