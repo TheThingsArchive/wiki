@@ -1,0 +1,68 @@
+# Introduction
+At the moment there are several options to get you own gateway. These fall into two categories:
+* Ready to roll
+* Do it yourself
+
+There is also a third option, that is design your own hardware, but that is beyond the scope of this how-to.
+
+## Ready to roll
+Depending on how much money you want to spend and when the hardware is needed the following options are available (from most expensive to least expensive):
+
+### [Kerlink](http://www.kerlink.fr/en/products/lora-iot-station/11-products-uk)
+* Price: on request, around 1500 euro.
+* Availability: direct available, (order in France)
+* Capacity: 8 band, ~ 20K Nodes 
+* Suitable for outdoor mounting (IP67)
+* Installation: Requires a technician
+* Hardware: proprietary
+* Software: open source & proprietary
+* Tested by The Things Network Crew.
+
+Discussion: This is an industrial solution suitable for people who want to mount the gateway outside and have sufficient technical skills to connect, mount and maintain the device themselves. We have tested the device and although we have remarks about the somewhat older software that is being used, this device will do the job. A trained software engineer will be able to update the device using the software from The Things Network. 
+
+
+### [MultiTech](http://www.multitech.com/brands/multiconnect-conduit)
+* Price: on request, around 700 euro, may require additional boards to run
+* Availability: unknown
+* Capacity: ? 
+* Suitable for indoor use
+* Installation: Plug and play (?)
+* Hardware: proprietary
+* Software: proprietary (?)
+* NOT tested by The Things Network Crew. 
+
+Discussion: The concept of replaceable daughter boards seems sound, but we have no hands on experience with this device. It is also unlikely we will get that, unless someone sends us one to play with. 
+
+
+### [Lorank 8](http://www.hoperf.nl/LORANK-8)
+* Price: 412 euro 
+* Availability: pre-order, estimated delivery time 30 days
+* Capacity: 8 band, ~ 20K Nodes 
+* Suitable for indoor use
+* Installation: Plug and play
+* Hardware: radio proprietary, MCU board: open source 
+* Software: open source
+* TO BE tested by The Things Network Crew.
+
+Discussion: The device is build upon the radio board of IMST and the open
+source hardware BeagleBone Black. Although the device itself has not yet 
+been tested, we build a comparable gateway and are confident this will work.
+Also, this will run The Things Network software by default.
+
+
+### [The Things Gateway](http://thethingsnetwork.org/kickstarter-landing/kickstarter.html)
+* Price: 200 euro 
+* Availability: kickstarter will launch 1e October
+* Capacity: 1 band, ~ 3K Nodes (strech goal: 8 band) 
+* Suitable for indoor use
+* Installation: Plug and play
+* Hardware: open source 
+* Software: open source
+* TO BE tested by The Things Network Crew.
+
+Discussion: The device is specially developed for The Things Network and
+we will make sure it will meet all requirements for a smooth experience on
+The Things Network. Note that estimated first delivery is around May ~ June 2016.
+
+## Do it yourself
+- to be completed
