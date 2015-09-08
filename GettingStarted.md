@@ -34,7 +34,7 @@ Some boards include a MCU, some don't and just provide the
 modem interface of the chip. There's bare breakout boards,
 Bee connectors, or all-included development boards.
 
-To get started building a node, see our **[Hardware Nodes Overview](Hardware-OverviewNodes)**.
+To get started building a node, see our **[Hardware Nodes Overview](Hardware/OverviewNodes)**.
 
 On the gateway side there's also a few options. Since the
 SX1272/SX1276 only allows for one connection at a time,
@@ -42,9 +42,9 @@ most of them use the SX1301 + SX1257 chips allowing up to
 8 simultaneous connections (typically supporting 10000 ~ 20000
 nodes).
 
-To get started with gateways, see our **[Hardware Gateway Overview](Hardware-OverviewGateways)**.
+To get started with gateways, see our **[Hardware Gateway Overview](Hardware/OverviewGateways)**.
 
 
 ## Network
 Once you've got a node ready to transmit and/or receive data,
-start with our **[Software Overview](Software-Overview)**.
+start with our **[Software Overview](Software/Overview)**.
