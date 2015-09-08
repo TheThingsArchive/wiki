@@ -27,6 +27,8 @@ See also [[CurrentNetwork]].
 To get started connecting to the The Things Network,
 read our technical [[GettingStarted]] manual.
 
+Be sure to check out the [Examples](software/examples) pages.
+
 If you want to help building the network itself from a
 non-technical perspective, get in [[contact]]!
 We're looking for people to step up and take responsibility
