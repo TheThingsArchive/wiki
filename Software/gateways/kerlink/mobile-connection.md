@@ -14,6 +14,6 @@ Set your APN settings in /etc/sysconfig/network:
 	GPRSPASSWORD=password
     
 ---
-Warning! There is a bug in the software: When GPRSUSER and GPRSPASSWORD needs to stay clear the Kerlink does funny things and no connection is made. 
+**Warning!** There is a bug in the software: When GPRSUSER and GPRSPASSWORD needs to stay clear the Kerlink does funny things and no connection is made. 
 To resolve this problem, please apply [this patch](1).
 ---
