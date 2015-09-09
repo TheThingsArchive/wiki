@@ -6,7 +6,7 @@ you can get a glimpse of what's coming by reading this page.
 Of course, things will break and evolve over time, so
 if you have questions please get in [contact](Contact)
 
-![data flow overview](imgs/ttn_prototype_data_flow.png)
+![data flow overview](http://thethingsnetwork.org/wiki/Software/Overview/attachment/3/ttn_prototype_data_flow.png)
 
 For an overview of the current network, see
 [[CurrentNetwork]]
