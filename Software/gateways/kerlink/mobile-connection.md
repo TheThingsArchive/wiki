@@ -19,4 +19,4 @@ To resolve this problem, please apply [this patch](mobile-connection/attachment/
 ---
 
 ###Provider settings per country
-[Netherlands](nl)
+* [Netherlands](mobile-connection/nl)
