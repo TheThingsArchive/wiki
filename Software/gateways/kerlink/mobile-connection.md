@@ -18,5 +18,5 @@ Set your APN settings in /etc/sysconfig/network:
 To resolve this problem, please apply [this patch](mobile-connection/attachment/1/dota_update_gprs_script.tar.gz).
 ---
 
-###Provider Settings per Country
+###Provider settings per country
 [Netherlands](nl)
