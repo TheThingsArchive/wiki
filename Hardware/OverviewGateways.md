@@ -67,3 +67,7 @@ The Things Network. Note that estimated first delivery is around May ~ June 2016
 
 ## Do it yourself
 - to be completed
+
+## Network
+Once you've got a gateway ready to transmit and/or receive data,
+start with our **[Software Overview](Software/Overview)**.
