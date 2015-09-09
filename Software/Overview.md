@@ -32,6 +32,7 @@ local_conf.json:
 	  }
 	}
 
+Want to connect the Kerlink over gprs/3g using a simcard. Follow [these](gateways/kerlink/mobile-connection) instructions.
 
 ## Instructions Downstream (Server side)
 ### Getting the Data
