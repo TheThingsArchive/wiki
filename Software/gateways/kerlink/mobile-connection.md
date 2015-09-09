@@ -14,8 +14,8 @@ Set your APN settings in /etc/sysconfig/network:
 	GPRSPASSWORD=password
     
 ---
-**Warning!** There is a bug in the software: When GPRSUSER and GPRSPASSWORD needs to stay empty the Kerlink does funny things and no connection is made. 
-To resolve this problem, please apply [this patch](mobile-connection/attachment/1/dota_update_gprs_script.tar.gz).
+> _**Warning!** There is a bug in the software: When GPRSUSER and GPRSPASSWORD needs to stay empty the Kerlink does funny things and no connection is made. 
+To resolve this problem, please apply [this patch](mobile-connection/attachment/1/dota_update_gprs_script.tar.gz)._
 ---
 
 ###Provider settings per country
