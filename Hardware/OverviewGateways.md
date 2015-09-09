@@ -16,6 +16,7 @@ Depending on how much money you want to spend and when the hardware is needed th
 * Installation: Requires a technician
 * Hardware: proprietary
 * Software: open source & proprietary
+* Possibility to run on gprs/3g network
 * Tested by The Things Network Crew.
 
 Discussion: This is an industrial solution suitable for people who want to mount the gateway outside and have sufficient technical skills to connect, mount and maintain the device themselves. We have tested the device and although we have remarks about the somewhat older software that is being used, this device will do the job. A trained software engineer will be able to update the device using the software from The Things Network. 
@@ -29,7 +30,7 @@ Discussion: This is an industrial solution suitable for people who want to mount
 * Installation: Plug and play (?)
 * Hardware: proprietary
 * Software: proprietary (?)
-* NOT tested by The Things Network Crew. 
+* TO BE tested by The Things Network Crew. 
 
 Discussion: The concept of replaceable daughter boards seems sound, but we have no hands on experience with this device. It is also unlikely we will get that, unless someone sends us one to play with. 
 
