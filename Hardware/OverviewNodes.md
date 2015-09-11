@@ -38,9 +38,11 @@ Program them:
 We're working on support for the Netblocks, but not everything's working yet.
 
 Get them:
+
 * Choose one of the kits: http://www.netblocks.eu/shop/
 
 Program them:
+
 1. https://github.com/TheThingsNetwork/XRange
 2. ask us what to do next ;-)
 
