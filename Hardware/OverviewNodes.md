@@ -18,6 +18,14 @@ There's many more; for a bigger list, [contact us](Contact).
 ## SODAQ Tatu
 The SODAQ Tatu is based on the ATmega1284P and Arduino compatible.
 
+Get them:
+
+* Tatu: http://shop.sodaq.com/en/sodaq-tatu.html
+  OR Mbili (bigger): http://shop.sodaq.com/en/sodaq-mbili.html
+* LoRa bee: http://shop.sodaq.com/en/lorabee.html
+
+Program them:
+
 1. Download the Arduino IDE: https://www.arduino.cc/en/Main/Software
 2. Install hardware support for Tatu: https://github.com/SodaqMoja/HardwareTatu
 3. Install dependencies: https://github.com/bblanchon/ArduinoJson
@@ -27,7 +35,16 @@ The SODAQ Tatu is based on the ATmega1284P and Arduino compatible.
 
 
 ## Netblocks
-todo
+We're working on support for the Netblocks, but not everything's working yet.
+
+Get them:
+* Choose one of the kits: http://www.netblocks.eu/shop/
+
+Program them:
+1. https://github.com/TheThingsNetwork/XRange
+2. ask us what to do next ;-)
+
+
 
 
 ## HopeRF
