@@ -8,6 +8,7 @@ what to buy, send us an [email](Contact).
 | Device            | Chip   | MCU       | Connector   | Cost (EUR)   | Comments                   |
 | ----------------- | ------ | --------- | ----------- | ------------:| -------------------------- |
 | Sodaq Tatu + Bee  | ?      | AVR       | Bee         | 35,- + 35,-  | Arduino-IDE compatible     |
+| Kickst. TTN Uno   | SX1276             | IO          | tbd (35-45)  | Arduino-IDE compatible
 | Netblocks         | SX1272 | STM32L151 | IO          | 35,-         | program with ST-link       |
 | HopeRF RFM92W     | RFM92W | -         | (raw board) | 10,-         | cheap but hard             |
 | Kerlink loramote  | SX1272 | yes       | IO          | 150,-        | professional; has GPS      |
@@ -32,6 +33,14 @@ Program them:
 4. Clone our demo repository: https://github.com/TheThingsNetwork/loraduino
 5. Add sensors, add custom logic
 6. Compile, Upload, boot.
+
+
+## Kickstarter TTN Arduino Uno
+We'll launch a kickstarter early October, including an Arduino Uno with build-in
+LoRa chip and open-source libraries to connect to The Things Network gateways.
+More info: http://thethingsnetwork.org/landing/kickstarter
+
+As we're getting closer to shipping this page will be updated with instructions.
 
 
 ## Netblocks
