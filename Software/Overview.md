@@ -11,6 +11,13 @@ if you have questions please get in [contact](Contact)
 For an overview of the current network, see
 [[CurrentNetwork]]
 
+## Description of distributed network setup
+As we're planning it now, the gateways (open-source packet handler) will send packets to one or multiple routers (open source router software) routing to one or multiple application servers (open source or closed software). Any (set of) nodes can be linked to any set of application servers, and the routers will perform the mapping. We're bootstrapping this mapping with DNS, but eventually want to run something more distributed there as well.
+
+So, there shouldn't be any "central" point in the near future, once more people start running routers and application servers. Of course we will provide a default router and application server with API, to get started, but everyone is free to add routers and app servers to the network.
+
+Right now, though, there's one router and one application server running, and we're rewriting the proof-of-concept into a more stable version. Details will follow soon ;-)
+
 
 ## Instructions Upstream (Things side)
 ### Kerlink
