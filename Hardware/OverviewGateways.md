@@ -69,10 +69,10 @@ The Things Network. Note that estimated first delivery is around May ~ June 2016
 Here's other people building their own gateway:
 
 ### DIY "Real" gateway (SX1301 + SX1257)
-* [[https://github.com/mirakonta/lora_gateway/wiki]]
+* [https://github.com/mirakonta/lora_gateway/wiki](https://github.com/mirakonta/lora_gateway/wiki)
 
 ### DIY "single-connection" gateway (SX1272, SX1276 etc)
-* [[http://www.daveakerman.com/?p=1719]]
+* [http://www.daveakerman.com/?p=1719](http://www.daveakerman.com/?p=1719)
 
 - to be completed
 
