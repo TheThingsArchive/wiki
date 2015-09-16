@@ -6,7 +6,7 @@ you can get a glimpse of what's coming by reading this page.
 Of course, things will break and evolve over time, so
 if you have questions please get in [contact](Contact)
 
-![data flow overview](http://thethingsnetwork.org/wiki/Software/Overview/attachment/3/ttn_prototype_data_flow.png)
+![data flow overview](https://raw.githubusercontent.com/wiki/TheThingsNetwork/docs/imgs/ttn_prototype_data_flow.png)
 
 For an overview of the current network, see
 [[CurrentNetwork]]
@@ -51,17 +51,17 @@ Bare with us while we're finalising the first version! Can't wait? Get in [[Cont
 ## Github Repositories
 
 ### Nodes firmware
-* Netblocks XRange: [[https://github.com/TheThingsNetwork/XRange]]
-* Arduino-based / SODAQ: [[https://github.com/TheThingsNetwork/loraduino]]
+* [Netblocks XRange](https://github.com/TheThingsNetwork/XRange)
+* [Arduino-based / SODAQ](https://github.com/TheThingsNetwork/loraduino)
 
 ### Gateways firmware
-* Kerlink-based firmware: [[https://github.com/TheThingsNetwork/lora_gateway]]
-* Kerlink-based packet forwarder: [[https://github.com/TheThingsNetwork/packet_forwarder]]
-* Kerlink station firmware files: [[https://github.com/TheThingsNetwork/kerlink-station-firmware]]
-* Supply fake packages to gateway: [[https://github.com/TheThingsNetwork/ghost_node]]
+* [Kerlink-based firmware](https://github.com/TheThingsNetwork/lora_gateway)
+* [Kerlink-based packet forwarder](https://github.com/TheThingsNetwork/packet_forwarder)
+* [Kerlink station firmware files](https://github.com/TheThingsNetwork/kerlink-station-firmware)
+* [Supply fake packages to gateway](https://github.com/TheThingsNetwork/ghost_node)
 
 ### Server software
-* Docker / dev environment: [[https://github.com/TheThingsNetwork/server-devenv]]
-* 'server shared': [[https://github.com/TheThingsNetwork/server-shared]]
-* Croft -> gateway to queue: [[https://github.com/TheThingsNetwork/croft]]
-* Jolie -> queue to storage and application endpoint: [[https://github.com/TheThingsNetwork/jolie]]
+* [Docker / dev environment](https://github.com/TheThingsNetwork/server-devenv)
+* ['server shared'](https://github.com/TheThingsNetwork/server-shared)
+* [Croft -> gateway to queue](https://github.com/TheThingsNetwork/croft)
+* [Jolie -> queue to storage and application endpoint](https://github.com/TheThingsNetwork/jolie)
