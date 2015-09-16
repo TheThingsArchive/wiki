@@ -21,16 +21,16 @@ The SODAQ Tatu is based on the ATmega1284P and Arduino compatible.
 
 Get them:
 
-* Tatu: http://shop.sodaq.com/en/sodaq-tatu.html
-  OR Mbili (bigger): http://shop.sodaq.com/en/sodaq-mbili.html
-* LoRa bee: http://shop.sodaq.com/en/lorabee.html
+* Tatu: [http://shop.sodaq.com/en/sodaq-tatu.html](http://shop.sodaq.com/en/sodaq-tatu.html)
+  OR Mbili (bigger): [http://shop.sodaq.com/en/sodaq-mbili.html](http://shop.sodaq.com/en/sodaq-mbili.html)
+* LoRa bee: [http://shop.sodaq.com/en/lorabee.html](http://shop.sodaq.com/en/lorabee.html)
 
 Program them:
 
-1. Download the Arduino IDE: https://www.arduino.cc/en/Main/Software
-2. Install hardware support for Tatu: https://github.com/SodaqMoja/HardwareTatu
-3. Install dependencies: https://github.com/bblanchon/ArduinoJson
-4. Clone our demo repository: https://github.com/TheThingsNetwork/loraduino
+1. Download the Arduino IDE: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
+2. Install hardware support for Tatu: [https://github.com/SodaqMoja/HardwareTatu](https://github.com/SodaqMoja/HardwareTatu)
+3. Install dependencies: [https://github.com/bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+4. Clone our demo repository: [https://github.com/TheThingsNetwork/loraduino](https://github.com/TheThingsNetwork/loraduino)
 5. Add sensors, add custom logic
 6. Compile, Upload, boot.
 
