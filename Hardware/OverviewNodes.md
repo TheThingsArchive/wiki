@@ -38,7 +38,7 @@ Program them:
 ## Kickstarter TTN Arduino Uno
 We'll launch a kickstarter early October, including an Arduino Uno with build-in
 LoRa chip and open-source libraries to connect to The Things Network gateways.
-More info: http://thethingsnetwork.org/landing/kickstarter
+More info: [http://thethingsnetwork.org/landing/kickstarter](http://thethingsnetwork.org/landing/kickstarter)
 
 As we're getting closer to shipping this page will be updated with instructions.
 
@@ -48,11 +48,11 @@ We're working on support for the Netblocks, but not everything's working yet.
 
 Get them:
 
-* Choose one of the kits: http://www.netblocks.eu/shop/
+* Choose one of the kits: [http://www.netblocks.eu/shop/](http://www.netblocks.eu/shop/)
 
 Program them:
 
-1. https://github.com/TheThingsNetwork/XRange
+1. [https://github.com/TheThingsNetwork/XRange](https://github.com/TheThingsNetwork/XRange)
 2. ask us what to do next ;-)
 
 
@@ -61,7 +61,7 @@ Program them:
 ## HopeRF
 We're struggling with this board ourselves.
 
-Here is howto connect it to an Arduino Uno: https://github.com/matthijskooijman/arduino-lmic/wiki
+Here is howto connect it to an Arduino Uno: [https://github.com/matthijskooijman/arduino-lmic/wiki](https://github.com/matthijskooijman/arduino-lmic/wiki)
 
 For now the LoRa is working, but the WAN not. The github is based on IBM LMIC (LoraMAC-in-C).
 
