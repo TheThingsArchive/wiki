@@ -8,7 +8,7 @@ what to buy, send us an [email](Contact).
 | Device            | Chip   | MCU       | Connector   | Cost (EUR)   | Comments                   |
 | ----------------- | ------ | --------- | ----------- | ------------:| -------------------------- |
 | Sodaq Tatu + Bee  | ?      | AVR       | Bee         | 35,- + 35,-  | Arduino-IDE compatible     |
-| Kickst. TTN Uno   | SX1276             | IO          | tbd (35-45)  | Arduino-IDE compatible
+| Kickst. TTN Uno   | SX1276 |           | IO          | tbd (35-45)  | Arduino-IDE compatible
 | Netblocks         | SX1272 | STM32L151 | IO          | 35,-         | program with ST-link       |
 | HopeRF RFM92W     | RFM92W | -         | (raw board) | 10,-         | cheap but hard             |
 | Kerlink loramote  | SX1272 | yes       | IO          | 150,-        | professional; has GPS      |
