@@ -109,3 +109,20 @@ but rather a part of what you're building.
 * Handlers, normally 1 (can be more).
 
 [Details on App servers](App servers).
+
+
+## Using external handlers
+
+As you can see in the architecture diagram,
+it's possible use external handlers or run your own.
+
+Handlers have access to the private key needed to decrypt your messages.
+That means, **they can read your data**.
+
+If you are not willing to trust a 3rd party with handling your data,
+you can set up your own handler in a secure environment.
+This way you have full control over your data.
+
+However if you're just looking to prototype a new application
+it will save you the hassle of setting up your own handler by
+using a 3rd party service (by The Things Network or anyone else).
