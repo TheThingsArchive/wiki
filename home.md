@@ -22,6 +22,7 @@ See also [[CurrentNetwork]].
                 /
     node  <----/
 
+For more details on the architecture see [[Architecture]].
 
 ## Getting Started
 To get started connecting to the The Things Network,
