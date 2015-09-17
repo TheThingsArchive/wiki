@@ -15,4 +15,6 @@ The handler has five key functions:
 
 ## See also
 
-* [Architecture Overview](Architecture)
+* [Architecture overview](Architecture)
+* [Software overview](Software/Overview)
+* [Jolie (reference handler)](https://github.com/TheThingsNetwork/jolie)
