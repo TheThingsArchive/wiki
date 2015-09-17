@@ -29,7 +29,7 @@ to one or more gateways.
 
 * Gateways, 1 or more.
 
-[Details on Nodes](../Nodes).
+[Details on Nodes](Nodes).
 
 
 ### Gateways
@@ -49,7 +49,7 @@ relay your data for you.
 * Nodes, 0 or more.
 * Routers, 1 or more.
 
-[Details on Gateways](../Gateways).
+[Details on Gateways](Gateways).
 
 
 ### Routers
@@ -69,7 +69,7 @@ messages to and relays to them.
 * Gateways, 0 or more.
 * Handlers, 0 or more.
 
-[Details on Routers](../Routers).
+[Details on Routers](Routers).
 
 
 ### Handlers
@@ -91,7 +91,7 @@ format it nicely and possibly archive it.
 * Routers, 1 or more.
 * App servers, 0 or more.
 
-[Details on Handlers](../Handlers).
+[Details on Handlers](Handlers).
 
 
 ### App servers
@@ -108,4 +108,4 @@ but rather a part of what you're building.
 
 * Handlers, normally 1 (can be more).
 
-[Details on App servers](../App servers).
+[Details on App servers](App servers).
