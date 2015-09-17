@@ -14,6 +14,7 @@ In order of how they are connected they are:
 1. Handlers
 1. App servers
 
+
 ### Nodes (IoT devices)
 
 Nodes are the IoT devices you create.
@@ -27,6 +28,9 @@ to one or more gateways.
 **Connects to:**
 
 * Gateways, 1 or more.
+
+[Details on Nodes](../Nodes).
+
 
 ### Gateways
 
@@ -45,6 +49,9 @@ relay your data for you.
 * Nodes, 0 or more.
 * Routers, 1 or more.
 
+[Details on Gateways](../Gateways).
+
+
 ### Routers
 
 Routers locate the Handler that a Node wishes to send
@@ -62,11 +69,13 @@ messages to and relays to them.
 * Gateways, 0 or more.
 * Handlers, 0 or more.
 
+[Details on Routers](../Routers).
+
+
 ### Handlers
 
 Handlers receive messages from the network, do the final decryption,
 format it nicely and possibly archive it.
-
 
 **Responsibilities:**
 
@@ -82,9 +91,21 @@ format it nicely and possibly archive it.
 * Routers, 1 or more.
 * App servers, 0 or more.
 
+[Details on Handlers](../Handlers).
+
 
 ### App servers
 
 These are the servers that run your application.
 They are not part of the network infrastructure,
 but rather a part of what you're building.
+
+**Responsibilities:**
+
+* Process the data your devices sent.
+
+**Connects to:**
+
+* Handlers, normally 1 (can be more).
+
+[Details on App servers](../App servers).
