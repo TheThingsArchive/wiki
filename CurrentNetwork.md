@@ -7,7 +7,7 @@ As it's made manually, it's most likely out to date. We'll work on some automate
 ## Gateways
 | Gateway ID | Place | State |
 |------------|-------|-------|
-| 0000024B080600e8 | A-lab | Accessible trough Wireless Network > 192.168.1.152 |
+| 0000024B080600e8 | A-lab | Accessible trough Wireless Network > 10.10.104.254 |
 | 0000024B0806036a | Boven de Bali | Static |
 | 0000024B08060356 | Meet Berlage | _**Currently down** - broken power adapter > is being replaced by Kerlink_ |
 | 0000024B0806019c | Glimworm | Running | Accessible trough SSH > 192.168.2.18 |
