@@ -19,7 +19,7 @@ information:
 ### Ranges
 
 An application can have any number of ranges. A range is specified as the first
-6 bytes of an 8 byte integer, so each range may contain 256 node addresses. An 
+3 bytes of an 4 byte integer, so each range may contain 256 node addresses. An 
 application's nodes will be assigned unique addresses from the application's 
 assigned ranges. 
 
