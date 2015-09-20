@@ -33,7 +33,7 @@ need to be shared between all routers.
 
 The router should be configuratable via an API. 
 
-### Endpoints
+**Endpoints**
 
 * app/create
 * app/<app id>
@@ -45,7 +45,7 @@ The router should be configuratable via an API.
 * app/<app id>/handler/update
 * app/<app id>/handler/delete
 
-#### app/create
+### app/create
 
 Arguments:
 
