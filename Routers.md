@@ -36,14 +36,14 @@ The router should be configuratable via an API.
 **Endpoints**
 
 * app/create
-* app/<app id>
-* app/<app id>/range/create
-* app/<app id>/range/delete/<range>
-* app/<app id>/range/list
-* app/<app id>/handler
-* app/<app id>/handler/create
-* app/<app id>/handler/update
-* app/<app id>/handler/delete
+* app/appid
+* app/appid/range/create
+* app/appid/range/delete/<range>
+* app/appid/range/list
+* app/appid/handler
+* app/appid/handler/create
+* app/appid/handler/update
+* app/appid/handler/delete
 
 ### app/create
 
