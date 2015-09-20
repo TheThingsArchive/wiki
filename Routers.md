@@ -1,3 +1,8 @@
+## NOTE
+
+This document is neither final nor authoritative. 
+It's currently only for the purpose of facilitating discussion. 
+
 ## Overview
 
 The router is responsible for forwarding packets from gateways to the appropriate
@@ -36,14 +41,14 @@ The router should be configuratable via an API.
 **Endpoints**
 
 * app/create
-* app/appid
-* app/appid/range/create
-* app/appid/range/delete/<range>
-* app/appid/range/list
-* app/appid/handler
-* app/appid/handler/create
-* app/appid/handler/update
-* app/appid/handler/delete
+* app/appID
+* app/appID/range/create
+* app/appID/range/delete/rangeID
+* app/appID/range/list
+* app/appID/handler
+* app/appID/handler/create
+* app/appID/handler/update
+* app/appID/handler/delete
 
 ### app/create
 
