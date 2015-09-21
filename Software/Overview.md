@@ -41,9 +41,46 @@ local_conf.json:
 
 Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](gateways/kerlink/mobile-connection) instructions.
 
+
+
 ## Instructions Downstream (Server side)
+
 ### Getting the Data
-We're releasing instructions on connecting to our router(s) soon. The data will be available with various endpoints (REST API, publication subscriptions, database login, example dashboard), all available as open-source software to run on your own server.
+By default, all packets sent by any node using our default key settings,
+will be saved in a database (InfluxDB) for undetermined amount of time
+(currently forever).
+
+There's a REST API available to query for the latest packets.
+It's available at http://thethingsnetwork.org/api/v0. Visiting
+with a browser will enable a webview.
+
+Here's the endpoints:
+
+| endpoint                       | GET parameters (optional)               | explanation                                  |
+| ------------------------------ | --------------------------------------- | -------------------------------------------- |
+| **`/nodes/`**                  | `time_span` e.g. 10m, 4h, 1w            | Last single packet for all available nodes   |
+|                                |                                         | within given timeframe                       |
+| **`/nodes/{node_eui}/`**       | `time_span` e.g. 10m, 4h, 1w            | Last packets for given node                  |
+|                                | `limit` (int, def=20) per gateway       |                                              |
+|                                | `offset` (int) per gateway              |                                              |
+| **`/gateways/`**               | `time_span` e.g. 10m, 4h, 1w            | Last single status update for all gateways   |
+|                                | `limit` (int, def=20)                   | within given timeframe                       |
+|                                | `offset` (int)                          |                                              |
+| **`/gateways/{eui}`**          | `time_span` e.g. 10m, 4h, 1w            | Last status updates for given gateway        |
+|                                | `limit` (int, def=20)                   | within given timeframe                       |
+|                                | `offset` (int)                          |                                              |
+
+
+### Work In Progress
+A note of caution:
+The current setup is temporary and not as distributed as we would like it to be.
+As we're rewriting the routing system we might change detauls like API endpoints
+and data format, but we'll try to keep the system available in a more or less
+stable format.
+
+Upcoming: distributed routing, app registration API, publication subscriptions,
+hosted Node-RED, example application dashboard; all available as open-source
+software to run on your own server.
 
 Bare with us while we're finalising the first version! Can't wait? Get in [[Contact]].
 
