@@ -10,7 +10,7 @@ what to buy, send us an [email](Contact).
 | Sodaq Tatu + Bee  | ?      | AVR       | Bee         | 35,- + 35,-  | Arduino-IDE compatible     |
 | Kickst. TTN Uno   | SX1276 |           | IO          | tbd (35-45)  | Arduino-IDE compatible
 | Netblocks         | SX1272 | STM32L151 | IO          | 35,-         | program with ST-link       |
-| HopeRF RFM92W     | RFM92W | -         | (raw board) | 10,-         | cheap but hard             |
+| HopeRF RFM92W     | RFM92W | -         | (raw board) | 10,-         | cheap              |
 | Kerlink loramote  | SX1272 | yes       | IO          | 150,-        | professional; has GPS      |
 | ....              |        |           |             |              |                            |
 
@@ -66,11 +66,11 @@ Program them:
 
 
 ## HopeRF
-We're struggling with this board ourselves.
+This board works with Arduino (tested on Teensy 3.1/LC). Does not work on Uno (ATmega 328) dues to memory limitations.
 
-Here is howto connect it to an Arduino Uno: [https://github.com/matthijskooijman/arduino-lmic/wiki](https://github.com/matthijskooijman/arduino-lmic/wiki)
+Here is howto connect it to an Arduino: [https://github.com/matthijskooijman/arduino-lmic/wiki](https://github.com/matthijskooijman/arduino-lmic/wiki)
 
-For now the LoRa is working, but the WAN not. The github is based on IBM LMIC (LoraMAC-in-C).
+The github is based on IBM LMIC 1.4 (LoraMAC-in-C), will be updated soon.
 
 
 
@@ -91,13 +91,15 @@ that all devices (no matter the LoRaWAN implementation) should set:
 
   * Network key / NwkSKey: a fixed network key for all The Things Network devices.
     It is `2B7E151628AED2A6ABF7158809CF4F3C` or in bytes (c++): `{0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6, 0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C}`.
-  * Application key / AppKey: a key specific for an application. To get started, use the default one,
+    This key is used for calculating message integrity (MIC) by the router. It is only used for payload encryption if FPort = 0 (MAC commands, not yet implemented in The Things Network).
+  * Application session key / AppSKey: used for encryption of the payload (Fport!=0). To get started, use the default one,
     which is identical to the Network key (note this will make all your testdata publicly available through our API).
-  * Application session key / AppSKey: used in over the air activation AppSKey. To get started, also set to the same Network key.
+  * Application key / AppKey: a key specific for an application. Used for over-the-air activation, not implemented yet in The Things Network.
   * DeviceID / Device Address: this should be unique per node.
     In the final routing implementation we expect to have blocks of devices
     being routed to application servers. But for now, you can pick anything
     you like.
+  * Frequencies: The Kerlink gateways are listening to all SF on 868.1, 868.3, 868.5, 867.1, 867.3, 867.5, 867.7, 867.9 Mhz, SF7/250Khz on 868.3 MHz, and FSK (50kbps) on 868.8 MHz
 
 
 # Software (where's my data?)
