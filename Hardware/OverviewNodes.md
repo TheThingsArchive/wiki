@@ -27,12 +27,19 @@ Get them:
 
 Program them:
 
-1. Download the Arduino IDE: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
-2. Install hardware support for Tatu: [https://github.com/SodaqMoja/HardwareTatu](https://github.com/SodaqMoja/HardwareTatu)
+1. Download the latest Arduino IDE: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
+2. Install hardware support for Tatu: [https://github.com/SodaqMoja/HardwareTatu](https://github.com/SodaqMoja/HardwareTatu).
+   Ignore the part on bootloaders, just extract the zip within the Arduino hardware folder and restart the IDE.
 3. Install dependencies: [https://github.com/bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 4. Clone our demo repository: [https://github.com/TheThingsNetwork/loraduino](https://github.com/TheThingsNetwork/loraduino)
-5. Add sensors, add custom logic
+5. Add sensors, add custom logic in the .ino Arduino sketch file:
+    * uncomment the right `DEVICE_` line, optionally change other define statements on top
+    * you may want to change the `measure()` and `send_measurement()` functions for your particular sensors
+    (for help, read the [https://www.google.nl/search?q=arduino+getting+started+pdf](Arduino - Getting Started) book).
+    * set a unique device ID in `EmbitBee.h` (search for `NETWORK_ADDRESS` and update `uint8_t Address[4]={0xAA, 0xFF, 0x01, 0x10};`).   
 6. Compile, Upload, boot.
+   The device will start sending measurements about once every two minutes.
+
 
 
 ## Kickstarter TTN Arduino Uno
@@ -65,11 +72,22 @@ Here is howto connect it to an Arduino Uno: [https://github.com/matthijskooijman
 
 For now the LoRa is working, but the WAN not. The github is based on IBM LMIC (LoraMAC-in-C).
 
+
+
 ## Kerlink Loramote
 This device should work out-of-the-box. It will start sending GPS, temperature and battery data as soon as it is powered.
 
 TODO: custom applications compile. Kerlink has a nice wiki with instructions.
 
 
+
 ## More devices will be contributed soon (by you?)
 
+
+
+## General settings instructions
+There are a couple of 
+
+
+# Software (where's my data?)
+[Software/Overview](Follow me..)
