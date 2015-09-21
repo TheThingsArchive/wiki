@@ -50,11 +50,11 @@ By default, all packets sent by any node using our default key settings,
 will be saved in a database (InfluxDB) for undetermined amount of time
 (currently forever).
 
+### API
 There's a REST API available to query for the latest packets.
-It's available at http://thethingsnetwork.org/api/v0. Visiting
+It's available at `http://thethingsnetwork.org/api/v0`. Visiting
 with a browser will enable a webview.
 
-### API
 Here's the endpoints:
 
 | endpoint                       | GET parameters (optional)               | explanation                                  |
