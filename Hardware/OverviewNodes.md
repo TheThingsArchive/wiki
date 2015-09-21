@@ -66,7 +66,7 @@ Program them:
 
 
 ## HopeRF
-This board works with Arduino (tested on Teensy 3.1/LC). Does not work on Uno (ATmega 328) dues to memory limitations.
+This board works with Arduino (tested on Teensy 3.1/LC). Does not work on Uno (ATmega 328) due to memory limitations.
 
 Here is howto connect it to an Arduino: [https://github.com/matthijskooijman/arduino-lmic/wiki](https://github.com/matthijskooijman/arduino-lmic/wiki)
 
@@ -91,7 +91,7 @@ that all devices (no matter the LoRaWAN implementation) should set:
 
   * Network key / NwkSKey: a fixed network key for all The Things Network devices.
     It is `2B7E151628AED2A6ABF7158809CF4F3C` or in bytes (c++): `{0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6, 0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C}`.
-    This key is used for calculating message integrity (MIC) by the router. It is only used for payload encryption if FPort = 0 (MAC commands, not yet implemented in The Things Network).
+    This key is used for calculating message integrity (MIC). It is only used for payload encryption if FPort = 0 (MAC commands, not yet implemented in The Things Network).
   * Application session key / AppSKey: used for encryption of the payload (Fport > 0). To get started, use the default one,
     which is identical to the Network key (note this will make all your testdata publicly available through our API).
   * Application key / AppKey: a key specific for an application. Used for over-the-air activation, not yet implemented in The Things Network.
