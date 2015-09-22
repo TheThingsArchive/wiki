@@ -70,7 +70,7 @@ This board works with Arduino (tested on Teensy 3.1/LC). Does not work on Uno (A
 
 Here is howto connect it to an Arduino: [https://github.com/matthijskooijman/arduino-lmic/wiki](https://github.com/matthijskooijman/arduino-lmic/wiki)
 
-The github is based on IBM LMIC 1.4 (LoraMAC-in-C): [https://github.com/tftelkamp/arduino-lmic]
+The github is based on IBM LMIC 1.4 (LoraMAC-in-C), temporarily here: [https://github.com/tftelkamp/arduino-lmic](https://github.com/tftelkamp/arduino-lmic)
 
 
 
@@ -91,14 +91,14 @@ that all devices (no matter the LoRaWAN implementation) should set:
 
   * Network key / NwkSKey: a fixed network key for all The Things Network devices.
     It is `2B7E151628AED2A6ABF7158809CF4F3C` or in bytes (c++): `{0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6, 0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C}`.
-    This key is used for calculating message integrity (MIC). It is only used for payload encryption if FPort = 0 (MAC commands, not yet implemented in The Things Network).
-  * Application session key / AppSKey: used for encryption of the payload (Fport > 0). To get started, use the default one,
+    This key is used for calculating message integrity (MIC). It is only used for payload encryption if Port = 0 (MAC commands, not yet implemented in The Things Network).
+  * Application session key / AppSKey: used for encryption of the payload (Port > 0). To get started, use the default one,
     which is identical to the Network key (note this will make all your testdata publicly available through our API).
-  * Application key / AppKey: a key specific for an application. Used for over-the-air activation, not yet implemented in The Things Network.
   * DeviceID / Device Address: this should be unique per node.
     In the final routing implementation we expect to have blocks of devices
     being routed to application servers. But for now, you can pick anything
     you like.
+  * Application key / AppKey: a key specific for an application. Used for over-the-air activation, not yet implemented in The Things Network.
   * Frequencies: The Kerlink gateways are listening to all SF on 868.1, 868.3, 868.5, 867.1, 867.3, 867.5, 867.7, 867.9 Mhz, SF7/250Khz on 868.3 MHz, and FSK (50kbps) on 868.8 MHz
 
 
