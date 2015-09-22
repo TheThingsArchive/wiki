@@ -70,7 +70,7 @@ This board works with Arduino (tested on Teensy 3.1/LC). Does not work on Uno (A
 
 Here is howto connect it to an Arduino: [https://github.com/matthijskooijman/arduino-lmic/wiki](https://github.com/matthijskooijman/arduino-lmic/wiki)
 
-The github is based on IBM LMIC 1.4 (LoraMAC-in-C), will be updated soon.
+The github is based on IBM LMIC 1.4 (LoraMAC-in-C): [https://github.com/tftelkamp/arduino-lmic]
 
 
 
