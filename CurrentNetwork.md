@@ -17,5 +17,7 @@ As it's made manually, it's most likely out to date. We'll work on some automate
 | 0000024B08060112 | Rockstart | Accessible 10.10.253.254 |
 
 
+Gateway real-time status updates can be found at: [http://www.ttnstatus.org](http://www.ttnstatus.org)
+
 ## Nodes
 Currently there's a few test nodes out there, including two Kerlink Loramotes and three water-sensor equipped SODAQ nodes. An overview follows soon.
