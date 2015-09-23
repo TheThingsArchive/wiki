@@ -103,4 +103,4 @@ that all devices (no matter the LoRaWAN implementation) should set:
 
 
 # Software (where's my data?)
-[Software/Overview](Follow me..)
+[Software Overview](http://thethingsnetwork.org/wiki/Software/Overview)
