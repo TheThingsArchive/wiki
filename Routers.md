@@ -6,8 +6,8 @@ It's currently only for the purpose of facilitating discussion.
 ## Overview
 
 The router is responsible for forwarding packets from gateways to the appropriate
-handler. The router needs to be configurable by application developers in order 
-add/update/remove applications and configure handlers. 
+handler (this has changed ?). The router needs to be configurable by application developers in order 
+add/update/remove applications ~~and configure handlers~~. 
 
 ## Application
 
