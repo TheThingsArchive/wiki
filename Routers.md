@@ -42,6 +42,7 @@ The router should be configuratable via an API.
 
 * app/create
 * app/appID
+* app/appID/range/request
 * app/appID/range/create
 * app/appID/range/delete/rangeID
 * app/appID/range/list
