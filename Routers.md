@@ -46,10 +46,15 @@ The router should be configuratable via an API.
 * app/appID/range/create
 * app/appID/range/delete/rangeID
 * app/appID/range/list
+
 * app/appID/handler
 * app/appID/handler/create
 * app/appID/handler/update
 * app/appID/handler/delete
+
+The odd one out here is the `range/request` which is used if an application 
+wants to requests a specific range. This is useful if an application is using
+more than one router. 
 
 ### app/create
 
