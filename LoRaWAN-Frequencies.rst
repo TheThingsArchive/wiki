@@ -6,6 +6,10 @@ that are in use.
 As long as TTN does not support MAC commands to communicate frequencies
 from the gateway to the node, agreement on a frequency plan is required.
 
+Also note that the MAC commands related to frequencies are processed by the network server (router), not by the gateway. 
+This means that the router needs to know about the frequencies supported by every gateway connecting to it, or more practically,
+all gateways on the same router need to adhere to the same freq. plan.
+
 **LoRaWAN Specification 1R0**
 
 LoRaWAN Default Channels:
