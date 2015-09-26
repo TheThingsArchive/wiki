@@ -19,7 +19,10 @@ LoRaWAN Default Channels:
 Those channels are the minimum set that all network gateways should
 always be listening on.
 
-The LoRaWAN enforces a per sub-band duty-cycle limitation.
+The LoRaWAN enforces a per sub-band duty-cycle limitation. The ETSI regulations allow the choice of using either a duty-cycle limitation or a so-
+called Listen Before Talk Adaptive Frequency Agility (LBT AFA) transmissions
+management. The current LoRaWAN specification exclusively uses duty-cycled limited
+transmissions to comply with the ETSI regulations.
 
 Default radiated transmit output power: 14 dBm
 
