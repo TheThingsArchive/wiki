@@ -53,7 +53,7 @@ Also, this will run The Things Network software by default.
 
 ### [The Things Gateway](http://thethingsnetwork.org/kickstarter-landing/kickstarter.html)
 * Price: 200 euro 
-* Availability: kickstarter will launch 1e October
+* Availability: kickstarter will launch October 1st
 * Capacity: 1 band, ~ 3K Nodes (strech goal: 8 band) 
 * Suitable for indoor use
 * Installation: Plug and play
