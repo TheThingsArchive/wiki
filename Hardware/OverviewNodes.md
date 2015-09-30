@@ -65,6 +65,7 @@ Program them:
 
 
 ## Libelium
+I'm not sure about the status of the Libelium + TTN LoRaWAN, but there's people working on it.
 
 Get them:
 
