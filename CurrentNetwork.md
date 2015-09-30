@@ -21,3 +21,5 @@ Gateway locations and real-time status updates can be found at: [http://www.ttns
 
 ## Nodes
 Currently there's a few test nodes out there, including two Kerlink Loramotes and three water-sensor equipped SODAQ nodes. An overview follows soon.
+
+Register your block of node addresses [here](AddressSpace).
