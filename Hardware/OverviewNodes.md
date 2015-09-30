@@ -8,9 +8,10 @@ what to buy, send us an [email](Contact).
 | Device            | Chip   | MCU       | Connector   | Cost (EUR)   | Comments                   |
 | ----------------- | ------ | --------- | ----------- | ------------:| -------------------------- |
 | Sodaq Tatu + Bee  | ?      | AVR       | Bee         | 35,- + 35,-  | Arduino-IDE compatible     |
-| Kickst. TTN Uno   | SX1276 |           | IO          | tbd (35-45)  | Arduino-IDE compatible
+| Kickst. TTN Uno   | SX1276 |           | IO          | tbd (35-45)  | Arduino-IDE compatible     |
 | Netblocks         | SX1272 | STM32L151 | IO          | 35,-         | program with ST-link       |
-| HopeRF RFM92W     | RFM92W | -         | (raw board) | 10,-         | cheap              |
+| Libelium          | SX1272 | -         | Bee         | 45,-         | Arduino library available  |
+| HopeRF RFM92W     | RFM92W | -         | (raw board) | 10,-         | cheap; no MCU              |
 | Kerlink loramote  | SX1272 | yes       | IO          | 150,-        | professional; has GPS      |
 | ....              |        |           |             |              |                            |
 
@@ -63,6 +64,17 @@ Program them:
 2. ask us what to do next ;-)
 
 
+## Libelium
+
+Get them:
+
+[https://www.cooking-hacks.com/shop/wireless/extreme-range-lora](https://www.cooking-hacks.com/shop/wireless/extreme-range-lora)
+You'll need the Libelium LoRa Bee, and MCU (like Arduino or rPi) and a shield to connect the two.
+There's also the [Waspmote platform](https://www.cooking-hacks.com/shop/waspmote/wireless/extreme-range-lora-sx1272-module-shield-waspmote), which according to their own website uses different Libelium LoRa Bees (incompatible with the Arduino/rPi version).
+
+Program them:
+
+Instructions will follow soon (by you?).
 
 
 ## HopeRF
