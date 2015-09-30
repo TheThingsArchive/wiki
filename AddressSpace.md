@@ -5,10 +5,10 @@ below (please sort alphabetically on address block and
 only claim 255 addresses at a time).
 
 ## Registered Addresses
-| Address block    | Who claimed it?        |
-|------------------|------------------------|
-| AA:FF:xx:xx      | *reserved for testing* |
-| DE:AD:BE:xx      | turiphro               |
-| ??:??:??:xx      | *you?*                 |
+| Address block    |-| Who claimed it?        |
+|------------------|-|------------------------|
+| AA:FF:xx:xx      | | *reserved for testing* |
+| DE:AD:BE:xx      | | turiphro               |
+| ??:??:??:xx      | | *you?*                 |
 
 
