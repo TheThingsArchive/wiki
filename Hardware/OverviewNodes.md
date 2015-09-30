@@ -110,7 +110,7 @@ that all devices (no matter the LoRaWAN implementation) should set:
   * DeviceID / Device Address: this should be unique per node.
     In the final routing implementation we expect to have blocks of devices
     being routed to application servers. But for now, you can pick anything
-    you like.
+    you like; after testing, be sure to [Register your address space here](AddressSpace).
   * Application key / AppKey: a key specific for an application. Used for over-the-air activation, not yet implemented in The Things Network.
   * Frequencies: The Kerlink gateways are listening to all SF on 868.1, 868.3, 868.5, 867.1, 867.3, 867.5, 867.7, 867.9 Mhz, SF7/250Khz on 868.3 MHz, and FSK (50kbps) on 868.8 MHz. See: [LoRaWAN Frequencies](http://thethingsnetwork.org/wiki/LoRaWAN-Frequencies)
 
