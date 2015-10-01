@@ -71,7 +71,7 @@ Get them:
 
 [https://www.cooking-hacks.com/shop/wireless/extreme-range-lora](https://www.cooking-hacks.com/shop/wireless/extreme-range-lora)
 You'll need the Libelium LoRa Bee, and MCU (like Arduino or rPi) and a shield to connect the two.
-There's also the [Waspmote platform](https://www.cooking-hacks.com/shop/waspmote/wireless/extreme-range-lora-sx1272-module-shield-waspmote), which according to their own website uses different Libelium LoRa Bees (incompatible with the Arduino/rPi version). It has [instructions on building a simple single-band gateway](http://www.libelium.com/downloads/documentation/waspmote_lora_868mhz_915mhz_sx1272_networking_guide.pdf).
+There's also the [Waspmote platform](https://www.cooking-hacks.com/shop/waspmote/wireless/extreme-range-lora-sx1272-module-shield-waspmote), which according to their own website uses different Libelium LoRa Bees (incompatible with the Arduino/rPi version). It has [instructions on building a simple single-band gateway](http://www.libelium.com/downloads/documentation/waspmote_lora_868mhz_915mhz_sx1272_networking_guide.pdf). Note: this is not LoRaWAN.
 
 Program them:
 
