@@ -140,6 +140,8 @@ Note: LC2 is two channels (BW125 and BW250)
 
 **IBM LMIC**
 
+Note: in the Arduino adaptation of LMIC v1.5 we have modified these default frequencies to match the Semtech packet forwarder defaults.
+
 // Default frequency plan for EU 868MHz ISM band
 
 // Bands:
