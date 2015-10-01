@@ -1,8 +1,9 @@
 ## International media
 
-* [http://thenextweb.com/insider/2015/08/19/the-things-network-wants-to-make-every-city-smart-starting-with-amsterdam/]()
+* [The Next Web: meet TTN](http://thenextweb.com/insider/2015/08/19/the-things-network-wants-to-make-every-city-smart-starting-with-amsterdam/)
 * [http://www.disrupted.vc/archieven/journal/powering-the-internet-of-everything]()
 * [http://www.digitalistmag.com/innovation/crowdsourced-citywide-iot-network-03338513]()
+* [The Next Web: TTN goes global](thenextweb.com/dd/2015/10/01/smart-cities-are-springing-up-around-the-world-as-the-things-network-goes-global/)
 
 
 ## Dutch media
@@ -20,6 +21,8 @@
 * RTL boulevard [http://www.rtlnieuws.nl/boulevard/laatste-videos-boulevard/lora-netwerk-beschikbaar-amsterdam]()
 * NRC-Q [http://www.nrcq.nl/2015/08/31/internet-voor-buitenshuis-maar-hoe-verdien-je-er-geld-mee?]()
 * Fast-moving targets [https://www.youtube.com/watch?v=QFaiiaGQVw0]()
+* [http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html](http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html)
+
 
 ## Other languages
 * GE: [http://www.mobilegeeks.de/news/the-things-network-will-jede-stadt-smart-machen/]()
