@@ -40,5 +40,5 @@ etc.
 | 00:01:11:xx      |-|       	   			  |
 | etc.  		   |-| 						  |
 |------------------|-|------------------------|
-| DE:AD:BE:xx      | | turiphro               |
+| DE:AD:BE:xx      | | turiphro (honoris causa) |
 
