@@ -40,8 +40,7 @@ relay your data for you.
 
 **Responsibilities:**
 
-* Provide LoRaWAN service within it's range.
-* En-/decrypt with transport layer key.
+* Provide LoRa(WAN) service within it's range.
 * Relay between Nodes and Routers.
 
 **Connects to:**
@@ -61,6 +60,7 @@ messages to and relays to them.
 **Responsibilities:**
 
 * Locate the Handler associated with a Node.
+* Verify message integrity with transport layer key.
 * Relay messages to and from the Handlers.
 * ... _(Please correct this if wrong)_
 
