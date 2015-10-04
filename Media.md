@@ -22,6 +22,8 @@
 * NRC-Q [http://www.nrcq.nl/2015/08/31/internet-voor-buitenshuis-maar-hoe-verdien-je-er-geld-mee?]()
 * Fast-moving targets [https://www.youtube.com/watch?v=QFaiiaGQVw0]()
 * [http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html](http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html)
+* [RTL-Z](http://www.rtlz.nl/tv/laatste-videos/van-liempt-live-gratis-things-network-giga-kans-voor-bedrijfsleven)
+* [Bright](http://www.bright.nl/the-things-network-breidt-uit-naar-7-wereldsteden)
 
 
 ## Other languages
