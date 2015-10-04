@@ -34,7 +34,7 @@ local_conf.json:
 		  "serv_port_down": 1700,
 		  "server_address": "croft.thethings.girovito.nl",
 		  "forward_crc_valid": true,
-		  "forward_crc_error": true,
+		  "forward_crc_error": false,
 		  "forward_crc_disabled": true
 	  }
 	}
