@@ -79,13 +79,16 @@ Instructions will follow soon (by you?).
 
 
 ## HopeRF
-This board works with Arduino (tested on Teensy 3.1/LC). Does not work on Uno (ATmega 328) due to memory limitations.
+
+RFM92W and RFM95W (SX1272/SX1276). Can be ordered here: [http://www.hoperf.nl/LoRa](http://www.hoperf.nl/LoRa)
+
+This board works with Arduino (tested on Teensy 3.1/LC). Does not work on Uno (ATmega 328) due to memory limitations. Will support ATmega 2184P (work-in-progress).
 
 Here is howto connect it to an Arduino: [https://github.com/matthijskooijman/arduino-lmic/wiki](https://github.com/matthijskooijman/arduino-lmic/wiki)
 
-The github is based on IBM LMIC 1.4 (LoraMAC-in-C), a working LMIC 1.5 based implementation will be available soon.
+Software: IBM LMIC 1.5 (LoraMAC-in-C) adapted to run under the Arduino environment: [https://github.com/tftelkamp/arduino-lmic-v1.5](https://github.com/tftelkamp/arduino-lmic-v1.5)
 
-
+Has been successfully tested on The Things Network!
 
 ## Kerlink Loramote
 This device should work out-of-the-box. It will start sending GPS, temperature and battery data as soon as it is powered.
