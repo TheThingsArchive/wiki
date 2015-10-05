@@ -26,7 +26,7 @@ For more details on the architecture see [[Architecture]].
 
 ## Getting Started
 To get started connecting to the The Things Network,
-read our technical [[GettingStarted]] manual.
+read [[Getting-organized]] and our technical [[GettingStarted]] manual.
 
 Be sure to check out the [Examples](software/examples) pages.
 
