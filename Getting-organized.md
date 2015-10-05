@@ -9,5 +9,5 @@ As soon as you have set up your team, let me (ttn [at] tomoostvogels [dot] nl) k
 On [[GettingStarted]] you can find the details on the hardware and how to connect it to the TTN-network. 
 
 ## Other questions
-If your answer is not on it (yet), please consult the [forum](http://forum.thethingsnetwork.org) and do not hesistate to ask your questions!
+If your answer is not (yet) on this wiki, please consult the [forum](http://forum.thethingsnetwork.org) and do not hesistate to ask your questions!
 
