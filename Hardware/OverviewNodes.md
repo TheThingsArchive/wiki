@@ -7,8 +7,8 @@ what to buy, send us an [email](Contact).
 
 | Device            | Chip   | MCU       | Connector   | Cost (EUR)   | Comments                   |
 | ----------------- | ------ | --------- | ----------- | ------------:| -------------------------- |
-| Sodaq Tatu + Bee  | ?      | AVR       | Bee         | 35,- + 35,-  | Arduino-IDE compatible     |
-| Kickst. TTN Uno   | SX1276 |           | IO          | tbd (35-45)  | Arduino-IDE compatible     |
+| Sodaq Tatu + Bee  | ?      | AVR +     | Bee         | 35,- + 35,-  | Arduino-IDE compatible     |
+| Kickst. TTN Uno   | SX1276 | ? + ?     | IO          | tbd (35-45)  | Arduino-IDE compatible     |
 | Netblocks         | SX1272 | STM32L151 | IO          | 35,-         | program with ST-link       |
 | Libelium          | SX1272 | -         | Bee         | 45,-         | Arduino library available  |
 | HopeRF RFM92W     | RFM92W | -         | (raw board) | 10,-         | cheap; no MCU              |
@@ -17,8 +17,17 @@ what to buy, send us an [email](Contact).
 
 There's many more; for a bigger list, [contact us](Contact).
 
-## SODAQ Tatu
-The SODAQ Tatu is based on the ATmega1284P and Arduino compatible.
+LoRa devices are roughly divided into two categories:
+
+ 1. Devices containing just the LoRa transceiver chip. These tranceivers are low-level devices that can transmit arbitrary data using the LoRa (and also FSK) modulation. They do not know anything about the LoRaWAN protocol and packet format, so they need an external microcontroller to implement the LoRaWAN stack.
+ 2. Full-stack LoRaWAN devices containing the transceiver and a microcontroller. The microcontroller typically implements the LoRaWAN stack and exposes a single TTL serial interface (using AT-commands) that can be used to control the module (similar to how XBee modules work) externally, though you can typically also integrate your own application into the same microcontroller.
+
+Some devices are somewhat hybrid - they contain the transceiver and a microcontroller, but instead of supplying a full, precompiled LoRaWAN stack and exposing a serial API, they supply the code for the LoRaWAN stack so you can run both the LoRaWAN stack and your own application inside the microcontroller.
+
+### SODAQ Tatu with LoRaBee
+The SODAQ Tatu is based on the ATmega1284P and Arduino compatible. It does not do LoRaWAN by itself, but it contains a "Bee socket" and can be combined with the LoRaBee, which is a full-stack LoRaWAN board (based on the Embit EMB-LR1272) in Bee form factor.
+
+Note that it should be possible to use the LoRaBee with other (Arduino) boards, using an XBee shield or breakout.
 
 Get them:
 
@@ -42,16 +51,19 @@ Program them:
    The device will start sending measurements about once every two minutes.
 
 
-
-## Kickstarter TTN Arduino Uno
+### Kickstarter TTN Arduino Uno
 We'll launch a kickstarter early October, including an Arduino Uno with build-in
 LoRa chip and open-source libraries to connect to The Things Network gateways.
 More info: [http://thethingsnetwork.org/landing/kickstarter](http://thethingsnetwork.org/landing/kickstarter)
 
+This board will be an Arduino-compatible board with a full-stack LoRaWAN module integrated (so 2 microcontrollers on board - one in the LoRaWAN module and one on the main board for you to program), making it a perfect board to get started.
+
 As we're getting closer to shipping this page will be updated with instructions.
 
 
-## Netblocks
+### Netblocks
+Netblocks offer a LoRa board containing a transceiver paired with an ARM processor. Netblocks supplies examples containing the Semtech LoRaWAN stack, that you can integrate with your own code to run on the single ARM processor.
+
 We're working on support for the Netblocks, but not everything's working yet.
 
 Get them:
@@ -63,8 +75,9 @@ Program them:
 1. [https://github.com/TheThingsNetwork/XRange](https://github.com/TheThingsNetwork/XRange)
 2. ask us what to do next ;-)
 
+### Libelium
+Libelium has SX1272 modules that contain the Semtech SX1272 transceiver and an antenna plug. They use the Bee form factor, but do not use TTL serial like most Bee modules, but instead use SPI serial. If you use these modules, make sure to doublecheck the pinout, most XBee shields will likely not have the right connections.
 
-## Libelium
 I'm not sure about the status of the Libelium + TTN LoRaWAN, but there's people working on it.
 
 Get them:
@@ -73,24 +86,15 @@ Get them:
 You'll need the Libelium LoRa Bee, and MCU (like Arduino or rPi) and a shield to connect the two.
 There's also the [Waspmote platform](https://www.cooking-hacks.com/shop/waspmote/wireless/extreme-range-lora-sx1272-module-shield-waspmote), which according to their own website uses different Libelium LoRa Bees (incompatible with the Arduino/rPi version). It has [instructions on building a simple single-band gateway](http://www.libelium.com/downloads/documentation/waspmote_lora_868mhz_915mhz_sx1272_networking_guide.pdf). Note: this is not LoRaWAN.
 
-Program them:
-
-Instructions will follow soon (by you?).
-
-
-## HopeRF
+### HopeRF
 
 RFM92W and RFM95W (SX1272/SX1276). Can be ordered here: [http://www.hoperf.nl/LoRa](http://www.hoperf.nl/LoRa)
 
-This board works with Arduino (tested on Teensy 3.1/LC). Does not work on Uno (ATmega 328) due to memory limitations. Will support ATmega 2184P (work-in-progress).
+These are tiny boards that contain just a transceiver chip and some supporting components. These transceivers are just the SX1272 and SX1276 manufactured by Semtech, but rebranded by HopeRF.
 
-Here is howto connect it to an Arduino: [https://github.com/matthijskooijman/arduino-lmic/wiki](https://github.com/matthijskooijman/arduino-lmic/wiki)
+Has been successfully tested on The Things Network using a Teensy and LMIC (see below)!
 
-Software: IBM LMIC 1.5 (LoraMAC-in-C) adapted to run under the Arduino environment: [https://github.com/tftelkamp/arduino-lmic-v1.5](https://github.com/tftelkamp/arduino-lmic-v1.5)
-
-Has been successfully tested on The Things Network!
-
-### How to build a Teensy TTN node!
+**How to build a Teensy TTN node!**
 
 Cost: less than €30 (incl. VAT).
 
@@ -122,16 +126,27 @@ Cost: less than €30 (incl. VAT).
  * You can power the Teensy via the USB port, or a battery (e.g. 3.7V) on the 5v pin. But not both at the same time.
  * Questions? -> Forum!
  
-## Kerlink Loramote
+### Kerlink Loramote
 This device should work out-of-the-box. It will start sending GPS, temperature and battery data as soon as it is powered.
 
 TODO: custom applications compile. Kerlink has a nice wiki with instructions.
 
 
 
-## More devices will be contributed soon (by you?)
+### Do you know about other devices? Add them here!
 
+## LoRaWAN stacks for transceiver-only devices
+There are currently two open-source LoRaWAN stacks available for running LoRaWAN nodes:
+ 1. [IBM LMIC (LoraMac-in-C)](http://www.research.ibm.com/labs/zurich/ics/lrsc/lmic.html)
+ 2. [Semtech LoRaMac-node](https://github.com/Lora-net/LoRaMac-node)
 
+Note that both say "LoRaMAC", which was the predecessor protocol to LoRaWAN. Semtech also has some code available to run on the gatweway side.
+
+The LMIC code is being ported to the Arduino platform. A basic port (only works for node-to-node communication, no LoRaWAN support yet) is available by [Matthijs Kooijman](https://github.com/matthijskooijman/arduino-lmic) (check out the wiki on the repository too). Another version of this library is availble by [Thomas Telkamp](https://github.com/tftelkamp/arduino-lmic-v1.5), which uses the 1.5 verion of LMIC and has been succesfully tested with LoRaWAN and TTN already. The intention is to merge these two repositories together soon.
+
+Both of the LMIC verions mentioned above currently run into memory limitations when running on a basic Arduino Uno (ATmega 328p). It turns out that most of the memory is taken up by AES constants, which can be moved from RAM into flash (not tried yet). Even then, a basic transmit example will still take up nearly all of the flash space on a 328p, so running LoRaWAN using LMIC on a 328p is probably not feasible without significant optimizations. The Semtech stack has not been ported to Arduino yet, perhaps it is more compact.
+
+This LMIC Arduino library has been succesfully tested on a Teensy LC (ARM with sufficient memory). Work is ongoing to get it to work on an ATmega1284p board and the ESP2866 chip as well.
 
 ## General settings instructions
 There are a couple of settings in LoRaWAN related to The Things Network
