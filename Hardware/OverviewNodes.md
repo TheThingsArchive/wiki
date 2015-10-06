@@ -90,6 +90,38 @@ Software: IBM LMIC 1.5 (LoraMAC-in-C) adapted to run under the Arduino environme
 
 Has been successfully tested on The Things Network!
 
+### How to build a Teensy TTN node!
+
+Cost: less than €30 (incl. VAT).
+
+ * Use Teensy LC (or 3.1/3.2): [Teensy LC - Low Cost](https://www.pjrc.com/teensy/teensyLC.html)
+ * Install Teensyduino, a software add-on for the Arduino: [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html)
+ * Buy the RFM92W or RFM95 (see above)
+ * Clone [https://github.com/tftelkamp/arduino-lmic-v1.5](https://github.com/tftelkamp/arduino-lmic-v1.5)
+ * Connect the RFM92/95 to the Teensy:
+    * Teensy LC/3.1/3.2  -- RFM92/95 
+    * GND -- GND
+    * 3.3V -- 3.3V
+    * 2 -- DIO0
+    * 5 -- DIO1
+    * 6 -- DIO2
+    * 9 -- RESET
+    * 10 -- NSS
+    * 11 -- MOSI
+    * 12 -- MISO
+    * 13 -- SCK
+ * Add a 1/4 wavelength antenna wire (+/- 8.2cm) on RFM92/95 ANA pin
+ * Change the device addr (DevAddr) in the example, and compile/upload
+ * Run, and check the TTN API!
+ 
+ Notes:
+ 
+ * The Teensy LC and 3.1 can support 100mA on the 3.3v pin, this is just enough for the RFM92/95 transmitting at 17dBm, but does not leave much room for other addons.
+ * You can use different pins for the DIO 0/1/2 connections, but make sure to change the pin mappings in the example code as well
+ * The library defaults to RFM92, change the radio type in config.h to use the RFM95
+ * You can power the Teensy via the USB port, or a battery (e.g. 3.7V) on the 5v pin. But not both at the same time.
+ * Questions? -> Forum!
+ 
 ## Kerlink Loramote
 This device should work out-of-the-box. It will start sending GPS, temperature and battery data as soon as it is powered.
 
