@@ -71,6 +71,13 @@ Here's the endpoints:
 |                                | `limit` (int, def=20)                   | within given timeframe                       |
 |                                | `offset` (int)                          |                                              |
 
+The nodes will include the following data fields:
+
+  * `data_raw`: the unencrypted payload
+  * `data`: base64-encoded decrypted data (if encrypted with standard key)
+  * `data_plain`: ascii version of decrypted data (if `data` decode-able into ascii)
+  * `data_json`: json object / dictionary (if `data_plain` contains json)
+
 
 ### Work In Progress
 A note of caution:
