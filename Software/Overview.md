@@ -98,6 +98,7 @@ Bare with us while we're finalising the first version! Can't wait? Get in [[Cont
 ### Nodes firmware
 * [Netblocks XRange](https://github.com/TheThingsNetwork/XRange)
 * [Arduino-based / SODAQ](https://github.com/TheThingsNetwork/loraduino)
+* [Arduino + hoperf / semtech](https://github.com/tftelkamp/arduino-lmic-v1.5)
 
 ### Gateways firmware
 * [Kerlink-based firmware](https://github.com/TheThingsNetwork/lora_gateway)
