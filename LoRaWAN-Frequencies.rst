@@ -63,7 +63,7 @@ g2 868.7 – 869.2 MHz 0.1% or LBT+AFA, 25 mW
 
 g3 869.4 – 869.65 MHz 10% or LBT+AFA, 500 mW (=27dBm)
 
-g4 869.7 – 870.0 MHz 1% or LBT+AFA, 25 mW
+g4 869.7 – 870.0 MHz 1% or LBT+AFA, 25 mW (no dutcy-cyle requirement if power < 5 mW/7 dBm)
 
 LBT+AFA: Listen Before Talk (LBT) with Adaptive Frequency Agility (AFA).
 
