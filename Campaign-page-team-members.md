@@ -11,6 +11,7 @@ The TTN-team can add new members for you, just provide the following:
 * mail address: so we can contact him/her
 * profile picture
 * status: is this person the imitator or a team member?
+* login: does this person needs to be able to login on the campaing page?
 
 
 
