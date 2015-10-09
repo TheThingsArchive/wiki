@@ -21,5 +21,5 @@ Please makes sure you are allowed to use the images!
 [Here](http://thethingsnetwork.org/wiki/Edit-your-campaign-page) you can read how to edit your campaing page
 
 ## Examples
-There are loads of campaing pages up and running, you can find the [home page](thethingsnetwork.org), right under 'Communities'
+There are loads of campaing pages up and running, you can find the [home page](http://thethingsnetwork.org), right under 'Communities'
 
