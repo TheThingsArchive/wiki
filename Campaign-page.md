@@ -13,7 +13,7 @@ To set up your campaign page we need a few pieces of information:
 * description: some more text about your goals, your team and your campaign
 * a background image: showing your city/area, for example a skyline, something iconic or a picture showing why you are doing this
 * thumbnail: a small, iconic image for the city/area you are covering
-* At least one team member [team member](../Campaign-page-team-members).
+* At least one team member [team member](Campaign-page-team-members).
 
 Please makes sure you are allowed to use the images! 
 

@@ -92,6 +92,10 @@ software to run on your own server.
 
 Bare with us while we're finalising the first version! Can't wait? Get in [[Contact]].
 
+# Android SDK
+
+Ready to develop Android apps using data from The Things Network? Grab the Android SDK and you're ready to go. Find it on GitHub (below).
+
 
 ## Github Repositories
 
@@ -111,3 +115,6 @@ Bare with us while we're finalising the first version! Can't wait? Get in [[Cont
 * ['server shared'](https://github.com/TheThingsNetwork/server-shared)
 * [Croft -> gateway to queue](https://github.com/TheThingsNetwork/croft)
 * [Jolie -> queue to storage and application endpoint](https://github.com/TheThingsNetwork/jolie)
+
+### Application software
+* [Android SDK](https://github.com/TheThingsNetwork/android-sdk)
