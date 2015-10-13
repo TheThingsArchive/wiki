@@ -23,10 +23,10 @@ etc.
 | 02:01:00:xx      |-| turiphro 		      |
 | 02:01:01:xx      |-| telkamp	   			  |
 | 02:01:02:xx      |-| chrishouwing	  		  |
-| 02:01:03:xx      |-| gnpwdr     		  |
-| 02:01:04:xx      |-| creatinghere      	   			  |
+| 02:01:03:xx      |-| gnpwdr     		      |
+| 02:01:04:xx      |-| creatinghere      	  |
 | 02:01:05:xx      |-| Ideetron b.v.		  |
-| 02:01:06:xx      |-|       	   			  |
+| 02:01:06:xx      |-| hoeks.ma     		  |
 | 02:01:07:xx      |-|       	   			  |
 | 02:01:08:xx      |-|       	   			  |
 | 02:01:09:xx      |-|       	   			  |
