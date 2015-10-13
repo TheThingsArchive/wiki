@@ -79,4 +79,4 @@ Here's other people building their own gateway:
 
 ## Network
 Once you've got a gateway ready to transmit and/or receive data,
-start with our **[Software Overview](/Software/Overview)**.
+start with our **[Software Overview](Software/Overview)**.
