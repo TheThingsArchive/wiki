@@ -19,7 +19,4 @@ All other information has to be edited by us, for now.
 After you press 'Save Changes' you can post updates:
 ![post updates](http://tomenger.home.xs4all.nl/three.png)
  
-As soon as your c
-
-## Examples
 
