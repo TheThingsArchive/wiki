@@ -13,6 +13,7 @@ After you login you can edit the following fields:
 * Background image
 * Thumbnail
 
+All other information has to be edited by us, for now. 
 ![edit page](http://tomenger.home.xs4all.nl/two.png)
 
 After you press 'Save Changes' you can post updates:
