@@ -30,7 +30,7 @@ Discussion: This is an industrial solution suitable for people who want to mount
 * Installation: Plug and play (?)
 * Hardware: proprietary
 * Software: proprietary (?)
-* TO BE tested by The Things Network Crew. 
+* Tested by The Things Network Crew. 
 
 Discussion: The concept of replaceable daughter boards seems sound, but we have no hands on experience with this device. It is also unlikely we will get that, unless someone sends us one to play with. 
 
@@ -43,18 +43,18 @@ Discussion: The concept of replaceable daughter boards seems sound, but we have 
 * Installation: Plug and play
 * Hardware: radio proprietary, MCU board: open source 
 * Software: open source
-* TO BE tested by The Things Network Crew.
+* Tested by The Things Network Crew.
 
 Discussion: The device is build upon the radio board of IMST and the open
-source hardware BeagleBone Black. Although the device itself has not yet 
-been tested, we build a comparable gateway and are confident this will work.
-Also, this will run The Things Network software by default.
+source hardware BeagleBone Black. Although the first version had some
+issues, at this moment the device seems to work as advertised. Please consult
+the online manual for further information.
 
 
 ### [The Things Gateway](http://thethingsnetwork.org/kickstarter-landing/kickstarter.html)
 * Price: 200 euro 
-* Availability: kickstarter will launch October 1st
-* Capacity: 1 band, ~ 3K Nodes (strech goal: 8 band) 
+* Availability: kickstarter will launch October
+* Capacity: 1 band, ~ 3K Nodes (strech goal: 8 band ?) 
 * Suitable for indoor use
 * Installation: Plug and play
 * Hardware: open source 
