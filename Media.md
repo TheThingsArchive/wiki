@@ -25,6 +25,7 @@
 * [RTL-Z](http://www.rtlz.nl/tv/laatste-videos/van-liempt-live-gratis-things-network-giga-kans-voor-bedrijfsleven)
 * [Bright](http://www.bright.nl/the-things-network-breidt-uit-naar-7-wereldsteden)
 * [Vlaanderen](http://datanews.knack.be/ict/nieuws/vlaanderen-krijgt-4e-open-source-iot-netwerk/article-normal-615263.html)
+* [Financieel Dagblad](http://fd.nl/ondernemen/1123301/de-kennis-is-openbaar-wij-verdienen-zelf-niet-aan-het-netwerk)
 
 
 ## Other languages
