@@ -74,6 +74,7 @@ Here's other people building their own gateway:
 ### DIY "single-connection" gateway (SX1272, SX1276 etc)
 * [http://www.daveakerman.com/?p=1719](http://www.daveakerman.com/?p=1719)
 
+- interesting read, but for now does not give you anything useful for The Things Network
 - to be completed
 
 
