@@ -5,17 +5,17 @@ Here's a table of a few hardware boards supporting LoRa.
 Specific instructions can be found below. If you're unsure
 what to buy, send us an [email](Contact).
 
-| Device            | Chip   | MCU       | Connector   | Cost (EUR)   | Comments                   |
-| ----------------- | ------ | --------- | ----------- | ------------:| -------------------------- |
-| Sodaq Tatu + Bee  | ?      | AVR +     | Bee         | 35,- + 35,-  | Arduino-IDE compatible     |
-| Kickst. TTN Uno   | SX1276 | ? + ?     | IO          | tbd (35-45)  | Arduino-IDE compatible     |
-| Netblocks         | SX1272 | STM32L151 | IO          | 35,-         | program with ST-link       |
-| Libelium          | SX1272 | -         | Bee         | 45,-         | Arduino library available  |
-| HopeRF RFM92W     | SX1272 | no        | 2mm pin smd | 10,-         | Working with Arduino       |
-| HopeRF RFM95W     | SX1276 | no        | 2mm pin smd | 10,-         | Working with Arduino       |
-| Kerlink loramote  | SX1272 | yes       | IO          | 150,-        | professional; has GPS      |
-| Embit EMB-LR1272  | SX1272 | yes       |             | ?            |                            |
-| Froggyfactory     | SX127X | yes       | Uno         | ?            | is it LoraWAN?             |
+| Device            | | Chip   | | MCU       || Connector   || Cost (EUR)   || Comments                   |
+| ----------------- |-| ------ |-| --------- || ----------- || -------------|| -------------------------- |
+| Sodaq Tatu + Bee  | | ?      | | AVR +     || Bee         || 35,- + 35,-  || Arduino-IDE compatible     |
+| Kickst. TTN Uno   | | SX1276 | | ? + ?     || IO          || tbd (35-45)  || Arduino-IDE compatible     |
+| Netblocks         | | SX1272 | | STM32L151 || IO          || 35,-         || program with ST-link       |
+| Libelium          | | SX1272 | | -         || Bee         || 45,-         || Arduino library available  |
+| HopeRF RFM92W     | | SX1272 | | no        || 2mm pin smd || 10,-         || Working with Arduino       |
+| HopeRF RFM95W     | | SX1276 | | no        || 2mm pin smd || 10,-         || Working with Arduino       |
+| Kerlink loramote  | | SX1272 | | yes       || IO          || 150,-        || professional; has GPS      |
+| Embit EMB-LR1272  | | SX1272 | | yes       ||             || ?            ||                            |
+| Froggyfactory     | | SX127X | | yes       || Uno         || ?            || is it LoraWAN?             |
 
 LoRa devices are roughly divided into two categories:
 
