@@ -28,11 +28,11 @@ etc.
 | 02:01:05:xx      |-| Ideetron b.v.		  |
 | 02:01:06:xx      |-| hoeks.ma     		  |
 | 02:01:07:xx      |-| Reynholm Industries	  |
-| 02:01:08:xx      |-| frankivo	   			  |
+| 02:01:08:xx      |-| ivowind	              |
 | 02:01:09:xx      |-| edzob   	   			  |
 | 02:01:0A:xx      |-| Sogeti Netherlands	  |
-| 02:01:0B:xx      |-|       	   			  |
-| 02:01:0C:xx      |-|       	   			  |
+| 02:01:0B:xx      |-| fvdnieuwboer			  |
+| 02:01:0C:xx      |-| jeroenrook  			  |
 | 02:01:0D:xx      |-|       	   			  |
 | 02:01:0E:xx      |-|       	   			  |
 | 02:01:0F:xx      |-|       	   			  |
