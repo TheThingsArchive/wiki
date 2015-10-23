@@ -44,6 +44,7 @@ Some boards include a MCU, some don't and just provide the modem interface of th
 There are bare breakout boards, Bee connectors, or all-included development boards. There are a few different implementations, and they're not yet all compatible with each other.
 
 To get started building a node, see our **[Hardware Nodes Overview](Hardware/OverviewNodes)**.
+This includes hardware, software and how to buy or build it.
 
 ###Gateway###
 On the gateway side there's also a few options. 
@@ -56,8 +57,8 @@ For **Communication** there are two options for the chip the SX1272/SX1276 optio
 For the **Calculation** part a device that supports linux is usually used. These are provided by many many suppliers, more on this in ouw Hardware Gateway Overview.
 
 To get started with gateways, see our **[Hardware Gateway Overview](Hardware/OverviewGateways)**.
-
+This includes hardware, software and how to buy or build it.
 
 ## Network
-Once you've got a node ready to transmit and/or receive data,
+Once you've got a node ready to transmit and/or receive data via a Gateway,
 start with our **[Software Overview](Software/Overview)**.
