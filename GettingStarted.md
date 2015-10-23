@@ -23,6 +23,12 @@ This is something, when you are lucky is already in the neighborhood available. 
 This is the IoT device that does something. for example a temperature sensor or a small blinking light. It will communicate through the Gateway to the things network. An IoT device you configure once (or the supplier does this) and then you can use it everywhere on the world where an TTN gateway is.
 (todo: insert image of LoRaWan architecture (incl technology)
 
+    node  <------->  gateway  <-->  /-----\
+              __/                  | cloud | <--> your server
+    node  <--/---->  gateway  <-->  \-----/
+                /
+    node  <----/
+
 ## Supported Hardware
 Like WiFi and 3G/4G, LoRa connections need specific hardware
 support for connections. Since the technology is only gaining
