@@ -38,4 +38,6 @@
 
 ## Opinions and blog posts
 
-* [http://www.stephensonstrategies.com/share-it-data-and-they-will-come/]()
+* [Atmel blog](http://blog.atmel.com/2015/10/21/building-a-crowdsourced-decentralized-iot-network-around-the-world/)
+* [FreeKnowledge blog](http://freeknowledge.eu/blogs/things-network-4x-commons-internet-of-things)
+* [Stephenson Strategies](http://www.stephensonstrategies.com/share-it-data-and-they-will-come/)
