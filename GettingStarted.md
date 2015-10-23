@@ -15,12 +15,14 @@ central server. The Things Network uses LoRaWAN, but replaces
 the central server with a distributed network owned by the
 community.
 (todo: link to papers on LoRaWan)
-(todo: insert image of LoRaWan architecture (incl technology)
 
 ## What you need minimal
-* Gateway : something in the neighborhoud that will listen to devices. This is similar with a wifi accesspoint. This can be of yourself of from someone else. Everybody is free to use eachother gateway.
-* Node : this is the device that does something. for example a temperature sensor or a small blinking light.
+###Gateway
+Something in the neighborhoud that will listen to devices. This is similar with a wifi accesspoint. This can be of yourself of from someone else. Everybody is free to use eachother gateway.
+###Node
+This is the device that does something. for example a temperature sensor or a small blinking light.
 
+(todo: insert image of LoRaWan architecture (incl technology)
 
 ## Supported Hardware
 Like WiFi and 3G/4G, LoRa connections need specific hardware
