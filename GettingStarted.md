@@ -16,12 +16,11 @@ the central server with a distributed network owned by the
 community.
 (todo: link to papers on LoRaWan)
 
-## What you need minimal
+##Minimal Setup
 ###Gateway
-Something in the neighborhoud that will listen to devices. This is similar with a wifi accesspoint. This can be of yourself of from someone else. Everybody is free to use eachother gateway.
+This is something, when you are lucky is already in the neighborhood available. Otherwise this is something you have to build. The gateway is the portal between your IoT Device to the internet & thethingsnetwork.
 ###Node
-This is the device that does something. for example a temperature sensor or a small blinking light.
-
+This is the IoT device that does something. for example a temperature sensor or a small blinking light. It will communicate through the Gateway to the things network. An IoT device you configure once (or the supplier does this) and then you can use it everywhere on the world where an TTN gateway is.
 (todo: insert image of LoRaWan architecture (incl technology)
 
 ## Supported Hardware
@@ -34,23 +33,27 @@ to build (or buy) devices yourself.
 There's at least ten providers selling breakout boards for
 LoRa(WAN) nodes. All of them use the SX1272 or SX1276 chip,
 produced by SemTech and providing the 'raw' LoRa hardware
-protocol. The LoRaWAN software stack needs to run on a
-separate [MCU](https://www.quora.com/What-is-the-difference-between-a-microprocessor-and-microcontroller) like an Arduino or ARM Cortex. There are a
-few different implementations, and they're not yet all
-compatible with each other.
+protocol. 
 
-Some boards include a MCU, some don't and just provide the
-modem interface of the chip. There's bare breakout boards,
-Bee connectors, or all-included development boards.
+A **node** has two building blocks. a communication part and a calculation part. 
+
+**Communication** is done via the SX1272 or SX1276 chip this is the modem part of the node. 
+**Calculation** is done by a separate [MCU](https://www.quora.com/What-is-the-difference-between-a-microprocessor-and-microcontroller) like  an Arduino or ARM Cortex.
+The LoRaWAN software stack needs to run on the MCU (the calculation part)
+Some boards include a MCU, some don't and just provide the modem interface of the chip. 
+There are bare breakout boards, Bee connectors, or all-included development boards. There are a few different implementations, and they're not yet all compatible with each other.
 
 To get started building a node, see our **[Hardware Nodes Overview](Hardware/OverviewNodes)**.
 
 ###Gateway###
-On the gateway side there's also a few options. Since the
-SX1272/SX1276 only allows for one connection at a time,
-most of them use the SX1301 + SX1257 chips allowing up to
-8 simultaneous connections (typically supporting 10000 ~ 20000
-nodes).
+On the gateway side there's also a few options. 
+The Gateway also has a communication part and a calculation part. 
+The gateway supports many nodes thus the calculation part should be bigger then the node.
+
+For **Communication** there are two options for the chip the SX1272/SX1276 option and the SX1301 + SX1257 option.
+*the SX1272/SX1276 only allows for one (1) connection at a time,
+*the SX1301 + SX1257 chips allows up to eight (8() simultaneous connections (typically supporting 10000 ~ 20000 nodes).
+For the **Calculation** part a device that supports linux is usually used. These are provided by many many suppliers, more on this in ouw Hardware Gateway Overview.
 
 To get started with gateways, see our **[Hardware Gateway Overview](Hardware/OverviewGateways)**.
 
