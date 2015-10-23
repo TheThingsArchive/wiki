@@ -5,6 +5,7 @@
 * [http://www.digitalistmag.com/innovation/crowdsourced-citywide-iot-network-03338513]()
 * [The Next Web: TTN goes global](thenextweb.com/dd/2015/10/01/smart-cities-are-springing-up-around-the-world-as-the-things-network-goes-global/)
 * [The Next Web: kickstarter](http://thenextweb.com/gadgets/2015/10/21/these-devices-could-help-spread-internet-of-things-networks-across-cities-worldwide/)
+* [Product Hunt](https://www.producthunt.com/tech/the-things-gateway)
 
 
 ## Dutch media
