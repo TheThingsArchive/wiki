@@ -32,7 +32,7 @@ Discussion: This is an industrial solution suitable for people who want to mount
 * Software: proprietary (?)
 * Tested by The Things Network Crew. 
 
-Discussion: The concept of replaceable daughter boards seems sound, but we have no hands on experience with this device. It is also unlikely we will get that, unless someone sends us one to play with. 
+Discussion: We have one, results of our test will follow asap. 
 
 
 ### [Lorank 8](http://www.hoperf.nl/LORANK-8)
