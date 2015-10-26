@@ -3,10 +3,10 @@
 An important way of reaching your audience is via your own campaign page. It is useful for finding new team members and attracting companies and sponsors. On this page you can find how you can get your own campaign page and how to use it.
 
 ## 1. Getting in touch with us
-We can set you up with your own campaign page. If you do not yet are in contact with us, fill in [this form](http://thethingsnetwork.org/start-a-community). We will contact you as soon as possible!
+We can set you up with your own campaign page. If you are not already in contact with us, fill in [this form](http://thethingsnetwork.org/start-a-community). We will contact you as soon as possible!
 
 ## 2. Information needed to build your campaign page
-To set up your campaign page we need a few pieces of information:
+To set up your campaign page you need a few pieces of information:
 
 * city: what city or area are you going to cover?
 * mission: phrase your mission in one sentence
