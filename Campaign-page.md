@@ -10,7 +10,7 @@ To set up your campaign page you need a few pieces of information:
 
 * city: what city or area are you going to cover?
 * mission: mission of your campaign in 1 sentence - what you want to accomplish and why. For example: "On a mission to provide ..[your city]... with a free IOT data network!"
-* description: More information about your campaign, your team and your goals. Get people excited! 
+* description: more information about your campaign, your team and your goals. Get people excited! 
 * the coordinates of your city/area. [[Getting-the-coordinates-of-your-city-or-area]]
 * a background image: showing your city/area, for example a skyline, something iconic or a picture showing why you are doing this
 * thumbnail: a small, iconic image for the city/area you are covering
