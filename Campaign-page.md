@@ -14,7 +14,7 @@ To set up your campaign page you need a few pieces of information:
 * the coordinates of your city/area. [[Getting-the-coordinates-of-your-city-or-area]]
 * a background image: showing your city/area, for example a skyline, something iconic or a picture showing why you are doing this
 * thumbnail: a small, iconic image for the city/area you are covering
-* contact information: How people can contact you, e.g. the forum, twitter, facebook, mail address telephone number
+* contact information: how people can contact you, e.g. the forum, twitter, facebook, mail address telephone number
 * At least one team member [team member](Campaign-page-team-members).
 
 Please makes sure you are allowed to use the images! 
