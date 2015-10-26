@@ -55,6 +55,8 @@ etc.
 | 02:01:20:xx      |-| Pixelspark 			  |
 | 02:01:21:xx      |-| Bericht				  |
 | 02:01:22:xx      |-| Telmetria			  |
+| ...		       |-| 						  |
+| 02:01:BA:xx      |-| TTN BA - Ropu		  |
 | etc.  		   |-| 						  |
 |------------------|-|------------------------|
 | DE:AD:BE:xx      | | turiphro (honoris causa) |
