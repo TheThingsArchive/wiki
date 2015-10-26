@@ -8,6 +8,17 @@ There is also a third option, that is design your own hardware, but that is beyo
 ## Ready to roll
 Depending on how much money you want to spend and when the hardware is needed the following options are available (from most expensive to least expensive):
 
+### [The Things Gateway](http://thethingsnetwork.org/kickstarter-landing/kickstarter.html)
+* Price: 200 euro 
+* Availability: [the kickstarter](http://kickstarter.com/projects/419277966/the-things-network) runs until Fri, Nov 20 2015 1:44 PM CET!
+* Capacity: 1 band, ~ 3K Nodes (strech goal: 8 band ?) 
+* Suitable for indoor use
+* Installation: Plug and play
+* Hardware: open source 
+* Software: open source
+Tested by The Things Network Crew.
+Discussion: The device is specially developed for The Things Network and we will make sure it will meet all requirements for a smooth experience on The Things Network. Note that estimated first delivery is around June 2016.
+
 ### [Kerlink](http://www.kerlink.fr/en/products/lora-iot-station/11-products-uk)
 * Price: on request, around 1500 euro.
 * Availability: direct available, (order in France)
@@ -51,19 +62,7 @@ issues, at this moment the device seems to work as advertised. Please consult
 the online manual for further information.
 
 
-### [The Things Gateway](http://thethingsnetwork.org/kickstarter-landing/kickstarter.html)
-* Price: 200 euro 
-* Availability: kickstarter will launch October
-* Capacity: 1 band, ~ 3K Nodes (strech goal: 8 band ?) 
-* Suitable for indoor use
-* Installation: Plug and play
-* Hardware: open source 
-* Software: open source
-* TO BE tested by The Things Network Crew.
 
-Discussion: The device is specially developed for The Things Network and
-we will make sure it will meet all requirements for a smooth experience on
-The Things Network. Note that estimated first delivery is around May ~ June 2016.
 
 ## Do it yourself
 Here's other people building their own gateway:
