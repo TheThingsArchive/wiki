@@ -54,7 +54,7 @@ etc.
 | 02:01:1F:xx      |-|       	   			  |
 | 02:01:20:xx      |-| Pixelspark 			  |
 | 02:01:21:xx      |-| Bericht				  |
-| 02:01:22:xx      |-| Telmetria				  |
+| 02:01:22:xx      |-| Telmetria			  |
 | etc.  		   |-| 						  |
 |------------------|-|------------------------|
 | DE:AD:BE:xx      | | turiphro (honoris causa) |
