@@ -59,6 +59,7 @@ etc.
 | 02:01:BA:xx      |-| TTN BA - Ropu		  |
 | etc.  		   |-| 						  |
 |------------------|-|------------------------|
+| BA:BE:CA:xx      |-| QwikSense              |
 | DE:AD:BE:xx      | | turiphro (honoris causa) |
 | BE:EF:BE:xx      |-| ZB45 Makerspace        |
 
