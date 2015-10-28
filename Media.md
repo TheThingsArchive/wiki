@@ -4,6 +4,7 @@
 * [http://www.disrupted.vc/archieven/journal/powering-the-internet-of-everything]()
 * [http://www.digitalistmag.com/innovation/crowdsourced-citywide-iot-network-03338513]()
 * [The Next Web: TTN goes global](thenextweb.com/dd/2015/10/01/smart-cities-are-springing-up-around-the-world-as-the-things-network-goes-global/)
+* [The Next Web: kickstarter](http://thenextweb.com/gadgets/2015/10/21/these-devices-could-help-spread-internet-of-things-networks-across-cities-worldwide/)
 
 
 ## Dutch media
@@ -21,16 +22,23 @@
 * RTL boulevard [http://www.rtlnieuws.nl/boulevard/laatste-videos-boulevard/lora-netwerk-beschikbaar-amsterdam]()
 * NRC-Q [http://www.nrcq.nl/2015/08/31/internet-voor-buitenshuis-maar-hoe-verdien-je-er-geld-mee?]()
 * Fast-moving targets [https://www.youtube.com/watch?v=QFaiiaGQVw0]()
-* [http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html](http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html)
+* [Tweakers Eindhoven en Antwerpen](http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html)
 * [RTL-Z](http://www.rtlz.nl/tv/laatste-videos/van-liempt-live-gratis-things-network-giga-kans-voor-bedrijfsleven)
+* [FD](http://fd.nl/ondernemen/1123301/de-kennis-is-openbaar-wij-verdienen-zelf-niet-aan-het-netwerk)
 * [Bright](http://www.bright.nl/the-things-network-breidt-uit-naar-7-wereldsteden)
 * [Vlaanderen](http://datanews.knack.be/ict/nieuws/vlaanderen-krijgt-4e-open-source-iot-netwerk/article-normal-615263.html)
+* [Tweakers Kickstarter](http://tweakers.net/nieuws/105909/amsterdams-internet-of-thingsnetwerk-biedt-hardware-aan-op-kickstarter.html)
+* [Nu.nl on kickstarter](http://www.nu.nl/gadgets/4149651/amsterdams-internet-of-things-netwerk-start-crowdfundingcampagne.html)
 
 
 ## Other languages
 * GE: [http://www.mobilegeeks.de/news/the-things-network-will-jede-stadt-smart-machen/]()
+* GE: [t3n](http://t3n.de/news/open-source-internet-der-dinge-things-network-650984/)
+* GE: [heise.de](http://heise.de/forum/Make/News-Kommentare/The-Things-Network-Gateway-fuer-200-Euro-funkt-10-Kilometer-weit/forum-248126)
+* FR: [Aruco](https://www.aruco.com/2015/10/the-things-network-lora-kickstarter/)
 
 
 ## Opinions and blog posts
 
 * [http://www.stephensonstrategies.com/share-it-data-and-they-will-come/]()
+* [https://medium.com/@lovehz/the-things-network-the-power-of-open-iot-wans-306da32d7006#.uacp7q4kg](https://medium.com/@lovehz/the-things-network-the-power-of-open-iot-wans-306da32d7006#.uacp7q4kg)

@@ -51,16 +51,22 @@ etc.
 | 02:01:1C:xx      |-|       	   			  |
 | 02:01:1D:xx      |-|       	   			  |
 | 02:01:1E:xx      |-|       	   			  |
-| 02:01:1F:xx      |-|       	   			  |
+| 02:01:1F:xx      |-| MTX    	   			  |
 | 02:01:20:xx      |-| Pixelspark 			  |
 | 02:01:21:xx      |-| Bericht				  |
 | 02:01:22:xx      |-| Telmetria			  |
 | 02:01:23:xx      |-| zeflo     			  |
+| 02:01:24:xx      |-| rubenvleuten			  |
+| 02:01:25:xx      |-| Jertech		     	  |
 | ...		       |-| 						  |
 | 02:01:BA:xx      |-| TTN BA - Ropu		  |
+| ...		       |-| 						  |
+| 02:02:02:xx      |-| Timmer                 |
 | etc.  		   |-| 						  |
 |------------------|-|------------------------|
 | BA:BE:CA:xx      |-| QwikSense              |
 | DE:AD:BE:xx      | | turiphro (honoris causa) |
 | BE:EF:BE:xx      |-| ZB45 Makerspace        |
-
+| BE:EF:BF:xx	   |-| MakerSpaceLeiden       | 
+| 00:00:11:xx	   |-| Reserverd  3rd party   |
+| 00:00:15:xx      |-| Reserverd  3rd party   |
