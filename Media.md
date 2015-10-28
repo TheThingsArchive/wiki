@@ -24,17 +24,21 @@
 * RTL boulevard [http://www.rtlnieuws.nl/boulevard/laatste-videos-boulevard/lora-netwerk-beschikbaar-amsterdam]()
 * NRC-Q [http://www.nrcq.nl/2015/08/31/internet-voor-buitenshuis-maar-hoe-verdien-je-er-geld-mee?]()
 * Fast-moving targets [https://www.youtube.com/watch?v=QFaiiaGQVw0]()
-* [http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html](http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html)
+* [Tweakers Eindhoven en Antwerpen](http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html)
 * [RTL-Z](http://www.rtlz.nl/tv/laatste-videos/van-liempt-live-gratis-things-network-giga-kans-voor-bedrijfsleven)
 * [Bright expansie](http://www.bright.nl/the-things-network-breidt-uit-naar-7-wereldsteden)
   [Bright kickstarter](http://bright.nl/crowdfunding-voor-gratis-draadloos-netwerk-the-things-network-kickstarter-zender-node)
 * [Vlaanderen](http://datanews.knack.be/ict/nieuws/vlaanderen-krijgt-4e-open-source-iot-netwerk/article-normal-615263.html)
 * [Financieel Dagblad](http://fd.nl/ondernemen/1123301/de-kennis-is-openbaar-wij-verdienen-zelf-niet-aan-het-netwerk)
-* [nu.nl kickstarter](http://www.nu.nl/gadgets/4149651/amsterdams-internet-of-things-netwerk-start-crowdfundingcampagne.html)
+* [Tweakers Kickstarter](http://tweakers.net/nieuws/105909/amsterdams-internet-of-thingsnetwerk-biedt-hardware-aan-op-kickstarter.html)
+* [Nu.nl on kickstarter](http://www.nu.nl/gadgets/4149651/amsterdams-internet-of-things-netwerk-start-crowdfundingcampagne.html)
 
 
 ## Other languages
 * GE: [http://www.mobilegeeks.de/news/the-things-network-will-jede-stadt-smart-machen/]()
+* GE: [t3n](http://t3n.de/news/open-source-internet-der-dinge-things-network-650984/)
+* GE: [heise.de](http://heise.de/forum/Make/News-Kommentare/The-Things-Network-Gateway-fuer-200-Euro-funkt-10-Kilometer-weit/forum-248126)
+* FR: [Aruco](https://www.aruco.com/2015/10/the-things-network-lora-kickstarter/)
 
 
 ## Opinions and blog posts
@@ -42,3 +46,5 @@
 * [Atmel blog](http://blog.atmel.com/2015/10/21/building-a-crowdsourced-decentralized-iot-network-around-the-world/)
 * [FreeKnowledge blog](http://freeknowledge.eu/blogs/things-network-4x-commons-internet-of-things)
 * [Stephenson Strategies](http://www.stephensonstrategies.com/share-it-data-and-they-will-come/)
+* [http://www.stephensonstrategies.com/share-it-data-and-they-will-come/]()
+* [https://medium.com/@lovehz/the-things-network-the-power-of-open-iot-wans-306da32d7006#.uacp7q4kg](https://medium.com/@lovehz/the-things-network-the-power-of-open-iot-wans-306da32d7006#.uacp7q4kg)
