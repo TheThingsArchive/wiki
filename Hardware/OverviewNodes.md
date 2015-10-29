@@ -33,7 +33,8 @@ Get them:
 
 * Tatu: [http://shop.sodaq.com/en/sodaq-tatu.html](http://shop.sodaq.com/en/sodaq-tatu.html)
   OR Mbili (bigger): [http://shop.sodaq.com/en/sodaq-mbili.html](http://shop.sodaq.com/en/sodaq-mbili.html)
-* LoRa bee: [http://shop.sodaq.com/en/lorabee.html](http://shop.sodaq.com/en/lorabee.html)
+* LoRa bee (based on EMB-lr1272): [http://shop.sodaq.com/en/lorabee.html](http://shop.sodaq.com/en/lorabee.html)
+  OR LoRa bee based on RN283: [http://shop.sodaq.com/en/lorabee-rn2483.html](http://shop.sodaq.com/en/lorabee-rn2483.html)
 
 Program them:
 
@@ -42,6 +43,9 @@ Program them:
    Ignore the part on bootloaders, just extract the zip within the Arduino hardware folder and restart the IDE.
 3. Install dependencies: [https://github.com/bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 4. Clone our demo repository: [https://github.com/TheThingsNetwork/loraduino](https://github.com/TheThingsNetwork/loraduino)
+   Note: if you have the newer LoraBee based on the RN2483, you probably want to start from this library:
+   [https://github.com/SodaqMoja/Sodaq_RN2483](https://github.com/SodaqMoja/Sodaq_RN2483).
+   Please let us know if you made a nice example application repository.
 5. Add sensors, add custom logic in the .ino Arduino sketch file:
     * uncomment the right `DEVICE_` line, optionally change other define statements on top
     * you may want to change the `measure()` and `send_measurement()` functions for your particular sensors
