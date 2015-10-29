@@ -15,59 +15,59 @@ NwkID 1:
 
 02:02:00:xx to 00:02:FF:xx 2nd 256 blocks
 
-etc.
 
 ## Registered Addresses
-| Address block    |-| Who claimed it?        |
-|------------------|-|------------------------|
-| 02:01:00:xx      |-| turiphro 		      |
-| 02:01:01:xx      |-| telkamp	   			  |
-| 02:01:02:xx      |-| chrishouwing	  		  |
-| 02:01:03:xx      |-| gnpwdr     		      |
-| 02:01:04:xx      |-| creatinghere      	  |
-| 02:01:05:xx      |-| Ideetron b.v.		  |
-| 02:01:06:xx      |-| hoeks.ma     		  |
-| 02:01:07:xx      |-| Reynholm Industries	  |
-| 02:01:08:xx      |-| ivowind	              |
-| 02:01:09:xx      |-| edzob   	   			  |
-| 02:01:0A:xx      |-| Sogeti Netherlands	  |
-| 02:01:0B:xx      |-| fvdnieuwboer			  |
-| 02:01:0C:xx      |-| jeroenrook  			  |
-| 02:01:0D:xx      |-| ksk   	   			  |
-| 02:01:0E:xx      |-| roland_vs      	      |
-| 02:01:0F:xx      |-| TimoEDHV   			  |
-| 02:01:10:xx      |-| Fritek373   			  |
-| 02:01:11:xx      |-| OpenTRV      	   	  |
-| 02:01:12:xx      |-| ZB45    	   			  |
-| 02:01:13:xx      |-| jan@baggen.com         |
-| 02:01:14:xx      |-| Makapi  	   			  |
-| 02:01:15:xx      |-| WWolkers	   			  |
-| 02:01:16:xx      |-| InToto.nl      		  |
-| 02:01:17:xx      |-|       	   			  |
-| 02:01:18:xx      |-| Senwies 	   			  |
-| 02:01:19:xx      |-|       	   			  |
-| 02:01:1A:xx      |-|       	   			  |
-| 02:01:1B:xx      |-|       	   			  |
-| 02:01:1C:xx      |-|       	   			  |
-| 02:01:1D:xx      |-|       	   			  |
-| 02:01:1E:xx      |-|       	   			  |
-| 02:01:1F:xx      |-| MTX    	   			  |
-| 02:01:20:xx      |-| Pixelspark 			  |
-| 02:01:21:xx      |-| Bericht				  |
-| 02:01:22:xx      |-| Telmetria			  |
-| 02:01:23:xx      |-| zeflo     			  |
-| 02:01:24:xx      |-| rubenvleuten			  |
-| 02:01:25:xx      |-| Jertech		     	  |
-| 02:01:26:xx      |-| Alflex Technologies B.V.|
-| ...		       |-| 						  |
-| 02:01:BA:xx      |-| TTN BA - Ropu		  |
-| ...		       |-| 						  |
-| 02:02:02:xx      |-| Timmer                 |
-| etc.  		   |-| 						  |
-|------------------|-|------------------------|
-| BA:BE:CA:xx      |-| QwikSense              |
-| DE:AD:BE:xx      | | turiphro (honoris causa) |
-| BE:EF:BE:xx      |-| ZB45 Makerspace        |
-| BE:EF:BF:xx	   |-| MakerSpaceLeiden       | 
-| 00:00:11:xx	   |-| Reserverd  3rd party   |
-| 00:00:15:xx      |-| Reserverd  3rd party   |
+| Address block &nbsp; &nbsp; | Claimed by                |
+|-----------------------------|---------------------------|
+| 02:01:00:xx                 | turiphro                  |
+| 02:01:01:xx                 | telkamp                   |
+| 02:01:02:xx                 | chrishouwing              |
+| 02:01:03:xx                 | gnpwdr                    |
+| 02:01:04:xx                 | creatinghere              |
+| 02:01:05:xx                 | Ideetron b.v.             |
+| 02:01:06:xx                 | hoeks.ma                  |
+| 02:01:07:xx                 | Reynholm Industries       |
+| 02:01:08:xx                 | ivowind                   |
+| 02:01:09:xx                 | edzob                     |
+| 02:01:0A:xx                 | Sogeti Netherlands        |
+| 02:01:0B:xx                 | fvdnieuwboer              |
+| 02:01:0C:xx                 | jeroenrook                |
+| 02:01:0D:xx                 | ksk                       |
+| 02:01:0E:xx                 | roland\_vs                |
+| 02:01:0F:xx                 | TimoEDHV                  |
+| 02:01:10:xx                 | Fritek373                 |
+| 02:01:11:xx                 | OpenTRV                   |
+| 02:01:12:xx                 | ZB45                      |
+| 02:01:13:xx                 | jan@baggen.com            |
+| 02:01:14:xx                 | Makapi                    |
+| 02:01:15:xx                 | WWolkers                  |
+| 02:01:16:xx                 | InToto.nl                 |
+| 02:01:17:xx                 |                           |
+| 02:01:18:xx                 | Senwies                   |
+| 02:01:19:xx                 |                           |
+| 02:01:1A:xx                 |                           |
+| 02:01:1B:xx                 |                           |
+| 02:01:1C:xx                 |                           |
+| 02:01:1D:xx                 |                           |
+| 02:01:1E:xx                 |                           |
+| 02:01:1F:xx                 | MTX                       |
+| 02:01:20:xx                 | Pixelspark                |
+| 02:01:21:xx                 | Bericht                   |
+| 02:01:22:xx                 | Telmetria                 |
+| 02:01:23:xx                 | zeflo                     |
+| 02:01:24:xx                 | rubenvleuten              |
+| 02:01:25:xx                 | Jertech                   |
+| 02:01:26:xx                 | Alflex Technologies B.V.  |
+| ...                         |                           |
+| 02:01:BA:xx                 | TTN BA - Ropu             |
+| ...                         |                           |
+| 02:02:02:xx                 | Timmer                    |
+| ...                         |                           |
+| A2:A2:A2:xx                 | Ordina Smart Technologies |
+| BA:BE:CA:xx                 | QwikSense                 |
+| DE:AD:BE:xx                 | turiphro (honoris causa)  |
+| BE:EF:BE:xx                 | ZB45 Makerspace           |
+| BE:EF:BF:xx                 | MakerSpaceLeiden          |
+| 00:00:11:xx                 | Reserverd  3rd party      |
+| 00:00:15:xx                 | Reserverd  3rd party      |
+
