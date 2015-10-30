@@ -40,7 +40,7 @@ For more details on the architecture see [[Architecture]].
 To get started connecting to the The Things Network,
 read [[Getting-organized]] and our technical **[[GettingStarted]]** manual.
 
-Be sure to check out the [Examples](software/examples) pages.
+Be sure to check out the [Examples](software/examples) pages and take an look on the [forum](http://forum.thethingsnetwork.org).
 
 If you want to help building the network itself from a
 non-technical perspective, get in [[contact]]!
