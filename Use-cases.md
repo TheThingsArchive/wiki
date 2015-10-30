@@ -4,6 +4,11 @@ A lot of teams are working on connecting their cities and areas to The Things Ne
 * Monitoring of boilers that provide warmth in houses
 * Gathering information from the crop fields to decrease manual labour up to 50%
 * Helping households save water in cities that are having water shortage
+* [Real time information on opening hours of your favorite shop](http://forum.thethingsnetwork.org/t/opening-hours-tracking-thing/420)
+* [Wave pressure monitoring](http://forum.thethingsnetwork.org/t/wave-pressure-monitoring/434)
+* [Smart water consumption measurement](http://forum.thethingsnetwork.org/t/smart-water-measurement/160)
+* [Pet finder](http://forum.thethingsnetwork.org/t/is-anyone-already-working-on-the-petfinder-use-case/387)
+
 
 
 # HoosjeBootje
