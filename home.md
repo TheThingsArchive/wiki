@@ -5,6 +5,18 @@ that's free to use and owned by its community. You can
 read more about us on http://thethingsnetwork.org and in
 our [manifest](https://github.com/TheThingsNetwork/Manifest).
 
+## Quick Index
+Non-tech:
+
+  * [[Getting-organized]]
+  * [Media attention](Media)
+
+Tech:
+
+  * [[GettingStarted]]
+  * [Program your node](Hardware/OverviewNodes)
+  * [Gateways to buy](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways)
+  * [Applications: Software overview + API + SDK](http://thethingsnetwork.org/wiki/Software/Overview)
 
 ## Architecture
 The Things Network uses the **LoRa(WAN)** technology for wireless
@@ -26,7 +38,7 @@ For more details on the architecture see [[Architecture]].
 
 ## Getting Started
 To get started connecting to the The Things Network,
-read [[Getting-organized]] and our technical [[GettingStarted]] manual.
+read [[Getting-organized]] and our technical **[[GettingStarted]]** manual.
 
 Be sure to check out the [Examples](software/examples) pages.
 
