@@ -59,6 +59,7 @@ NwkID 1:
 | 02:01:25:xx                 | Jertech                   |
 | 02:01:26:xx                 | Alflex Technologies B.V.  |
 | 02:01:27:xx                 | Ewoud                     |
+| 02:01:28:xx                 | WoCT.net                  |
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...                         |                           |
