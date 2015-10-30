@@ -3,6 +3,8 @@
 _Diagram made with [draw.io](https://draw.io),
 [original file](/wiki/Architecture/attachment/6/TTN%20Diagram.xml)._
 
+See also [this discussion on the forum](http://forum.thethingsnetwork.org/t/request-for-comments-network-architecture/287).
+
 ## Network elements
 
 The full network has several elements.
