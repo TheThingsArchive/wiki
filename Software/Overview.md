@@ -11,6 +11,9 @@ if you have questions please get in [contact](Contact)
 For an overview of the current network, see
 [[CurrentNetwork]]
 
+For an overview of the (upcoming) network architecture, see
+[[Architecture]]
+
 ## Description of distributed network setup
 As we're planning it now, the gateways (open-source packet handler) will send packets to one or multiple routers (open source router software) routing to one or multiple application servers (open source or closed software). Any (set of) nodes can be linked to any set of application servers, and the routers will perform the mapping. We're bootstrapping this mapping with DNS, but eventually want to run something more distributed there as well.
 
