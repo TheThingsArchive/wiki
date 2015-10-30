@@ -4,7 +4,7 @@ Here's an overview of the current network nodes and gateways.
 As it's made manually, it's most likely out to date. We'll work on some automated google maps soon.
 
 
-## Gateways
+## Manual Gateways list
 | Gateway ID | Place | State |
 |------------|-------|-------|
 | 0000024B080600e8 | A-lab | Accessible trough Wireless Network > 10.10.104.254 |
