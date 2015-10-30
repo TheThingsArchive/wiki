@@ -14,8 +14,8 @@ Non-tech:
 Tech:
 
   * [[GettingStarted]]
-  * [Program your node](Hardware/OverviewNodes)
   * [Gateways to buy](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways)
+  * [Program your node](Hardware/OverviewNodes)
   * [Applications: Software overview + API + SDK](http://thethingsnetwork.org/wiki/Software/Overview)
 
 ## Architecture
