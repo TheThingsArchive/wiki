@@ -8,6 +8,8 @@ A lot of teams are working on connecting their cities and areas to The Things Ne
 * [Wave pressure monitoring](http://forum.thethingsnetwork.org/t/wave-pressure-monitoring/434)
 * [Smart water consumption measurement](http://forum.thethingsnetwork.org/t/smart-water-measurement/160)
 * [Pet finder](http://forum.thethingsnetwork.org/t/is-anyone-already-working-on-the-petfinder-use-case/387)
+* Weather stations in rural areas
+* Tracking equipment on large (construction) sites
 
 
 
