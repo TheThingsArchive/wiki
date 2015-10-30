@@ -11,19 +11,19 @@
 
 ## Dutch media
 
-* [http://tweakers.net/nieuws/104851/ondernemer-bouwt-lora-netwerk-voor-internet-of-things-in-amsterdam.html]()
-* [http://www.bright.nl/eerste-gratis-en-open-internet-things-netwerk-van-start-amsterdam]()
-* [http://www.sprout.nl/artikel/gratis-iot-net-020-mot-rond-marktplaats-voor-juristen]()
-* [http://www.rtlnieuws.nl/economie/home/amsterdam-krijgt-gratis-netwerk-voor-apparaten]()
-* [http://www.bnr.nl/radio/bnr-zakendoen-met/349118-1508/20-augustus-kennisland-brownies-downies-en-ruud-sondag]() @ 22:00
-* [http://www.nrcq.nl/2015/08/25/the-internet-of-things-maar-dan-voor-buitenshuis]() + physical nrc next
+* [http://tweakers.net/nieuws/104851/ondernemer-bouwt-lora-netwerk-voor-internet-of-things-in-amsterdam.html](http://tweakers.net/nieuws/104851/ondernemer-bouwt-lora-netwerk-voor-internet-of-things-in-amsterdam.html)
+* [http://www.bright.nl/eerste-gratis-en-open-internet-things-netwerk-van-start-amsterdam](http://www.bright.nl/eerste-gratis-en-open-internet-things-netwerk-van-start-amsterdam)
+* [http://www.sprout.nl/artikel/gratis-iot-net-020-mot-rond-marktplaats-voor-juristen](http://www.sprout.nl/artikel/gratis-iot-net-020-mot-rond-marktplaats-voor-juristen)
+* [http://www.rtlnieuws.nl/economie/home/amsterdam-krijgt-gratis-netwerk-voor-apparaten](http://www.rtlnieuws.nl/economie/home/amsterdam-krijgt-gratis-netwerk-voor-apparaten)
+* [http://www.bnr.nl/radio/bnr-zakendoen-met/349118-1508/20-augustus-kennisland-brownies-downies-en-ruud-sondag](http://www.bnr.nl/radio/bnr-zakendoen-met/349118-1508/20-augustus-kennisland-brownies-downies-en-ruud-sondag) @ 22:00
+* [http://www.nrcq.nl/2015/08/25/the-internet-of-things-maar-dan-voor-buitenshuis](http://www.nrcq.nl/2015/08/25/the-internet-of-things-maar-dan-voor-buitenshuis) + physical nrc next
 * physical Telegraaf 2015-08-22
-* [http://www.parool.nl/parool/nl/38/MEDIA/article/detail/4126994/2015/08/22/Gratis-draadloos-internet-voor-kleine-apparaten-in-heel-Amsterdam.dhtml]()
-* [http://www.radioveronica.nl/gemist/highlights/weekendrick/wienke-giezeman-heeft-een-bijzondere-uitvinding-gelanceerd-21-08-2015]()
-* [http://binnenland.eenvandaag.nl/radio-items/61471/amsterdam_heeft_gratis_draadloos_netwerk_voor_dingen]()
-* RTL boulevard [http://www.rtlnieuws.nl/boulevard/laatste-videos-boulevard/lora-netwerk-beschikbaar-amsterdam]()
-* NRC-Q [http://www.nrcq.nl/2015/08/31/internet-voor-buitenshuis-maar-hoe-verdien-je-er-geld-mee?]()
-* Fast-moving targets [https://www.youtube.com/watch?v=QFaiiaGQVw0]()
+* [http://www.parool.nl/parool/nl/38/MEDIA/article/detail/4126994/2015/08/22/Gratis-draadloos-internet-voor-kleine-apparaten-in-heel-Amsterdam.dhtml](http://www.parool.nl/parool/nl/38/MEDIA/article/detail/4126994/2015/08/22/Gratis-draadloos-internet-voor-kleine-apparaten-in-heel-Amsterdam.dhtml)
+* [http://www.radioveronica.nl/gemist/highlights/weekendrick/wienke-giezeman-heeft-een-bijzondere-uitvinding-gelanceerd-21-08-2015](http://www.radioveronica.nl/gemist/highlights/weekendrick/wienke-giezeman-heeft-een-bijzondere-uitvinding-gelanceerd-21-08-2015)
+* [http://binnenland.eenvandaag.nl/radio-items/61471/amsterdam_heeft_gratis_draadloos_netwerk_voor_dingen](http://binnenland.eenvandaag.nl/radio-items/61471/amsterdam_heeft_gratis_draadloos_netwerk_voor_dingen)
+* RTL boulevard [http://www.rtlnieuws.nl/boulevard/laatste-videos-boulevard/lora-netwerk-beschikbaar-amsterdam](http://www.rtlnieuws.nl/boulevard/laatste-videos-boulevard/lora-netwerk-beschikbaar-amsterdam)
+* NRC-Q [http://www.nrcq.nl/2015/08/31/internet-voor-buitenshuis-maar-hoe-verdien-je-er-geld-mee?](http://www.nrcq.nl/2015/08/31/internet-voor-buitenshuis-maar-hoe-verdien-je-er-geld-mee?)
+* Fast-moving targets [https://www.youtube.com/watch?v=QFaiiaGQVw0](https://www.youtube.com/watch?v=QFaiiaGQVw0)
 * [Tweakers Eindhoven en Antwerpen](http://tweakers.net/nieuws/105569/amsterdams-internet-of-things-netwerk-breidt-uit-naar-eindhoven-en-antwerpen.html)
 * [RTL-Z](http://www.rtlz.nl/tv/laatste-videos/van-liempt-live-gratis-things-network-giga-kans-voor-bedrijfsleven)
 * [Bright expansie](http://www.bright.nl/the-things-network-breidt-uit-naar-7-wereldsteden)
@@ -35,7 +35,7 @@
 
 
 ## Other languages
-* GE: [http://www.mobilegeeks.de/news/the-things-network-will-jede-stadt-smart-machen/]()
+* GE: [http://www.mobilegeeks.de/news/the-things-network-will-jede-stadt-smart-machen/](http://www.mobilegeeks.de/news/the-things-network-will-jede-stadt-smart-machen/)
 * GE: [t3n](http://t3n.de/news/open-source-internet-der-dinge-things-network-650984/)
 * GE: [heise.de](http://heise.de/forum/Make/News-Kommentare/The-Things-Network-Gateway-fuer-200-Euro-funkt-10-Kilometer-weit/forum-248126)
 * FR: [Aruco](https://www.aruco.com/2015/10/the-things-network-lora-kickstarter/)
@@ -46,5 +46,5 @@
 * [Atmel blog](http://blog.atmel.com/2015/10/21/building-a-crowdsourced-decentralized-iot-network-around-the-world/)
 * [FreeKnowledge blog](http://freeknowledge.eu/blogs/things-network-4x-commons-internet-of-things)
 * [Stephenson Strategies](http://www.stephensonstrategies.com/share-it-data-and-they-will-come/)
-* [http://www.stephensonstrategies.com/share-it-data-and-they-will-come/]()
+* [http://www.stephensonstrategies.com/share-it-data-and-they-will-come/](http://www.stephensonstrategies.com/share-it-data-and-they-will-come/)
 * [https://medium.com/@lovehz/the-things-network-the-power-of-open-iot-wans-306da32d7006#.uacp7q4kg](https://medium.com/@lovehz/the-things-network-the-power-of-open-iot-wans-306da32d7006#.uacp7q4kg)
