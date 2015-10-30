@@ -64,7 +64,7 @@ the online manual for further information.
 
 ## Other resources
 We love this comparison matrix from Loriot:
-https://www.loriot.io/lora-gateways.html
+[https://www.loriot.io/lora-gateways.html](https://www.loriot.io/lora-gateways.html)
 
 ## Do it yourself
 Here's other people building their own gateway:
