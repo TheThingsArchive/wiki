@@ -60,10 +60,15 @@ NwkID 1:
 | 02:01:26:xx                 | Alflex Technologies B.V.  |
 | 02:01:27:xx                 | Ewoud                     |
 | 02:01:28:xx                 | WoCT.net                  |
+| 02:01:28:xx                 | thingkit.ee               |
+| 02:01:29:xx                 | The-Box Development       |
+| 02:01:30:xx                 | Anas                      |
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...                         |                           |
 | 02:02:02:xx                 | Timmer                    |
+| ...                         |                           |
+| 02:02:BA:xx                 | TTN BA 2 - Ropu           |
 | ...                         |                           |
 | A2:A2:A2:xx                 | Ordina Smart Technologies |
 | BA:BE:CA:xx                 | QwikSense                 |
@@ -72,4 +77,16 @@ NwkID 1:
 | BE:EF:BF:xx                 | MakerSpaceLeiden          |
 | 00:00:11:xx                 | Reserverd  3rd party      |
 | 00:00:15:xx                 | Reserverd  3rd party      |
-
+| 03:xx:xx:xx                 | Reserverd  Operators      |
+| 04:xx:xx:xx                 | Reserverd  Operators      |
+| 05:xx:xx:xx                 | Reserverd  Operators      |
+| 06:xx:xx:xx                 | Reserverd  Operators      |
+| 07:xx:xx:xx                 | Reserverd  Operators      |
+| 08:xx:xx:xx                 | Reserverd  Operators      |
+| 09:xx:xx:xx                 | Reserverd  Operators      |
+| 10:xx:xx:xx                 | Reserverd  Operators      |
+| 11:xx:xx:xx                 | Reserverd  Operators      |
+| 12:xx:xx:xx                 | Reserverd  Operators      |
+| 13:xx:xx:xx                 | Reserverd  Operators      |
+| 14:xx:xx:xx                 | Reserverd  Operators      |
+| 15:xx:xx:xx                 | Reserverd  Operators      |
