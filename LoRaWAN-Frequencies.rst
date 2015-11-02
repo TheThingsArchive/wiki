@@ -18,7 +18,7 @@ LoRaWAN Default Channels:
 
 868.30 MHz (g1)
 
-868.30 MHz (g1)
+868.50 MHz (g1)
 
 Those channels are the minimum set that all network gateways should
 always be listening on.
