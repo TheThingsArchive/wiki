@@ -93,7 +93,7 @@ Upcoming: distributed routing, app registration API, publication subscriptions,
 hosted Node-RED, example application dashboard; all available as open-source
 software to run on your own server.
 
-Bare with us while we're finalising the first version! Can't wait? Get in [[Contact]].
+Bear with us while we're finalising the first version! Can't wait? Get in [[Contact]].
 
 # Android SDK
 
