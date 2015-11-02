@@ -63,7 +63,7 @@ NwkID 1:
 | 02:01:28:xx                 | thingkit.ee               |
 | 02:01:29:xx                 | The-Box Development       |
 | 02:01:2A:xx                 | Thing Innovations         |
-| 02:01:2B:xx                 |                           |
+| 02:01:2B:xx                 | RComputerServices         |
 | 02:01:2C:xx                 |                           |
 | 02:01:2D:xx                 |                           |
 | 02:01:2E:xx                 |                           |
