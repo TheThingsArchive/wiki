@@ -66,7 +66,7 @@ NwkID 1:
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...                         |                           |
-| 02:02:02:xx                 | Timmer                    |
+| 02:02:02:xx                 | DOH                       |
 | ...                         |                           |
 | 02:02:BA:xx                 | TTN BA 2 - Ropu           |
 | ...                         |                           |
