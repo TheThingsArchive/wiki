@@ -63,6 +63,7 @@ NwkID 1:
 | 02:01:28:xx                 | thingkit.ee               |
 | 02:01:29:xx                 | The-Box Development       |
 | 02:01:30:xx                 | Anas                      |
+| 02:01:31:XX				  | THINGS IO			      |		
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...                         |                           |
