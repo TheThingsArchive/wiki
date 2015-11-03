@@ -8,5 +8,5 @@ _**Patch is required!!**_
 	# Update /etc/resolv.conf to get dns facilities
 	GPSDNS=yes
 	# PAP authentication
-	GPRSUSER=
-	GPRSPASSWORD=
+	GPRSUSER=internet
+	GPRSPASSWORD=internet
