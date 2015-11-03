@@ -17,6 +17,8 @@ As it's made manually, it's most likely out to date. We'll work on some automate
 | 0000024B08060112 | Rockstart | Accessible 10.10.253.254 |
 | 0000024b0806021d | Disrupted | |
 | 1DEE0B765AB9BE4D | Telmetria | Testing setup |
+| 0000024B0806022f | KPMG | On 3G - Static |
+| F0CC0B1234567890 | @Fokko | Test setup |
 
 
 ##Monitoring
