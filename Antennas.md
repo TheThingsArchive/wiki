@@ -43,4 +43,6 @@ Alternatives:
 
 [Lightning protection](http://www.wimoodshop.nl/product/82/Bliksembeveiliging-tot-2,4-GHz)
 
+### HUBER+SUHNER 
 
+[Lightning protection](http://www.hubersuhner.com/en/lightningprotection)
