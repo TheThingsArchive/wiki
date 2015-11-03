@@ -1,5 +1,5 @@
 ###KPN:
-_**Patch is required!!**_
+
 
     # Selector operator APN
 	GPRSAPN=portalmmm.nl
