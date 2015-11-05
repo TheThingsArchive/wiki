@@ -79,6 +79,7 @@ NwkID 1:
 | 02:02:BA:xx                 | TTN BA 2 - Ropu           |
 | ...                         |                           |
 | 5A:48:01:xx                 | TTN ZH                    |
+| ...                         |                           |
 | A2:A2:A2:xx                 | Ordina Smart Technologies |
 | BA:BE:CA:xx                 | QwikSense                 |
 | DE:AD:BE:xx                 | turiphro (honoris causa)  |
