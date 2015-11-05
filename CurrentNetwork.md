@@ -19,6 +19,7 @@ As it's made manually, it's most likely out to date. We'll work on some automate
 | 1DEE0B765AB9BE4D | Telmetria | Testing setup |
 | 0000024B0806022f | KPMG | On 3G - Static |
 | F0CC0B1234567890 | @Fokko | Test setup |
+| 1DEE169AB340BAC2 | Sogeti | Test for IoT Battle
 
 
 ##Monitoring
