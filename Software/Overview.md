@@ -95,7 +95,7 @@ software to run on your own server.
 
 Bear with us while we're finalising the first version! Can't wait? Get in [[Contact]].
 
-# Android SDK
+### Android SDK
 
 Ready to develop Android apps using data from The Things Network? Grab the Android SDK and you're ready to go. Find it on GitHub (below).
 
