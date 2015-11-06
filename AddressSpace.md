@@ -71,6 +71,7 @@ NwkID 1:
 | 02:01:30:xx                 | Anas                      |
 | 02:01:31:xx				  | THINGS IO			      |		
 | 02:01:32:xx				  | Steven                    |
+| 02:01:33:xx				  | Edje	                  |
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...                         |                           |
