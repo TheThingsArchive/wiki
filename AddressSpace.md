@@ -15,6 +15,7 @@ NwkID 1:
 
 02:02:00:xx to 00:02:FF:xx 2nd 256 blocks
 
+## Broadcasting
 BC:BC:BC:xx  General Broadcast Channel (popcorn)
 
 
