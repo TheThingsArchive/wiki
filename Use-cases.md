@@ -10,6 +10,7 @@ A lot of teams are working on connecting their cities and areas to The Things Ne
 * [Pet finder](http://forum.thethingsnetwork.org/t/is-anyone-already-working-on-the-petfinder-use-case/387)
 * Weather stations in rural areas
 * Tracking equipment on large (construction) sites
+* [HLC (hoeks.ma Location)](http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484/10), locate your position with a ESP8266 + HopeRFM
 
 
 
