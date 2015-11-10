@@ -17,7 +17,7 @@ NwkID 1:
 
 ## Broadcasting
   
-| BC:BC:BC:xx                 | General Broadcast Channel (popcorn)   |
+BC:BC:BC:xx                 General Broadcast Channel (by popcorn)
 
 
 ## Registered Addresses
