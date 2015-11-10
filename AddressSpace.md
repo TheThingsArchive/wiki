@@ -15,6 +15,8 @@ NwkID 1:
 
 02:02:00:xx to 00:02:FF:xx 2nd 256 blocks
 
+BC:BC:BC:xx  General Broadcast Channel (popcorn)
+
 
 ## Registered Addresses
 | Address block &nbsp; &nbsp; | Claimed by                |
@@ -87,7 +89,7 @@ NwkID 1:
 | DE:AD:BE:xx                 | turiphro (honoris causa)  |
 | BE:EF:BE:xx                 | ZB45 Makerspace           |
 | BE:EF:BF:xx                 | MakerSpaceLeiden          |
-| BC:BC:BC:xx                 | General Broadcast Channel (popcorn)
+
 |
 | 00:00:11:xx                 | Reserverd  3rd party      |
 | 00:00:15:xx                 | Reserverd  3rd party      |
