@@ -17,4 +17,5 @@ As soon as you have set up your team and you have decided which gateway you want
 
 # Step 5: Choose a platform
 Utrecht is on a [Part-Up](https://part-up.com/partups/the-things-network-utrecht-BbN8MTzD2m64MahrS)
+
 Please fill in your platform ;)
