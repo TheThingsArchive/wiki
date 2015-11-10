@@ -87,7 +87,7 @@ NwkID 1:
 | DE:AD:BE:xx                 | turiphro (honoris causa)  |
 | BE:EF:BE:xx                 | ZB45 Makerspace           |
 | BE:EF:BF:xx                 | MakerSpaceLeiden          |
-| BC:BC:BC:xx                 | General Broadcast Channel |
+| BC:BC:BC:xx                 | General Broadcast Channel (popcorn)
 |
 | 00:00:11:xx                 | Reserverd  3rd party      |
 | 00:00:15:xx                 | Reserverd  3rd party      |
