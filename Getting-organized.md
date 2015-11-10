@@ -16,6 +16,6 @@ Without connected nodes your gateway gets lonely. On the forum there is an [exte
 As soon as you have set up your team and you have decided which gateway you want to use, contact us for a [campaign page](Campaign-page). Time to find people and companies that want to use TTN or sponsor other gateways.
 
 # Step 5: Choose a platform
-Utrecht is on a [Part-Up](https://part-up.com/partups/the-things-network-utrecht-BbN8MTzD2m64MahrS)
+Utrecht is on a [Part-Up](https://part-up.com/partups/the-things-network-utrecht-BbN8MTzD2m64MahrS). I think you can fork it, but dont know how...
 
 Please fill in your platform ;)
