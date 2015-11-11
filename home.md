@@ -57,4 +57,7 @@ coming soon..
 
 [Media about us](Media)
 
+[Current network](CurrentNetwork)
+
 [Contact us](contact)
+
