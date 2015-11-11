@@ -16,6 +16,7 @@ what to buy, send us an [email](Contact).
 | Kerlink loramote  | | SX1272 | | yes       || IO          || 150,-        || professional; has GPS      |
 | Embit EMB-LR1272  | | SX1272 | | yes       ||             || ?            ||                            |
 | Froggyfactory     | | SX127X | | yes       || Uno         || ?            || is it LoraWAN?             |
+| RFM95W + ESP8266  | | SX1276 | | esp8266   || DIY         || 10,-         || Arduino + HLC: http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
 
 LoRa devices are roughly divided into two categories:
 
