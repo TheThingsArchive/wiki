@@ -28,6 +28,8 @@ Some devices are somewhat hybrid - they contain the transceiver and a microcontr
 ### DIY EPS8266 + Hopermf -> $10
 http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
 
+Work in process
+
 
 ### SODAQ Tatu with LoRaBee
 The SODAQ Tatu is based on the ATmega1284P and Arduino compatible. It does not do LoRaWAN by itself, but it contains a "Bee socket" and can be combined with the LoRaBee, which is a full-stack LoRaWAN board (based on the Embit EMB-LR1272) in Bee form factor.
