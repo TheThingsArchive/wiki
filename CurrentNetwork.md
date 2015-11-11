@@ -5,22 +5,22 @@ As it's made manually, it's most likely out to date. We'll work on some automate
 
 
 ## Manual Gateways list
-| Gateway ID | Place | State |
-|------------|-------|-------|
-| 0000024B080600e8 | A-lab | Accessible trough Wireless Network > 10.10.104.254 |
-| 0000024B0806036a | Boven de Bali | Static |
-| 0000024B08060356 | Meet Berlage | _**Currently down** - broken power adapter |
-| 0000024B0806019c | Glimworm | Running | Accessible trough SSH > 192.168.2.18 |
-| 0000024B08060126 | The Next Web | Static |
-| 0000024B08060247 | Deloitte | On 3G - Static |
-| 0000024B08060030 | Waag Society | Always accessible via Henk |
-| 0000024B08060112 | Rockstart | Accessible 10.10.253.254 |
-| 0000024b0806021d | Disrupted | |
-| 1DEE0B765AB9BE4D | Telmetria | Testing setup |
-| 0000024B0806022f | KPMG | On 3G - Static |
-| F0CC0B1234567890 | @Fokko | Test setup |
-| 1DEE169AB340BAC2 | Sogeti | Test for IoT Battle
-| 0000024b08060221 | Port of Amsterdam | |
+| Place | Gateway ID        |
+|-------|------------------- |
+| A-lab | 0000024B080600e8 |
+| Boven de Bali |  0000024B0806036a |
+| Meet Berlage |  0000024B08060356 |
+| Glimworm | 0000024B0806019c |
+| The Next Web |  0000024B08060126 |
+| Deloitte |  0000024B08060247 |
+| Waag Society |  0000024B08060030 |
+| Rockstart |  0000024B08060112 |
+| Disrupted |  0000024b0806021d |
+| Telmetria |  1DEE0B765AB9BE4D |
+| KPMG |  0000024B0806022f |
+| @Fokko |  F0CC0B1234567890 |
+| Sogeti |  1DEE169AB340BAC2 |
+| Port of Amsterdam      | 0000024b08060221 |
 
 
 ##Monitoring
