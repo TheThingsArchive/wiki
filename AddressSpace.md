@@ -77,7 +77,8 @@ BC:BC:BC:xx                 General Broadcast Channel (by popcorn)
 | 02:01:32:xx				  | Steven                    |
 | 02:01:33:xx				  | Edje	                  |
 | 02:01:34:xx				  | Scapeler                  |
-| ...                         |                           |
+| 02:01:35:xx                 | RF Proximity              |
+|  ...                        |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...                         |                           |
 | 02:02:02:xx                 | Timmer                    |
