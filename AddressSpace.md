@@ -3,6 +3,9 @@ of nodes, let's do it informally here by hand. To
 claim your address space, simply add a 255 nodes block
 below (please add consecutively and only claim 255 addresses at a time).
 
+NwkID 1 is used until TTN gets an official address space allocation. Please _only register 
+addresses on this page that fall inside NwkID 1_, that means starting with '02:'. 
+
 **Blocks**
 
 NwkID 1:
