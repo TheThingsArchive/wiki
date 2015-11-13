@@ -17,7 +17,9 @@ As soon as you have set up your team and you have decided which gateway you want
 
 # Step 5: Choose a platform
 Part-up's
+
 [The Things Network](https://part-up.com/thethingsnetwork)
+
 You can do a "fork". I don't know how. .... Please fill in if you know .....
 
 [Utrecht](https://part-up.com/partups/the-things-network-utrecht-BbN8MTzD2m64MahrS)
