@@ -16,12 +16,11 @@ Without connected nodes your gateway gets lonely. On the forum there is an [exte
 As soon as you have set up your team and you have decided which gateway you want to use, contact us for a [campaign page](Campaign-page). Time to find people and companies that want to use TTN or sponsor other gateways.
 
 # Step 5: Choose a platform
-Part-up's
+
+# Part-up's
 
 [The Things Network](https://part-up.com/thethingsnetwork)
-
 You can do a "fork". I don't know how. .... Please fill in if you know .....
 
 [Utrecht](https://part-up.com/partups/the-things-network-utrecht-BbN8MTzD2m64MahrS)
-
 [Arnhem-Nijmegen](https://part-up.com/partups/crowdsourced-ttn-voor-arnhem-nijmegen-greater-100-gelderland-YH3jE536NXekXE46E)
