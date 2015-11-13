@@ -23,4 +23,5 @@ As soon as you have set up your team and you have decided which gateway you want
 You can do a "fork". I don't know how. .... Please fill in if you know .....
 
 [Utrecht](https://part-up.com/partups/the-things-network-utrecht-BbN8MTzD2m64MahrS)
+
 [Arnhem-Nijmegen](https://part-up.com/partups/crowdsourced-ttn-voor-arnhem-nijmegen-greater-100-gelderland-YH3jE536NXekXE46E)
