@@ -150,7 +150,9 @@ The default firmware as shipped from the factory has an AT command interfacethat
 
 For advanced users, the firmware can be replaced using the [mbed programming environment](https://developer.mbed.org/).
 The mDot hardware is described at [https://developer.mbed.org/platforms/MTS-mDot-F411/](https://developer.mbed.org/platforms/MTS-mDot-F411/).
+Programming requires the [mDot Developer Kit](http://www.multitech.com/models/94558010LF) although it is possible to upload firmware via the bootloader.
 
+An example application that works with The Things Network is at [https://developer.mbed.org/users/SomeRandomBloke/code/mDot_TTN_DS18B20/](https://developer.mbed.org/users/SomeRandomBloke/code/mDot_TTN_DS18B20/).
 
 
 ### Do you know about other devices? Add them here!
