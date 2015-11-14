@@ -144,6 +144,14 @@ This device should work out-of-the-box. It will start sending GPS, temperature a
 TODO: custom applications compile. Kerlink has a nice wiki with instructions.
 
 
+### MultiTech Systems mDot module
+This module is available in surface mount or with xbee compatible pins.
+The default firmware as shipped from the factory has an AT command interfacethat enables the mDot to be used with another mcu or USB to serial device.
+
+For advanced users, the firmware can be replaced using the [mbed programming environment](https://developer.mbed.org/).
+The mDot hardware is described at [https://developer.mbed.org/platforms/MTS-mDot-F411/](https://developer.mbed.org/platforms/MTS-mDot-F411/).
+
+
 
 ### Do you know about other devices? Add them here!
 
