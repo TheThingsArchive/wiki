@@ -5,18 +5,19 @@ Here's a table of a few hardware boards supporting LoRa.
 Specific instructions can be found below. If you're unsure
 what to buy, send us an [email](Contact).
 
-| Device            | | Chip   | | MCU       || Connector   || Cost (EUR)   || Comments                   |
-| ----------------- |-| ------ |-| --------- || ----------- || -------------|| -------------------------- |
-| Sodaq Tatu + Bee  | | ?      | | AVR +     || Bee         || 35,- + 35,-  || Arduino-IDE compatible     |
-| Kickst. TTN Uno   | | SX1276 | | ? + ?     || IO          || tbd (35-45)  || Arduino-IDE compatible     |
-| Netblocks         | | SX1272 | | STM32L151 || IO          || 35,-         || program with ST-link       |
-| Libelium          | | SX1272 | | -         || Bee         || 45,-         || Arduino library available  |
-| HopeRF RFM92W     | | SX1272 | | no        || 2mm pin smd || 10,-         || Working with Arduino       |
-| HopeRF RFM95W     | | SX1276 | | no        || 2mm pin smd || 10,-         || Working with Arduino       |
-| Kerlink loramote  | | SX1272 | | yes       || IO          || 150,-        || professional; has GPS      |
-| Embit EMB-LR1272  | | SX1272 | | yes       ||             || ?            ||                            |
-| Froggyfactory     | | SX127X | | yes       || Uno         || ?            || is it LoraWAN?             |
-| RFM95W + ESP8266  | | SX1276 | | esp8266   || DIY         || 10,-         || Arduino + HLC: http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
+| Device            | | Chip   | | MCU         || Connector   || Cost (EUR)   || Comments                   |
+| ----------------- |-| ------ |-| ----------- || ----------- || -------------|| -------------------------- |
+| Sodaq Tatu + Bee  | | ?      | | AVR +       || Bee         || 35,- + 35,-  || Arduino-IDE compatible     |
+| Kickst. TTN Uno   | | SX1276 | | ? + ?       || IO          || tbd (35-45)  || Arduino-IDE compatible     |
+| Netblocks         | | SX1272 | | STM32L151   || IO          || 35,-         || program with ST-link       |
+| Libelium          | | SX1272 | | -           || Bee         || 45,-         || Arduino library available  |
+| HopeRF RFM92W     | | SX1272 | | no          || 2mm pin smd || 10,-         || Working with Arduino       |
+| HopeRF RFM95W     | | SX1276 | | no          || 2mm pin smd || 10,-         || Working with Arduino       |
+| Kerlink loramote  | | SX1272 | | yes         || IO          || 150,-        || professional; has GPS      |
+| Embit EMB-LR1272  | | SX1272 | | yes         ||             || ?            ||                            |
+| Froggyfactory     | | SX127X | | yes         || Uno         || ?            || is it LoraWAN?             |
+| RFM95W + ESP8266  | | SX1276 | | esp8266     || DIY         || 10,-         || Arduino + HLC: http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
+| IMST iM880a       | | SX1272 | | STM32L151Cx || smd         || 19.-         || program with ST-link       |
 
 LoRa devices are roughly divided into two categories:
 
@@ -86,6 +87,9 @@ Program them:
 
 1. [https://github.com/TheThingsNetwork/XRange](https://github.com/TheThingsNetwork/XRange)
 2. ask us what to do next ;-)
+
+### IMST iM880a
+This module has an SX1272 and a Cortex M3 MCU that you can also use to program directly. Toolchain is not as easy to use as Arduino (especially on non-Windows OSes). To program it, you can either get an ST-Link in-circuit debugger or use the starter kit board that IMST also sells.
 
 ### Libelium
 Libelium has SX1272 modules that contain the Semtech SX1272 transceiver and an antenna plug. They use the Bee form factor, but do not use TTL serial like most Bee modules, but instead use SPI serial. If you use these modules, make sure to doublecheck the pinout, most XBee shields will likely not have the right connections.
