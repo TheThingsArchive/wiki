@@ -21,6 +21,7 @@ As it's made manually, it's most likely out to date. We'll work on some automate
 | @Fokko |  F0CC0B1234567890 |
 | Sogeti |  1DEE169AB340BAC2 |
 | Port of Amsterdam      | 0000024b08060221 |
+| GM001 The Garden - Manchester | AA555A000806018D |
 
 
 ##Monitoring
