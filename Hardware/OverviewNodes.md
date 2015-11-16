@@ -15,7 +15,7 @@ what to buy, send us an [email](Contact).
 | HopeRF RFM95W     | | SX1276 | | no          || 2mm pin smd || 10,-         || Working with Arduino       |
 | Kerlink loramote  | | SX1272 | | yes         || IO          || 150,-        || professional; has GPS      |
 | Embit EMB-LR1272  | | SX1272 | | yes         ||             || ?            ||                            |
-| Froggyfactory     | | SX127X | | yes         || Uno         || ?            || is it LoraWAN?             |
+| Froggyfactory     | | SX127X | | yes         || Uno         || ?            || This is LoRa FABian		|
 | RFM95W + ESP8266  | | SX1276 | | esp8266     || DIY         || 10,-         || Arduino + HLC: http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
 | IMST iM880a       | | SX1272 | | STM32L151Cx || smd         || 19.-         || program with ST-link       |
 
