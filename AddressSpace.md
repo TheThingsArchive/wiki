@@ -25,7 +25,8 @@ NwkID 1:
 03:FE:BC:BC                 General Broadcast Channel (by popcorn)
 
 
-## Registered Addresses
+## Registered Addresses in temporary TTN address space
+
 | Address block &nbsp; &nbsp; | Claimed by                |
 |-----------------------------|---------------------------|
 | 02:01:00:xx                 | turiphro                  |
@@ -84,6 +85,13 @@ NwkID 1:
 | 02:01:34:xx				  | Scapeler                  |
 | 02:01:35:xx                 | RF Proximity              |
 | 02:01:36:xx                 | Maarts                    |
+| 02:01:37:xx                 | 	                      |
+| 02:01:38:xx                 | 	                      |
+| 02:01:39:xx                 | 	                      |
+| 02:01:3A:xx                 | 	                      |
+| 02:01:3B:xx                 | 	                      |
+| 02:01:3C:xx                 | 	                      |
+| 02:01:3D:xx                 | 	                      |
 |  ...                        |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...                         |                           |
@@ -91,18 +99,21 @@ NwkID 1:
 | ...                         |                           |
 | 02:02:BA:xx                 | TTN BA 2 - Ropu           |
 | ...                         |                           |
+
+## Registered Addresses in other providers' address space (!?)
+
+
+| Address block &nbsp; &nbsp; | Claimed by                |
+|-----------------------------|---------------------------|
 | 5A:48:01:xx                 | TTN ZH                    |
-| ...                         |                           |
 | A2:A2:A2:xx                 | Ordina Smart Technologies |
 | BA:BE:CA:xx                 | QwikSense                 |
-| DE:AD:BE:xx                 | turiphro (honoris causa)  |
+| DE:AD:BE:xx                 | turiphro                  |
 | BE:EF:BE:xx                 | ZB45 Makerspace           |
 | BE:EF:BF:xx                 | MakerSpaceLeiden          |
-
-|
+|-----------------------------|---------------------------|
 | 00:00:11:xx                 | Reserverd  3rd party      |
 | 00:00:15:xx                 | Reserverd  3rd party      |
-| 03:xx:xx:xx                 | Reserverd  Operators      |
 | 04:xx:xx:xx                 | Reserverd  Operators      |
 | 05:xx:xx:xx                 | Reserverd  Operators      |
 | 06:xx:xx:xx                 | Reserverd  Operators      |
