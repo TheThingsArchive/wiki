@@ -18,6 +18,7 @@ what to buy, send us an [email](Contact).
 | Froggyfactory     | | SX127X | | yes         || Uno         || 99,-         || This is LoRa FABian		|
 | RFM95W + ESP8266  | | SX1276 | | esp8266     || DIY         || 10,-         || Arduino + HLC: http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
 | IMST iM880a       | | SX1272 | | STM32L151Cx || smd         || 19.-         || program with ST-link       |
+| Microchip RN2483  | | SX1276 | | yes PIC?    || smd         || 12.-         || http://www.microchip.com/wwwproducts/Devices.aspx?product=RN2483 |
 
 LoRa devices are roughly divided into two categories:
 
