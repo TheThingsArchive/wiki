@@ -37,9 +37,9 @@ cd /mnt/fsuser-1/forwarder_network_demo
 This will reload the packet forwarder software with the new settings. Resetting the gateway by disconnecting power does not work, as the gateway contains an internal power backup battery.
 12. At your firewall system make sure the external IP-address used will map port 1700 to the internal IP-address of the gateway. This is needed when using NAT for internal IP-address translation. 
 13. Use the following command on the gateway to check whether data is being sent and received:
->tcpdump -i eth0 -n -vvvX host 54.229.214.112
-The output must be somewhat similar to the following, check out if inbound as well as outbound traffic is shown:
 tcpdump -i eth0 -n -vvvX host 54.229.214.112
+The output must be somewhat similar to the following, check out if inbound as well as outbound traffic is shown:
+>tcpdump -i eth0 -n -vvvX host 54.229.214.112
 tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 19:35:07.292396 IP (tos 0x0, ttl 64, id 35878, offset 0, flags [DF], proto UDP (17), length 40)
     10.1.0.117.37763 > 54.229.214.112.1700: [udp sum ok] UDP, length 12
