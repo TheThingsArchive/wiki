@@ -24,6 +24,7 @@ Right now, though, there's one router and one application server running, and we
 
 ## Instructions Upstream (Things side)
 ### Kerlink
+* An installation guide [Installation guide](/wiki/Installing-your-Kerlink)
 * Install Demo LoRa Packet forwarder as described [Here](http://wikikerlink.fr/lora-station/doku.php?id=wiki:semtech#demo_lora_packet_forwarderready-to-use_package).
 * Change and add the following lines in /mnt/fsuser-1/demo_gps_loramote/local_conf.json
 * Don't change your gateway_ID, it's linked to your serial.
