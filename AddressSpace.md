@@ -85,7 +85,7 @@ NwkID 1:
 | 02:01:34:xx				  | Scapeler                  |
 | 02:01:35:xx                 | RF Proximity              |
 | 02:01:36:xx                 | Maarts                    |
-| 02:01:37:xx                 | 	                      |
+| 02:01:37:xx                 | PKarney	                      |
 | 02:01:38:xx                 | 	                      |
 | 02:01:39:xx                 | 	                      |
 | 02:01:3A:xx                 | 	                      |
