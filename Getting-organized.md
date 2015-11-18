@@ -1,4 +1,4 @@
-We would love to help you to connect your city/area! On this page you will find the basic first steps on your road to success
+We would  love to help you to connect your city/area! On this page you will find the basic first steps on your road to success
 
 # Step 1: get inspired
 Read through our [manifest](https://github.com/TheThingsNetwork/Manifest) and a small list of [use cases](Use-cases)
