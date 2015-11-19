@@ -57,8 +57,8 @@ NwkID 1:
 | 02:01:19:xx                 |                           |
 | 02:01:1A:xx                 | MyMatics                  |
 | 02:01:1B:xx                 | TTN Poznan by Apollogic   |
-| 02:01:1C:xx                 |                           |
-| 02:01:1D:xx                 |                           |
+| 02:01:1C:xx                 | The Garden                |
+| 02:01:1D:xx                 | ThingsManchester          |
 | 02:01:1E:xx                 |                           |
 | 02:01:1F:xx                 | MTX                       |
 | 02:01:20:xx                 | Pixelspark                |
