@@ -93,6 +93,7 @@ NwkID 1:
 | 02:01:3C:xx                 | 	                      |
 | 02:01:3D:xx                 | 	                      |
 | 02:01:3E:xx                 | Boston                    |
+| 02:01:3F:xx                 | Intermax                  |				
 |  ...                        |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...                         |                           |
