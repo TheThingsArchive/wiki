@@ -40,7 +40,7 @@
 * GE: [t3n](http://t3n.de/news/open-source-internet-der-dinge-things-network-650984/)
 * GE: [heise.de](http://heise.de/forum/Make/News-Kommentare/The-Things-Network-Gateway-fuer-200-Euro-funkt-10-Kilometer-weit/forum-248126)
 * FR: [Aruco](https://www.aruco.com/2015/10/the-things-network-lora-kickstarter/)
-
+* GE: [Tages Anzeiger, Zurich](http://www.tagesanzeiger.ch/digital/daten/Wenn-Velo-und-Blumentopf-ins-Netz-gehen/story/30774336)
 
 ## Opinions and blog posts
 
