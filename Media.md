@@ -49,4 +49,3 @@
 * [http://www.stephensonstrategies.com/share-it-data-and-they-will-come/](http://www.stephensonstrategies.com/share-it-data-and-they-will-come/)
 * [Stephenson blogs on Internet of Things](http://www.stephensonstrategies.com/share-it-data-and-they-will-come/)
 * [Love Hz](https://medium.com/@lovehz/the-things-network-the-power-of-open-iot-wans-306da32d7006#.uacp7q4kg)
->>>>>>> 822931644
