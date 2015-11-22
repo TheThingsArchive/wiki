@@ -59,7 +59,7 @@ NwkID 1:
 | 02:01:1B:xx                 | TTN Poznan by Apollogic   |
 | 02:01:1C:xx                 | The Garden                |
 | 02:01:1D:xx                 | ThingsManchester          |
-| 02:01:1E:xx                 |                           |
+| 02:01:1E:xx                 | TTN Reading UK            |
 | 02:01:1F:xx                 | MTX                       |
 | 02:01:20:xx                 | Pixelspark                |
 | 02:01:21:xx                 | Bericht                   |
