@@ -42,12 +42,12 @@ The output must be somewhat similar to the following, check out if inbound as we
 <pre><code> >tcpdump -i eth0 -n -vvvX host 54.229.214.112
 tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 19:35:07.292396 IP (tos 0x0, ttl 64, id 35878, offset 0, flags [DF], proto UDP (17), length 40)
-    10.1.0.117.37763 > 54.229.214.112.1700: [udp sum ok] UDP, length 12
+    <span style="background-color: #FFFF00">10.1.0.117.37763 > 54.229.214.112.1700</span>: [udp sum ok] UDP, length 12
 	0x0000:  4500 0028 8c26 4000 4011 96d3 0a01 0075  E..(.&@.@......u
 	0x0010:  36e5 d670 9383 06a4 0014 c7e2 0169 7302  6..p.........is.
 	0x0020:  aa55 5a00 0806 0529                      .UZ....)
 19:35:07.321453 IP (tos 0x20, ttl 46, id 1404, offset 0, flags [DF], proto UDP (17), length 32)
-    54.229.214.112.1700 > 10.1.0.117.37763: [udp sum ok] UDP, length 4
+    <span style="background-color: #FFFF00">54.229.214.112.1700 > 10.1.0.117.37763</span>: [udp sum ok] UDP, length 4
 	0x0000:  4520 0020 057c 4000 2e11 2f66 36e5 d670  E....|@.../f6..p
 	0x0010:  0a01 0075 06a4 9383 000c d978 0169 7301  ...u.......x.is.
 	0x0020:  0000 0000 0000 0000 0000 0000 0000 eca3  ................
