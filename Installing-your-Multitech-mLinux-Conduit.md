@@ -19,7 +19,7 @@ When you are ready to connect up to The Things Network:
 5.  Convert your Conduit to a Basic packet forwarder: [http://www.multitech.net/developer/software/lora/conduit-mlinux-convert-to-basic-packet-forwarder/](http://www.multitech.net/developer/software/lora/conduit-mlinux-convert-to-basic-packet-forwarder/)
 6.  Now we need to make some changes for TTN because the basic packet forwarder doesn't work too well with the TTN API because it doesn't send longitude and latitude figures, and your gateway won't appear in the TTN REST API.
 7.  Edit /var/config/lora/global_conf.json  Go to the bottom and edit the gateway_conf section:
-
+<pre><code>
        "gateway_conf" :
         {
                 "forward_crc_disabled" : false,
@@ -38,7 +38,7 @@ When you are ready to connect up to The Things Network:
                 "stat_interval" : 20,
                 "synch_word" : 52
         }
-
+</code></pre>
     Your gateway ID can be obtained by running mts-io-sysfs show lora/eui
     Your latitude, logitude and altitude can all be got from Google
     The serv_port_down, serv_port_up and server_address are correct for The Things Network
