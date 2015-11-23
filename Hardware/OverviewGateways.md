@@ -45,7 +45,7 @@ Discussion: This is an industrial solution suitable for people who want to mount
 * Tested by The Things Network Crew. 
 
 Discussion: We have one, results of our test will follow asap. 
-First draft of an [installation guide](wiki/Installing-your-Multitech-mLinux-Conduit)
+First draft of an [installation guide](/wiki/Installing-your-Multitech-mLinux-Conduit)
 
 ### [Lorank 8](http://www.hoperf.nl/LORANK-8)
 * Price: 412 euro 
