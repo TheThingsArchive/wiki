@@ -1,4 +1,3 @@
-# Multitech Conduit installation guide
 This page assumes you have got:
 MTCDT-210L-US-EU-GB Multitech mLinux Conduit (non-cellular)
 MTAC-LORA-868 accessory card which goes into the Conduit.
