@@ -18,7 +18,7 @@ When you are ready to connect up to The Things Network:
 
 5.  Convert your Conduit to a Basic packet forwarder: [http://www.multitech.net/developer/software/lora/conduit-mlinux-convert-to-basic-packet-forwarder/](http://www.multitech.net/developer/software/lora/conduit-mlinux-convert-to-basic-packet-forwarder/)
 6.  Now we need to make some changes for TTN because the basic packet forwarder doesn't work too well with the TTN API because it doesn't send longitude and latitude figures, and your gateway won't appear in the TTN REST API.
-7.  Edit /var/config/lora/global_conf.json  Go to the bottom and edit the gateway_conf section:
+7.  Edit <strong>/var/config/lora/global_conf.json</strong>  Go to the bottom and edit the gateway_conf section:
 <pre><code>
        "gateway_conf" :
         {
@@ -39,23 +39,23 @@ When you are ready to connect up to The Things Network:
                 "synch_word" : 52
         }
 </code></pre>
-    Your gateway ID can be obtained by running mts-io-sysfs show lora/eui
-    Your latitude, logitude and altitude can all be got from Google
+    Your gateway ID can be obtained by running <strong>mts-io-sysfs show lora/eui</strong>
+    Your latitude, logitude and altitude can all be got from Google :-)
     The serv_port_down, serv_port_up and server_address are correct for The Things Network
 
-8.  Edit /etc/init.d/lora-network-server  Around line 17 you need to change from using basic_pkt_fwd to using gps_pkt_fwd:
-   
+8.  Edit <strong>/etc/init.d/lora-network-server</strong>  Around line 17 you need to change from using basic_pkt_fwd to using gps_pkt_fwd:
+<pre><code>   
      pkt_fwd=/opt/lora/gps_pkt_fwd
-   
+</code></pre>   
     Go down to where the packet server is started.  The parameters for basic_pkt_fwd and gps_pkt_fwd are different so edit it:
-
+<pre><code>
 	  # start packet forwarder
       start-stop-daemon --start --background --make-pidfile \
           --pidfile $pkt_fwd_pidfile --exec $pkt_fwd -- \
           -c $conf_dir
-
-9.  Restart the lora-network server:   /etc/init.d/lora-network-server restart
-10. If things have gone well you should be able to go to http://thethingsnetwork.org/api/v0/gateways/ and see your gateway appear in the list.  Congratulations!
+</code></pre>
+9.  Restart the lora-network server:   <strong>/etc/init.d/lora-network-server restart </strong>
+10. If things have gone well you should be able to go to [http://thethingsnetwork.org/api/v0/gateways/](http://thethingsnetwork.org/api/v0/gateways/) and see your gateway appear in the list.  Congratulations!
 
 
    
