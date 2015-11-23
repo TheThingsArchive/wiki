@@ -16,9 +16,9 @@ _With many thanks to Martin Aarts!_
 - Unplug the key and check that a .log file has appeared. The file should contain a text like "WirmaV2 0x080XXXXX updated". This log file prevents any further installation on the gateways to avoid cyclic reboots. If you want to restart the update on same gateway, remove this log file from the key and proceed again. (it is not needed if you update another gateway).
 9. Logon to the gateway by using the SSH protocol, on a Mac or Linux system just use the Terminal and run “ssh 10.1.0.117” (substitute by the correct IP-address).  On a Windows PC you can use the Putty.exe program, which can be downloaded at http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html . Login with the user “root” and default password “root”.
 10. The next steps require some knowledge of using the command-line in Linux or Mac . Change the following file:
->/mnt/fsuser-1/forwarder_network_demo/local_conf.json
+<strong>/mnt/fsuser-1/forwarder_network_demo/local_conf.json</strong>
 to the example below. Make sure not to change the unique “gateway_ID” that is already in the file.
-{
+<pre><code>{
 /* Put there parameters that are different for each gateway (eg. pointing one gateway to a test server while the others stay in production) */
 /* Settings defined in global_conf will be overwritten by those in local_conf */	
 "gateway_conf": {
@@ -30,16 +30,16 @@ to the example below. Make sure not to change the unique “gateway_ID” that i
 	"forward_crc_error": false,
 	"forward_crc_disabled": true
 	}
-}
-11. Restart the gateway by pressing the reset button inside the casing or issue the commands in your SSH terminal:
-cd /mnt/fsuser-1/forwarder_network_demo
-./pkt-fwd.sh
+}</code></pre>
+11. Restart the gateway by pressing the reset button inside the casing or issue the commands in your SSH terminal:<br>
+<strong>cd /mnt/fsuser-1/forwarder_network_demo<br>
+./pkt-fwd.sh<br></strong>
 This will reload the packet forwarder software with the new settings. Resetting the gateway by disconnecting power does not work, as the gateway contains an internal power backup battery.
 12. At your firewall system make sure the external IP-address used will map port 1700 to the internal IP-address of the gateway. This is needed when using NAT for internal IP-address translation. 
-13. Use the following command on the gateway to check whether data is being sent and received:
-tcpdump -i eth0 -n -vvvX host 54.229.214.112
+13. Use the following command on the gateway to check whether data is being sent and received:<br>
+<strong>tcpdump -i eth0 -n -vvvX host 54.229.214.112</strong><br>
 The output must be somewhat similar to the following, check out if inbound as well as outbound traffic is shown:
->tcpdump -i eth0 -n -vvvX host 54.229.214.112
+<pre><code> >tcpdump -i eth0 -n -vvvX host 54.229.214.112
 tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 19:35:07.292396 IP (tos 0x0, ttl 64, id 35878, offset 0, flags [DF], proto UDP (17), length 40)
     10.1.0.117.37763 > 54.229.214.112.1700: [udp sum ok] UDP, length 12
@@ -67,5 +67,5 @@ tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 byte
 4 packets captured
 5 packets received by filter
 0 packets dropped by kernel
-
+</code></pre>
 14. The gateway does not sent any data by itself to auto include it on the status pages of The Things Network. It only does this after a network node is sending data via the gateway.
