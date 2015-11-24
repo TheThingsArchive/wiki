@@ -103,24 +103,25 @@ Instructions:
 	<pre><code>pkt_fwd=/opt/lora/poly_pkt_fwd</code></pre>
 
     Go down to where the network server is started (around line 57).  Comment it out:
-    <pre><code># start network server
-	#start-stop-daemon --start --background --make-pidfile \
-    #    --pidfile $net_server_pidfile --exec $net_server -- \
-    #    -c $conf_file --lora-eui $lora_eui --lora-path $run_dir --db $conf_db \
-    #    --noconsole -l $net_server_log
-    #sleep 1</code></pre>
-    
-    Similarly comment out the network server line in do_stop() a little further down:
-	<pre><code>do_stop() {
-    echo -n "Stopping $NAME: "
-    #start-stop-daemon --stop --quiet --oknodo --pidfile $net_server_pidfile --r
 
-    start-stop-daemon --stop --quiet --oknodo --pidfile $pkt_fwd_pidfile --retry
-    rm -f $net_server_pidfile $pkt_fwd_pidfile
-    echo "OK"
-	}</code></pre>
+	<pre><code>	   #start network server
+		#start-stop-daemon --start --background --make-pidfile \
+		#--pidfile $net_server_pidfile --exec $net_server -- \
+		#-c $conf_file --lora-eui $lora_eui --lora-path $run_dir --db $conf_db \
+		#--noconsole -l $net_server_log
+		#sleep 1</code></pre>
     
-9.  Restart the lora-network server:   <strong>/etc/init.d/lora-network-server restart </strong>
+    Similarly comment out the network server line in <em>do_stop()</em> a little further down:
+    
+    <pre><code>   do_stop() {
+		echo -n "Stopping $NAME: "
+    	#start-stop-daemon --stop --quiet --oknodo --pidfile $net_server_pidfile --r
+    	start-stop-daemon --stop --quiet --oknodo --pidfile $pkt_fwd_pidfile --retry
+    	rm -f $net_server_pidfile $pkt_fwd_pidfile
+    	echo "OK"
+    	}</code></pre>
+    
+9.  Restart the lora-network server:   **/etc/init.d/lora-network-server restart**
 10. If things have gone well you should be able to go to [http://thethingsnetwork.org/api/v0/gateways/](http://thethingsnetwork.org/api/v0/gateways/) and see your gateway appear in the list.  Congratulations!
 
 
