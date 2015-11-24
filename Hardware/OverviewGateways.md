@@ -93,6 +93,9 @@ Here's other people building their own gateway:
 - interesting read, but for now does not give you anything useful for The Things Network
 - to be completed
 
+## Antennas
+
+See the [Antennas](/wiki/Antennas) page.
 
 ## Network
 Once you've got a gateway ready to transmit and/or receive data,
