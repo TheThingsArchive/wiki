@@ -71,10 +71,10 @@ the online manual for further information.
 * Hardware: radio proprietary, MCU board: open source 
 * Software: open source
 * Tested by some TTN communities.
+* Installation: [Automated](https://github.com/gonzalocasas/ic880a-gateway)
 
 Basically the same as the Lorank8, but slightly more DIY. 
 The device is built upon the radio board of IMST and a Raspberry Pi
-Installation is more or less automated using [these scripts](https://github.com/gonzalocasas/ic880a-gateway).
 
 
 ## Other resources
