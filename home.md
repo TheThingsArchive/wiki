@@ -17,6 +17,7 @@ Tech:
   * [Gateways to buy](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways)
   * [Connect your node](Hardware/OverviewNodes)
   * [Applications: overview + API + SDKs](http://thethingsnetwork.org/wiki/Software/Overview)
+  * [Antennas (work in progress)](http://thethingsnetwork.org/wiki/Antennas)
 
 ## Architecture
 The Things Network uses the **LoRa(WAN)** technology for wireless
