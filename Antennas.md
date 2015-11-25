@@ -51,3 +51,4 @@ Alternatives:
 ### Ethernet / power protection from China
 Not tested, but I ordered some things form Aliexpress again:
 [RJ45 lightning protector](http://www.aliexpress.com/item/1-10pcs-RJ45-Ethernet-Network-Surge-Protector-Lightning-Arrester-SPD-Device-10KA/32384571796.html)
+Assuming you use power over ethernet.
