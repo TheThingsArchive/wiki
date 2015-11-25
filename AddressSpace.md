@@ -102,7 +102,8 @@ NwkID 1:
 | 02:02:02:xx                 | Timmer                    |
 | ...                         |                           |
 | 02:02:BA:xx                 | TTN BA 2 - Ropu           |
-| ...                         |                           |
+| ...    
+| 02:03:04:xx                 | SODAQ
 
 ## Registered Addresses in other providers' address space (!?)
 
