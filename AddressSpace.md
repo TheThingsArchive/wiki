@@ -96,6 +96,7 @@ NwkID 1:
 | 02:01:3F:xx                 | Intermax Rotterdam        |	
 | 02:01:40:xx                 | XIThing (Groningen, NL)   |	
 | 02:01:41:xx                 | OceaTest                  |
+| 02:01:42:xx                 | Arjan & Jacco             |
 |  ...                        |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
