@@ -5,20 +5,21 @@ Here's a table of a few hardware boards supporting LoRa.
 Specific instructions can be found below. If you're unsure
 what to buy, send us an [email](Contact).
 
-| Device            | | Chip   | | MCU         || Connector   || Cost (EUR)   || Comments                   |
-| ----------------- |-| ------ |-| ----------- || ----------- || -------------|| -------------------------- |
-| Sodaq Tatu + Bee  | | ?      | | AVR +       || Bee         || 35,- + 35,-  || Arduino-IDE compatible     |
-| Kickst. TTN Uno   | | SX1276 | | ? + ?       || IO          || tbd (35-45)  || Arduino-IDE compatible     |
-| Netblocks         | | SX1272 | | STM32L151   || IO          || 35,-         || program with ST-link       |
-| Libelium          | | SX1272 | | -           || Bee         || 45,-         || Arduino library available  |
-| HopeRF RFM92W     | | SX1272 | | no          || 2mm pin smd || 10,-         || Working with Arduino       |
-| HopeRF RFM95W     | | SX1276 | | no          || 2mm pin smd || 10,-         || Working with Arduino       |
-| Kerlink loramote  | | SX1272 | | yes         || IO          || 150,-        || professional; has GPS      |
-| Embit EMB-LR1272  | | SX1272 | | yes         ||             || ?            ||                            |
-| Froggyfactory     | | SX127X | | yes         || Uno         || 99,-         || This is LoRa FABian		|
-| RFM95W + ESP8266  | | SX1276 | | esp8266     || DIY         || 10,-         || Arduino + [HLC](http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484)
-| IMST iM880a       | | SX1272 | | STM32L151Cx || smd         || 19.-         || program with ST-link       |
-| Microchip RN2483  | | SX1276 | | yes PIC?    || smd         || 12.-         || +Lorawan stack, see [microchip](http://www.microchip.com/wwwproducts/Devices.aspx?product=RN2483) |
+| Device            | | Chip   | | MCU          || Connector   || Cost (EUR)   || Comments                   |
+| ----------------- |-| ------ |-| ------------ || ----------- || -------------|| -------------------------- |
+| Sodaq Tatu + Bee  | | LR1272 | | ATMega 1284P || Bee         || 35,- + 35,-  || Arduino-IDE compatible     |
+| Sodaq Mbili + Bee | | RN2483 | | ATMega 1284P || Bee         || 98,-         || Arduino-IDE compatible     |
+| Kickst. TTN Uno   | | SX1276 | | ? + ?        || IO          || tbd (35-45)  || Arduino-IDE compatible     |
+| Netblocks         | | SX1272 | | STM32L151    || IO          || 35,-         || program with ST-link       |
+| Libelium          | | SX1272 | | -            || Bee         || 45,-         || Arduino library available  |
+| HopeRF RFM92W     | | SX1272 | | no           || 2mm pin smd || 10,-         || Working with Arduino       |
+| HopeRF RFM95W     | | SX1276 | | no           || 2mm pin smd || 10,-         || Working with Arduino       |
+| Kerlink loramote  | | SX1272 | | yes          || IO          || 150,-        || professional; has GPS      |
+| Embit EMB-LR1272  | | SX1272 | | yes          ||             || ?            ||                            |
+| Froggyfactory     | | SX127X | | yes          || Uno         || 99,-         || This is LoRa FABian		|
+| RFM95W + ESP8266  | | SX1276 | | esp8266      || DIY         || 10,-         || Arduino + [HLC](http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484)
+| IMST iM880a       | | SX1272 | | STM32L151Cx  || smd         || 19.-         || program with ST-link       |
+| Microchip RN2483  | | SX1276 | | yes PIC?     || smd         || 12.-         || +Lorawan stack, see [microchip](http://www.microchip.com/wwwproducts/Devices.aspx?product=RN2483) |
 
 LoRa devices are roughly divided into two categories:
 
@@ -33,8 +34,8 @@ http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-b
 Work in process
 
 
-### SODAQ Tatu with LoRaBee
-The SODAQ Tatu is based on the ATmega1284P and Arduino compatible. It does not do LoRaWAN by itself, but it contains a "Bee socket" and can be combined with the LoRaBee, which is a full-stack LoRaWAN board (based on the Embit EMB-LR1272) in Bee form factor.
+### SODAQ Mbili/Tatu with LoRaBee
+The SODAQ Mbili and Tatu are based on the ATmega1284P and Arduino compatible. They do not do LoRaWAN by itself, but they contain a "Bee socket" and can be combined with the LoRaBee, which is a full-stack LoRaWAN board (based on the Embit EMB-LR1272 or Microchip RN2483) in Bee form factor.
 
 Note that it should be possible to use the LoRaBee with other (Arduino) boards, using an XBee shield or breakout.
 
@@ -43,7 +44,7 @@ Get them:
 * Tatu: [http://shop.sodaq.com/en/sodaq-tatu.html](http://shop.sodaq.com/en/sodaq-tatu.html)
   OR Mbili (bigger): [http://shop.sodaq.com/en/sodaq-mbili.html](http://shop.sodaq.com/en/sodaq-mbili.html)
 * LoRa bee (based on EMB-lr1272): [http://shop.sodaq.com/en/lorabee.html](http://shop.sodaq.com/en/lorabee.html)
-  OR LoRa bee based on RN283: [http://shop.sodaq.com/en/lorabee-rn2483.html](http://shop.sodaq.com/en/lorabee-rn2483.html)
+  OR LoRa bee based on RN2483: [http://shop.sodaq.com/en/lorabee-rn2483.html](http://shop.sodaq.com/en/lorabee-rn2483.html)
 
 Program them:
 
@@ -52,7 +53,7 @@ Program them:
    Ignore the part on bootloaders, just extract the zip within the Arduino hardware folder and restart the IDE.
 3. Install dependencies: [https://github.com/bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 4. Clone our demo repository: [https://github.com/TheThingsNetwork/loraduino](https://github.com/TheThingsNetwork/loraduino)
-   Note: if you have the newer LoraBee based on the RN2483, you probably want to start from this library:
+   Note: if you have the newer LoraBee based on the Microchip RN2483, you probably want to start from this library:
    [https://github.com/SodaqMoja/Sodaq_RN2483](https://github.com/SodaqMoja/Sodaq_RN2483).
    Please let us know if you made a nice example application repository.
 5. Add sensors, add custom logic in the .ino Arduino sketch file:
