@@ -54,7 +54,7 @@ NwkID 1:
 | 02:01:16:xx                 | InToto.nl                 |
 | 02:01:17:xx                 | rachelupeka               |
 | 02:01:18:xx                 | Senwies                   |
-| 02:01:19:xx                 |                           |
+| 02:01:19:xx                 | Meshed                    |
 | 02:01:1A:xx                 | MyMatics                  |
 | 02:01:1B:xx                 | TTN Poznan by Apollogic   |
 | 02:01:1C:xx                 | The Garden                |
