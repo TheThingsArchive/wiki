@@ -91,7 +91,7 @@ NwkID 1:
 | 02:01:3A:xx                 | 	                      |
 | 02:01:3B:xx                 | 	                      |
 | 02:01:3C:xx                 | 	                      |
-| 02:01:3D:xx                 | TTN Flevoland	          |
+| 02:01:3D:xx                 | TTN Flevolan	          |
 | 02:01:3E:xx                 | Boston                    |
 | 02:01:3F:xx                 | Intermax Rotterdam        |	
 | 02:01:40:xx                 | XIThing (Groningen, NL)   |	
