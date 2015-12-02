@@ -111,6 +111,7 @@ NwkID 1:
 | ...    
 | 02:03:04:xx                 | SODAQ                     |
 | 02:02:05:xx                 | 1M2M                      |
+| 02:03:06:xx                 | Ernestopace (Utrecht)     |
 
 ## Registered Addresses in other providers' address space (!?)
 
