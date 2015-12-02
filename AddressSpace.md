@@ -107,7 +107,8 @@ NwkID 1:
 | ...                         |                           |
 | 02:02:BA:xx                 | TTN BA 2 - Ropu           |
 | ...    
-| 02:03:04:xx                 | SODAQ
+| 02:03:04:xx                 | SODAQ                     |
+| 02:02:05:xx                 | 1M2M                      |
 
 ## Registered Addresses in other providers' address space (!?)
 
