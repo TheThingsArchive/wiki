@@ -87,7 +87,7 @@ NwkID 1:
 | 02:01:36:xx                 | Maarts                    |
 | 02:01:37:xx                 | PKarney	                  |
 | 02:01:38:xx                 | Digital Catapult          |
-| 02:01:39:xx                 | 	                      |
+| 02:01:39:xx                 | Marko                     |
 | 02:01:3A:xx                 | 	                      |
 | 02:01:3B:xx                 | 	                      |
 | 02:01:3C:xx                 | 	                      |
