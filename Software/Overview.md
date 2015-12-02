@@ -63,16 +63,13 @@ Here's the endpoints:
 
 | endpoint                       | GET parameters (optional)               | explanation                                  |
 | ------------------------------ | --------------------------------------- | -------------------------------------------- |
-| **`/nodes/`**                  | `time_span` e.g. 10m, 4h, 1w            | Last single packet for all available nodes   |
-|                                |                                         | within given timeframe                       |
-| **`/nodes/{node_eui}/`**       | `time_span` e.g. 10m, 4h, 1w            | Last packets for given node                  |
-|                                | `limit` (int, def=20) per gateway       |                                              |
-|                                | `offset` (int) per gateway              |                                              |
-| **`/gateways/`**               | `time_span` e.g. 10m, 4h, 1w            | Last single status update for all gateways   |
-|                                | `limit` (int, def=20)                   | within given timeframe                       |
+| **`/nodes/`**                  | `limit` (int, def=20, max=100)          | Aggregated info on nodes (sorted last seen)  |
 |                                | `offset` (int)                          |                                              |
-| **`/gateways/{eui}`**          | `time_span` e.g. 10m, 4h, 1w            | Last status updates for given gateway        |
-|                                | `limit` (int, def=20)                   | within given timeframe                       |
+| **`/nodes/{node_eui}/`**       | `limit` (int, def=20, max=100)          | Last packets for given node                  |
+|                                | `offset` (int)                          |                                              |
+| **`/gateways/`**               | `limit` (int, def=20, max=100)          | Aggregated info on all gateways (sorted last |
+|                                | `offset` (int)                          | status message received)                     |
+| **`/gateways/{eui}`**          | `limit` (int, def=20, max=100)          | Last status messages for given gateway       |
 |                                | `offset` (int)                          |                                              |
 
 The node packets will include the following data fields:
