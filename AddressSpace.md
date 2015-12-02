@@ -100,6 +100,7 @@ NwkID 1:
 | 02:01:44:xx                 | Butters Ruben (Rotterdam) |
 | 02:01:45:xx                 | TKE                       |
 | 02:01:46:xx                 | kaaLabs (Almere, NL)      |
+| 02:01:47:xx                 | RFSee (Apeldoorn, NL)     |
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
