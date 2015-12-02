@@ -72,5 +72,5 @@ tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 byte
 
 
 
-Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](gateways/kerlink/mobile-connection) instructions.
+Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](Software/gateways/kerlink/mobile-connection) instructions.
 
