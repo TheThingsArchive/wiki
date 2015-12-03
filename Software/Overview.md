@@ -63,13 +63,13 @@ Here's the endpoints:
 
 | endpoint                       | GET parameters (optional)               | explanation                                  |
 | ------------------------------ | --------------------------------------- | -------------------------------------------- |
-| **`/nodes/`**                  | `limit` (int, def=20, max=100)          | Aggregated info on nodes (sorted last seen)  |
+| **`/nodes/`**                  | `limit` (int, def=100, max=250)         | Aggregated info on nodes (sorted last seen)  |
 |                                | `offset` (int)                          |                                              |
-| **`/nodes/{node_eui}/`**       | `limit` (int, def=20, max=100)          | Last packets for given node                  |
+| **`/nodes/{node_eui}/`**       | `limit` (int, def=100, max=250)         | Last packets for given node                  |
 |                                | `offset` (int)                          |                                              |
-| **`/gateways/`**               | `limit` (int, def=20, max=100)          | Aggregated info on all gateways (sorted last |
+| **`/gateways/`**               | `limit` (int, def=100, max=250)         | Aggregated info on all gateways (sorted last |
 |                                | `offset` (int)                          | status message received)                     |
-| **`/gateways/{eui}`**          | `limit` (int, def=20, max=100)          | Last status messages for given gateway       |
+| **`/gateways/{eui}`**          | `limit` (int, def=100, max=250)         | Last status messages for given gateway       |
 |                                | `offset` (int)                          |                                              |
 
 The node packets will include the following data fields:
