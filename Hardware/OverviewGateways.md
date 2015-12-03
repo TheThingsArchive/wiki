@@ -11,7 +11,7 @@ Depending on how much money you want to spend and when the hardware is needed th
 ### [The Things Gateway](http://thethingsnetwork.org/kickstarter-landing/kickstarter.html)
 * Price: 200 euro 
 * Availability: [the kickstarter](http://kickstarter.com/projects/419277966/the-things-network) runs until Fri, Nov 20 2015 1:44 PM CET!
-* Capacity: 1 band, ~ 3K Nodes (strech goal: 8 band ?) 
+* Capacity: 8 band, ~ 20K Nodes 
 * Suitable for indoor use
 * Installation: Plug and play
 * Hardware: open source 
