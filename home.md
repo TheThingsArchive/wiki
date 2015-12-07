@@ -6,6 +6,8 @@ read more about us on http://thethingsnetwork.org and in
 our [manifest](https://github.com/TheThingsNetwork/Manifest).
 
 ## Quick Index
+
+  * [Frequently Asked Questions](faq)
 Non-tech:
 
   * [[Getting-organized]]
