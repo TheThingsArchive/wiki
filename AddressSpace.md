@@ -103,6 +103,7 @@ NwkID 1:
 | 02:01:47:xx                 | RFSee (Apeldoorn, NL)     |
 | 02:01:48:xx                 | Artax                     |
 | 02:01:49:xx                 | Paul@SURFnet              |
+| 02:01:50:xx				  | beheer@waag.org           |
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
