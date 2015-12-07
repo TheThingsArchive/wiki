@@ -115,7 +115,8 @@ NwkID 1:
 | 02:02:05:xx                 | 1M2M                      |
 | 02:03:06:xx                 | Ernestopace (Utrecht)     |
 | 02:03:07:xx                 | Triple IT	(Alkmaar)	  |
-| 02:03:08:xx                 | VDK Leiden				  |
+| 02:03:08:xx                 | VDK Leiden                |
+| 02:03:09:xx                 | Hugo @ Leiden             |
 
 ## Registered Addresses in other providers' address space (!?)
 
