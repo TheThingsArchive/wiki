@@ -8,6 +8,7 @@ our [manifest](https://github.com/TheThingsNetwork/Manifest).
 ## Quick Index
 
   * [Frequently Asked Questions](faq)
+  
 Non-tech:
 
   * [[Getting-organized]]
