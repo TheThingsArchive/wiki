@@ -7,4 +7,4 @@ compile a list of most frequently asked questions here. Like:
 - Security -> AES end-to-end
 
 
-*Note to FAQ writers: Please keep answers short (1 paragraph) and link to related wiki/forum topics. Only add answers to **frequently** asked questions, keep the list capped at 20 items max. Thanks for contributing!*
+*Note to FAQ writers: Please keep answers short (1 paragraph) and link to related wiki/forum topics. Only add answers to FREQUENTLY asked questions, keep the list capped at 20 items max. Thanks for contributing!*
