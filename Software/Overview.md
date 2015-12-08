@@ -1,5 +1,7 @@
 ## Prototype Network Setup
 
+To start developing applications using the network **API** or **MQTT**, please [see below](#getting-the-data).
+
 The current setup is temporary, but available for use.
 We're finalising the initial network architecture, but
 you can get a glimpse of what's coming by reading this page.
@@ -15,7 +17,7 @@ For an overview of the (upcoming) network architecture, see
 [[Architecture]]
 
 ## Description of distributed network setup
-As we're planning it now, the gateways (open-source packet handler) will send packets to one or multiple routers (open source router software) routing to one or multiple application servers (open source or closed software). Any (set of) nodes can be linked to any set of application servers, and the routers will perform the mapping. We're bootstrapping this mapping with DNS, but eventually want to run something more distributed there as well.
+The gateways (open-source packet handler) will send packets to one or multiple routers (open source router software) routing to one or multiple application servers (open source or closed software). Any (set of) nodes can be linked to any set of application servers, and the routers will perform the mapping. We might bootstrap this mapping with DNS, but eventually want to run something more distributed there as well.
 
 So, there shouldn't be any "central" point in the near future, once more people start running routers and application servers. Of course we will provide a default router and application server with API, to get started, but everyone is free to add routers and app servers to the network.
 
@@ -47,12 +49,14 @@ Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](gateway
 
 
 
-## Instructions Downstream (Server side)
+## Instructions Downstream (Server side: application development)
 
 ### Getting the Data
 By default, all packets sent by any node using our default key settings,
 will be saved in a database (MongoDB) for undetermined amount of time
-(currently forever). There are currently two ways of getting your data
+(currently forever), and available via the MQTT broker.
+
+There are currently two ways of getting your data: pull-like REST API (based on storage) and pub/sub MQTT.
 
 ### API
 There's a REST API available to query for the latest packets.
