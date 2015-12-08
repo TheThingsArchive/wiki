@@ -51,8 +51,8 @@ Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](gateway
 
 ### Getting the Data
 By default, all packets sent by any node using our default key settings,
-will be saved in a database (InfluxDB) for undetermined amount of time
-(currently forever).
+will be saved in a database (MongoDB) for undetermined amount of time
+(currently forever). There are currently two ways of getting your data
 
 ### API
 There's a REST API available to query for the latest packets.
@@ -80,22 +80,37 @@ The node packets will include the following data fields:
   * `data_json`: json object / dictionary (if `data_plain` contains json)
 
 
+### MQTT and NodeRED
+For real-time publish-subscribe (Pub/Sub) connections we're hosting an MQTT broker at:
+
+    tcp://croft.thethings.girovito.nl:1883
+    
+    
+For demo purposes, there's also a hosted version of [Node-RED](http://nodered.org/) here:
+
+    http://croft.thethings.girovito.nl:1880/
+
+For long-term usage, it's better to host your [own version of Node-RED](http://nodered.org/docs/), as there's currently no authentication for the web interface.
+    
+
 ### Work In Progress
 A note of caution:
 The current setup is temporary and not as distributed as we would like it to be.
-As we're rewriting the routing system we might change detauls like API endpoints
+As we're rewriting the routing system we might change details like API endpoints
 and data format, but we'll try to keep the system available in a more or less
 stable format.
 
-Upcoming: distributed routing, app registration API, publication subscriptions,
-hosted Node-RED, example application dashboard; all available as open-source
+Upcoming: distributed routing, app registration API, example application dashboard, etc; all available as open-source
 software to run on your own server.
 
 Bear with us while we're finalising the first version! Can't wait? Get in [[Contact]].
 
+
 ### Android SDK
 
-Ready to develop Android apps using data from The Things Network? Grab the Android SDK and you're ready to go. Find it on GitHub (below).
+Ready to develop Android apps using data from The Things Network?
+Grab the Android SDK (which is implementing the REST API) and you're ready to
+go. Find it on GitHub (below).
 
 
 ## Github Repositories
