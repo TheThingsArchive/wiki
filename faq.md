@@ -14,3 +14,13 @@ Search on [the Forum](http://forum.thethingsnetwork.org/) for related questions.
 
 ## Note to FAQ writers
 Please keep answers short (1 paragraph) and link to related wiki/forum topics. Only add answers to FREQUENTLY asked questions, keep the list capped at 20 items max. Thanks for contributing!*
+
+
+1. Is it secure to connect gateway to our home/company network?
+-
+
+2. Can any gateway owner read packages sent via TTN?
+-
+
+3. Who has to buy a server (Network Server - NS)?
+-
