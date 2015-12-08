@@ -119,6 +119,8 @@ NwkID 1:
 | 02:03:07:xx                 | Triple IT	(Alkmaar)	  |
 | 02:03:08:xx                 | VDK Leiden                |
 | 02:03:09:xx                 | Hugo @ Leiden             |
+| 02:03:10:xx				  | thul @ Trondheim		  |	
+
 
 ## Registered Addresses in other providers' address space (!?)
 
