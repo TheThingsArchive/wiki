@@ -76,7 +76,7 @@ NwkID 1:
 | 02:01:2B:xx                 | RComputerServices         |
 | 02:01:2C:xx                 | Boon                      |
 | 02:01:2D:xx                 | Mvdeo01                   |
-| 02:01:2E:xx                 |                           |
+| 02:01:2E:xx                 | JeroenB                   |
 | 02:01:2F:xx                 | MTC                       |
 | 02:01:30:xx                 | Anas                      |
 | 02:01:31:xx				  | THINGS IO			      |		
@@ -90,7 +90,7 @@ NwkID 1:
 | 02:01:39:xx                 | Marko                     |
 | 02:01:3A:xx                 | 	                      |
 | 02:01:3B:xx                 | 	                      |
-| 02:01:3C:xx                 | 	                      |
+| 02:01:3C:xx                 | TTN Helmond               |
 | 02:01:3D:xx                 | TTN Flevoland	          |
 | 02:01:3E:xx                 | Boston                    |
 | 02:01:3F:xx                 | Intermax Rotterdam        |	
