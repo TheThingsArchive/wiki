@@ -125,6 +125,7 @@ NwkID 1:
 | ...
 | 02:03:10:xx				  | thul @ Trondheim		  |	
 | 02:03:11:xx				  | Agrimeters BV			  |	
+| 02:03:12:xx				  | Octanis Association (octanis.org)|	
 
 
 ## Registered Addresses in other providers' address space (!?)
