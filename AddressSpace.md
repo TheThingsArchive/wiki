@@ -109,6 +109,7 @@ NwkID 1:
 | 02:01:53:xx				  | BeNext (Amsterdam, NL)	  |
 | 02:01:54:xx				  | SoLoRa (Capelle aan den IJssel, NL)|
 | 02:01:55:xx                 | Vidal Junior - GRU Brazil |
+| 02:01:56:xx                 | Dacom                     |
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
