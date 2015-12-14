@@ -89,7 +89,9 @@ Here's other people building their own gateway:
 
 ### DIY "single-channel" gateway (SX1272, SX1276 etc)
 * [TTN-compatible semi-LoRaWAN @tftelkamp](https://github.com/tftelkamp/single_chan_pkt_fwd)
+* [DIY lora gateway](http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html)
 * [http://www.daveakerman.com/?p=1719](http://www.daveakerman.com/?p=1719)
+
 
 ## Antennas
 
