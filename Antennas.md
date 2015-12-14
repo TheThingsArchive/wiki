@@ -14,7 +14,12 @@ Kerlink: 3 dBi gain. Type?
 
 ### Dipole array
 
+868Mhz
 Taoglas OMB.868.B05F21 [PDF](http://www.taoglas.com/images/product_images/original_images/OMB.868.B05F21.pdf)
+
+915Mhz
+Taoglas OMB.915.B03F21 [PDF](http://www.taoglas.com/wp-content/uploads/2015/06/OMB.915.B03F21.pdf)
+
 
 ## Cable
 
