@@ -111,6 +111,9 @@ Instructions:
 		#--noconsole -l $net_server_log
 		#sleep 1</code></pre>
     
+    Make sure the -c option for the new packet_forwarder under <pre>start packet forwarder</pre> is set to 
+    <pre><code>-c $conf_dir</code></pre> instead of <pre>-c $run_dir</pre>
+    
     Similarly comment out the network server line in <em>do_stop()</em> a little further down:
     
     <pre><code>   do_stop() {
