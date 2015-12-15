@@ -89,7 +89,7 @@ NwkID 1:
 | 02:01:38:xx                 | Digital Catapult          |
 | 02:01:39:xx                 | Marko                     |
 | 02:01:3A:xx                 | Fontys Eindhoven	      |
-| 02:01:3B:xx                 | IoT_Marco              |  |
+| 02:01:3B:xx                 | IoT_Marco                 |
 | 02:01:3C:xx                 | TTN Helmond               |
 | 02:01:3D:xx                 | TTN Flevoland	          |
 | 02:01:3E:xx                 | Boston                    |
