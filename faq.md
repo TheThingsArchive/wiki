@@ -1,22 +1,43 @@
-compile a list of most frequently asked questions here. Like:
+### Are you a network operator?
+No, we're not a network operater, at least not in the traditional way.
+We're a community of individuals and organisations (both non-profit and
+commercial) owning our own network equipment and developing shared open-source
+software for everyone to use. We aim at building a global network together,
+but don't have any central power nor usage fees.
 
-### Are you a network operator? -> no, we're a community etc etc
-..
+Have a look at our [manifesto](https://github.com/TheThingsNetwork/Manifest).
 
-### Do I have to pay money to use the network? -> no, but needs hardware
-..
 
-### Do I need to buy a gateway / router to get started? -> not if any is in range
-..
+### Do I have to pay money to use the network?
+No, the network is free to use. You do need special hardware to connect to the
+network (see below). If there is no coverage in your area yet, you might want
+to contribute by buying and setting up your own [gateway](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways)
+for yourself and others to use.
+
+
+### Do I need to buy a gateway / router to get started?
+If there is coverage in your area already, you don't need a gateway. You can
+search for local communities at [http://thethingsnetwork.org](http://thethingsnetwork.org/#communities)
+or on the [forum](http://forum.thethingsnetwork.org/).
+If there's no gateway nearby yet, you might want to contribute by buying one!
+
 
 ### Is it secure to connect gateway to our home/company network?
 ..
 
+
 ### Can any gateway owner read packages sent via TTN?
 ..
 
+
 ### Who has to buy a server (Network Server - NS)?
-..
+In general, there's no need for servers. The Things Network Foundation will
+provide basic network routing infrastructure to get started. If you're a heavy
+network user or are running a local community, you might want to setup your own
+network server and routing instances to help support the load.
+Also, if you want to build your own (web)applications you might (obviously) need
+a server or cloud instance to run your application.
+
 
 ### How fast is the network? What data-rate can we use?
 The network uses LoRaWAN, which was developed for long-range data-networks that
@@ -37,8 +58,17 @@ nodes supporting LoRaWAN.
 
 -> link to wiki page
 
-### Security -> AES end-to-end
-..
+
+### What about Security? Can the NSA control my Things?
+The network protocol uses end-to-end AES encryption by default. The key will be
+known by your devices and the application server. If you're using our example
+application server and keys (or one hosted by the NSA), others will be able to
+see your data, but if you're running your own handler and application the data
+will be unreadable for gateway owners, routers and anyone in between.
+
+As with everything on the internet, you might want to consider adding additional
+layers of encryption on top of the existing connection.
+
 
 ### I want to help out! What can I do?
 ..
