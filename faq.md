@@ -45,7 +45,8 @@ don't need a constant connection. The protocol allows for different speeds and
 data packet sizes, all relatively small and depending on various instances.
 Maximum packet sizes vary between **55 and 222 bytes**. Air time is often
 restricted to 1%; therefore, packets can be sent every **5 seconds up to 4 minutes**,
-depending on packet size, distance from gateway and other factors.
+depending on packet size, distance from gateway and other factors. The TTN fair access 
+policy will allow an average of **30 seconds per day** time on air **per device**.
 
 For more info, see [this forum post](http://forum.thethingsnetwork.org/t/parse-data-with-node-red/835/2)
 
