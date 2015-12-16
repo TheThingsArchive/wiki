@@ -86,7 +86,7 @@ Here's other people building their own gateway:
 
 ### DIY "Real" gateway (SX1301 + SX1257)
 * [https://github.com/mirakonta/lora_gateway/wiki](https://github.com/mirakonta/lora_gateway/wiki)
-* [description and manual for preparing for outside use](/wiki/outside_gateway)
+* [description and manual for preparing for outside use](http://www.meiland.nl/2015/12/outdoor-lora-gateway/)
 
 ### DIY "single-channel" gateway (SX1272, SX1276 etc)
 * [TTN-compatible semi-LoRaWAN @tftelkamp](https://github.com/tftelkamp/single_chan_pkt_fwd)
