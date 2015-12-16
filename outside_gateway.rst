@@ -1,3 +1,4 @@
+.. image:: /wiki/outside_gateway/attachment/1092/gateway_binnen.png
 
 After building and deploying a raspberry pi and m-card gateway at MakerSpace Leiden, 
 I really wanted to test what is true about the 15k range that is being
