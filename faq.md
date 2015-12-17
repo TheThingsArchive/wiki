@@ -22,7 +22,7 @@ or on the [forum](http://forum.thethingsnetwork.org/).
 If there's no gateway nearby yet, you might want to contribute by buying one!
 
 
-### Is it secure to connect gateway to our home/company network?
+### Is it secure (for our company network) to connect gateway to it?
 ..
 
 
