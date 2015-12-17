@@ -27,7 +27,7 @@ If there's no gateway nearby yet, you might want to contribute by buying one!
 
 
 ### Can any gateway owner read packages sent via TTN?
-..
+No, since the data is encrypted.
 
 
 ### Who has to buy a server (Network Server - NS)?
