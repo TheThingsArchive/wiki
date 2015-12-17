@@ -80,7 +80,7 @@ NwkID 1:
 | 02:01:2F:xx                 | MTC                       |
 | 02:01:30:xx                 | Anas                      |
 | 02:01:31:xx				  | THINGS IO			      |		
-| 02:01:32:xx				  | Steven                    |
+| 02:01:32:xx				  | Steven - Sogeti Nederland |
 | 02:01:33:xx				  | Edje	                  |
 | 02:01:34:xx				  | Scapeler                  |
 | 02:01:35:xx                 | RF Proximity              |
