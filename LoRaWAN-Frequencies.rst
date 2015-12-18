@@ -72,7 +72,7 @@ LBT+AFA: Listen Before Talk (LBT) with Adaptive Frequency Agility (AFA).
 The gateway receive bandwidth extends from 863MHz to 870 MHz. However
 the 10 different channels cannot be dispatched arbitrarily inside this
 entire range because of the way the radio front- end receiver is
-actually implemented. The 10 channels must fall in two 1.2 MHz wide
+actually implemented. The 10 channels must fall in two 0.2 MHz wide
 intervals.
 
 Default configuration Semtech packet forwarder:
