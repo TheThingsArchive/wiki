@@ -116,24 +116,24 @@ Chan , Freq , Modulation , BW , SF , radio, band, duty-cyle limit
 // Channel = { Frequency \[Hz\], { ( ( DrMax &lt;&lt; 4 ) | DrMin ) },
 Band }
 
-\#define LC1 { 868100000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 1 }
+\#define LC1 { 868100000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 1 }
 
-\#define LC2 { 868300000, { ( ( DR\_6 &lt;&lt; 4 ) | DR\_0 ) }, 1 } //
+\#define LC2 { 868300000, { ( ( DR\_6 << 4 ) | DR\_0 ) }, 1 } //
 DR6 = SF7BW250
 
-\#define LC3 { 868500000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 1 }
+\#define LC3 { 868500000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 1 }
 
-\#define LC4 { 867100000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC4 { 867100000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC5 { 867300000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC5 { 867300000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC6 { 867500000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC6 { 867500000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC7 { 867700000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC7 { 867700000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC8 { 867900000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC8 { 867900000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC9 { 868800000, { ( ( DR\_7 &lt;&lt; 4 ) | DR\_7 ) }, 2 } //
+\#define LC9 { 868800000, { ( ( DR\_7 << 4 ) | DR\_7 ) }, 2 } //
 FSK
 
 Note: LC2 is two channels (BW125 and BW250)
@@ -180,17 +180,17 @@ LoRaMac-board.h file as follows:
 // Channel = { Frequency \[Hz\], { ( ( DrMax &lt;&lt; 4 ) | DrMin ) },
 Band }
 
-\#define LC1 { 868100000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 1 }
+\#define LC1 { 868100000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 1 }
 
-\#define LC2 { 868300000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 1 }
+\#define LC2 { 868300000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 1 }
 
-\#define LC3 { 868500000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 1 }
+\#define LC3 { 868500000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 1 }
 
-\#define LC4 { 868850000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 2 }
+\#define LC4 { 868850000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 2 }
 
-\#define LC5 { 869050000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 2 }
+\#define LC5 { 869050000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 2 }
 
-\#define LC6 { 869525000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 3 }
+\#define LC6 { 869525000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 3 }
 
 **Actility ThingPark Wireless**
 
