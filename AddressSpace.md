@@ -130,7 +130,7 @@ NwkID 1:
 | 02:03:12:xx				  | Octanis Association (octanis.org)|
 | 02:02:13:xx				  | Marten @ MakerSpace Leiden |	 
 | 02:02:14:xx				  | Aart @ eVect (evect.net) |	 
-
+| 02:02:15:xx                 | ICT (ict.nl, Groningen, NL) |
 
 |....|
 
