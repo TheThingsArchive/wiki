@@ -116,11 +116,15 @@ NwkID 1:
 | ...      
 | 02:02:02:xx                 | Timmer                    |
 | 02:02:03:xx                 | Bogema                    |
+| 02:02:05:xx                 | 1M2M                      |
+| 02:02:13:xx				  | Marten @ MakerSpace Leiden |	 
+| 02:02:14:xx				  | Aart @ eVect (evect.net) |	 
+| 02:02:15:xx                 | ICT (ict.nl, Groningen, NL) |
+| 02:02:55:xx                 | Siso                      |
 | ...                         |                           |
 | 02:02:BA:xx                 | TTN BA 2 - Ropu           |
 | ...    
 | 02:03:04:xx                 | SODAQ                     |
-| 02:02:05:xx                 | 1M2M                      |
 | 02:03:06:xx                 | Ernestopace (Utrecht)     |
 | 02:03:07:xx                 | Triple IT	(Alkmaar)	  |
 | 02:03:08:xx                 | VDK Leiden                |
@@ -128,9 +132,6 @@ NwkID 1:
 | 02:03:10:xx				  | thul @ Trondheim		  |	
 | 02:03:11:xx				  | Agrimeters BV			  |	
 | 02:03:12:xx				  | Octanis Association (octanis.org)|
-| 02:02:13:xx				  | Marten @ MakerSpace Leiden |	 
-| 02:02:14:xx				  | Aart @ eVect (evect.net) |	 
-| 02:02:15:xx                 | ICT (ict.nl, Groningen, NL) |
 
 |....|
 
