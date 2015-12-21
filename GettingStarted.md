@@ -18,10 +18,9 @@ community.
 
 ##Minimal Setup
 ###Gateway
-This is something, when you are lucky is already in the neighborhood available. Otherwise this is something you have to build. The gateway is the portal between your IoT Device to the internet & thethingsnetwork.
+There might be a gateway already available in your neighborhood. Otherwise this is something you have to buy (or build). The gateway is the portal between your IoT Device to the internet & thethingsnetwork.
 ###Node
-This is the IoT device that does something. for example a temperature sensor or a small blinking light. It will communicate through the Gateway to the things network. An IoT device you configure once (or the supplier does this) and then you can use it everywhere on the world where an TTN gateway is.
-(todo: insert image of LoRaWan architecture (incl technology)
+You'll need a IoT device that does something and uses the network. For example, a temperature sensor or a small blinking light. It will communicate through the Gateway to the things network. An IoT device you configure once (by you or the supplier) and then you can use it everywhere on the world while in range of a local TTN gateway.
 
     node  <------->  gateway  <-->  /-----\
               __/                  | cloud | <--> your server
