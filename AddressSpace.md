@@ -111,6 +111,7 @@ NwkID 1:
 | 02:01:54:xx				  | SoLoRa (Capelle aan den IJssel, NL)|
 | 02:01:55:xx                 | Vidal Junior - GRU Brazil |
 | 02:01:56:xx                 | Dacom                     |
+| 02:01:57:xx				  | Xillion ICT Solutions		|
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
@@ -121,7 +122,6 @@ NwkID 1:
 | 02:02:14:xx				  | Aart @ eVect (evect.net) |	 
 | 02:02:15:xx                 | ICT (ict.nl, Groningen, NL) |
 | 02:02:55:xx                 | Siso                      |
-| 02:01:57:xx				  | Xillion ICT Solutions		|
 | ...                         |                           |
 | 02:02:BA:xx                 | TTN BA 2 - Ropu           |
 | ...    
