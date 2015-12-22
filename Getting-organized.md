@@ -14,6 +14,9 @@ Without connected nodes your gateway gets lonely. On the forum there is an [exte
 
 # Step 4: Make your presence known
 As soon as you have set up your team and you have decided which gateway you want to use, contact us for a [campaign page](Campaign-page). Time to find people and companies that want to use TTN or sponsor other gateways.
+Here are some presentations that you can use freely:
+* https://speakerdeck.com/wienke
+
 
 # Step 5: Choose a platform
 
