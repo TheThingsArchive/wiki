@@ -116,6 +116,7 @@ NwkID 1:
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
+| 02:02:01:xx                 |	IT Forge (Den Haag, NL)   |
 | 02:02:02:xx                 | Timmer                    |
 | 02:02:03:xx                 | Bogema                    |
 | 02:02:04:xx                 | IOT4ALL
