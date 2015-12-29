@@ -114,6 +114,9 @@ NwkID 1:
 | 02:01:57:xx				  | Xillion ICT Solutions	  |
 | 02:01:58:xx				  | Gangkast (Deventer, NL)   |
 | 02:01:59:xx				  | Gertjan (Bovenkerk, NL)   |
+| 02:01:5A:xx				  | Joshua Peper (Groningen, NL)   |
+| 02:01:5B:xx				  | Peperzaken (Groningen, NL)   |
+| 02:01:5C:xx				  | TTN Groningen (NL)   |
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
@@ -142,7 +145,6 @@ NwkID 1:
 | 02:03:13:xx				  | nico1966a (Haarlem)       |
 | 02:03:14:xx				  | Orinara IT Consultancy    |
 | 02:03:15:xx				  | Metavurt                  |
-
 |....|
 
 
