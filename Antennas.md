@@ -2,12 +2,13 @@
 
 ## Types
 
-Please add your exeriences!
+Please add your experiences!
 
 ### 1/4 wavelength
 
-TBD.
-
+868MHz Ground Plane Antenna
+Conrad Part# 190123 [Product Description](https://www.conrad.nl/nl/aurel-650200599-ground-plane-antenne-bouwpakket-190123.html) [PDF](http://www.produktinfo.conrad.com/datenblaetter/175000-199999/190123-an-01-en-Ground_Plane_Antenne_GP868.pdf)
+Includes 2.5 m cable with BNC connector.
 ### 1/2 wavelength
 
 Kerlink: 3 dBi gain. Type?
