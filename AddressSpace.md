@@ -145,6 +145,7 @@ NwkID 1:
 | 02:03:13:xx				  | nico1966a (Haarlem)       |
 | 02:03:14:xx				  | Orinara IT Consultancy    |
 | 02:03:15:xx				  | Metavurt                  |
+| 02:03:D0:xx                 | hans-d                    |
 |....|
 
 
