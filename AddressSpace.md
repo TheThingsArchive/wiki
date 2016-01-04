@@ -116,7 +116,8 @@ NwkID 1:
 | 02:01:59:xx				  | Gertjan (Bovenkerk, NL)   |
 | 02:01:5A:xx				  | Joshua Peper (Groningen, NL)   |
 | 02:01:5B:xx				  | Peperzaken (Groningen, NL)   |
-| 02:01:5C:xx				  | TTN Groningen (NL)   |
+| 02:01:5C:xx				  | TTN Groningen (NL)        |
+| 02:01:5D:xx				  | Oblivion (Apeldoorn, NL)  | 
 | ...                         |                           |
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
