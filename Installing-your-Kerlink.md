@@ -2,18 +2,18 @@
 Kerlink Gateway installation guide
 _With many thanks to Martin Aarts!_
 
-1. Make sure you order the correct Kerlink IoT Station, it is dependent on your country wchich frequency it uses.
+1. Make sure you order the correct Kerlink IoT Station, as it is dependent on your country which frequency are allowed and will therefore determine which frequencies the gateway uses.
 2. After unpacking the Kerlink IoT Station, open the case by putting a screwdriver in the top notch (where the antenna is located).
 3. Connect a UTP network cable on the green connector, cable colors are noted next to the connector. You can use an existing cable by cutting of the connector of one side, or you need to make a new cable including attaching the connector (watch the coloring scheme).
 4. Attach the UTP cable attached to the Kerlink IoT Station to the “data & power Out” port of the power adapter. Connect the “data IN” port of the power adapter to your existing network. If you use POE (Power Over Ethernet) switches, the power adapter is not needed.
 5. After powering on, check your DHCP server which IP-address the gateway uses. The LEDs inside the gateway do not work by default, they only work for about a minute after shortly pressing the “Test” button. This includes the power LEDs.
-6. Check if the gateway is only by directing a web browser to the IP-address of the gateway, for example http://10.1.0.117 (depending on the given IP-address by the DHCP server). The page will show “Hello World!” if the gateway is responding.
+6. Check if the gateway is on by directing a web browser to the IP-address of the gateway, for example http://10.1.0.117 (depending on the given IP-address by the DHCP server). The page will show “Hello World!” if the gateway is responding.
 7. Next you need to download [thethingsnetwork packetforwarder](https://github.com/TheThingsNetwork/kerlink-station-firmware/raw/master/dota/dota_thethingsnetwork_v1.1.tar.gz) and [produsb.zip](https://github.com/TheThingsNetwork/kerlink-station-firmware/raw/master/dota/produsb.zip) from our github. 
 8. Install the update the following way: 
 - Copy the content of produsb.zip and the dotafile onto an empty USB flash drive formatted in FAT-32. Make sure there is no .log file.
 - Plug USB key into the gateway.
-- Wait for 5 min.
-- Unplug the key and check that a .log file has appeared. The file should contain a text like "WirmaV2 0x080XXXXX updated". This log file prevents any further installation on the gateways to avoid cyclic reboots. If you want to restart the update on same gateway, remove this log file from the key and proceed again. (it is not needed if you update another gateway).
+- Wait for 5 min. During this time the gateway will reboot itself.
+- Unplug the key and check that a .log file has appeared. The file should contain the following text "WirmaV2 0x080XXXXX updated". This log file prevents any further installation on the gateways to avoid cyclic reboots. To redo the update on same gateway, remove this log file from the flash drive reinsert it into the gateway USB. (it is not needed if you update another gateway).
 9. Logon to the gateway by using the SSH protocol, on a Mac or Linux system just use the Terminal and run “ssh 10.1.0.117” (substitute by the correct IP-address).  On a Windows PC you can use the Putty.exe program, which can be downloaded at http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html . Login with the user “root” and default password “root”.
 10. At your firewall system make sure the external IP-address used will map port 1700 to the internal IP-address of the gateway. This is needed when using NAT for internal IP-address translation. 
 11. Your are basicly done now. For more checkeing proceed futher. The next steps require some knowledge of using the command-line in Linux or Mac.
@@ -53,6 +53,6 @@ tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 byte
 
 
 
-Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](Software/gateways/kerlink/mobile-connection) instructions.
+Want to connect the Kerlink over gprs/3g using a simcard? Follow [these steps](Software/gateways/kerlink/mobile-connection) instructions.
 
 
