@@ -11,7 +11,7 @@ _With many thanks to Martin Aarts!_
 7. Next you need to download [thethingsnetwork packetforwarder](https://github.com/TheThingsNetwork/kerlink-station-firmware/raw/master/dota/dota_thethingsnetwork_v1.1.tar.gz) and [produsb.zip](https://github.com/TheThingsNetwork/kerlink-station-firmware/raw/master/dota/produsb.zip) from our github. 
 8. Install the update the following way: 
 - Copy the content of produsb.zip and the dotafile onto an empty USB flash drive formatted in FAT-32. Make sure there is no .log file.
-- Plug USB key into the gateway.
+- Plug the USB flash drive into the gateway.
 - Wait for 5 min. During this time the gateway will reboot itself.
 - Unplug the key and check that a .log file has appeared. The file should contain the following text "WirmaV2 0x080XXXXX updated". This log file prevents any further installation on the gateways to avoid cyclic reboots. To redo the update on same gateway, remove this log file from the flash drive reinsert it into the gateway USB. (it is not needed if you update another gateway).
 9. Logon to the gateway by using the SSH protocol, on a Mac or Linux system just use the Terminal and run “ssh 10.1.0.117” (substitute by the correct IP-address).  On a Windows PC you can use the Putty.exe program, which can be downloaded at http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html . Login with the user “root” and default password “root”.
