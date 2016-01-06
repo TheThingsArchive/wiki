@@ -120,7 +120,9 @@ NwkID 1:
 | 02:01:5D:xx				  | Oblivion (Apeldoorn, NL)  | 
 | 02:01:5E:xx				  | Onderwater                | 
 | 02:01:5F:xx				  | Invenit (Raamsdonk, NL)   | 
+| 02:01:60:xx				  | MAD Space Eindhoven		
 | ...                         |                           |
+
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
 | 02:02:00:xx                 |	IT Forge (Den Haag, NL)   |
