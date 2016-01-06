@@ -1,12 +1,13 @@
 ## International media
 
-* [The Next Web: meet TTN](http://thenextweb.com/insider/2015/08/19/the-things-network-wants-to-make-every-city-smart-starting-with-amsterdam/)
+* [The Next Web: meet TTN 2015-08](http://thenextweb.com/insider/2015/08/19/the-things-network-wants-to-make-every-city-smart-starting-with-amsterdam/)
 * [Disrupted](http://www.disrupted.vc/archieven/journal/powering-the-internet-of-everything)
 * [Digitalist Magazine](http://www.digitalistmag.com/innovation/crowdsourced-citywide-iot-network-03338513)
 * [The Next Web: TTN goes global](http://thenextweb.com/dd/2015/10/01/smart-cities-are-springing-up-around-the-world-as-the-things-network-goes-global/)
 * [The Next Web: kickstarter](http://thenextweb.com/gadgets/2015/10/21/these-devices-could-help-spread-internet-of-things-networks-across-cities-worldwide/)
 * [Product Hunt](https://www.producthunt.com/tech/the-things-gateway)
 * [Hacker News](https://news.ycombinator.com/item?id=10438352)
+* [DutchNews 2016-01](http://www.dutchnews.nl/features/2016/01/the-internet-of-things-is-here/)
 
 
 ## Dutch media
