@@ -122,7 +122,7 @@ NwkID 1:
 | 02:01:5F:xx				  | Invenit (Raamsdonk, NL)   | 
 | 02:01:60:xx				  | MAD Space Eindhoven		  |
 | 02:01:61:xx				  | MancTest		  		|
-| 02:01:62:xx				  | Bruurs (Den Haag, NL)		  		|
+| 02:01:62:xx				  | Bruurs (Den Haag, NL)
 
 | ...                         |                           |
 
