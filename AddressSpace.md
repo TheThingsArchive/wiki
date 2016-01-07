@@ -124,8 +124,7 @@ NwkID 1:
 | 02:01:61:xx				  | MancTest		  		|
 | 02:01:62:xx				  | Bruurs (Den Haag, NL)
 | 02:01:63:xx				  | IOT4ALL (Enschede, NL)    |
- ... 
-
+... 
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
 | 02:02:00:xx                 |	IT Forge (Den Haag, NL)   |
@@ -134,6 +133,8 @@ NwkID 1:
 | 02:02:03:xx                 | Bogema                    |
   ...                         | 
 | 02:02:05:xx                 | 1M2M                      |
+...
+| 02:02:11:XX				  | arthoo					  |
 ...
 | 02:02:13:xx				  | Marten @ MakerSpace Leiden |	 
 | 02:02:14:xx				  | Aart @ eVect (evect.net) |	 
