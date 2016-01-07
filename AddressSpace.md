@@ -123,7 +123,7 @@ NwkID 1:
 | 02:01:60:xx				  | MAD Space Eindhoven		  |
 | 02:01:61:xx				  | MancTest		  		|
 | 02:01:62:xx				  | Bruurs (Den Haag, NL)
-
+| 02:01:63:xx				  | IOT4ALL (Enschede, NL)    |
  ... 
 
 | 02:01:BA:xx                 | TTN BA - Ropu             |
@@ -132,7 +132,7 @@ NwkID 1:
 | ...
 | 02:02:02:xx                 | Timmer                    |
 | 02:02:03:xx                 | Bogema                    |
-| 02:02:04:xx                 | IOT4ALL
+  ...                         | 
 | 02:02:05:xx                 | 1M2M                      |
 ...
 | 02:02:13:xx				  | Marten @ MakerSpace Leiden |	 
