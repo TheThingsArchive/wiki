@@ -53,7 +53,7 @@ Instructions:
             "serv_port_down": 1680,
             "serv_enabled": false },
           { /* "server_address": "croft.thethings.girovito.nl", */
-            "server_address": "54.229.214.112",
+            "server_address": "54.72.145.119",
             "serv_port_up" : 1700,
             "serv_port_down" : 1700,
             "serv_enabled": true } ],
