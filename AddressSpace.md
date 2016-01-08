@@ -126,6 +126,7 @@ NwkID 1:
 | 02:01:63:xx				  | IOT4ALL (Enschede, NL)    |
 | 02:01:64:xx				  | ESA     				   |
 | 02:01:65:xx                 | Meiwenti                  |
+| 02:01:66:xx				  | Jan-Willem (Amsterdam, NL) |
 ...
 | 02:01:69:xx                 | Sérgio Sena (Lundin Links, Scotland)|
 ... 
