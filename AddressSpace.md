@@ -124,6 +124,7 @@ NwkID 1:
 | 02:01:61:xx				  | MancTest		  		|
 | 02:01:62:xx				  | Bruurs (Den Haag, NL)
 | 02:01:63:xx				  | IOT4ALL (Enschede, NL)    |
+| 02:01:64:xx				  | ESA     				   |
 ...
 | 02:01:69:xx                 | Sérgio Sena (Lundin Links, Scotland)|
 ... 
