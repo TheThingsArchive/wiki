@@ -19,12 +19,12 @@ Depending on how much money you want to spend and when the hardware is needed th
 Tested by The Things Network Crew.
 Discussion: The device is specially developed for The Things Network and we will make sure it will meet all requirements for a smooth experience on The Things Network. Note that estimated first delivery is around June 2016.
 
-### [Kerlink](http://www.kerlink.fr/en/products/lora-iot-station/11-products-uk)
-* Price: on request, around 1500 euro.
-* Availability: direct available, (order in France)
+### [Kerlink](http://www.kerlink.fr/en/)
+* Price: on request, around 1.200 euro / 1.500 dollar.
+* Availability: direct available, send inquiry to [Kerlink Sales](sales@kerlink.fr)
 * Capacity: 8 band, ~ 20K Nodes 
 * Suitable for outdoor mounting (IP67)
-* Installation: Requires a technician
+* Installation: requires a technician
 * Hardware: proprietary
 * Software: open source & proprietary
 * Possibility to run on gprs/3g network
