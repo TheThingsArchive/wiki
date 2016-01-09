@@ -163,6 +163,7 @@ NwkID 1:
 | 02:03:17:xx				  | Decentlab GmbH (CH)       |
 | 02:03:D0:xx                 | hans-d                    |
 | 02:03:18:xx				  | sowifi (Amsterdam)
+| 02:03:19:xx				| Willem @ de Kwakel |
 |....|
 
 
