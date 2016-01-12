@@ -8,6 +8,7 @@
 * [Product Hunt](https://www.producthunt.com/tech/the-things-gateway)
 * [Hacker News](https://news.ycombinator.com/item?id=10438352)
 * [DutchNews 2016-01](http://www.dutchnews.nl/features/2016/01/the-internet-of-things-is-here/)
+* [IEEE IoT newsletter](http://iot.ieee.org/newsletter/january-2016/building-a-crowdsourced-global-iot-network-operator.html)
 
 
 ## Dutch media
