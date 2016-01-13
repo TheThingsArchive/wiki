@@ -11,14 +11,18 @@ Conrad Part# 190123 [Product Description](https://www.conrad.nl/nl/aurel-6502005
 Includes 2.5 m cable with BNC connector (transceiver side) and F-connector (antenna side).
 ### 1/2 wavelength
 
-Kerlink: 3 dBi gain. Type?
+Kerlink: 3 dBi gain [LINK](http://procom.dk/products/531-cxl-900-3lw-nb868-mhz)
 
 ### Dipole array
 
 868Mhz
+
 Taoglas OMB.868.B05F21 [PDF](http://www.taoglas.com/images/product_images/original_images/OMB.868.B05F21.pdf)
 
+Procom CXL 900-6LW-NB/868 MHz [LINK](http://procom.dk/products/528-cxl-900-6lw-nb868-mhz)
+
 915Mhz
+
 Taoglas OMB.915.B03F21 [PDF](http://www.taoglas.com/wp-content/uploads/2015/06/OMB.915.B03F21.pdf)
 
 
