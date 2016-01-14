@@ -59,8 +59,8 @@ find a thread for your gateway already. If so, please add a link to the thread h
 ### Getting the Data
 Currently there are two different ways of getting the data:
 
-    - from REST API: for batched or semi-realtime data gathering
-    - from MQTT stream: for realtime pub/sub data gathering
+  - from REST API: for batched or semi-realtime data gathering
+  - from MQTT stream: for realtime pub/sub data gathering
 
 By default, all packets sent by any node that are encrypted using our default
 key settings, will be both saved in a database (MongoDB) for undetermined amount
