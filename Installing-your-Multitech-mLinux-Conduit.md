@@ -20,85 +20,36 @@ Instructions:
 
     When you are ready to connect up to The Things Network:
 
-5.  Convert your Conduit to a packet forwarder.  We have found @kersig's poly packet forwarder to be more relaible than the gps_pkt_fwd or basic_pkt_fwd that come as standard. Download the poly_pkt_fwd install packet onto your Conduit from here: [https://github.com/kersing/packet_forwarder/blob/master/multitech-bin/poly-packet-forwarder_2.1-r1_arm926ejste.ipk](https://github.com/kersing/packet_forwarder/blob/master/multitech-bin/poly-packet-forwarder_2.1-r1_arm926ejste.ipk)
-6.  Also download the sample global_conf.json file for an 868 card here: [https://github.com/kersing/packet_forwarder/blob/master/poly_pkt_fwd/global_conf_multitech-eu868.json](https://github.com/kersing/packet_forwarder/blob/master/poly_pkt_fwd/global_conf_multitech-eu868.json)
-7.  Install poly_pkt_fwd on your Conduit using **opkg install poly-packet-forwarder_2.1-r1_arm926ejste.ipk**
-8.  Copy the sample global_conf file to **/var/config/lora** and rename it **global_conf.json**
-9.  Edit **/var/config/lora/global_conf.json**.  Go to the bottom and edit the gateway_conf section:
-<pre><code>"gateway_conf": {
-        /* change with default server address/ports, or overwrite in local_conf.
-        "gateway_ID": "008000000000A052",
-        /* Devices */
-        "gps": true,
-        "beacon": false,
-        "monitor": false,
-        "upstream": true,
-        "downstream": true,
-        "ghoststream": false,
-        "radiostream": true,
-        "statusstream": true,
-        /* node server */
-        "server_address": "127.0.0.1",
-        "serv_port_up": 1680,
-        "serv_port_down": 1681,
-        /* node servers for poly packet server (max 4) */
-        "servers":
-        [ { "server_address": "127.0.0.1",
-            "serv_port_up": 1680,
-            "serv_port_down": 1681,
-            "serv_enabled": false },
-          { /* "server_address": "iot.semtech.com", */
-            "server_address": "80.83.53.26",
-            "serv_port_up": 1680,
-            "serv_port_down": 1680,
-            "serv_enabled": false },
-          { /* "server_address": "croft.thethings.girovito.nl", */
-            "server_address": "54.72.145.119",
-            "serv_port_up" : 1700,
-            "serv_port_down" : 1700,
-            "serv_enabled": true } ],
-        /* adjust the following parameters for your network */
-        "keepalive_interval": 10,
-        "stat_interval": 30,
-        "push_timeout_ms": 100,
-        /* forward only valid packets */
-        "forward_crc_valid": true,
-        "forward_crc_error": false,
-        "forward_crc_disabled": true,
-        /* GPS configuration */
-        "gps_tty_path": "/dev/ttyAMA0",
-        "fake_gps" : true,
-        "ref_latitude" : 51.441026,
-        "ref_longitude" : -0.967420,
-        "ref_altitude" : 61,
-        /* Ghost configuration */
-        "ghost_address": "127.0.0.1",
-        "ghost_port": 1918,
-        /* Monitor configuration */
-        "monitor_address": "127.0.0.1",
-        "monitor_port": 2008,
-        "ssh_path": "/usr/bin/ssh",
-        "ssh_port": 22,
-        "http_port": 80,
-        "ngrok_path": "/usr/bin/ngrok",
-        "system_calls": ["df -m","free -h","uptime","who -a","uname -a"],
-        /* Platform definition, put a asterix here for the system value, max 24
-        "platform": "*",
+5.  Convert your Conduit to a packet forwarder.  We have found @kersing's poly packet forwarder to be more relaible than the gps_pkt_fwd or basic_pkt_fwd that come as standard. Download the poly_pkt_fwd install packet onto your Conduit from here: [https://github.com/kersing/packet_forwarder/blob/master/multitech-bin/poly-packet-forwarder_2.1-r2_arm926ejste.ipk](https://github.com/kersing/packet_forwarder/blob/master/multitech-bin/poly-packet-forwarder_2.1-r2_arm926ejste.ipk?raw=true)
+6.  Install poly_pkt_fwd on your Conduit using **opkg install poly-packet-forwarder_2.1-r2_arm926ejste.ipk**
+7.  Edit **/var/config/lora/local_conf.json**.
+<pre><code>
+{
+/* Put there parameters that are different for each gateway (eg. pointing one gateway to a test server while the others stay in production) */
+/* Settings defined in global_conf will be overwritten by those in local_conf */
+    "gateway_conf": {
+	/* you must pick a unique 64b number for each gateway (represented by an hex string) */
+        "gateway_ID": "AA555A000004BABA",
         /* Email of gateway operator, max 40 chars*/
-        "contact_email": "mark.stanley@someconsultants.com",
+        "contact_email": "operator@gateway.tst", 
         /* Public description of this device, max 64 chars */
-        "description": "TTN Reading UK 001"
-    }</code></pre>
+        "description": "Update me",
+	/* Enter VALID GPS coordinates below before enabling fake GPS */
+        "fake_gps": false,
+        "ref_latitude": 10,
+        "ref_longitude": 20,
+        "ref_altitude": -1
+    }
+}</code></pre>
 
     You need to change the following:
     
     * <em>gateway_ID</em> can be obtained by running **mts-io-sysfs show lora/eui**
     * <em>ref_latitude</em>, <em>ref_logitude</em> and <em>ref_altitude</em> can all be got from Google
+    * <em>fake_gps</em> set to true
     * <em>contact_email</em>
     * <em>description</em>
     
-    The <em>serv_port_down</em>, <em>serv_port_up</em> and <em>server_address</em> are correct for The Things Network
-
 8.  Edit **/etc/init.d/lora-network-server**.  Around line 17 you need to change from using <em>basic_pkt_fwd</em> to using <em>poly_pkt_fwd</em>:
 	<pre><code>pkt_fwd=/opt/lora/poly_pkt_fwd</code></pre>
 
@@ -126,8 +77,3 @@ Instructions:
     
 9.  Restart the lora-network server:   **/etc/init.d/lora-network-server restart**
 10. If things have gone well you should be able to go to [http://thethingsnetwork.org/api/v0/gateways/](http://thethingsnetwork.org/api/v0/gateways/) and see your gateway appear in the list.  Congratulations!
-
-
-   
-   
-   
