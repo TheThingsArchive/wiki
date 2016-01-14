@@ -59,14 +59,12 @@ find a thread for your gateway already. If so, please add a link to the thread h
 ### Getting the Data
 Currently there are two different ways of getting the data:
 
-  - from REST API: for batched or semi-realtime data gathering
-  - from MQTT stream: for realtime pub/sub data gathering
+  - pull from REST API: for batched or semi-realtime data gathering (based on storage)
+  - connect to MQTT stream: for realtime pub/sub data gathering (live data only)
 
 By default, all packets sent by any node that are encrypted using our default
 key settings, will be both saved in a database (MongoDB) for undetermined amount
 of time (currently forever), and made available via the MQTT broker.
-
-There are currently two ways of getting your data: pull-like REST API (based on storage) and pub/sub MQTT.
 
 ### API
 There's a REST API available to query for the latest packets.
@@ -98,7 +96,7 @@ The node packets will include the following data fields:
 MQTT is gaining momentum as the defacto protocol used for Internet of Things
 applications. It allows for real-time data communication between any combination
 of `publishers` (sending data) and `subscribers` (receiving data) via a semi-distributed
-network.
+network. There's client libraries available for most programming languages.
 
 For real-time publish-subscribe (Pub/Sub) connections we're hosting an MQTT broker at:
 
