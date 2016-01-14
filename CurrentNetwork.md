@@ -1,5 +1,13 @@
 # Current Network
 
+An early diagram of the current network is shown here:
+![data flow overview](https://raw.githubusercontent.com/wiki/TheThingsNetwork/docs/imgs/ttn_prototype_data_flow.png)
+
+Note that this is still a prototype, while we're working on the first version
+of the new [[Architecture]].
+
+
+## Gateways
 Here's an overview of the current network nodes and gateways.
 As it's made manually, it's most likely out to date. We'll work on some automated google maps soon.
 
