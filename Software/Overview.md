@@ -1,6 +1,8 @@
-## Prototype Network Setup
+**Wanting to Get started with your data?**
+To start developing applications using the network **API** or **MQTT**,
+please [see below](#getting-the-data).
 
-To start developing applications using the network **API** or **MQTT**, please [see below](#getting-the-data).
+## Prototype Network Setup
 
 The current setup is temporary, but available for use.
 We're finalising the initial network architecture, but
@@ -22,9 +24,9 @@ So, there shouldn't be any "central" point in the near future, once more people 
 Right now, though, there's one router and one application server running, and we're rewriting the proof-of-concept into a more stable version. Details will follow soon ;-)
 
 
-## Instructions Upstream (Things side)
+## Instructions Upstream (Things / Node side)
 ### Kerlink
-* An installation guide [Installation guide](/wiki/Installing-your-Kerlink)
+* An installation guide [Installation guide](../Installing-your-Kerlink)
 * Install Demo LoRa Packet forwarder as described [Here](http://wikikerlink.fr/lora-station/doku.php?id=wiki:semtech#demo_lora_packet_forwarderready-to-use_package).
 * Change and add the following lines in /mnt/fsuser-1/demo_gps_loramote/local_conf.json
 * Don't change your gateway_ID, it's linked to your serial.
@@ -45,6 +47,10 @@ local_conf.json:
 
 Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](gateways/kerlink/mobile-connection) instructions.
 
+### Other gateways
+If you have another gateway, you might find help on the [TTN forum](http://forum.thethingsnetwork.org/).
+There's many different gateways out there already, so you'll probably be able to
+find a thread for your gateway already. If so, please add a link to the thread here.
 
 
 ## Instructions Downstream (Server side: application development)
