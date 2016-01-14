@@ -52,9 +52,14 @@ Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](gateway
 ## Instructions Downstream (Server side: application development)
 
 ### Getting the Data
-By default, all packets sent by any node using our default key settings,
-will be saved in a database (MongoDB) for undetermined amount of time
-(currently forever), and available via the MQTT broker.
+Currently there are two different ways of getting the data:
+
+    - from REST API: for batched or semi-realtime data gathering
+    - from MQTT stream: for realtime pub/sub data gathering
+
+By default, all packets sent by any node that are encrypted using our default
+key settings, will be both saved in a database (MongoDB) for undetermined amount
+of time (currently forever), and made available via the MQTT broker.
 
 There are currently two ways of getting your data: pull-like REST API (based on storage) and pub/sub MQTT.
 
@@ -85,6 +90,11 @@ The node packets will include the following data fields:
 
 
 ### MQTT and NodeRED
+MQTT is gaining momentum as the defacto protocol used for Internet of Things
+applications. It allows for real-time data communication between any combination
+of `publishers` (sending data) and `subscribers` (receiving data) via a semi-distributed
+network.
+
 For real-time publish-subscribe (Pub/Sub) connections we're hosting an MQTT broker at:
 
     tcp://croft.thethings.girovito.nl:1883
