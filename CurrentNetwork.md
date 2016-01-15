@@ -32,7 +32,7 @@ As it's made manually, it's most likely out to date. We'll work on some automate
 | GM001 The Garden - Manchester | AA555A000806018D |
 | The Old Church - Eelde | 0000003197610001 |
 | SmartParcs 1 | 0000024B08060734 |
-
+| AnalyzeDirect - Nieuwe Niedorp |FFFEB827EBB81102 |
 
 ##Monitoring
 Gateway locations and real-time status updates can be found at: [http://www.ttnstatus.org](http://www.ttnstatus.org)
