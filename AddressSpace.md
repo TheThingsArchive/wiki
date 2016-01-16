@@ -175,7 +175,7 @@ NwkID 1:
 | 02:03:23:xx                 | Safecast                    |
 |....|
 | 02:03:25:xx                 | AnalyzeDirect Nieuwe Niedorp
-
+| 02:03:26:xx                 | JvdV (De Bilt)            |
 
 
 ## Registered Addresses in other providers' address space (!?)
