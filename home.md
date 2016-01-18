@@ -18,7 +18,7 @@ Tech:
 
   * [[GettingStarted]]
   * [Gateways to buy](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways)
-  * [Connect your node](Hardware/OverviewNodes)
+  * [Nodes to buy & Connect your node](Hardware/OverviewNodes)
   * [Node adress space](http://thethingsnetwork.org/wiki/AddressSpace)
   * [Applications: overview + API + SDKs](http://thethingsnetwork.org/wiki/Software/Overview)
   * [Antennas (work in progress)](http://thethingsnetwork.org/wiki/Antennas)
