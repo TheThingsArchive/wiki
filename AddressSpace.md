@@ -128,7 +128,7 @@ NwkID 1:
 | 02:01:65:xx                 | Meiwenti                  |
 | 02:01:66:xx				  | Jan-Willem (Amsterdam, NL) |
 | 02:01:67:xx				  | Sjoerd (Kerkwijk)         |
-| 02:01:68:xx				  | Joost (Utrecht) |
+| 02:01:68:xx				  | Joost (Utrecht, NL) |
 | 02:01:69:xx                 | Sérgio Sena (Lundin Links, Scotland)|
 ... 
 | 02:01:BA:xx                 | TTN BA - Ropu             |
