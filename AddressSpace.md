@@ -139,7 +139,7 @@ NwkID 1:
 | ...
 | 02:02:02:xx                 | Timmer                    |
 | 02:02:03:xx                 | Bogema                    |
-  ...                         | 
+| 02:02:04:xx                 | Things4U                  | 
 | 02:02:05:xx                 | 1M2M                      |
 ...
 | 02:02:11:XX				  | arthoo					  |
