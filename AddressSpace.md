@@ -176,6 +176,7 @@ NwkID 1:
 |....|
 | 02:03:25:xx                 | AnalyzeDirect Nieuwe Niedorp
 | 02:03:26:xx                 | JvdV (De Bilt)            |
+| 02:03:27:xx                 | Mechiel(mjl), irias.nl (Zwolle) |            |
 
 
 ## Registered Addresses in other providers' address space (!?)
