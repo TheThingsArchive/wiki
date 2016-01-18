@@ -20,6 +20,7 @@ what to buy, send us an [email](Contact).
 | RFM95W + ESP8266  | | SX1276 | | esp8266      || DIY         || 10,-         || Arduino + [HLC](http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484)
 | IMST iM880a       | | SX1272 | | STM32L151Cx  || smd         || 19.-         || program with ST-link       |
 | Microchip RN2483  | | SX1276 | | yes PIC?     || smd         || 12.-         || +Lorawan stack, see [microchip](http://www.microchip.com/wwwproducts/Devices.aspx?product=RN2483) |
+| Modtronix inAir9B | | SX1276 | | no           || 2.4mm       || 15.-         || Tested with Teensy 3.2 & LMIC 1.5 |
 
 LoRa devices are roughly divided into two categories:
 
@@ -143,6 +144,11 @@ Cost: less than €30 (incl. VAT).
  * The library defaults to RFM92, change the radio type in config.h to use the RFM95
  * You can power the Teensy via the USB port, or a battery (e.g. 3.7V) on the 5v pin. But not both at the same time.
  * Questions? -> Forum!
+ 
+### Modtronix inAir9B & Teensy 3.2
+ * wired in the same manner as the Teensy & HopeRF above
+ * Antenna: +2db antenna with male SMA connector
+ * Tested with LMIC 1.5 and the example program
  
 ### Kerlink Loramote
 This device should work out-of-the-box. It will start sending GPS, temperature and battery data as soon as it is powered.
