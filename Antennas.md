@@ -11,7 +11,9 @@ Conrad Part# 190123 [Product Description](https://www.conrad.nl/nl/aurel-6502005
 Includes 2.5 m cable with BNC connector (transceiver side) and F-connector (antenna side).
 ### 1/2 wavelength
 
-Kerlink: 3 dBi gain [LINK](http://procom.dk/products/531-cxl-900-3lw-nb868-mhz)
+Kerlink: 3 dBi gain 
+
+CXL 900-3LW-NB/868 MHz [LINK](http://procom.dk/products/531-cxl-900-3lw-nb868-mhz)
 
 ### Dipole array
 
