@@ -151,6 +151,8 @@ NwkID 1:
 ...
 | 02:02:99:xx                 | IoT ID TUE                |
 | ...                         |                           |
+| 02:02:A2:xx                 | Ann Arbor Telegraph       |
+| ...                         |                           |
 | 02:02:BA:xx                 | TTN BA 2 - Ropu           |
 | ...    
 | 02:03:04:xx                 | SODAQ                     |
