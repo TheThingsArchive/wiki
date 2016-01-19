@@ -11,7 +11,12 @@ of the new [[Architecture]].
 
 Gateway locations and real-time status updates can be found at: [http://www.ttnstatus.org](http://www.ttnstatus.org)
 
-There is also a map (alpha stage) at: [http://www.ttnmap.org](http://www.ttnmap.org)
+There are also some community-managed map visualisations (mostly prototypes) at:
+
+  * [http://www.ttnmap.org](http://www.ttnmap.org)
+  * [http://ttn.lpwan.uk/](http://ttn.lpwan.uk) ([source code](https://github.com/thiseldo/ttnstatusmap))
+  * [Groningen website](http://live.thethingsnetwork-groningen.org)
+
 
 ## Nodes
 Currently there's a few test nodes out there, including two Kerlink Loramotes and three water-sensor equipped SODAQ nodes. An overview follows soon.
