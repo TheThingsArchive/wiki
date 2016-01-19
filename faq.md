@@ -71,6 +71,23 @@ As with everything on the internet, you might want to consider adding additional
 layers of encryption on top of the existing connection.
 
 
+### Why is X not decentralised?
+Truly decentralising a network and community is a hard problem; there's always
+a trade-off between decentralisation and practicality. We try to build a truly
+decentralised network, but most succesful community projects still have some
+semi-centralised parts to get things going.
+
+All [software](https://github.com/TheThingsNetwork) is open-source, all hardware
+designs developed by TTN are open-source, the network is (semi-)decentralised
+without central authority, and we try to be as much community-driven as is
+practical. We also try to make much of the (public) data available
+([website source-code](https://github.com/TheThingsNetwork/TheThingsNetwork.org),
+[live gateways](http://ttnstatus.org/gateways),
+[wiki data](https://github.com/TheThingsNetwork/wiki)).
+However, we do have a core team pushing forward on software development and
+community management.
+
+
 ### I want to help out! What can I do?
 ..
 
