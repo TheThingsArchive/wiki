@@ -79,8 +79,9 @@ semi-centralised parts to get things going.
 
 All [software](https://github.com/TheThingsNetwork) is open-source, all hardware
 designs developed by TTN are open-source, the network is (semi-)decentralised
-without central authority, and we try to be as much community-driven as is
-practical. We also try to make much of the (public) data available
+without central authority, The Things Network is a non-profit Foundation, and we
+try to be as much community-driven as is practical.
+We also try to make much of the (public) data available
 ([website source-code](https://github.com/TheThingsNetwork/TheThingsNetwork.org),
 [live gateways](http://ttnstatus.org/gateways),
 [wiki data](https://github.com/TheThingsNetwork/wiki)).
