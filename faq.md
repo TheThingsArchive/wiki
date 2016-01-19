@@ -85,7 +85,7 @@ practical. We also try to make much of the (public) data available
 [live gateways](http://ttnstatus.org/gateways),
 [wiki data](https://github.com/TheThingsNetwork/wiki)).
 However, we do have a core team pushing forward on software development and
-community management.
+community management, and we do host a few websites ourselves.
 
 
 ### I want to help out! What can I do?
