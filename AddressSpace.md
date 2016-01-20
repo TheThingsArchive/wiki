@@ -182,7 +182,7 @@ NwkID 1:
 | 02:03:27:xx                 | Mechiel(mjl), irias.nl (Zwolle) |       
 |...|
 | 02:03:30:xx				  | IVU Burglengenfeld 				|	|
-
+| 02:03:31:xx				  | Sensors Connect 				|	|
 
 ## Registered Addresses in other providers' address space (!?)
 
