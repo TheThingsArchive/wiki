@@ -183,6 +183,7 @@ NwkID 1:
 |...|
 | 02:03:30:xx				  | IVU Burglengenfeld 				|	|
 | 02:03:31:xx				  | Sensors Connect 				|	|
+| 02:03:32:xx				  | Pure Knowledge  				|	|
 
 ## Registered Addresses in other providers' address space (!?)
 
