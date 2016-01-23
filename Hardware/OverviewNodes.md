@@ -34,6 +34,8 @@ Port of LMIC library to the ESP8266 based NodeMCU board and a DS18B20 temperatur
 
 * [https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20](https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20)
 
+Documentation is on [http://things4u.github.com](http://things4u.github.com)
+
 Other project of Hoeksma (Work in process)
 
 * http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
