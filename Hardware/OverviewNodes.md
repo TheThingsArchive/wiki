@@ -36,7 +36,7 @@ Port of LMIC library to the ESP8266 based NodeMCU board and a DS18B20 temperatur
 
 Other project of Hoeksma
 
-http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
+* http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
 
 Work in process
 
