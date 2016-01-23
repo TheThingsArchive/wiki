@@ -30,7 +30,8 @@ LoRa devices are roughly divided into two categories:
 Some devices are somewhat hybrid - they contain the transceiver and a microcontroller, but instead of supplying a full, precompiled LoRaWAN stack and exposing a serial API, they supply the code for the LoRaWAN stack so you can run both the LoRaWAN stack and your own application inside the microcontroller.
 
 ### DIY EPS8266 + Hopermf -> $10
-https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20 port of LMIC library to the ESP8266 based NodeMCU board and a DS18B20 temperature sensor.
+Port of LMIC library to the ESP8266 based NodeMCU board and a DS18B20 temperature sensor.
+* [https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20](https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20)
 
 http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
 
