@@ -34,7 +34,9 @@ Port of LMIC library to the ESP8266 based NodeMCU board and a DS18B20 temperatur
 
 * [https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20](https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20)
 
-Documentation is on [http://things4u.github.com](http://things4u.github.com)
+Documentation is on [http://things4u.github.com](http://things4u.github.com) 
+the system is working with a Wemos D1-Mini NodeMCU-like board so will probably work 
+with most other NodeMCU boards as well.
 
 Other project of Hoeksma (Work in process)
 
