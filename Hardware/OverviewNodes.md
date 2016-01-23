@@ -31,7 +31,10 @@ Some devices are somewhat hybrid - they contain the transceiver and a microcontr
 
 ### DIY EPS8266 + Hopermf -> $10
 Port of LMIC library to the ESP8266 based NodeMCU board and a DS18B20 temperature sensor.
+
 * [https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20](https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20)
+
+Other project of Hoeksma
 
 http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
 
