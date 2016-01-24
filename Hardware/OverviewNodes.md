@@ -76,13 +76,13 @@ Program them:
    The device will start sending measurements about once every two minutes.
 
 
-### Kickstarter TTN Arduino Uno
-We've launched a kickstarter early October, including an Arduino Uno with build-in
+### Kickstarter TTN Arduino UNO
+We ran a Kickstarter campaign in 2015, including an Arduino UNO with built-in
 LoRa chip and open-source libraries to connect to The Things Network gateways.
 More info: [http://thethingsnetwork.org/landing/kickstarter](http://thethingsnetwork.org/landing/kickstarter)
 
-This board will be an Arduino-compatible board with a full-stack LoRaWAN module integrated (so 2 microcontrollers on board - one in the LoRaWAN module and one on the main board for you to program), making it a perfect board to get started.
-Early version of the docs (for beta testers) are available [here](http://forum.thethingsnetwork.org/t/ttn-uno-beta-release-documentation/290) (mirror [docs](https://www.dropbox.com/s/679gjqza5fk5tp3/LoRa%20QuickStart%20Guide%20%28English%29.pdf?dl=0) and [code](https://www.dropbox.com/s/vg53hw5plkjxi3h/LoRa_with_button_and_led_test_working.zip?dl=0)).
+This board will be an Arduino-compatible board with a full-stack [Microchip RN2483 Class A LoRaWAN module](http://www.microchip.com/wwwproducts/Devices.aspx?product=RN2483) integrated (so 2 microcontrollers on board - one in the LoRaWAN module and one on the main board for you to program), making it a perfect board to get started.
+Early version of the docs (for beta testers) are available [here](http://forum.thethingsnetwork.org/t/ttn-uno-beta-release-documentation/290) (mirror [docs](https://www.dropbox.com/s/679gjqza5fk5tp3/LoRa%20QuickStart%20Guide%20%28English%29.pdf?dl=0) and [code](https://www.dropbox.com/s/vg53hw5plkjxi3h/LoRa_with_button_and_led_test_working.zip?dl=0)). Microchip's RN2483 LoRa Technology Module Command Reference User's Guide is [here](http://ww1.microchip.com/downloads/en/DeviceDoc/40001784C.pdf).
 
 As we're getting closer to shipping this page will be updated with instructions.
 
