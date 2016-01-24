@@ -186,6 +186,7 @@ NwkID 1:
 | 02:03:32:xx				  | Pure Knowledge  				|	|
 | 02:03:33:xx                 | nielsmaneschijn                 |   |
 | 02:03:34:xx                 | Systec                          |   |
+| 02:03:35:xx                 | Peter (Nijmegen, NL)            |   |
 
 ## Registered Addresses in other providers' address space (!?)
 
