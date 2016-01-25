@@ -148,6 +148,7 @@ NwkID 1:
 | 02:02:13:xx				  | Marten @ MakerSpace Leiden |	 
 | 02:02:14:xx				  | Aart @ eVect (evect.net) |	 
 | 02:02:15:xx                 | ICT (ict.nl, Groningen, NL) |
+| 02:02:16:xx                 | Oscar @ TTN Kaag & Braassem |
 | 02:02:55:xx                 | Siso                      |
 ...
 | 02:02:99:xx                 | IoT ID TUE                |
