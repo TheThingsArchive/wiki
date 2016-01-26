@@ -190,6 +190,7 @@ NwkID 1:
 | 02:03:34:xx                 | Systec                          |   |
 | 02:03:35:xx                 | Peter (Nijmegen, NL)            |   |
 | 02:03:36:xx                 | CTU in Prague, FEE (CZ)         |   |
+| 02:03:37:xx                 | Stefan (Maasland, NL)           |   |
 
 ## Registered Addresses in other providers' address space (!?)
 
