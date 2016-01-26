@@ -191,6 +191,7 @@ NwkID 1:
 | 02:03:35:xx                 | Peter (Nijmegen, NL)            |   |
 | 02:03:36:xx                 | CTU in Prague, FEE (CZ)         |   |
 | 02:03:37:xx                 | Stefan (Maasland, NL)           |   |
+| 02:03:38:xx                 | Bergiverse (NL)                 |   |
 
 ## Registered Addresses in other providers' address space (!?)
 
