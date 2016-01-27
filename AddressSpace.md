@@ -194,6 +194,7 @@ NwkID 1:
 | 02:03:37:xx                 | Stefan (Maasland, NL)           |   |
 | 02:03:38:xx                 | Bergiverse (NL)                 |   |
 | 02:03:39:xx                 | AVOdev                          |   |
+| 02:03:3a:xx                 | Freed Interactive               |   |
 |...|
 | 02:A2:A2:xx                 | Ordina Smart Technologies |
 
