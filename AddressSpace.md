@@ -192,6 +192,9 @@ NwkID 1:
 | 02:03:36:xx                 | CTU in Prague, FEE (CZ)         |   |
 | 02:03:37:xx                 | Stefan (Maasland, NL)           |   |
 | 02:03:38:xx                 | Bergiverse (NL)                 |   |
+|...|
+| 02:A2:A2:xx                 | Ordina Smart Technologies |
+
 
 ## Registered Addresses in other providers' address space (!?)
 
@@ -199,7 +202,6 @@ NwkID 1:
 | Address block &nbsp; &nbsp; | Claimed by                |
 |-----------------------------|---------------------------|
 | 5A:48:01:xx                 | TTN ZH                    |
-| A2:A2:A2:xx                 | Ordina Smart Technologies |
 | BA:BE:CA:xx                 | QwikSense                 |
 | DE:AD:BE:xx                 | turiphro                  |
 | BE:EF:BE:xx                 | ZB45 Makerspace           |
