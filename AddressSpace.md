@@ -145,7 +145,7 @@ NwkID 1:
 | 02:02:05:xx                 | 1M2M                      |
 ...
 | 02:02:11:XX				  | arthoo					  |
-...
+| 02:02:12:XX				  | JS (France) 			  |
 | 02:02:13:xx				  | Marten @ MakerSpace Leiden |	 
 | 02:02:14:xx				  | Aart @ eVect (evect.net) |	 
 | 02:02:15:xx                 | ICT (ict.nl, Groningen, NL) |
