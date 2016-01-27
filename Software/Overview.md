@@ -129,6 +129,8 @@ Ready to develop Android apps using data from The Things Network?
 Grab the Android SDK (which is implementing the REST API) and you're ready to
 go. Find it on GitHub (below).
 
+Example Android app:
+[The Things Network SDK Sample](https://play.google.com/store/apps/details?id=org.ttn.android.sample)
 
 ## Github Repositories
 
