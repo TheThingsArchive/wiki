@@ -205,7 +205,8 @@ NwkID 1:
 | 02:A2:A2:xx                 | Ordina Smart Technologies |
 | 02:A2:A3:xx                 | LD (Utrecht)
 |...|
-| 02:D1:D1:xx                 | Diycon (Emmen, NL)
+| 02:D1:D1:xx                 | Diycon (Emmen, NL)|
+| 02:D1:D2:xx                 | unirlengh |
 
 ## Registered Addresses in other providers' address space (!?)
 
