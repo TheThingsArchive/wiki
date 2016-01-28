@@ -139,7 +139,8 @@ NwkID 1:
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
 | 02:01:EE:xx                 | eleven-x                  |
-| 02:01:FF:xx                 | unirlengh |
+| ...
+| 02:01:FF:xx                 | unirlengh                 |
 | ...      
 | 02:02:00:xx                 |	IT Forge (Den Haag, NL)   |
 | 02:02:01:xx                 | WuhKuh (Terschelling, NL) |
