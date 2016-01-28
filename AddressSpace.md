@@ -200,6 +200,7 @@ NwkID 1:
 | 02:03:3D:xx                 | CM Technology (Breda, NL)       |   |
 |...|
 | 02:A2:A2:xx                 | Ordina Smart Technologies |
+| 02:A2:A3:xx                 | LD (Utrecht)
 
 
 ## Registered Addresses in other providers' address space (!?)
