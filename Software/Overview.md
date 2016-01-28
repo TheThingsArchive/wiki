@@ -107,7 +107,7 @@ For demo purposes, there's also a hosted version of [Node-RED](http://nodered.or
 
     http://croft.thethings.girovito.nl:1880/
 
-For long-term usage, it's better to host your [own version of Node-RED](http://nodered.org/docs/), as there's currently no authentication for the web interface.
+For long-term usage, it's better to host your [own version of Node-RED](http://nodered.org/docs/), as there's currently no authentication for the web interface. Node-RED comes pre-installed in Rasbian-Jessie (November 2015) for RaspberryPi
     
 
 ### Work In Progress
