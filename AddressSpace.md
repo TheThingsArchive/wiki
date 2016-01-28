@@ -139,6 +139,7 @@ NwkID 1:
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
 | 02:01:EE:xx                 | eleven-x                  |
+| 02:01:FF:xx                 | unirlengh |
 | ...      
 | 02:02:00:xx                 |	IT Forge (Den Haag, NL)   |
 | 02:02:01:xx                 | WuhKuh (Terschelling, NL) |
@@ -206,7 +207,6 @@ NwkID 1:
 | 02:A2:A3:xx                 | LD (Utrecht)
 |...|
 | 02:D1:D1:xx                 | Diycon (Emmen, NL)|
-| 02:D1:D2:xx                 | unirlengh |
 
 ## Registered Addresses in other providers' address space (!?)
 
