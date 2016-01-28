@@ -132,7 +132,7 @@ NwkID 1:
 | 02:01:69:xx                 | Sérgio Sena (Lundin Links, Scotland)|
 | 02:01:70:xx				  | H Falaki |
 | 02:01:71:xx				  | Seal Productions Zoutkamp |
-| 02:01:72:xx				  | JP Meijers (Enschede, NL / Stellenbosch, ZA) |
+| 02:01:72:xx				  | jpmeijers (Enschede, NL / Stellenbosch, ZA) |
 ... 
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
