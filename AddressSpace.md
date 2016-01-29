@@ -134,6 +134,7 @@ NwkID 1:
 | 02:01:71:xx				  | Seal Productions Zoutkamp |
 | 02:01:72:xx				  | jpmeijers (Enschede, NL / Stellenbosch, ZA) |
 | 02:01:73:xx                 | unirlengh                 |
+| 02:01:74:xx                 | Provincie Groningen       |
 ... 
 | 02:01:82:xx				  | BadBit (Den Haag / NL) |
 ... 
