@@ -214,6 +214,7 @@ NwkID 1:
 |...|
 | 02:D1:D1:xx                 | Diycon (Emmen, NL)|
 | 02:D1:D2:xx                 | lo-ra.ru|
+| 02:D1:D3:xx				  | BoRRoZ  (loralab.nl)
 
 ## Registered Addresses in other providers' address space (!?)
 
