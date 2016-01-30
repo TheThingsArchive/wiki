@@ -213,6 +213,7 @@ NwkID 1:
 | 02:A2:A3:xx                 | LD (Utrecht)
 |...|
 | 02:D1:D1:xx                 | Diycon (Emmen, NL)|
+| 02:D1:D2:xx                 | lo-ra.ru|
 
 ## Registered Addresses in other providers' address space (!?)
 
