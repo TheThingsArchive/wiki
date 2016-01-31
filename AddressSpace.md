@@ -223,6 +223,7 @@ NwkID 1:
 | 02:D1:D5:xx				  | Rarely Impossible (Bournemouth, UK)	
 | 02:D1:D6:xx                 | SSI 
 | 02:D1:D7:xx                 | Bart (Garderen, NL)
+| 02:D1:D8:xx                 | Tom (Val, F)
 
 
 ## Registered Addresses in other providers' address space (!?)
