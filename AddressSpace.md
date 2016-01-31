@@ -222,7 +222,7 @@ NwkID 1:
 | 02:D1:D4:xx				  | FvanT (Leiden, NL)				| 
 | 02:D1:D5:xx				  | Rarely Impossible (Bournemouth, UK)	
 | 02:D1:D6:xx                 | SSI 
-| 02:D1:D6:xx                 | Bart 
+| 02:D1:D7:xx                 | Bart 
 
 
 ## Registered Addresses in other providers' address space (!?)
