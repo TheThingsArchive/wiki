@@ -220,8 +220,8 @@ NwkID 1:
 | 02:D1:D2:xx                 | lo-ra.ru|
 | 02:D1:D3:xx				  | BoRRoZ  (loralab.nl)
 | 02:D1:D4:xx				  | FvanT (Leiden, NL)				| 
-| 02:D1:D5:xx				  | Rarely Impossible (Bournemouth, UK)	  
-|	
+| 02:D1:D5:xx				  | Rarely Impossible (Bournemouth, UK)	
+| 02:D1:D6:xx                 | SSI 
 
 ## Registered Addresses in other providers' address space (!?)
 
