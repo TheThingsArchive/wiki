@@ -1,4 +1,3 @@
-test 
 ### Are you a network operator?
 No, we're not a network operater, at least not in the traditional way.
 We're a community of individuals and organisations (both non-profit and
