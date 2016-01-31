@@ -1,5 +1,3 @@
-test
-
 Until there is an   official API for registering blocks
 of nodes, let's do it informally here by hand. To
 claim your address space, simply add a 255 nodes block
