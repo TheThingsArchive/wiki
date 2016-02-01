@@ -224,6 +224,7 @@ NwkID 1:
 | 02:D1:D6:xx                 | SSI 
 | 02:D1:D7:xx                 | Bart (Garderen, NL)
 | 02:D1:D8:xx                 | Tom (Val, FR)
+  02:D1:D8:XX					LoRaLei-Den
 
 
 ## Registered Addresses in other providers' address space (!?)
