@@ -153,7 +153,6 @@ NwkID 1:
 | 02:02:06:xx                 | AndrejK                   |
 | 02:02:07:xx                 | Mendix                    |
 | 02:02:08:xx                 | Maple                     |
-
 ...
 | 02:02:11:XX				  | arthoo					  |
 | 02:02:12:XX				  | JS (France) 			  |
