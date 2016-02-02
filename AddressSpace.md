@@ -139,7 +139,7 @@ NwkID 1:
 | 02:01:76:xx                 | Peter de Boer (Emmen, NL)       |
 | ...
 | 02:01:82:xx				  | BadBit (Den Haag / NL) |
-... 
+| ... 
 | 02:01:BA:xx                 | TTN BA - Ropu             |
 | ...      
 | 02:01:EE:xx                 | eleven-x                  |
@@ -153,18 +153,18 @@ NwkID 1:
 | 02:02:06:xx                 | AndrejK                   |
 | 02:02:07:xx                 | Mendix                    |
 | 02:02:08:xx                 | Maple                     |
-...
+| ...
 | 02:02:11:XX				  | arthoo					  |
 | 02:02:12:XX				  | JS (France) 			  |
 | 02:02:13:xx				  | Marten @ MakerSpace Leiden |	 
 | 02:02:14:xx				  | Aart @ eVect (evect.net) |	 
 | 02:02:15:xx                 | ICT (ict.nl, Groningen, NL) |
 | 02:02:16:xx                 | Oscar @ TTN Kaag & Braassem |
-...
+| ...
 | 02:02:20:xx                 | JLT (Bilthoven, NL)       |
-...
+| ...
 | 02:02:55:xx                 | Siso                      |
-...
+| ...
 | 02:02:99:xx                 | IoT ID TUE                |
 | ...                         |                           |
 | 02:02:A2:xx                 | Ann Arbor Telegraph       |
@@ -190,7 +190,7 @@ NwkID 1:
 | 02:03:19:xx				  | Willem @ de Kwakel |
 | 02:03:20:xx				  | fbossong @ Zaanstad |
 | 02:03:21:xx				  | yoyellow @ groningen |
-| ...    
+| ...    |
 | 02:03:23:xx                 | Safecast                    |
 |....|
 | 02:03:25:xx                 | AnalyzeDirect Nieuwe Niedorp
@@ -211,8 +211,8 @@ NwkID 1:
 | 02:03:3B:xx                 | Robbie van Hoof                 |   |
 | 02:03:3C:xx                 | VirtualLife (Breda, NL)         |   |
 | 02:03:3D:xx                 | CM Technology (Breda, NL)       |   |
-| 02:03:3E:xx				  | Frans (Bussum, NL)				|   |
-| 02:03:3F:xx				  | Hetwieg (NL)
+| 02:03:3E:xx				  | Frans (Bussum, NL)				|
+| 02:03:3F:xx				  | Hetwieg (NL) |
 | 02:03:40:xx                 | mik (AT)                        |   |	
 |...|
 | 02:A2:A2:xx                 | Ordina Smart Technologies |
@@ -220,13 +220,13 @@ NwkID 1:
 |...|
 | 02:D1:D1:xx                 | Diycon (Emmen, NL)|
 | 02:D1:D2:xx                 | lo-ra.ru|
-| 02:D1:D3:xx				  | BoRRoZ  (loralab.nl)
+| 02:D1:D3:xx				  | BoRRoZ  (loralab.nl) |
 | 02:D1:D4:xx				  | FvanT (Leiden, NL)				| 
-| 02:D1:D5:xx				  | Rarely Impossible (Bournemouth, UK)	
-| 02:D1:D6:xx                 | SSI 
-| 02:D1:D7:xx                 | Bart (Garderen, NL)
-| 02:D1:D8:xx                 | Tom (Val, FR)
-| 02:D1:D9:xx                 | LoRaLei-Den
+| 02:D1:D5:xx				  | Rarely Impossible (Bournemouth, UK)	|
+| 02:D1:D6:xx                 | SSI |
+| 02:D1:D7:xx                 | Bart (Garderen, NL) |
+| 02:D1:D8:xx                 | Tom (Val, FR) |
+| 02:D1:D9:xx                 | LoRaLei-Den |
 
 
 ## Registered Addresses in other providers' address space (!?)
