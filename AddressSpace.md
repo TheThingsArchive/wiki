@@ -95,6 +95,7 @@ NwkID 1:
 | 02:01:3E:xx                 | Boston                    |
 | 02:01:3F:xx                 | Intermax Rotterdam        |	
 | 02:01:40:xx                 | XIThing (Groningen, NL)   |	
+| ...                         | |
 | 02:01:42:xx                 | Arjan & Jacco             |
 | 02:01:43:xx                 | OceaTest                  |
 | 02:01:44:xx                 | Butters Ruben (Rotterdam) |
@@ -104,6 +105,7 @@ NwkID 1:
 | 02:01:48:xx                 | Artax                     |
 | 02:01:49:xx                 | Paul@SURFnet              |
 | 02:01:4A:xx                 | Batilan                   |
+| ...                         |                           |
 | 02:01:50:xx				  | beheer@waag.org           |
 | 02:01:51:xx				  | remcogroeneweg            |
 | 02:01:52:xx				  | nero-networks             |
@@ -130,6 +132,7 @@ NwkID 1:
 | 02:01:67:xx				  | Sjoerd (Kerkwijk)         |
 | 02:01:68:xx				  | Joost (Utrecht, NL) |
 | 02:01:69:xx                 | Sérgio Sena (Lundin Links, Scotland)|
+| ...                         | |
 | 02:01:70:xx				  | H Falaki |
 | 02:01:71:xx				  | Seal Productions Zoutkamp |
 | 02:01:72:xx				  | jpmeijers (Enschede, NL / Stellenbosch, ZA) |
@@ -153,6 +156,7 @@ NwkID 1:
 | 02:02:06:xx                 | AndrejK                   |
 | 02:02:07:xx                 | Mendix                    |
 | 02:02:08:xx                 | Maple                     |
+| 02:02:09:xx                 | Sintecs (Hengelo, NL)     |
 ...
 | 02:02:11:XX				  | arthoo					  |
 | 02:02:12:XX				  | JS (France) 			  |
@@ -227,7 +231,6 @@ NwkID 1:
 | 02:D1:D7:xx                 | Bart (Garderen, NL)
 | 02:D1:D8:xx                 | Tom (Val, FR)
 | 02:D1:D9:xx                 | LoRaLei-Den
-| 02:D1:DA:xx                 | Sintecs (Hengelo, NL) |
 
 ## Registered Addresses in other providers' address space (!?)
 
