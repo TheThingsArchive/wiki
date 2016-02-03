@@ -135,7 +135,7 @@ NwkID 1:
 | 02:01:72:xx				  | jpmeijers (Enschede, NL / Stellenbosch, ZA) |
 | 02:01:73:xx                 | unirlengh                 |
 | 02:01:74:xx                 | Provincie Groningen       |
-| ...
+| 02:01:75:xx                 | Angry Bytes, Hilversum  |
 | 02:01:76:xx                 | Peter de Boer (Emmen, NL)       |
 | ...
 | 02:01:82:xx				  | BadBit (Den Haag / NL) |
