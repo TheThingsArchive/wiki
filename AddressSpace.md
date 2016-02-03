@@ -227,7 +227,7 @@ NwkID 1:
 | 02:D1:D7:xx                 | Bart (Garderen, NL)
 | 02:D1:D8:xx                 | Tom (Val, FR)
 | 02:D1:D9:xx                 | LoRaLei-Den
-
+| 02:D1:DA:xx                 | Sintecs (Hengelo, NL) |
 
 ## Registered Addresses in other providers' address space (!?)
 
