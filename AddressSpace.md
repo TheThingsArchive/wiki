@@ -7,9 +7,9 @@ NwkID 1 is used until TTN gets an official address space allocation. Please _onl
 addresses on this page that fall inside NwkID 1_, that means starting with '02:'. 
 
 **NOTE:**
-these address spaces say nothing and have zero official status.
-They are not being used except for people who might look at this
-page to wonder who's packages are floating around.
+These address spaces **say nothing and have zero official status**.
+They are not being used anyway except for people who might look at this
+page to wonder who's packages are floating around. They will get deprecated as soon as we launch the official 1.0.
 Please stop claiming spaces like crazy, and **ONLY CLAIM SPACE WHEN YOU'RE A HEAVY USER FOR A LONGER PERIOD**.
 For testing purposes you don't need to claim address space.
 
