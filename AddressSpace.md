@@ -1,10 +1,17 @@
-Until there is an   official API for registering blocks
+Until there is an official API for registering blocks
 of nodes, let's do it informally here by hand. To
 claim your address space, simply add a 255 nodes block
 below (please add consecutively and only claim 255 addresses at a time).
 
 NwkID 1 is used until TTN gets an official address space allocation. Please _only register 
 addresses on this page that fall inside NwkID 1_, that means starting with '02:'. 
+
+**NOTE:**
+these address spaces say nothing and have zero official status.
+They are not being used except for people who might look at this
+page to wonder who's packages are floating around.
+Please stop claiming spaces like crazy, and **ONLY CLAIM SPACE WHEN YOU'RE A HEAVY USER FOR A LONGER PERIOD**.
+For testing purposes you don't need to claim address space.
 
 **Blocks**
 
