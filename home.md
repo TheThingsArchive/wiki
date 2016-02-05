@@ -1,5 +1,4 @@
 # Welcome to the The Things Network wiki!
-test1
 
 We're a crowd-sourced long-distance wireless network,
 that's free to use and owned by its community. You can
