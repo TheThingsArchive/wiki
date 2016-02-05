@@ -22,12 +22,9 @@ or on the [forum](http://forum.thethingsnetwork.org/).
 If there's no gateway nearby yet, you might want to contribute by buying one!
 
 
-### Is it secure (for our company network) to connect gateway to it?
-..
-
-
 ### Can any gateway owner read packages sent via TTN?
-No, since the data is encrypted.
+No, since the data is encrypted end-to-end. Unless you're using the test application
+key from the wiki ;)
 
 
 ### Who has to buy a server (Network Server - NS)?
@@ -48,7 +45,8 @@ restricted to 1%; therefore a node may need to wait **5 seconds up to 4 minutes*
 depending on packet size, distance from the nearest gateway and other factors. Furthermore, the TTN fair access 
 policy will limit this even more, allowing an average of **30 seconds per day** time on air **per device**.
 
-For more info, see [this forum post](http://forum.thethingsnetwork.org/t/parse-data-with-node-red/835/2).
+For more info, see [this forum post](http://forum.thethingsnetwork.org/t/parse-data-with-node-red/835/2)
+and [this calculation sheet](http://forum.thethingsnetwork.org/t/spreadsheet-for-lora-airtime-calculation/1190).
 
 
 ### How do I connect to the network? Does this work on my smartphone?
