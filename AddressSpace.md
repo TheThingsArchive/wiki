@@ -224,7 +224,8 @@ NwkID 1:
 | 02:03:3D:xx                 | CM Technology (Breda, NL)       |   |
 | 02:03:3E:xx				  | Frans (Bussum, NL)				|   |
 | 02:03:3F:xx				  | Hetwieg (NL)
-| 02:03:40:xx                 | mik (AT)                        |   |	
+| 02:03:40:xx                 | mik (AT)                        |
+| 02:03:41:xx                 | vit (IT)                        |
 |...|
 | 02:A2:A2:xx                 | Ordina Smart Technologies |
 | 02:A2:A3:xx                 | LD (Utrecht)
