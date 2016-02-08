@@ -21,7 +21,7 @@ Discussion: The device is specially developed for The Things Network and we will
 
 ### [Kerlink](http://www.kerlink.fr/en/)
 * Price: on request, around 1.200 euro / 1.500 dollar.
-* Availability: direct available, send inquiry to [Kerlink Sales](sales@kerlink.fr)
+* Availability: direct available, send inquiry to [Kerlink Sales](mailto:sales@kerlink.fr)
 * Capacity: 8 band, ~ 20K Nodes 
 * Suitable for outdoor mounting (IP67)
 * Installation: requires a technician
