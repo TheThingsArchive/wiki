@@ -240,6 +240,7 @@ NwkID 1:
 | 02:D1:D8:xx                 | Tom (Val, FR)
 | 02:D1:D9:xx                 | LoRaLei-Den
 | 02:D1:DA:xx				  | Budapest Jozsef krt (HU)
+| 02:D1:DB:xx				  | POCA_Fpolis
 
 ## Registered Addresses in other providers' address space (!?)
 
