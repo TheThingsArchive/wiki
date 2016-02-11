@@ -20,7 +20,7 @@ what to buy, send us an [email](Contact).
 | Embit EMB-LR1272  | | SX1272 | | yes          ||             || ?            ||                            |
 | Froggyfactory     | | SX127X | | yes          || Uno         || 99,-         || This is LoRa FABian		|
 | RFM95W + ESP8266  | | SX1276 | | esp8266      || DIY         || 10,-         || Arduino + [HLC](http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484)
-| RFM95 + Arduino Pro Mini	|	| SX1276|| Atmega 28	|| DIY	|| 9,-	| LMIC-1.51 library with smaller AES
+| RFM95 + Arduino Pro Mini	|	| SX1276|| Atmega 28	|| DIY	|| 9,-	|| LMIC-1.51 library with smaller AES
 | IMST iM880a       | | SX1272 | | STM32L151Cx  || smd         || 19.-         || program with ST-link       |
 | Microchip RN2483  | | SX1276 | | yes PIC?     || smd         || 12.-         || +Lorawan stack, see [microchip](http://www.microchip.com/wwwproducts/Devices.aspx?product=RN2483) |
 | Modtronix inAir9B | | SX1276 | | no           || 2.4mm       || 15.-         || Tested with Teensy 3.2 & LMIC 1.5 |
