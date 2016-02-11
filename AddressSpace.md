@@ -241,6 +241,7 @@ NwkID 1:
 | 02:D1:D9:xx                 | LoRaLei-Den
 | 02:D1:DA:xx				  | Budapest Jozsef krt (HU)
 | 02:D1:DB:xx				  | POCA_Fpolis
+| 02:D1:DC:xx				  | Trifork Eindhoven
 
 ## Registered Addresses in other providers' address space (!?)
 
