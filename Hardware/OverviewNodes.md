@@ -49,8 +49,11 @@ Other project of Hoeksma (Work in process)
 
 ### RFM95 and Arduino Pro-Mini (Atmega 328) running full LMIC-1.5 stack with smaller AES encryption lib
 
+As the LMIC-1.5 library does not fit for the Atmega 328 based MCU's, most importantly because the static AES datastructures in aes.cpp are very large,
+another encryption library has been used in this LMIC version that uses far less memory.
+
 You can find the code on [Things4U github](https://github.com/things4u/LoRa-LMIC-1.51). 
-The documentation is on things4u.github.
+The documentation is on things4u.github.io
  
  
 
