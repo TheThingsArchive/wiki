@@ -52,6 +52,9 @@ Other project of Hoeksma (Work in process)
 As the LMIC-1.5 library does not fit for the Atmega 328 based MCU's, most importantly because the static AES datastructures in aes.cpp are very large,
 another encryption library has been used in this LMIC version that uses far less memory.
 
+It is possible to build very small and cheap sensors using for example the Arduino Pro-Mini ($1.50-$2.00 on Aliexpress) and a RFM95 module. 
+Total cost would be less than 9 Euro. But of course it is also possible to use an Arduino Uno incombination with a shield and nice antenna.
+
 You can find the code on [Things4U github](https://github.com/things4u/LoRa-LMIC-1.51). 
 The documentation is on things4u.github.io
  
