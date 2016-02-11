@@ -46,9 +46,11 @@ Other project of Hoeksma (Work in process)
 * http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
 
 
+
 ### RFM95 and Arduino Pro-Mini (Atmega 328) running full LMIC-1.5 stack with smaller AES encryption lib
 
 You can find the code on [Things4U github](https://github.com/things4u/LoRa-LMIC-1.51) documentation is on things4u.github.
+
 
 
 ### SODAQ Mbili/Tatu with LoRaBee
