@@ -49,9 +49,10 @@ Other project of Hoeksma (Work in process)
 
 ### RFM95 and Arduino Pro-Mini (Atmega 328) running full LMIC-1.5 stack with smaller AES encryption lib
 
-You can find the code on [Things4U github](https://github.com/things4u/LoRa-LMIC-1.51) documentation is on things4u.github.
-
-
+You can find the code on [Things4U github](https://github.com/things4u/LoRa-LMIC-1.51). 
+The documentation is on things4u.github.
+ 
+ 
 
 ### SODAQ Mbili/Tatu with LoRaBee
 The SODAQ Mbili and Tatu are based on the ATmega1284P and Arduino compatible. They do not do LoRaWAN by itself, but they contain a "Bee socket" and can be combined with the LoRaBee, which is a full-stack LoRaWAN board (based on the Embit EMB-LR1272 or Microchip RN2483) in Bee form factor.
