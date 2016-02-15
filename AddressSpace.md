@@ -203,7 +203,7 @@ NwkID 1:
 | 02:03:19:xx				  | Willem @ de Kwakel |
 | 02:03:20:xx				  | fbossong @ Zaanstad |
 | 02:03:21:xx				  | yoyellow @ groningen |
-| ...    
+| 02:03:22:xx				  | ntnu @ Trondheim |
 | 02:03:23:xx                 | Safecast                    |
 |....|
 | 02:03:25:xx                 | AnalyzeDirect Nieuwe Niedorp
