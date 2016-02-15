@@ -112,6 +112,7 @@ NwkID 1:
 | 02:01:48:xx                 | Artax                     |
 | 02:01:49:xx                 | Paul@SURFnet              |
 | 02:01:4A:xx                 | Batilan                   |
+| 02:01:4B:xx                 | Norbert@tudelft           |
 | ...                         |                           |
 | 02:01:50:xx				  | beheer@waag.org           |
 | 02:01:51:xx				  | remcogroeneweg            |
