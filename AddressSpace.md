@@ -260,7 +260,8 @@ NwkID 1:
 | BE:EF:BE:xx                 | ZB45 Makerspace           |
 | BE:EF:BF:xx                 | MakerSpaceLeiden          |
 | BB:xx:xx:xx                 | TTN4Belgium project       |
-| CC:xx:xx:xx                 | Inebula Italy             |
+| CC:xx:xx:xx                 | Inebula Italy  
+| D0:99:13:xx                 | Theo's Mechanic Ape
 |-----------------------------|---------------------------|
 | 00:00:11:xx                 | Reserverd  3rd party      |
 | 00:00:15:xx                 | Reserverd  3rd party      |
