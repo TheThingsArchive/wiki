@@ -113,7 +113,7 @@ NwkID 1:
 | 02:01:49:xx                 | Paul@SURFnet              |
 | 02:01:4A:xx                 | Batilan                   |
 | 02:01:4B:xx                 | Norbert@TUD		          |
-| ...                         |                           |
+| 02:01:4C:xx                 | kklysetti                 |
 | 02:01:50:xx				  | beheer@waag.org           |
 | 02:01:51:xx				  | remcogroeneweg            |
 | 02:01:52:xx				  | nero-networks             |
