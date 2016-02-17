@@ -249,6 +249,7 @@ NwkID 1:
 | 02:D1:DE:xx				  | Austin TX 001
 | 02:D1:DF:xx				  | Houston TX 001
 | 02:D1:E0:xx				  | Behrens (Alkmaar,NL)
+| 02:D1:E1:xx				  | Artimar (Argentina)
 
 
 
