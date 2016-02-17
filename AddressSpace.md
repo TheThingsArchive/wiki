@@ -257,14 +257,15 @@ NwkID 1:
 
 | Address block &nbsp; &nbsp; | Claimed by                |
 |-----------------------------|---------------------------|
+| 42:xx:xx:xx                 | RIC                       |
 | 5A:48:01:xx                 | TTN ZH                    |
 | BA:BE:CA:xx                 | QwikSense                 |
 | DE:AD:BE:xx                 | turiphro                  |
 | BE:EF:BE:xx                 | ZB45 Makerspace           |
 | BE:EF:BF:xx                 | MakerSpaceLeiden          |
 | BB:xx:xx:xx                 | TTN4Belgium project       |
-| CC:xx:xx:xx                 | Inebula Italy  
-| D0:99:xx:xx                 | Theo's Mechanic Ape
+| CC:xx:xx:xx                 | Inebula Italy             |
+| D0:99:xx:xx                 | Theo's Mechanic Ape       |
 |-----------------------------|---------------------------|
 | 00:00:11:xx                 | Reserverd  3rd party      |
 | 00:00:15:xx                 | Reserverd  3rd party      |
