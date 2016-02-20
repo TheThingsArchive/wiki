@@ -148,6 +148,7 @@ NwkID 1:
 | 02:01:74:xx                 | Provincie Groningen       |
 | 02:01:75:xx                 | Angry Bytes, Hilversum  |
 | 02:01:76:xx                 | Peter de Boer (Emmen, NL)       |
+| 02:01:77:xx                 | DevLab, Eindhoven         |
 | ...
 | 02:01:82:xx				  | BadBit (Den Haag / NL) |
 ... 
