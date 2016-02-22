@@ -255,6 +255,8 @@ NwkID 1:
 | 02:D1:E1:xx				  | Artimar (Argentina)
 | 02:D1:E2:xx				  | vdSarICT (Sneek NL)
 | 02:D1:E3:xx				  | MCS (Rotterdam NL)
+| 02:D1:E4:xx				  | EM (Amsterdam NL)
+ 
 
 
 
