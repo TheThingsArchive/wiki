@@ -186,11 +186,6 @@ Band }
 
 \#define LC3 { 868500000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 1 }
 
-\#define LC4 { 868850000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 2 }
-
-\#define LC5 { 869050000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 2 }
-
-\#define LC6 { 869525000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 3 }
 
 **Actility ThingPark Wireless**
 
