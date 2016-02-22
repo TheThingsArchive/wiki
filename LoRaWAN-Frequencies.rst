@@ -186,6 +186,8 @@ Band }
 
 \#define LC3 { 868500000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 1 }
 
+Rx2 - 869.525 MHz
+
 
 **Actility ThingPark Wireless**
 
