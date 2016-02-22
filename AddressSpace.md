@@ -231,6 +231,8 @@ NwkID 1:
 | 02:03:40:xx                 | mik (AT)                        |
 | 02:03:41:xx                 | vit (IT)                        |
 |...|
+| 02:75:21:XX				  | KITT Engineering (Enschede, NL) |
+|...|
 | 02:A2:A2:xx                 | Ordina Smart Technologies |
 | 02:A2:A3:xx                 | LD (Utrecht)
 |...|
