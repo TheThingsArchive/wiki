@@ -230,6 +230,7 @@ NwkID 1:
 | 02:03:3F:xx				  | Hetwieg (NL)
 | 02:03:40:xx                 | mik (AT)                        |
 | 02:03:41:xx                 | vit (IT)                        |
+| 02:03:42:xx                 | WeMake Milano (IT)              |
 |...|
 | 02:75:21:XX				  | KITT Engineering (Enschede, NL) |
 |...|
