@@ -13,6 +13,7 @@ Non-tech:
 
   * [[Getting-organized]]
   * [Media attention](Media)
+  * [Live Usecase examples](CurrentUsecases)
 
 Tech:
 
