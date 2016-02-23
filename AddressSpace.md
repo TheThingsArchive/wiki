@@ -257,8 +257,8 @@ NwkID 1:
 | 02:D1:E2:xx				  | vdSarICT (Sneek NL)
 | 02:D1:E3:xx				  | MCS (Rotterdam NL)
 | 02:D1:E4:xx				  | EM (Amsterdam NL)
+| 02:D1:E5:xx                 | Hacked in Groningen
  
-
 
 
 ## Registered Addresses in other providers' address space (!?)
