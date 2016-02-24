@@ -258,6 +258,7 @@ NwkID 1:
 | 02:D1:E3:xx				  | MCS (Rotterdam NL)
 | 02:D1:E4:xx				  | EM (Amsterdam NL)
 | 02:D1:E5:xx                 | Hacked in Groningen
+| 02:D1:E6:xx                 | jeroen @ bloemendaal
  
 
 
