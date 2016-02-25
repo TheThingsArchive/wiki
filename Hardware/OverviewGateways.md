@@ -62,6 +62,17 @@ source hardware BeagleBone Black. Although the first version had some
 issues, at this moment the device seems to work as advertised. Please consult
 the online manual for further information.
 
+### [LinkLabs 868 MHz LoRaWAN Gateway with Wifi - LL-BST-8-868?](http://store.link-labs.com/products/868-mhz-lorawan-gateway-with-wifi)
+* Price: 360 euro ($ 397,-), promotion, ends March 1'st
+* Availability: ships in 6-8 weeks
+* Capacity: 8 band, ~ 20K Nodes 
+* Suitable for indoor use
+* Installation: Plug and play
+* Hardware: proprietary 
+* Software: open source
+* Includes: GPS (Class B ready) Antenna
+* Not yet tested by The Things Network Crew?
+
 ### [IMST IC880a + Raspberry Pi](http://webshop.imst.de/radio-modules/ic880a-spi-lorawan-concentrator-868mhz.html)
 * Price: ~260 euro (189 euro p/board + Antenna + Pigtail + RPi + Power supply + taxes)
 * Availability: In Stock.
