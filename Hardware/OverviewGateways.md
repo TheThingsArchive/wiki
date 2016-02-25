@@ -70,7 +70,7 @@ the online manual for further information.
 * Installation: Plug and play
 * Hardware: proprietary 
 * Model: unknown (LL-BST-8-868?)
-* Software: open source
+* Software: proprietary
 * Includes: GPS (Class B ready) Antenna
 * Not yet tested by The Things Network Crew?
 
