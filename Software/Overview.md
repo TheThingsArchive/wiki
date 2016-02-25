@@ -102,6 +102,11 @@ For real-time publish-subscribe (Pub/Sub) connections we're hosting an MQTT brok
 
     tcp://croft.thethings.girovito.nl:1883
     
+The topics you can subscribe to are:
+
+* **Messages from nodes**: `nodes/{devAddr}/packets`
+* **Status updates from gateways**: `gateways/{eui}/status`
+    
     
 For demo purposes, there's also a hosted version of [Node-RED](http://nodered.org/) here:
 
