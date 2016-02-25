@@ -65,7 +65,7 @@ the online manual for further information.
 ### [LinkLabs 868 MHz LoRaWAN Gateway with Wifi - LL-BST-8-868?](http://store.link-labs.com/products/868-mhz-lorawan-gateway-with-wifi)
 * Price: 360 euro ($ 397,-), promotion, ends March 1'st
 * Availability: ships in 6-8 weeks
-* Capacity: 8 band, ~ 20K Nodes 
+* Capacity: 8 band 
 * Suitable for indoor use
 * Installation: Plug and play
 * Hardware: proprietary 
