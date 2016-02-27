@@ -18,12 +18,6 @@ Presentations that you can use freely are found [on the forum](http://forum.thet
 
 
 # Step 5: Choose a platform
+[http://thethingsnetwork.org/start-a-community/](http://thethingsnetwork.org/start-a-community/)
 
-# .      part-up's
-
-[The Things Network](https://part-up.com/thethingsnetwork)
-You can do a "fork". I don't know how. .... Please fill in if you know .....
-
-[Utrecht](https://part-up.com/partups/the-things-network-utrecht-BbN8MTzD2m64MahrS)
-
-[Arnhem-Nijmegen](https://part-up.com/partups/crowdsourced-ttn-voor-arnhem-nijmegen-greater-100-gelderland-YH3jE536NXekXE46E)
+[Part-up.com](https://part-up.com/thethingsnetwork)
