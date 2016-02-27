@@ -38,8 +38,17 @@ to The Things Network Gateways over the LoRaWAN protocol.
 
 ## Step 3: Connect an Application
 Once you've got a node ready to transmit and/or receive data via a Gateway,
-start with our **[Software Overview](Software/Overview)**.
+start with our **[Software Overview](Software/Overview)**. The node will
+connect over the network to application servers you choose. Currently, the
+first useful application servers are being set up, but you might want to
+start by building your own test application. There is a REST API (for web
+development) and MQTT broker (real-time) + hosted Node-RED interface available.
 
 
-... TODO
+## What's next
+Have a look at the [TTN Forum](http://forum.thethingsnetwork.org/) to see what
+people are using TTN for. Team up with [an existing community](http://thethingsnetwork.org/)
+or [start your own](http://thethingsnetwork.org/start-a-community/). Help other
+people getting started with The Things Network, and bootstrap cool and innovative
+usecases locally or globally. Help changing the world!
 
