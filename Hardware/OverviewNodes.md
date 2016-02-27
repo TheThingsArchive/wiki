@@ -13,6 +13,15 @@ microcontrollers, for example [this Sparkfun introduction](https://learn.sparkfu
 [ladyada's tutorial](http://www.ladyada.net/learn/arduino/) and the
 official practical [Arduino introductory booklet](https://store.arduino.cc/product/B000001).
 
+
+## Supported Hardware
+Like WiFi and 3G/4G, LoRa connections need specific hardware
+support for connections. Since the technology is only gaining
+traction now, most devices won't support it (yet). In the near
+future (2016/2017) commercial devices might hit the market.
+For now, you'll need to build (or buy) devices yourself.
+
+
 ## Node summary
 There's at least ten providers selling breakout boards for
 LoRa(WAN) nodes. All of them use the SX1272 or SX1276 chip,
