@@ -1,9 +1,20 @@
 # Introduction
+On the gateway side there's a few options. 
+The Gateway has a communication part and a calculation part. 
+The gateway supports many nodes thus the calculation part should be bigger
+than the node.
+
+For **Communication** there are two options for the chip the SX1272/SX1276 option and the SX1301 + SX1257 option.
+*the SX1272/SX1276 only allows for one (1) connection at a time,
+*the SX1301 + SX1257 chips allows up to eight (8() simultaneous connections (typically supporting 10000 ~ 20000 nodes).
+For the **Calculation** part a device that supports linux is usually used. These are provided by many many suppliers, more on this in ouw Hardware Gateway Overview.
+
 At the moment there are several options to get you own gateway. These fall into two categories:
 * Ready to roll
 * Do it yourself
 
-There is also a third option, that is design your own hardware, but that is beyond the scope of this how-to.
+There is also a third option, that is design your own hardware,
+but that is beyond the scope of this how-to.
 
 ## Ready to roll
 Depending on how much money you want to spend and when the hardware is needed the following options are available (from most expensive to least expensive):
