@@ -124,3 +124,6 @@ See the [Antennas](/wiki/Antennas) page.
 ## Network
 Once you've got a gateway ready to transmit and/or receive data,
 start with our **[Software Overview](/wiki/Software/Overview)**.
+
+
+**[back to GettingStarted](../GettingStarted)**
