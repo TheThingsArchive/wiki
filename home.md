@@ -20,7 +20,6 @@ Tech:
   * **[[GettingStarted]]** <- start here to start using the network
   * [Gateways to buy](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways)
   * [Nodes to buy & Connect your node](Hardware/OverviewNodes)
-  * [Node address space](http://thethingsnetwork.org/wiki/AddressSpace)
   * [Applications: overview + API + SDKs](http://thethingsnetwork.org/wiki/Software/Overview)
   * [Antennas (work in progress)](http://thethingsnetwork.org/wiki/Antennas)
   * [Semtech PDF LoRA FAQ](http://www.semtech.com/wireless-rf/lora/LoRa-FAQs.pdf)
