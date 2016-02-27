@@ -15,7 +15,7 @@ one of the maps [mentioned here](CurrentNetwork), and search on the
 [forum](http://forum.thethingsnetwork.org/) for nearby communities.
 
 If there isn't a gateway available yet, you or your community has to buy
-(or build) one. Have a look at [Which Gateway to buy](http://forum.thethingsnetwork.org/).
+(or build) one. Have a look at [Which Gateway to buy](Hardware/OverviewGateways).
 
 ## Step 2: Prototype a Node
 You'll need a IoT device that does something and uses the network.
