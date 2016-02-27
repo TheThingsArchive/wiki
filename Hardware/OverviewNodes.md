@@ -13,6 +13,23 @@ microcontrollers, for example [this Sparkfun introduction](https://learn.sparkfu
 [ladyada's tutorial](http://www.ladyada.net/learn/arduino/) and the
 official practical [Arduino introductory booklet](https://store.arduino.cc/product/B000001).
 
+## Node summary
+There's at least ten providers selling breakout boards for
+LoRa(WAN) nodes. All of them use the SX1272 or SX1276 chip,
+produced by SemTech and providing the 'raw' LoRa hardware
+protocol. 
+
+A **node** has two building blocks. a communication part and a calculation part. 
+
+**Communication** is done via the SX1272 or SX1276 chip this is the modem part of the node. 
+**Calculation** is done by a separate [MCU](https://www.quora.com/What-is-the-difference-between-a-microprocessor-and-microcontroller) like  an Arduino or ARM Cortex.
+The LoRaWAN software stack needs to run on the MCU (the calculation part)
+Some boards include a MCU, some don't and just provide the modem interface of the chip. 
+There are bare breakout boards, Bee connectors, or all-included development boards. There are a few different implementations, and they're not yet all compatible with each other.
+
+To get started building a node, see our **[Hardware Nodes Overview](Hardware/OverviewNodes)**.
+This includes hardware, software and how to buy or build it.
+
 
 ## Overview
 Here's a table of a few hardware boards supporting LoRa.
