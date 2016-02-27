@@ -1,5 +1,19 @@
 # LoRa hardware - Nodes
 
+## Short note on hardware development
+Below is technical information on various options for developing your own
+Internet of Things node. If you've never done hardware development before,
+you might want to start with some online resources first.
+Have a look at the free [IoT introduction courses on coursera](https://www.coursera.org/specializations/iot).
+(Note that the courses are freely accessible by searching for the course names
+on Coursera.org.) Some background in programming both Arduino's and Raspberry
+Pi's will greatly help prototyping your own IoT devices. There's many more
+resources available on connecting particular hardware components to Arduino-compatible
+microcontrollers, for example [this Sparkfun introduction](https://learn.sparkfun.com/tutorials/what-is-an-arduino),
+[ladyada's tutorial](http://www.ladyada.net/learn/arduino/) and the
+official practical [Arduino introductory booklet](https://store.arduino.cc/product/B000001).
+
+
 ## Overview
 Here's a table of a few hardware boards supporting LoRa.
 Specific instructions can be found below. If you're unsure
