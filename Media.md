@@ -35,6 +35,8 @@
 * [Tweakers Kickstarter](http://tweakers.net/nieuws/105909/amsterdams-internet-of-thingsnetwerk-biedt-hardware-aan-op-kickstarter.html)
 * [Nu.nl on kickstarter](http://www.nu.nl/gadgets/4149651/amsterdams-internet-of-things-netwerk-start-crowdfundingcampagne.html)
 * [Veiligheidsregio Groningen](http://www.veiligheidsregiogroningen.nl/nieuws/veiligheidsregio-groningen-neemt-deel-aan-ontwikkeling-internet-of-things)
+* National news : 8uurjournaal (lookup date)
+* [Nieuwsuur 2016-02-26](http://nos.nl/nieuwsuur/artikel/2089220-de-opmars-van-het-internet-der-dingen.html?title=de-opmars-van-het-internet-der-dingen)
 
 
 ## Other languages
