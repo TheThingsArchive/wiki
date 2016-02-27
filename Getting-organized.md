@@ -18,6 +18,10 @@ Presentations that you can use freely are found [on the forum](http://forum.thet
 
 
 # Step 5: Choose a platform
-[http://thethingsnetwork.org/start-a-community/](http://thethingsnetwork.org/start-a-community/)
+A few possible platforms that might be useful:
 
-[Part-up.com](https://part-up.com/thethingsnetwork)
+  * Generic community page [http://thethingsnetwork.org/start-a-community/](http://thethingsnetwork.org/start-a-community/)
+
+  * [Part-up.com](https://part-up.com/thethingsnetwork)
+  
+  * Start your own local [Slack](https://slack.com/)
