@@ -16,6 +16,7 @@ describing a network of multiple gateways connected to a
 central server. The Things Network uses LoRaWAN, but replaces
 the central server with a distributed network owned by the
 community.
+
 For more information, have a look at [this FAQ from Semtech](http://www.semtech.com/wireless-rf/lora/LoRa-FAQs.pdf)
 and [the Official LoRaWAN specification](https://www.lora-alliance.org/portals/0/specs/LoRaWAN%20Specification%201R0.pdf).
 
