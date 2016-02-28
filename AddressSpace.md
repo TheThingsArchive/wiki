@@ -260,6 +260,7 @@ NwkID 1:
 | 02:D1:E5:xx                 | Hacked in Groningen
 | 02:D1:E6:xx                 | jeroen @ bloemendaal
 | 02:D1:E7:xx				  | SON LBS BV (Leeuwarden NL)
+| 02:D1:E8:xx				  | Sander (Leiden NL)
  
 
 
