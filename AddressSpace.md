@@ -188,6 +188,7 @@ NwkID 1:
 | 02:02:BB:xx			      | julz, BE                  |
 | ...    
 | 02:03:04:xx                 | SODAQ                     |
+| 02:03:05:xx                 | SODAQ - Utrecht           |
 | 02:03:06:xx                 | Ernestopace (Utrecht)     |
 | 02:03:07:xx                 | Triple IT	(Alkmaar)	  |
 | 02:03:08:xx                 | VDK Leiden                |
