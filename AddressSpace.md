@@ -186,7 +186,8 @@ NwkID 1:
 | ...                         |                           |
 | 02:02:BA:xx                 | TTN BA 2 - Ropu           |
 | 02:02:BB:xx			      | julz, BE                  |
-| ...    
+| ...   
+| 02:03:03:xx                 | PortSense                 |
 | 02:03:04:xx                 | SODAQ                     |
 | 02:03:05:xx                 | SODAQ - Utrecht           |
 | 02:03:06:xx                 | Ernestopace (Utrecht)     |
