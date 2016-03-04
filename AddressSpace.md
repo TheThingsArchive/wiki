@@ -209,7 +209,7 @@ NwkID 1:
 | 02:03:21:xx				  | yoyellow @ groningen |
 | 02:03:22:xx				  | ntnu @ Trondheim |
 | 02:03:23:xx                 | Safecast                    |
-|....|
+| 02:03:24:xx                 | Raduino                   |
 | 02:03:25:xx                 | AnalyzeDirect Nieuwe Niedorp
 | 02:03:26:xx                 | JvdV (De Bilt)            |
 | 02:03:27:xx                 | Mechiel(mjl), irias.nl (Zwolle) |       
