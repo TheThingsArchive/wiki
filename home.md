@@ -21,7 +21,6 @@ Tech:
   * [Gateways to buy](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways)
   * [Nodes to buy & Connect your node](Hardware/OverviewNodes)
   * [Applications: overview + API + SDKs](http://thethingsnetwork.org/wiki/Software/Overview)
-  * [Antennas (work in progress)](http://thethingsnetwork.org/wiki/Antennas)
   * [Semtech PDF LoRA FAQ](http://www.semtech.com/wireless-rf/lora/LoRa-FAQs.pdf)
 
 ## Architecture
