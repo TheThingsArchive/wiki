@@ -21,11 +21,11 @@ NwkID 1:
 
 03:FE:xx:xx reserved for broadcast testing
 
-02:00:00:xx to 00:00:FF:xx reserved
+02:00:00:xx to 02:00:FF:xx reserved
 
-02:01:00:xx to 00:01:FF:xx 1st 256 assigned blocks
+02:01:00:xx to 02:01:FF:xx 1st 256 assigned blocks
 
-02:02:00:xx to 00:02:FF:xx 2nd 256 blocks
+02:02:00:xx to 02:02:FF:xx 2nd 256 blocks
 
 ## Broadcasting
   
