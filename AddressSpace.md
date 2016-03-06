@@ -140,6 +140,7 @@ NwkID 1:
 | 02:01:67:xx				  | Sjoerd (Kerkwijk)         |
 | 02:01:68:xx				  | Joost (Utrecht, NL) |
 | 02:01:69:xx                 | Sérgio Sena (Lundin Links, Scotland)|
+| 02:01:6A:xx				  | Gurbe (Hurdegaryp, NL) |
 | ...                         | |
 | 02:01:70:xx				  | H Falaki |
 | 02:01:71:xx				  | Seal Productions Zoutkamp |
