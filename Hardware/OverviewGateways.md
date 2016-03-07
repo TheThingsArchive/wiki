@@ -74,7 +74,7 @@ issues, at this moment the device seems to work as advertised. Please consult
 the online manual for further information.
 
 ### [LinkLabs 868 MHz LoRaWAN Gateway with Wifi](http://store.link-labs.com/products/868-mhz-lorawan-gateway-with-wifi)
-* Price: 360 euro ($ 397,-), promotion, ends March 1'st
+* Price: 633 euro ($697) (promotion at 360 euro ($397) ended March 1'st )
 * Availability: ships in 6-8 weeks
 * Capacity: 8 band 
 * Suitable for indoor use
