@@ -114,6 +114,7 @@ NwkID 1:
 | 02:01:4A:xx                 | Batilan                   |
 | 02:01:4B:xx                 | Norbert@TUD		          |
 | 02:01:4C:xx                 | kklysetti                 |
+| 02:01:4D:xx                 | Mereltron (Zutphen, NL)   |
 | 02:01:50:xx				  | beheer@waag.org           |
 | 02:01:51:xx				  | remcogroeneweg            |
 | 02:01:52:xx				  | nero-networks             |
@@ -141,7 +142,6 @@ NwkID 1:
 | 02:01:68:xx				  | Joost (Utrecht, NL) |
 | 02:01:69:xx                 | Sérgio Sena (Lundin Links, Scotland)|
 | 02:01:6A:xx				  | Gurbe (Hurdegaryp, NL) |
-| 02:01:6B:xx                 | Mereltron (Zutphen, NL)|
 | ...                         | |
 | 02:01:70:xx				  | H Falaki |
 | 02:01:71:xx				  | Seal Productions Zoutkamp |
