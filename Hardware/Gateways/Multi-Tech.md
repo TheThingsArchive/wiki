@@ -1,8 +1,27 @@
 # Multi-Tech MultiConnect Conduit
 
+> [Multi-Tech](http://www.multitech.com/brands/multiconnect-conduit)
+
 [[/uploads/Multi-Tech.png]]
 
+> TODO: Fact-checking
+
+**Price:**
+**Availability:**
+**Capacity:**
+Suitable for indoor use  
+**Installation:**
+**Hardware:** proprietary  
+**Software:**
+
+Tested by The Things Network Crew.   
+
+Discussion: We have one, results of our test will follow asap.
+First draft of an [installation guide](/wiki/Installing-your-Multitech-mLinux-Conduit)
+
 ## Prerequisites
+
+> TODO: Add links
 
 This guide assumes you have:
 
@@ -16,6 +35,8 @@ You will also need:
 * An ARM mbed user account so you can program your mDot. It's free, sign up here: [https://developer.mbed.org/explore/](https://developer.mbed.org/explore/)
 
 ## Setup
+
+> TODO: Include external info in this page
 
 Install the MTAC-LORA-868 card into the Conduit - the instructions are packed with the MTAC-LORA-868 card, or [online](http://www.multitech.net/developer/products/accessory-cards/installing-an-accessory-card/)
 

@@ -1,6 +1,10 @@
 # Kerlink LoRa IoT Station
 
+> [Kerlink](http://www.kerlink.fr/en/)
+
 [[/uploads/Kerlink-LoRa-IoT.png]]
+
+> TODO: Fact-checking
 
 **Price:** on request, around 1.200 euro / 1.500 dollar.  
 **Availability:** send inquiry to [Kerlink Sales](mailto:sales@kerlink.fr)  

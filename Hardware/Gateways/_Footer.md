@@ -4,7 +4,8 @@
 [[Multi-Tech MultiConnect Conduit|Hardware/Gateways/Multi-Tech]] |
 [[Lorank 8|Hardware/Gateways/Lorank]] |
 [[LinkLabs LoRaWAN Gateway with WiFi|Hardware/Gateways/LinkLabs]] |
-[[IMST IC880a + Raspberry Pi|Hardware/Gateways/IMST]]
+[[IMST IC880a + RasPi|Hardware/Gateways/Other]] |
+[[Do-it-Yourself|Hardware/Gateways/DIY]]
 
 **Accessories:**
 [[Antennas|Hardware/Gateways/Antennas]] |
