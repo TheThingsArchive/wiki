@@ -5,3 +5,7 @@
 [[Lorank 8|Hardware/Gateways/Lorank]] |
 [[LinkLabs LoRaWAN Gateway with WiFi|Hardware/Gateways/LinkLabs]] |
 [[IMST IC880a + Raspberry Pi|Hardware/Gateways/IMST]]
+
+**Accessories:**
+[[Antennas|Hardware/Gateways/Antennas]] |
+[[Lightning Protection|Hardware/Gateways/Lightning-Protection]]
