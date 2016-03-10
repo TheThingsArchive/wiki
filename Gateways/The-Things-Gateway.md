@@ -11,3 +11,11 @@ Suitable for indoor use
 **Software:** open source  
 
 This device is specially developed for The Things Network and meets all requirements for a smooth experience on The Things Network.
+
+## Setup
+
+...
+
+## Configuration
+
+...

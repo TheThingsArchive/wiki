@@ -3,7 +3,7 @@
 In the backend of The Things Network, we consider 5 internet-connected components:
 
 * Gateways
-* Routers 
+* Routers
 * Brokers
 * Handlers
 * Applications
