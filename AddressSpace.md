@@ -272,6 +272,7 @@ NwkID 1:
 | 02:D1:EA:xx                 | Martin (Utrecht NL, DJO)
 | 02:D1:EB:xx                 | Raymon (Kampen NL)
 | 02:D1:EC:xx				  |	Jelle (Limburg Zuid)
+| 02:DE:AD:xx                 | Tillo (Zurich Switzerland) |
 
 
 ## Registered Addresses in other providers' address space (!?)
