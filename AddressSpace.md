@@ -277,7 +277,7 @@ NwkID 1:
 | 02:D1:EC:xx				  |	Jelle (Limburg Zuid)
 | ... |
 | 02:DE:AD:xx                 | Tillo (Zurich Switzerland) |
-| 02:DE:AE:xx                 | The Things Network SXSW (Austin, TX) |
+| 02:DE:xx:xx                 | The Things Network workshops (Austin, TX) |
 
 ## Registered Addresses in other providers' address space (!?)
 
