@@ -240,6 +240,8 @@ NwkID 1:
 | 02:03:41:xx                 | vit (IT)                        |
 | 02:03:42:xx                 | WeMake Milano (IT)              |
 |...|
+| 02:73:88:xx				  | UrbanGrid (UA)					|
+|...|
 | 02:75:21:XX				  | KITT Engineering (Enschede, NL) |
 |...|
 | 02:A2:A2:xx                 | Ordina Smart Technologies |
