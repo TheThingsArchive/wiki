@@ -172,7 +172,7 @@ NwkID 1:
 | 02:02:07:xx                 | Mendix                    |
 | 02:02:08:xx                 | Maple                     |
 | 02:02:09:xx                 | Sintecs (Hengelo, NL)     |
-...
+| 02:02:10:xx                 | Inducon BV (Kerkrade, NL) |
 | 02:02:11:XX				  | arthoo					  |
 | 02:02:12:XX				  | JS (France) 			  |
 | 02:02:13:xx				  | Marten @ MakerSpace Leiden |	 
