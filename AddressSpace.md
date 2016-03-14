@@ -277,7 +277,7 @@ NwkID 1:
 | 02:D1:EA:xx                 | Martin (Utrecht NL, DJO)
 | 02:D1:EB:xx                 | Raymon (Kampen NL)
 | 02:D1:EC:xx				  |	Jelle (Limburg Zuid)
-| 02:D1:ED:xx				  |	GB (Spain)
+| 02:D1:ED:xx				  |	GB (ES)
 | ... |
 | 02:DE:AD:xx                 | Tillo (Zurich Switzerland) |
 | 02:DE:xx:xx                 | The Things Network workshops (Austin, TX) |
