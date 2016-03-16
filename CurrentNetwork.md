@@ -13,6 +13,7 @@ Gateway locations and real-time status updates can be found at: [http://www.ttns
 
 There are also some community-managed map visualisations (mostly prototypes) at:
 
+  * [live updates ha-23.eradus.eu](http://ha-23.eradus.eu/croft.html)
   * [http://www.ttnmap.org](http://www.ttnmap.org)
   * [http://ttn.lpwan.uk/](http://ttn.lpwan.uk) ([source code](https://github.com/thiseldo/ttnstatusmap))
   * [Groningen website](http://live.thethingsnetwork-groningen.org)
