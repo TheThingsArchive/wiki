@@ -241,7 +241,8 @@ NwkID 1:
 | 02:03:40:xx                 | mik (AT)                        |
 | 02:03:41:xx                 | vit (IT)                        |
 | 02:03:42:xx                 | WeMake Milano (IT)              |
-| 02:03:43:xx                 | Flood Network/Love Hz (UK)      |    
+| 02:03:43:xx                 | Flood Network/Love Hz (UK)      | 
+| 02:03:44:xx                 | Betronic BV (NL)                |
 |...|
 | 02:73:88:xx				  | UrbanGrid (UA)					|
 |...|
