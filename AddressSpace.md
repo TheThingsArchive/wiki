@@ -244,6 +244,7 @@ NwkID 1:
 | 02:03:43:xx                 | Flood Network/Love Hz (UK)      | 
 | 02:03:44:xx                 | SteMax Muravera Cagliari (IT)   |
 | 02:03:45:xx                 | Betronic BV (NL)                |
+| 02:03:46:xx                 | cheminfo.org (BE)               |
 |...|
 | 02:73:88:xx				  | UrbanGrid (UA)					|
 |...|
