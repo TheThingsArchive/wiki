@@ -16,7 +16,8 @@ There are also some community-managed map visualisations (mostly prototypes) at:
   * [live updates ha-23.eradus.eu](http://ha-23.eradus.eu/croft.html)
   * [http://www.ttnmap.org](http://www.ttnmap.org)
   * [http://ttn.lpwan.uk/](http://ttn.lpwan.uk) ([source code](https://github.com/thiseldo/ttnstatusmap))
-  * [TTN mapper, distances](http://ttnmapper.org/)
+  * [TTNmapper.org, distances](http://ttnmapper.org/)
+  * [pade.nl, distances](http://pade.nl/lora/)
   * [Groningen website](http://live.thethingsnetwork-groningen.org)
 
 
