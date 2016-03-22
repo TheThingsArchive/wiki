@@ -116,7 +116,7 @@ NwkID 1:
 | 02:01:4C:xx                 | kklysetti                 |
 | 02:01:4D:xx                 | Mereltron (Zutphen, NL)   |
 | 02:01:4E:xx                 | MarHul (Ceske Budejovice, CZE) |
-...
+| 02:01:4F:xx                 | Rene Kokkelmans           |
 | 02:01:50:xx				  | beheer@waag.org           |
 | 02:01:51:xx				  | remcogroeneweg            |
 | 02:01:52:xx				  | nero-networks             |
