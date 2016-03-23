@@ -182,6 +182,8 @@ NwkID 1:
 | 02:02:14:xx				  | Aart @ eVect (evect.net) |	 
 | 02:02:15:xx                 | ICT (ict.nl, Groningen, NL) |
 | 02:02:16:xx                 | Oscar @ TTN Kaag & Braassem |
+| 02:02:17:xx                 | WdG (Wijk bij Duurstede,NL) |
+
 ...
 | 02:02:20:xx                 | JLT (Bilthoven, NL)       |
 ...
