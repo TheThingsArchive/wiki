@@ -287,6 +287,7 @@ NwkID 1:
 | 02:D1:EF:xx                 | Toga (Saratoga Springs, NY)
 | 02:D1:EE:xx                 | Project Pili (Enschede, NL)
 | 02:D1:F0:xx                 | Solcon Internetdiensten N.V.(Dronten, NL) 
+| 02:D1:F1:xx                 | SC (Tyumen, RU) 
 | ... |
 | 02:DE:AD:xx                 | Tillo (Zurich Switzerland) |
 | 02:DE:xx:xx                 | The Things Network workshops (Austin, TX) |
