@@ -154,6 +154,7 @@ NwkID 1:
 | 02:01:76:xx                 | Peter de Boer (Emmen, NL)       |
 | 02:01:77:xx                 | DevLab, Eindhoven         |
 | 02:01:78:xx                 | Jeroen (Geldrop)     |
+| 02:01:79:xx                 | Edwin vd Oetelaar (Best/Helmond/OetelaarAutomatisering)     |
 | ...
 | 02:01:82:xx				  | BadBit (Den Haag / NL) |
 | 02:01:83:xx				  | iotta (Delft, Den Haag) |
