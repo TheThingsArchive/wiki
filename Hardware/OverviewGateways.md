@@ -85,7 +85,7 @@ the online manual for further information.
 * Includes: GPS (Class B ready) Antenna
 * Not yet tested by The Things Network Crew?
 
-### [IMST IC880a + Raspberry Pi](http://webshop.imst.de/radio-modules/ic880a-spi-lorawan-concentrator-868mhz.html)
+### [IMST IC880a + Raspberry Pi](http://webshop.imst.de/radio-modules/lora-concentrators.html)
 * Price: ~260 euro (189 euro p/board + Antenna + Pigtail + RPi + Power supply + taxes)
 * Availability: In Stock.
 * Capacity: 8 band, ~ 20K Nodes 
