@@ -10,5 +10,5 @@
 [[Service Discovery|Backend/Discovery]]
 
 **Backend CLIs:**
-[[ttn|Backend/ttn/ttn]] |
-[[ttnctl|Backend/ttnctl/ttnctl]]
+[[ttn|Backend/ttn/ttn]] - [[configuration|Backend/ttn/Configuration]] |
+[[ttnctl|Backend/ttnctl/ttnctl]] - [[configuration|Backend/ttnctl/Configuration]]
