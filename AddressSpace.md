@@ -295,6 +295,8 @@ NwkID 1:
 | 02:DE:AD:xx                 | Tillo (Zurich Switzerland) |
 | 02:DE:xx:xx                 | The Things Network workshops (Austin, TX) |
 | 02:DF:xx:xx				  | Tweetonig R&D             |
+| ... |
+| 02:E0:00:xx                 | TTN Hilversum Zeeheldenkwartier |
 
 ## Registered Addresses in other providers' address space (!?)
 
