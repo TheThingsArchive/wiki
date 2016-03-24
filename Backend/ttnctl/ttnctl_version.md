@@ -14,7 +14,10 @@ ttnctl version
 ### Options inherited from parent commands
 
 ```
-      --config string   config file (default is $HOME/.ttnctl.yaml)
+      --app-eui string       The app EUI to use (default "0102030405060708")
+      --app-token string     The app Token to use (default "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJUVE4tSEFORExFUi0xIiwiaXNzIjoiVGhlVGhpbmdzVGhlTmV0d29yayIsInN1YiI6IjAxMDIwMzA0MDUwNjA3MDgifQ.zMHNXAVgQj672lwwDVmfYshpMvPwm6A8oNWJ7teGS2A")
+      --config string        config file (default is $HOME/.ttnctl.yaml)
+      --ttn-handler string   The net address of the TTN Handler (default "0.0.0.0:1782")
 ```
 
 ### SEE ALSO

@@ -17,16 +17,17 @@ ttn handler
 ### Options
 
 ```
-      --db-devices string         Devices Database connection (default "boltdb:/tmp/ttn_handler_devices.db")
-      --db-packets string         Packets Database connection (default "boltdb:/tmp/ttn_handler_packets.db")
-      --internal-address string   The IP address to listen for communication from other components (default "0.0.0.0")
-      --internal-port int         The port for communication from other components (default 1882)
-      --mqtt-broker string        The address of the MQTT broker (uplink) (default "localhost:1883")
-      --public-address string     The IP address to listen for communication with the wild open (default "0.0.0.0")
-      --public-port int           The port for communication with the wild open (default 1782)
-      --status-address string     The IP address to listen for serving status information (default "0.0.0.0")
-      --status-port int           The port of the status server, use 0 to disable (default 10702)
-      --ttn-broker string         The address of the TTN broker (downlink) (default "localhost:1781")
+      --db-devices string                  Devices Database connection (default "boltdb:/tmp/ttn_handler_devices.db")
+      --db-packets string                  Packets Database connection (default "boltdb:/tmp/ttn_handler_packets.db")
+      --internal-address string            The IP address to listen for communication from other components (default "0.0.0.0")
+      --internal-address-announce string   The hostname to announce for communication from other components (default "localhost")
+      --internal-port int                  The port for communication from other components (default 1882)
+      --mqtt-broker string                 The address of the MQTT broker (uplink) (default "localhost:1883")
+      --public-address string              The IP address to listen for communication with the wild open (default "0.0.0.0")
+      --public-port int                    The port for communication with the wild open (default 1782)
+      --status-address string              The IP address to listen for serving status information (default "0.0.0.0")
+      --status-port int                    The port of the status server, use 0 to disable (default 10702)
+      --ttn-broker string                  The address of the TTN broker (downlink) (default "localhost:1781")
 ```
 
 ### Options inherited from parent commands

@@ -32,6 +32,7 @@ export TTN_HANDLER_DB_PACKETS=boltdb:/tmp/ttn_handler_packets.db
 export TTN_HANDLER_STATUS_ADDRESS=0.0.0.0
 export TTN_HANDLER_STATUS_PORT=10702
 export TTN_HANDLER_INTERNAL_ADDRESS=0.0.0.0
+export TTN_INTERNAL_ADDRESS_ANNOUNCE=localhost
 export TTN_HANDLER_INTERNAL_PORT=1882
 export TTN_HANDLER_PUBLIC_ADDRESS=0.0.0.0
 export TTN_HANDLER_PUBLIC_PORT=1782
@@ -74,6 +75,7 @@ handler:
   status-address: "0.0.0.0"
   status-port: 10702
   internal-address: "0.0.0.0"
+  internal-address-announce: localhost
   internal-port: 1882
   public-address: "0.0.0.0"
   public-port: 1782
