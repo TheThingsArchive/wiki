@@ -253,7 +253,8 @@ NwkID 1:
 |...|
 | 02:75:21:XX				  | KITT Engineering (Enschede, NL) |
 | 02:75:22:XX				  | Slimmerwifi.nl					|
-| 02:75:23:XX				  | Arjen van Spindle				|	
+| 02:75:23:XX				  | Arjen van Spindle				|
+| 02:75:24:XX				  | Terence van Zoelen	Jaav.nl		|
 |...|
 | 02:A2:A2:xx                 | Ordina Smart Technologies |
 | 02:A2:A3:xx                 | LD (Utrecht)
