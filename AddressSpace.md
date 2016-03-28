@@ -158,7 +158,7 @@ NwkID 1:
 | ...
 | 02:01:82:xx				  | BadBit (Den Haag / NL) |
 | 02:01:83:xx				  | iotta (Delft, Den Haag) |
-| ...
+| ...							
 | 02:01:99:xx				  | TumThings (CM, TH) 		|
 | ... 
 | 02:01:BA:xx                 | TTN BA - Ropu             |
@@ -250,6 +250,7 @@ NwkID 1:
 | 02:03:47:xx                 | os3.nl SNE (NL)                 |
 |...|
 | 02:73:88:xx				  | UrbanGrid (UA)					|
+| 02:73:90:xx				  | TTN M-tricht tbv Zuyd			|
 |...|
 | 02:75:21:XX				  | KITT Engineering (Enschede, NL) |
 | 02:75:22:XX				  | Slimmerwifi.nl					|
