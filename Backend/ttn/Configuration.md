@@ -27,6 +27,7 @@ export TTN_BROKER_UPLINK_ADDRESS=0.0.0.0
 export TTN_BROKER_UPLINK_PORT=1881
 export TTN_BROKER_DOWNLINK_ADDRESS=0.0.0.0
 export TTN_BROKER_DOWNLINK_PORT=1781
+export TTN_BROKER_OAUTH2_KEYFILE=~/.ttn/oauth2-token.pub
 export TTN_HANDLER_DB_DEVICES=boltdb:/tmp/ttn_handler_devices.db
 export TTN_HANDLER_DB_PACKETS=boltdb:/tmp/ttn_handler_packets.db
 export TTN_HANDLER_STATUS_ADDRESS=0.0.0.0
@@ -69,6 +70,7 @@ broker:
   uplink-port: 1881
   downlink-address: "0.0.0.0"
   downlink-port: 1781
+  oauth2-keyfile: "~/.ttn/oauth2-token.pub"
 handler:
   db-devices: "boltdb:/tmp/ttn_handler_devices.db"
   db-packets: "boltdb:/tmp/ttn_handler_packets.db"
