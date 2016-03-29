@@ -1,7 +1,8 @@
 **[[Backend Components|Backend/Overview]]:**
 [[Router|Backend/Router]] |
 [[Broker|Backend/Broker]] |
-[[Handler|Backend/Handler]]
+[[Handler|Backend/Handler]] |
+[[Docker-based deployment|Backend/Docker]]
 
 **Backend Architecture:**
 [[Communication Protocols|Backend/Communication]] |
@@ -10,5 +11,5 @@
 [[Service Discovery|Backend/Discovery]]
 
 **Backend CLIs:**
-[[ttn|Backend/ttn/ttn]] - [[configuration|Backend/ttn/Configuration]] |
-[[ttnctl|Backend/ttnctl/ttnctl]] - [[configuration|Backend/ttnctl/Configuration]]
+[[ttn|Backend/ttn/ttn]] (*[[configuration|Backend/ttn/Configuration]]*) |
+[[ttnctl|Backend/ttnctl/ttnctl]] (*[[configuration|Backend/ttnctl/Configuration]]*)
