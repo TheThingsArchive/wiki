@@ -232,6 +232,14 @@ Programming requires the [mDot Developer Kit](http://www.multitech.com/models/94
 An example application that works with The Things Network is at [https://developer.mbed.org/users/SomeRandomBloke/code/mDot_TTN_DS18B20/](https://developer.mbed.org/users/SomeRandomBloke/code/mDot_TTN_DS18B20/).
 
 
+### Dragino Lora Shield
+Dragino Lora Shield is an easy to use Arduino Shield to test the Lora Technolog. it use the SX127x chip and compatible with both 3.3v/5v level Arduino board.  With the lora shield, User can test the TTN network just in few steps. A simpel demo set up can be found from [Instructable](http://www.instructables.com/id/Use-Lora-Shield-and-RPi-to-Build-a-LoRaWAN-Gateway/): It shows:
+
+ * How to use Lora Shield to set up single channel gateway for TTN network.
+ * How to use Lora Shield to set up a Lora Node.
+ * How is the communication between the Lora Node and Lora Gateway.
+
+
 ### Do you know about other devices? Add them here!
 
 ## LoRaWAN stacks for transceiver-only devices
