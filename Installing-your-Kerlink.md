@@ -14,7 +14,7 @@ _With many thanks to Martin Aarts!_
 	- Plug the USB flash drive into the gateway.
 	- Wait for 5 min. During this time the gateway will reboot itself.
 	- Unplug the key and check that a .log file has appeared. The file should contain the following text "WirmaV2 0x080XXXXX updated". This log file prevents any further installation on the gateways to avoid cyclic reboots. To redo the update on same gateway, remove this log file from the flash drive reinsert it into the gateway USB. (it is not needed if you update another gateway).
-9. Logon to the gateway by using the SSH protocol, on a Mac or Linux system just use the Terminal and run “ssh 10.1.0.117” (substitute by the correct IP-address).  On a Windows PC you can use the Putty.exe program, which can be downloaded at http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html . Login with the user “root” and default password “root”.
+9. Logon to the gateway by using the SSH protocol, on a Mac or Linux system just use the Terminal and run “ssh root@10.1.0.117” (substitute by the correct IP-address).  On a Windows PC you can use the Putty.exe program, which can be downloaded at http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html . Login with the user “root” and default password “root”.
 10. At your firewall system make sure the external IP-address used will map port 1700 to the internal IP-address of the gateway. This is needed when using NAT for internal IP-address translation. 
 11. Your are basically done now. For further checking continue to the next step. The following steps require some knowledge about how to use the command-line in Linux or Mac.
 12. Use the following command on the gateway to check whether data is being sent and received:<br>
