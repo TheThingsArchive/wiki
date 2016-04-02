@@ -27,6 +27,7 @@ export TTN_BROKER_UPLINK_ADDRESS=0.0.0.0
 export TTN_BROKER_UPLINK_PORT=1881
 export TTN_BROKER_DOWNLINK_ADDRESS=0.0.0.0
 export TTN_BROKER_DOWNLINK_PORT=1781
+export TTN_BROKER_ACCOUNT_SERVER=https://account.thethingsnetwork.org
 export TTN_BROKER_OAUTH2_KEYFILE=~/.ttn/oauth2-token.pub
 export TTN_HANDLER_DB_DEVICES=boltdb:/tmp/ttn_handler_devices.db
 export TTN_HANDLER_DB_PACKETS=boltdb:/tmp/ttn_handler_packets.db
@@ -38,6 +39,8 @@ export TTN_HANDLER_INTERNAL_PORT=1882
 export TTN_HANDLER_PUBLIC_ADDRESS=0.0.0.0
 export TTN_HANDLER_PUBLIC_PORT=1782
 export TTN_HANDLER_MQTT_BROKER=localhost:1883
+export TTN_HANDLER_MQTT_USERNAME=
+export TTN_HANDLER_MQTT_PASSWORD=
 export TTN_HANDLER_TTN_BROKER=localhost:1781
 ```
 
@@ -70,6 +73,7 @@ broker:
   uplink-port: 1881
   downlink-address: "0.0.0.0"
   downlink-port: 1781
+  account-server: "https://account.thethingsnetwork.org"
   oauth2-keyfile: "~/.ttn/oauth2-token.pub"
 handler:
   db-devices: "boltdb:/tmp/ttn_handler_devices.db"
@@ -82,6 +86,8 @@ handler:
   public-address: "0.0.0.0"
   public-port: 1782
   mqtt-broker: "localhost:1883"
+  mqtt-username: ""
+  mqtt-password: ""
   ttn-broker: "localhost:1781"
 ```
 
