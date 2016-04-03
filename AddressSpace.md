@@ -304,6 +304,7 @@ NwkID 1:
 | 02:DF:xx:xx				  | Tweetonig R&D             |
 | ... |
 | 02:E0:00:xx                 | TTN Hilversum Zeeheldenkwartier |
+| 02:E0:01:xx                 | Appception
 
 ## Registered Addresses in other providers' address space (!?)
 
