@@ -227,6 +227,7 @@ NwkID 1:
 | 02:03:25:xx                 | AnalyzeDirect Nieuwe Niedorp
 | 02:03:26:xx                 | JvdV (De Bilt)            |
 | 02:03:27:xx                 | Mechiel(mjl), irias.nl (Zwolle) |       
+| 02:03:28:xx                 | Bluehoney      |  
 |...|
 | 02:03:30:xx				  | IVU Burglengenfeld 				|	|
 | 02:03:31:xx				  | Sensors Connect 				|	|
