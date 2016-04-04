@@ -216,7 +216,6 @@ NwkID 1:
 | 02:03:15:xx				  | Metavurt                  |
 | 02:03:16:xx				  | Studio Reactor (Groningen/Amsterdam) |
 | 02:03:17:xx				  | Decentlab GmbH (CH)       |
-| 02:03:D0:xx                 | hans-d                    |
 | 02:03:18:xx				  | sowifi (Amsterdam)
 | 02:03:19:xx				  | Willem @ de Kwakel |
 | 02:03:20:xx				  | fbossong @ Zaanstad |
@@ -228,7 +227,7 @@ NwkID 1:
 | 02:03:26:xx                 | JvdV (De Bilt)            |
 | 02:03:27:xx                 | Mechiel(mjl), irias.nl (Zwolle) |       
 | 02:03:28:xx                 | Bluehoney      |  
-|...|
+| 02:03:29:xx				  | Frido (Hoogeveen)				|
 | 02:03:30:xx				  | IVU Burglengenfeld 				|	|
 | 02:03:31:xx				  | Sensors Connect 				|	|
 | 02:03:32:xx				  | Pure Knowledge  				|	|
@@ -253,6 +252,8 @@ NwkID 1:
 | 02:03:45:xx                 | Betronic BV (NL)                |
 | 02:03:46:xx                 | cheminfo.org (BE)               |
 | 02:03:47:xx                 | os3.nl SNE (NL)                 |
+|...|
+| 02:03:D0:xx                 | hans-d                    |
 |...|
 | 02:73:88:xx				  | UrbanGrid (UA)					|
 | 02:73:90:xx				  | TTN M-tricht tbv Zuyd			|
