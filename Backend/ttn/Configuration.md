@@ -44,8 +44,6 @@ export TTN_HANDLER_MQTT_PASSWORD=
 export TTN_HANDLER_TTN_BROKER=localhost:1781
 ```
 
-###### Updated on 24-Mar-2016
-
 ## Configuration File
 
 A configuration file can be specified using the `--config` option. By default, `ttn` looks for the file `~/.ttn.yaml` (in your home directory).
@@ -90,5 +88,3 @@ handler:
   mqtt-password: ""
   ttn-broker: "localhost:1781"
 ```
-
-###### Updated on 24-Mar-2016

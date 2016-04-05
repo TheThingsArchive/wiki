@@ -16,8 +16,6 @@ export TTNCTL_TTN_HANDLER=0.0.0.0:1782
 export TTNCTL_TTN_ACCOUNT_SERVER=https://account.thethingsnetwork.org
 ```
 
-###### Updated on 24-Mar-2016
-
 ## Configuration File
 
 A configuration file can be specified using the `--config` option. By default, `ttnctl` looks for the file `~/.ttnctl.yaml` (in your home directory).
@@ -32,5 +30,3 @@ ttn-handler: "0.0.0.0:1782"
 ttn-account-server: "https://account.thethingsnetwork.org"
 
 ```
-
-###### Updated on 24-Mar-2016
