@@ -56,8 +56,8 @@ services:
       - TTN_HANDLER_DB_PACKETS=boltdb:/data/ttn_handler_packets.db
       - TTN_HANDLER_TTN_BROKER=broker:1781            # The broker container
       - TTN_HANDLER_MQTT_BROKER=mosquitto:1883        # The mosquitto container
-      - TTN_HANDLER_MQTT_USERNAME=yourusername        # This doesn't matter if you use the default mosquitto server
-      - TTN_HANDLER_MQTT_PASSWORD=yourpassword        # Don't leave it empty, just use something random until we fix one bug ;)
+      - TTN_HANDLER_MQTT_USERNAME=yourusername        # You don't need this if you use 
+      - TTN_HANDLER_MQTT_PASSWORD=yourpassword        #   the default mosquitto server
       - TTN_HANDLER_INTERNAL_ADDRESS_ANNOUNCE=handler # Hostname where brokers can reach the handler
     ports:
       # - "1882:1882" # No public access to the private RPC port
