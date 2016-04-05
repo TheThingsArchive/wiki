@@ -308,6 +308,7 @@ NwkID 1:
 | ... |
 | 02:E0:00:xx                 | TTN Hilversum Zeeheldenkwartier |
 | 02:E0:01:xx                 | Appception
+| 02:E0:02:xx                 | Chuck Swiger (South Charleston WV  US)
 
 ## Registered Addresses in other providers' address space (!?)
 
