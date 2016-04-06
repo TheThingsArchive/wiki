@@ -84,11 +84,35 @@ You can see a list of registered devices with [`ttnctl devices`](ttnctl_devices)
 ```
 ❯ ttnctl devices
   INFO Found 1 personalized devices (ABP)
-DevAddr 	NwkSKey                         	AppSKey                         	FCntUp	FCntDown
-01020304	01020304050607080102030405060708	08070605040302010807060504030201	0     	0
+
+DevAddr 	FCntUp	FCntDown
+01020304	0     	0
+
   INFO Found 1 dynamic devices (OTAA)
-DevEUI          	DevAddr	NwkSKey                         	AppSKey                         	AppKey                          	FCntUp	FCntDown
-0102030405060708	       	00000000000000000000000000000000	00000000000000000000000000000000	01020304050607080102030405060708	0     	0
+
+DevEUI          	DevAddr	FCntUp	FCntDown
+0102030405060708	       	0     	0
+
+  INFO Run 'ttnctl devices info [DevAddr|DevEUI]' for more information about a specific device
+```
+
+You can also get information about a specific device with [`ttnctl devices info`](ttnctl_devices_info), for example for the personalized device:
+
+```
+❯ ttnctl devices info 01020304
+Personalized device:
+
+  DevAddr: 01020304
+           {0x01, 0x02, 0x03, 0x04}
+
+  NwkSKey: 01020304050607080102030405060708
+           {0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08}
+
+  AppSKey: 08070605040302010807060504030201
+           {0x08, 0x07, 0x06, 0x05, 0x04, 0x03, 0x02, 0x01, 0x08, 0x07, 0x06, 0x05, 0x04, 0x03, 0x02, 0x01}
+
+  FCntUp:  0
+  FCntDn:  0
 ```
 
 ## Receiving Uplink Messages
