@@ -54,12 +54,13 @@ If you work in a group, you can authorize your colleagues to manage the applicat
   INFO User authorized successfully
 ```
 
-### Using the correct AppEUI
+## Setting the new application as "active"
 
-From now on, we have to add the `--app-eui 0807060504030201` to commands we run. Usually we hate to do this, so it's also possible to add the line `app-eui:"0807060504030201"` to the configuration file (`$HOME/.ttnctl.yaml`) or to run `export TTNCTL_APP_EUI=0807060504030201`. That will save some typing.
+We are going to use the application we just created for the rest of this guide. We could use the `--app-eui 0807060504030201` flag in every command, but it's a lot easier to just configure it once and have `ttnctl` use this application from now on, so let's call [`ttnctl applications use`](ttnctl_applications_use):
 
 ```
-❯ export TTNCTL_APP_EUI=0807060504030201
+❯ ttnctl applications use 0807060504030201
+  INFO You are now using application 0807060504030201.
 ```
 
 ## Device Management
