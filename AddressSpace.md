@@ -252,6 +252,7 @@ NwkID 1:
 | 02:03:45:xx                 | Betronic BV (NL)                |
 | 02:03:46:xx                 | cheminfo.org (BE)               |
 | 02:03:47:xx                 | os3.nl SNE (NL)                 |
+| 02:03:48:xx                 | ThijsFeenstra (Groningen, NL)   |
 |...|
 | 02:03:D0:xx                 | hans-d                    |
 |...|
