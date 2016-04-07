@@ -312,6 +312,7 @@ NwkID 1:
 | 02:E0:02:xx                 | Chuck Swiger (South Charleston WV  US)
 | 02:E0:03:xx				  | AB Open Ltd					|
 | 02:E0:04:xx				  | Bridge Rectifier Ltd (Hebden Bridge hackerspace) |
+| 02:E0:05:xx				  | H1.nl |
 
 ## Registered Addresses in other providers' address space (!?)
 
