@@ -9,7 +9,7 @@
 
 4. Connect the gateways to the router via an ethernet (UTP) cable or via Wifi and connect it to the power grid. If the gateway uses PoE (Power over Ethernet), there is no need for an additional adapter.
 
-5. The gateway needs to be configured in order to connect it to the network of TTN. This can be done by installing a TTN Packet Forwarder via a usb or via the internet (UTP / wifi). More information around this can be found [here](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways)].
+5. The gateway needs to be configured in order to connect it to the network of TTN. This can be done by installing a TTN Packet Forwarder via a usb or via the internet (UTP / wifi). More information around this can be found [here](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways).
 
 6. Register the gateway on a personal account via the website: [www.thethingsnetwork.org](http://thethingsnetwork.org/)
 
