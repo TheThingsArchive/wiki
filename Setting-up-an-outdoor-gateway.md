@@ -1,4 +1,4 @@
-##Only a few steps need to be taken to set up an outdoor gateway.
+##Only a few steps to set up an outdoor gateway.
 
 1. Get a gateway for either indoor or outdoor usage. [This link](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways) shows a list of gateways.
 
