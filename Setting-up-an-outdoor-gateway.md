@@ -3,7 +3,7 @@
 1. Get a gateway for either indoor or outdoor usage. [This link](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways) shows a list of gateways.
 
 2. When an outdoor gateways is chosen, find a spot where it can be placed and attached to a fixed object. The higher the gateways is placed, the better its reach. 
-<br/><br/> *In case the gateway is placed on the roof of a building in the city center or on a monumental building, review the governmental regulations around placing antennas. In some cases there need to be applied for a permit.*
+<br/> *In case the gateway is placed on the roof of a building in the city center or on a monumental building, review the governmental regulations around placing antennas. In some cases there need to be applied for a permit.*
 
 3. For setting up a Kerlink, attach the antenna by screwing it on the gateway. The antenna has a cable of around 1 meter, this makes it possible to place the antenna even higher on the building.
 
