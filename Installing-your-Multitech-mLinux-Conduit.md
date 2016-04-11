@@ -63,8 +63,12 @@ Instructions:
 		#sleep 1</code></pre>
     
     Make sure the -c option for the new packet_forwarder under <pre>start packet forwarder</pre> is set to 
-    <pre><code>-c $conf_dir</code></pre> instead of <pre>-c $run_dir</pre>
-    
+    <pre><code>-c $conf_dir</code></pre> instead of <pre>-c $run_dir/1</pre>
+	
+    Note: The /1 is introduced in newer versions of Multitech software to support multiple cards.
+    If you do not remove the /1, the network server will crash instantly. 
+	    
+
     Similarly comment out the network server line in <em>do_stop()</em> a little further down:
     
     <pre><code>   do_stop() {
