@@ -317,7 +317,8 @@ NwkID 1:
 | 02:E0:05:xx				  | H1.nl |
 | 02:E0:06:xx				  | WiredHouse.nl |
 | 02:E0:07:xx				  | Kinety.org (Zurich, CH) |
-| 02:E0:08:xx                 | Bucharest - Romania TTN
+| 02:E0:08:xx                 | Bucharest - Romania TTN |
+| 02:E0:09:xx                 | tjibbechris |
 
 
 ## Registered Addresses in other providers' address space (!?)
