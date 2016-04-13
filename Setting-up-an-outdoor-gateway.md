@@ -8,6 +8,7 @@
 3. For setting up a Kerlink, attach the antenna by screwing it on the gateway. The antenna has a cable of around 1 meter, this makes it possible to place the antenna even higher on the building.
 
 4. Connect the gateways to the router via an ethernet (UTP) cable or via Wifi and connect it to the power grid. If the gateway uses PoE (Power over Ethernet), there is no need for an additional adapter.
+<br/> *Consider adding a lightning protector, since a lightning strike can destroy all connected equipments in the building. Click [here](http://thethingsnetwork.org/wiki/Antennas) for more information.*
 
 5. The gateway needs to be configured in order to connect it to the network of TTN. This can be done by installing a TTN Packet Forwarder via a usb or via the internet (UTP / wifi). More information around this can be found [here](http://thethingsnetwork.org/wiki/Hardware/OverviewGateways).
 
