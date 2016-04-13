@@ -319,6 +319,7 @@ NwkID 1:
 | 02:E0:07:xx				  | Kinety.org (Zurich, CH) |
 | 02:E0:08:xx                 | Bucharest - Romania TTN |
 | 02:E0:09:xx                 | tjibbechris |
+| 02:E0:10:xx                 | Makido - Utrecht |
 
 
 ## Registered Addresses in other providers' address space (!?)
