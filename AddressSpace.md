@@ -320,6 +320,8 @@ NwkID 1:
 | 02:E0:08:xx                 | Bucharest - Romania TTN |
 | 02:E0:09:xx                 | tjibbechris |
 | 02:E0:10:xx                 | Makido - Utrecht |
+| 02:E0:0A:xx				  |	GreenTechLab - Venlo |
+| 02:E0:0B:xx                 | TTN - Venlo
 
 
 ## Registered Addresses in other providers' address space (!?)
