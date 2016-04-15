@@ -1,8 +1,8 @@
 # Welcome!
 
-The Things Network is a global open crowdsourced Internet of Things data network.
+The Things Network is a global, open, crowd-sourced Internet of Things data network.
 
-To find out why we all started this, read our [Manifesto](https://github.com/TheThingsNetwork/Manifest). A lot of information is also available on our [website](http://thethingsnetwork.org), [forum](http://forum.thethingsnetwork.org/) and [Github](https://github.com/TheThingsNetwork).
+To find out why we started all this, read our [Manifesto](https://github.com/TheThingsNetwork/Manifest). A lot of information is also available on our [website](http://thethingsnetwork.org), [forum](http://forum.thethingsnetwork.org/) and [Github](https://github.com/TheThingsNetwork).
 
 # Architecture
 
