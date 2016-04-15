@@ -43,5 +43,5 @@ Parameters:
 
 ### MQTT `tcp://croft.thethings.girovito.nl:1883`
 
-Topic for uplink messages from nodes: `nodes/{devAddr}/packets`
-Topic for status updates from gateways: `gateways/{eui}/status`
+* Topic for uplink messages from nodes: `nodes/{devAddr}/packets`
+* Topic for status updates from gateways: `gateways/{eui}/status`
