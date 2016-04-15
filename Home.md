@@ -4,7 +4,7 @@ The Things Network is a global, open, crowd-sourced Internet of Things data netw
 
 To find out why we started all this, read our [Manifesto](https://github.com/TheThingsNetwork/Manifest). A lot of information is also available on our [website](http://thethingsnetwork.org), [forum](http://forum.thethingsnetwork.org/) and [Github](https://github.com/TheThingsNetwork).
 
-# Architecture
+# Overview
 
 The Things Network uses the [[LoRaWAN|LoRaWAN/Overview]] network technology to provide **low-power** wireless connectivity over **long distances**. This means that there are some [[limitations|LoRaWAN/Limitations]] in what you can do with LoRaWAN.
 
