@@ -36,6 +36,13 @@ Next to this wiki, we have a number of other places where you can find the infor
 * [Github](https://github.com/TheThingsNetwork/ttn)
 * [Slack](http://slack.thethingsnetwork.org/)
 
+# Social Media
+
+* [Twitter](https://twitter.com/thethingsntwrk)
+* [Facebook](https://www.facebook.com/thethingsnetwork)
+
+Local communities often have their own social media pages, you can find these on their community pages.
+
 # External Material
 
 * [[Media Attention|External/Media]]

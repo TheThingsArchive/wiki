@@ -1,5 +1,9 @@
 # Legacy Address Space
 
+Device addresses are **guaranteed to be non-unique**, so it is almost completely pointless to claim them here.
+
+However, for testing it's nice if you don't all use the same device addresses.
+
 ## Broadcasting
 
 `03:FE:BC:BC` General Broadcast Channel (by popcorn)
