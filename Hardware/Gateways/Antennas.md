@@ -27,3 +27,7 @@ Procom CXL 900-6LW-NB/868 MHz [LINK](http://procom.dk/products/528-cxl-900-6lw-n
 915Mhz
 
 Taoglas OMB.915.B03F21 [PDF](http://www.taoglas.com/wp-content/uploads/2015/06/OMB.915.B03F21.pdf)
+
+## Regulations
+
+In case the gateway is placed on the roof of a building in the city center or on a monumental building, review the governmental regulations around placing antennas. In some cases you need to apply for a permit.

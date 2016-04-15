@@ -100,7 +100,9 @@ Go down to where the network server is started (around line 57). Comment it out:
 #sleep 1</code></pre>
 ```
 
-Make sure the `-c` option for the new packet_forwarder under `start packet forwarder` is set to `-c $conf_dir` instead of `-c $run_dir`
+Make sure the `-c` option for the new packet_forwarder under `start packet forwarder` is set to `-c $conf_dir` instead of `-c $run_dir/1`
+
+Note: The `/1` is introduced in newer versions of MultiTech software to support multiple cards. If you do not remove the `/1`, the network server will crash instantly.
 
 Similarly comment out the network server line in `do_stop()` a little further down:
 

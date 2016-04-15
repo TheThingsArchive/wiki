@@ -35,3 +35,8 @@ Next to this wiki, we have a number of other places where you can find the infor
 * [The Forum](http://forum.thethingsnetwork.org/)
 * [Github](https://github.com/TheThingsNetwork/ttn)
 * [Slack](http://slack.thethingsnetwork.org/)
+
+# External Material
+
+* [[Media Attention|External/Media]]
+* [[Blog Posts|External/Blogs]]

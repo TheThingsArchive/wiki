@@ -1,6 +1,6 @@
 # Lightning protection
 
-When using an outdoor antenna, please consider installing surge protection devices on the antenna and/or Ethernet cables. Even the the electrical field of a nearby lightning strike can destroy all connected equipment (also inside the building).
+When using an outdoor antenna, please consider installing surge protection devices on the antenna and/or Ethernet cables. Even the electrical field of a nearby lightning strike can destroy all connected equipment (also inside the building).
 
 ## Kerlink
 
