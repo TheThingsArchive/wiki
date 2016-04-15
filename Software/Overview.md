@@ -36,10 +36,10 @@ local_conf.json:
 
 	{
 	  "gateway_conf": {
-	      "gateway_ID": *YOUR_OWN_SERIAL*,
+	      "gateway_ID": "*YOUR_OWN_SERIAL*",
 		  "serv_port_up": 1700,
 		  "serv_port_down": 1700,
-		  "server_address": "croft.thethings.girovito.nl",
+		  "server_address": "SEE_BELOW",
 		  "forward_crc_valid": true,
 		  "forward_crc_error": false,
 		  "forward_crc_disabled": true
@@ -47,6 +47,17 @@ local_conf.json:
 	}
 
 Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](gateways/kerlink/mobile-connection) instructions.
+
+The `server_address` depends on the region:
+
+```
+router.eu.thethings.network # EU 433 and EU 863-870
+router.us.thethings.network # US 902-928
+router.cn.thethings.network # China 470-510 and 779-787
+router.au.thethings.network # Australia 915-928 MHz
+```
+
+See more info [here](http://forum.thethingsnetwork.org/t/new-addresses-for-cloud-services-update-your-gateways/1813)
 
 ### Other gateways
 If you have another gateway, you might find help on the [TTN forum](http://forum.thethingsnetwork.org/).
