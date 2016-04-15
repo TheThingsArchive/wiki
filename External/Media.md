@@ -52,3 +52,4 @@ Example:
 * DE: [heise.de](http://heise.de/forum/Make/News-Kommentare/The-Things-Network-Gateway-fuer-200-Euro-funkt-10-Kilometer-weit/forum-248126)
 * FR: [Aruco](https://www.aruco.com/2015/10/the-things-network-lora-kickstarter/)
 * DE: [Tages Anzeiger, Zurich](http://www.tagesanzeiger.ch/digital/daten/Wenn-Velo-und-Blumentopf-ins-Netz-gehen/story/30774336)
+* DE: [SRG, Zurich](http://m.srf.ch/wissen/digital/netz-der-dinge-do-it-yourself)
