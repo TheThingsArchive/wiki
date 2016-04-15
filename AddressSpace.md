@@ -147,6 +147,7 @@ NwkID 1:
 | 02:01:6B:xx				  | Louis & Ralph (Utrecht, NL) |
 | 02:01:6C:xx                 | Atlanta GP TTN           |
 | 02:01:6D:xx                 | Skarpnack Greisa           |
+| 02:01:6E:xx                 | D.K. |                    
 | ...                         | |
 | 02:01:70:xx				  | H Falaki |
 | 02:01:71:xx				  | Seal Productions Zoutkamp |
