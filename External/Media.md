@@ -47,8 +47,8 @@ Example:
 * [Nieuwsuur 2016-02-26](http://nos.nl/nieuwsuur/artikel/2089220-de-opmars-van-het-internet-der-dingen.html?title=de-opmars-van-het-internet-der-dingen)
 
 ## Other languages
-* GE: [MobileGeeks](http://www.mobilegeeks.de/news/the-things-network-will-jede-stadt-smart-machen/)
-* GE: [t3n](http://t3n.de/news/open-source-internet-der-dinge-things-network-650984/)
-* GE: [heise.de](http://heise.de/forum/Make/News-Kommentare/The-Things-Network-Gateway-fuer-200-Euro-funkt-10-Kilometer-weit/forum-248126)
+* DE: [MobileGeeks](http://www.mobilegeeks.de/news/the-things-network-will-jede-stadt-smart-machen/)
+* DE: [t3n](http://t3n.de/news/open-source-internet-der-dinge-things-network-650984/)
+* DE: [heise.de](http://heise.de/forum/Make/News-Kommentare/The-Things-Network-Gateway-fuer-200-Euro-funkt-10-Kilometer-weit/forum-248126)
 * FR: [Aruco](https://www.aruco.com/2015/10/the-things-network-lora-kickstarter/)
-* GE: [Tages Anzeiger, Zurich](http://www.tagesanzeiger.ch/digital/daten/Wenn-Velo-und-Blumentopf-ins-Netz-gehen/story/30774336)
+* DE: [Tages Anzeiger, Zurich](http://www.tagesanzeiger.ch/digital/daten/Wenn-Velo-und-Blumentopf-ins-Netz-gehen/story/30774336)
