@@ -52,11 +52,3 @@ Example:
 * GE: [heise.de](http://heise.de/forum/Make/News-Kommentare/The-Things-Network-Gateway-fuer-200-Euro-funkt-10-Kilometer-weit/forum-248126)
 * FR: [Aruco](https://www.aruco.com/2015/10/the-things-network-lora-kickstarter/)
 * GE: [Tages Anzeiger, Zurich](http://www.tagesanzeiger.ch/digital/daten/Wenn-Velo-und-Blumentopf-ins-Netz-gehen/story/30774336)
-
-## Opinions and blog posts
-
-* [Atmel blog](http://blog.atmel.com/2015/10/21/building-a-crowdsourced-decentralized-iot-network-around-the-world/)
-* [FreeKnowledge blog](http://freeknowledge.eu/blogs/things-network-4x-commons-internet-of-things)
-* [http://www.stephensonstrategies.com/share-it-data-and-they-will-come/](http://www.stephensonstrategies.com/share-it-data-and-they-will-come/)
-* [Stephenson blogs on Internet of Things](http://www.stephensonstrategies.com/share-it-data-and-they-will-come/)
-* [Love Hz](https://medium.com/@lovehz/the-things-network-the-power-of-open-iot-wans-306da32d7006#.uacp7q4kg)
