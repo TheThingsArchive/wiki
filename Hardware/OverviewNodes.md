@@ -54,6 +54,7 @@ what to buy, send us an [email](Contact).
 | Libelium          | | SX1272 | | -            || Bee         || 45,-         || Arduino library available  |
 | HopeRF RFM92W     | | SX1272 | | no           || 2mm pin smd || 10,-         || Working with Arduino       |
 | HopeRF RFM95W     | | SX1276 | | no           || 2mm pin smd || 10,-         || Working with Arduino       |
+| [NiceRF LoRa1276](http://goo.gl/CqBBWU) | | SX1276 | | no           || smd         || 10,-         || Working with RaspberriPi   |
 | [Lora Shield V95](http://wiki.dragino.com/index.php?title=Lora_Shield)     | | SX1276 | | no           || Arduino Shield || 18,-         || HopeRF Module , Arduino Shield Style       |
 | [Lora Shield V98](http://wiki.dragino.com/index.php?title=Lora_Shield)     | | SX1278 | | no           || Arduino Shield|| 18,-         || HopeRF Module, Arduino Shield Style       |
 | Kerlink loramote  | | SX1272 | | yes          || IO          || 150,-        || professional; has GPS      |
