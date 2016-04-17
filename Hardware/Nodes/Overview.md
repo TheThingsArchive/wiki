@@ -24,6 +24,8 @@
 * [IMST iM880B-L 868 MHz](http://www.wireless-solutions.de/products/radiomodules/im880b-l)
 * [HopeRF RFM95W 868 MHz](http://www.hoperf.nl/RFM95W)
 * [HopeRF RFM98W 433 MHz](http://www.hoperf.nl/RFM98W)
+* [Adafruit RFM95W Breakout 868 Mhz](https://www.adafruit.com/products/3072)
+* [Adafruit RFM98W Breakout 433 Mhz](https://www.adafruit.com/products/3073)
 * [Modtronix inAir9B 868/915 MHz](http://modtronix.com/inair9B.html)
 * [Modtronix inAir4 433 MHz](http://modtronix.com/inair4.html)
 
