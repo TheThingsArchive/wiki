@@ -8,8 +8,8 @@
 * [Adafruit Feather 433 MHz](https://www.adafruit.com/products/3079)
 * [SODAQ LoRaONE](https://www.kickstarter.com/projects/sodaq/loraone-the-lora-iot-development-board)
 * [IMST iM880B-L 868 MHz](http://www.wireless-solutions.de/products/radiomodules/im880b-l)
-* [LoPy](https://www.kickstarter.com/projects/1795343078/lopy-the-lora-wifi-and-bluetooth-iot-development-p)
-* [Moteino Mega](https://lowpowerlab.com/shop/Moteino/moteinomega)
+* [LoPy 868/915 Mhz](https://www.kickstarter.com/projects/1795343078/lopy-the-lora-wifi-and-bluetooth-iot-development-p)
+* [Moteino Mega 433/868/915 Mhz](https://lowpowerlab.com/shop/Moteino/moteinomega)
 
 ## Communication Chips
 
