@@ -18,7 +18,7 @@ Kerlink recommends to improve lightning immunity using these devices:
 
 * [Lightning protection](http://www.hubersuhner.com/en/lightningprotection)
 
-## Ethernet / power protection from China
-Not tested, but I ordered some things from Aliexpress again:
+## Aliexpress
 
-* [RJ45 lightning protector](http://www.aliexpress.com/item/1-10pcs-RJ45-Ethernet-Network-Surge-Protector-Lightning-Arrester-SPD-Device-10KA/32384571796.html) _(Assuming you use power over ethernet)_
+* [RJ45 lightning protection](http://www.aliexpress.com/item/1-10pcs-RJ45-Ethernet-Network-Surge-Protector-Lightning-Arrester-SPD-Device-10KA/32384571796.html) _(Assuming you use power over ethernet)
+* [PoE Injector + lightning protection](http://www.aliexpress.com/item/Hi-Power-60W-10-100-1000M-Gigabyte-POE-Injector-AC100-240V-Midspan4-5-7-8-for/32596142073.html?spm=2114.10010108.1000010.3.7dSlHv)
