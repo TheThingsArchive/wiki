@@ -7,6 +7,7 @@
 * [Adafruit Feather 868/915 MHz](https://www.adafruit.com/products/3078)
 * [Adafruit Feather 433 MHz](https://www.adafruit.com/products/3079)
 * [SODAQ LoRaONE](https://www.kickstarter.com/projects/sodaq/loraone-the-lora-iot-development-board)
+* [IMST iM880B-L 868 MHz](http://www.wireless-solutions.de/products/radiomodules/im880b-l)
 * [LoPy](https://www.kickstarter.com/projects/1795343078/lopy-the-lora-wifi-and-bluetooth-iot-development-p)
 * [Moteino Mega](https://lowpowerlab.com/shop/Moteino/moteinomega)
 
@@ -21,7 +22,6 @@
 * [Microchip RN2483 433/868 MHz](https://www.microchip.com/wwwproducts/en/RN2483)
 * [Microchip RN2903 915 MHz](https://www.microchip.com/wwwproducts/en/RN2903)
 * [Embit LR1272 868/915 MHz](http://www.embit.eu/products/wireless-modules/emb-lr1272/)
-* [IMST iM880B-L 868 MHz](http://www.wireless-solutions.de/products/radiomodules/im880b-l)
 * [HopeRF RFM95W 868 MHz](http://www.hoperf.nl/RFM95W)
 * [HopeRF RFM98W 433 MHz](http://www.hoperf.nl/RFM98W)
 * [Adafruit RFM95W Breakout 868 Mhz](https://www.adafruit.com/products/3072)
