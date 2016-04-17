@@ -11,14 +11,6 @@
 * [LoPy](https://www.kickstarter.com/projects/1795343078/lopy-the-lora-wifi-and-bluetooth-iot-development-p)
 * [Moteino Mega](https://lowpowerlab.com/shop/Moteino/moteinomega)
 
-## Shields and Modules
-
-* [Dragino LoRa Shield](http://wiki.dragino.com/index.php?title=Lora_Shield)
-* [Froggy Factory LoRa Shield](http://www.froggyfactory.com/froggy/index.php)
-* [SODAQ LoRaBee](http://shop.sodaq.com/en/sodaq-lorabee-rn2483.html)
-* [Adafruit RFM95W Breakout 868 Mhz](https://www.adafruit.com/products/3072)
-* [Adafruit RFM98W Breakout 433 Mhz](https://www.adafruit.com/products/3073)
-
 ## Communication Chips
 
 * [Microchip RN2483 433/868 MHz](https://www.microchip.com/wwwproducts/en/RN2483)
@@ -28,6 +20,14 @@
 * [HopeRF RFM98W 433 MHz](http://www.hoperf.nl/RFM98W)
 * [Modtronix inAir9B 868/915 MHz](http://modtronix.com/inair9B.html)
 * [Modtronix inAir4 433 MHz](http://modtronix.com/inair4.html)
+
+## Assembled breakout boards / shields
+
+* [Dragino LoRa Shield](http://wiki.dragino.com/index.php?title=Lora_Shield)
+* [Froggy Factory LoRa Shield](http://www.froggyfactory.com/froggy/index.php)
+* [SODAQ LoRaBee](http://shop.sodaq.com/en/sodaq-lorabee-rn2483.html)
+* [Adafruit RFM95W Breakout 868 Mhz](https://www.adafruit.com/products/3072)
+* [Adafruit RFM98W Breakout 433 Mhz](https://www.adafruit.com/products/3073)
 
 ## DIY Nodes
 
