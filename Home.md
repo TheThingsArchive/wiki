@@ -6,7 +6,7 @@ To find out why we started all this, read our [Manifesto](https://github.com/The
 
 # Overview
 
-The Things Network uses the [[LoRaWAN|LoRaWAN/Overview]] network technology to provide **low-power** wireless connectivity over **long distances**. This means that there are some [[limitations|LoRaWAN/Limitations]] in what you can do with LoRaWAN.
+The Things Network uses the [[LoRaWAN|LoRaWAN/Overview]] network technology to provide **low-power** wireless connectivity over **long distances**.
 
 If we look at The Things Network from a high level, we can distinguish the following components:
 
