@@ -16,6 +16,8 @@
 * [Dragino LoRa Shield](http://wiki.dragino.com/index.php?title=Lora_Shield)
 * [Froggy Factory LoRa Shield](http://www.froggyfactory.com/froggy/index.php)
 * [SODAQ LoRaBee](http://shop.sodaq.com/en/sodaq-lorabee-rn2483.html)
+* [Adafruit RFM95W Breakout 868 Mhz](https://www.adafruit.com/products/3072)
+* [Adafruit RFM98W Breakout 433 Mhz](https://www.adafruit.com/products/3073)
 
 ## Communication Chips
 
@@ -24,8 +26,6 @@
 * [Embit LR1272 868/915 MHz](http://www.embit.eu/products/wireless-modules/emb-lr1272/)
 * [HopeRF RFM95W 868 MHz](http://www.hoperf.nl/RFM95W)
 * [HopeRF RFM98W 433 MHz](http://www.hoperf.nl/RFM98W)
-* [Adafruit RFM95W Breakout 868 Mhz](https://www.adafruit.com/products/3072)
-* [Adafruit RFM98W Breakout 433 Mhz](https://www.adafruit.com/products/3073)
 * [Modtronix inAir9B 868/915 MHz](http://modtronix.com/inair9B.html)
 * [Modtronix inAir4 433 MHz](http://modtronix.com/inair4.html)
 
