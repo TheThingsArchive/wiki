@@ -6,7 +6,7 @@
 
 > TODO: Fact-checking
 
-**Price:** on request, around 1.200 euro / 1.500 dollar.  
+**Price:** on request, 1.200 Euro EXW incoterms (approx. 1.500 EUR final).  
 **Availability:** send inquiry to [Kerlink Sales](mailto:sales@kerlink.fr)  
 **Capacity:** 8 band  
 Suitable for outdoor mounting (IP67)  
