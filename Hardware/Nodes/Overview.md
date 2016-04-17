@@ -7,6 +7,8 @@
 * [Adafruit Feather 868/915 MHz](https://www.adafruit.com/products/3078)
 * [Adafruit Feather 433 MHz](https://www.adafruit.com/products/3079)
 * [SODAQ LoRaONE](https://www.kickstarter.com/projects/sodaq/loraone-the-lora-iot-development-board)
+* [LoPy](https://www.kickstarter.com/projects/1795343078/lopy-the-lora-wifi-and-bluetooth-iot-development-p)
+* [Moteino Mega](https://lowpowerlab.com/shop/Moteino/moteinomega)
 
 ## Shields and Modules
 
