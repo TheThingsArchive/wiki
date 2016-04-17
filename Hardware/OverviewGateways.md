@@ -112,7 +112,7 @@ Here's other people building their own gateway:
 * [description and manual for preparing for outside use](http://www.meiland.nl/2015/12/outdoor-lora-gateway/)
 
 ### DIY "single-channel" gateway (SX1272, SX1276 etc)
-* [TTN-compatible semi-LoRaWAN @tftelkamp](https://github.com/tftelkamp/single_chan_pkt_fwd)
+* [TTN-compatible semi-LoRaWAN @tftelkamp HopeRF RFM92W/RFM95W](https://github.com/tftelkamp/single_chan_pkt_fwd) and forked with [NiceRF LoRa1276 support](https://github.com/4refr0nt/single_chan_pkt_fwd)
 * [DIY lora gateway](http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html) (not LoRaWAN/TTN compatible)
 * [http://www.daveakerman.com/?p=1719](http://www.daveakerman.com/?p=1719) (not LoRaWAN/TTN compatible)
 
