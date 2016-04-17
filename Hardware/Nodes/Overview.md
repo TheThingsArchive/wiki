@@ -4,7 +4,8 @@
 
 * [MultiTech mDot](https://developer.mbed.org/platforms/mts-mdot-f411/)
 * [[The Things Uno|Hardware/Nodes/The-Things-Uno]]
-* [Adafruit Feather](https://www.adafruit.com/products/3076)
+* [Adafruit Feather 868/915 MHz](https://www.adafruit.com/products/3078)
+* [Adafruit Feather 433 MHz](https://www.adafruit.com/products/3079)
 * [SODAQ LoRaONE](https://www.kickstarter.com/projects/sodaq/loraone-the-lora-iot-development-board)
 
 ## Shields and Modules
