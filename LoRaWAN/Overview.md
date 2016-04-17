@@ -8,7 +8,7 @@ Communication between nodes and gateways is spread out on different [frequency c
 
 The LoRaWAN standard is steered by the [LoRa Alliance](https://www.lora-alliance.org/).
 
-The communication between gateway and nodes is [secured](Security by several layer of encryption):
+The communication between gateway and nodes is [secured by several layer of encryption](Security):
  - Unique Network key (EUI64) and ensure security on network level
  - Unique Application key (EUI64) ensure end to end security on application level
  - Device specific key (EUI128)
