@@ -29,6 +29,12 @@
 * [Adafruit RFM95W Breakout 868 Mhz](https://www.adafruit.com/products/3072)
 * [Adafruit RFM98W Breakout 433 Mhz](https://www.adafruit.com/products/3073)
 
+## Bare breakout boards
+* [Breakout for RN2483/RN2903](https://www.tindie.com/products/DrAzzy/rn2483-breakout-bare-board/)
+* [Breakout for RFM9xW](https://oshpark.com/shared_projects/B4OxoEv8)
+* [Breakout for RFM9xW](https://oshpark.com/shared_projects/OGIoTFPT)
+* [FeatherWing for RFM9xW](https://oshpark.com/shared_projects/X6nJejfZ)
+
 ## DIY Nodes
 
 > TODO: Link to (don't include!) blog posts and Github repositories where people explain how to build a Node.
