@@ -1,6 +1,6 @@
 # LoRaWAN
 
-LoRaWAN (Long Range Wide Area Network) is a media access control (MAC) protocol for long range, low power networks (LPWAN) based on LoRa (Long Range) radio modulation technique. In the OSI Reference Model, LoRa represent layer 1 (PHY), and LoRaWAN roughly maps to layers 2 and 3.
+LoRaWAN (**Lo**ng **Ra**nge **W**ide **A**rea **N**etwork) is a media access control (MAC) protocol for long range, low power networks (LPWAN) based on LoRa (Long Range) radio modulation technique. In the OSI Reference Model, LoRa represent layer 1 (PHY), and LoRaWAN roughly maps to layers 2 and 3.
 
 LoRaWAN networks use a star-of-stars topology in which gateways forward messages between nodes and applications in the backend. Nodes use a single-hop wireless connection to one or more gateways.
 
@@ -16,7 +16,7 @@ The communication between gateway and nodes is [secured by several layer of encr
 LoRaWAN defines three classes of nodes:
  - Class A: Nodes allow bi-directional communications, but downlink messages can only be transmited after an uplink transmission by the node. After sending an uplink message, the node opens 2 receive windows for downlink. This class is the lowest power devices.
  - Class B: Nodes allow bi-directional communication with scheduled receive slots.
- - Class C: Nodes of Class C have nearly continuously open receive windows, only closed when transmitting
+ - Class C: Nodes with nearly continuously open receive windows, only closed when transmitting.
 
 ## External Resources
 
