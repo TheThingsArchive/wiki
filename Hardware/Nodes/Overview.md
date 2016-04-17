@@ -18,13 +18,13 @@
 
 ## Communication Chips
 
-* [HopeRF RFM92W](http://www.hoperf.nl/RFM92W)
-* [HopeRF RFM95W](http://www.hoperf.nl/RFM95W)
 * [Modtronix inAir9B](http://modtronix.com/inair9B.html)
 * [Microchip RN2483 433/868 MHz](https://www.microchip.com/wwwproducts/en/RN2483)
 * [Microchip RN2903 915 MHz](https://www.microchip.com/wwwproducts/en/RN2903)
 * [Embit LR1272 868/915 MHz](http://www.embit.eu/products/wireless-modules/emb-lr1272/)
 * [IMST iM880B-L 868 MHz](http://www.wireless-solutions.de/products/radiomodules/im880b-l)
+* [HopeRF RFM95W 868 MHz](http://www.hoperf.nl/RFM95W)
+* [HopeRF RFM98W 433 MHz](http://www.hoperf.nl/RFM98W)
 
 ## DIY Nodes
 
