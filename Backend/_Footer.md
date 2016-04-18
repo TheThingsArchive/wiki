@@ -1,6 +1,6 @@
 **Backend**
 [[Connect a Gateway|Backend/Connect/Gateway]] |
-[[Connect a Application|Backend/Connect/Application]]
+[[Connect an Application|Backend/Connect/Application]]
 
 **[[Backend Components|Backend/Overview]]:**
 [[Router|Backend/Router]] |
