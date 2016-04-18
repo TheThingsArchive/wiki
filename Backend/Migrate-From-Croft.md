@@ -1,8 +1,8 @@
 # How to Migrate From Croft/Jolie
 
-The demonstration setup at `croft.thethings.girovito.nl` has served us for a long time, but now it's time to say goodbye. We are doing our best to make sure the migration is smooth, so our new environment at `staging.thethingsnetwork.org` will temporarily forward a copy of all _uplink messages_ to the legacy `croft` environment.
+The demonstration setup at `croft.thethings.girovito.nl` has served us for a long time, but now it's time to say goodbye. We are doing our best to make sure the migration is smooth, so our new staging environment will forward a copy of all _uplink messages_ to the legacy `croft` environment.
 
-To get started with our new **staging** environment, you'll have to make a couple of changes.
+To get started with our new staging environment, you'll have to make a small change to your gateway configuration.
 
 ## Gateway Migration
 
@@ -11,16 +11,27 @@ Update your `local_conf.json` to look like the following:
 ```json
 {
   "gateway_conf": {
-      "gateway_ID": *YOUR_OWN_SERIAL*,
+      "gateway_ID": "*YOUR_OWN_SERIAL*",
       "serv_port_up": 1700,
       "serv_port_down": 1700,
-      "server_address": "staging.thethingsnetwork.org",
+      "server_address": "SEE BELOW",
       "forward_crc_valid": true,
       "forward_crc_error": false,
       "forward_crc_disabled": true
   }
 }
 ```
+
+The `server_address` depends on the region:
+
+```
+router.eu.thethings.network # EU 433 MHz and EU 863-870 MHz
+router.us.thethings.network # US 902-928 MHz
+router.cn.thethings.network # China 470-510 MHz and 779-787 MHz
+router.au.thethings.network # Australia 915-928 MHz
+```
+
+See more info [here](http://forum.thethingsnetwork.org/t/new-addresses-for-cloud-services-update-your-gateways/1813)
 
 ## Application Migration
 

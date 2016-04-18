@@ -13,3 +13,5 @@
 **Backend CLIs:**
 [[ttn|Backend/ttn/ttn]] (*[[configuration|Backend/ttn/Configuration]]*) |
 [[ttnctl|Backend/ttnctl/ttnctl]] (*[[configuration|Backend/ttnctl/Configuration]]* and *[[quick start guide|Backend/ttnctl/QuickStart]]*)
+
+**[[Croft Migration Guide|Backend/Migrate-From-Croft]]**
