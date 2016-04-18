@@ -53,9 +53,11 @@ Verify that your mDot and Conduit can talk to each other: [Guide](http://www.mul
 
 You may want to play a while with some sample mbed code at this point. There are plenty of samples on the [mbed site](https://developer.mbed.org/platforms/MTS-mDot-F411/) to familiarise yourself with.
 
-When you are ready to connect up to The Things Network, Convert your Conduit to a packet forwarder. We have found [@kersing's `poly packet forwarder`](https://github.com/kersing/packet_forwarder/tree/master/poly_pkt_fwd) to be more reliable than the `gps_pkt_fwd` or `basic_pkt_fwd` that come as standard. Download the poly_pkt_fwd install packet onto your Conduit from [here](https://github.com/kersing/packet_forwarder/blob/master/multitech-bin/poly-packet-forwarder_2.1-r2_arm926ejste.ipk?raw=true).
+When you are ready to connect up to The Things Network, Convert your Conduit to a packet forwarder. We have found [@kersing's `poly packet forwarder`](https://github.com/kersing/packet_forwarder/tree/master/poly_pkt_fwd) to be more reliable than the `gps_pkt_fwd` or `basic_pkt_fwd` that come as standard. Download the poly_pkt_fwd install packet onto your Conduit from [here](https://github.com/kersing/packet_forwarder/blob/master/multitech-bin/poly-packet-forwarder_2.1-r3_arm926ejste.ipk?raw=true).
 
-Install `poly_pkt_fwd` on your Conduit using **opkg install poly-packet-forwarder_2.1-r2_arm926ejste.ipk**
+Install `poly_pkt_fwd` on your Conduit using **opkg install poly-packet-forwarder_2.1-r3_arm926ejste.ipk**
+
+**NOTE**: The package requires DNS to be set up on the conduit to find the TTN backend!
 
 Edit **/var/config/lora/local_conf.json**:
 
