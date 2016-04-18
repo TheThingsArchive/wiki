@@ -23,7 +23,7 @@ Instructions:
 5.  Convert your Conduit to a packet forwarder.  We have found @kersing's poly packet forwarder to be more relaible than the gps_pkt_fwd or basic_pkt_fwd that come as standard. Download the poly_pkt_fwd install packet onto your Conduit from here: [https://github.com/kersing/packet_forwarder/blob/master/multitech-bin/poly-packet-forwarder_2.1-r3_arm926ejste.ipk](https://github.com/kersing/packet_forwarder/blob/master/multitech-bin/poly-packet-forwarder_2.1-r3_arm926ejste.ipk?raw=true)
 6.  Install poly_pkt_fwd on your Conduit using **opkg install poly-packet-forwarder_2.1-r3_arm926ejste.ipk**
 
-**NOTE**: The package requires DNS to be set up on the conduit to find the TTN backend!
+    **NOTE**: The package requires DNS to be set up on the conduit to find the TTN backend!
 
 7.  Edit **/var/config/lora/local_conf.json**.
 <pre><code>
