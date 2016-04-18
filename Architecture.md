@@ -5,6 +5,8 @@ _Diagram made with [draw.io](https://draw.io),
 
 See also [this discussion on the forum](http://forum.thethingsnetwork.org/t/request-for-comments-network-architecture/287).
 
+#Note: this files has a couple of dead links. Needs some attention to get it more useful.
+
 ## Network elements
 
 The full network has several elements.
