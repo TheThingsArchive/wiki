@@ -14,4 +14,4 @@ Use [ttnctl](ttnctl/QuickStart) to create a user account.
 
 Users can create applications and they can authorize other users access to applications. Applications are identified by a globally unique AppEUI, a 64-bit number issued by The Things Network Foundation. Each Application has one or more Access Keys to access application data.
 
-Use [ttnctl](ttnctl/QuickStart) to manage applications.
+Use [ttnctl](ttnctl/QuickStart) to manage applications and view the Access Keys.
