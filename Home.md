@@ -1,12 +1,12 @@
 # Welcome!
 
-The Things Network is a global open crowdsourced Internet of Things data network.
+The Things Network is a global, open, crowd-sourced Internet of Things data network.
 
-To find out why we all started this, read our [Manifesto](https://github.com/TheThingsNetwork/Manifest). A lot of information is also available on our [website](http://thethingsnetwork.org), [forum](http://forum.thethingsnetwork.org/) and [Github](https://github.com/TheThingsNetwork).
+To find out why we started all this, read our [Manifesto](https://github.com/TheThingsNetwork/Manifest). A lot of information is also available on our [website](http://thethingsnetwork.org), [forum](http://forum.thethingsnetwork.org/) and [Github](https://github.com/TheThingsNetwork).
 
-# Architecture
+# Overview
 
-The Things Network uses the [[LoRaWAN|LoRaWAN/Overview]] network technology to provide **low-power** wireless connectivity over **long distances**. This means that there are some [[limitations|LoRaWAN/Limitations]] in what you can do with LoRaWAN.
+The Things Network uses the [[LoRaWAN|LoRaWAN/Overview]] network technology to provide **low-power** wireless connectivity over **long distances**.
 
 If we look at The Things Network from a high level, we can distinguish the following components:
 
@@ -19,11 +19,12 @@ If we look at The Things Network from a high level, we can distinguish the follo
 
 # Getting Involved
 
-There are many ways to get involved with The Things Network.
+There are many ways to get involved with The Things Network:
 
-* [[Starting or joining a Community|Getting_Involved/Community]] doesn't require any technical knowledge. Find an existing local community, or start a new community with other interested people.
-* [[Expanding the Network|Getting_Involved/Infrastructure]] by contributing infrastructure components, such as gateways (the network needs antennas), a good location for the gateways (maybe you have a nice high building) or servers (to route data between gateways and applications). Any contribution can help your local community and the global TTN community grow the network.
-* [[Developing the Network Software|Getting_Involved/Development]] is extremely important, especially because the network is growing fast. We need efficient software to route data between gateways and applications. This does require some good programming skills.
+* [[Starting or joining a community|Getting_Involved/Community]] doesn't require any technical knowledge. Find an existing local community, or start a new community with other interested people.
+* [[Expanding the network|Getting_Involved/Infrastructure]] by contributing infrastructure components, such as gateways (the network needs antennas), a good location for the gateways (maybe you have a nice high building) or servers (to route data between gateways and applications). Any contribution can help your local community and the global TTN community grow the network.
+* [[Building things|Hardware/Nodes/Overview]] to help solve real world issues with the network. You can help designing use cases, or developing them, or manufacturing them. If possible, share your knowledge and projects with others on any of the communication channels.
+* [[Developing the network's backend|Getting_Involved/Development]] is extremely important, especially because the network is growing fast. We need efficient software to route data between gateways and applications. This does require some good programming skills.
 
 **You are the network. Let's build this thing together.**
 

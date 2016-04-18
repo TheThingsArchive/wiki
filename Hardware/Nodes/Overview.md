@@ -2,25 +2,39 @@
 
 ## Complete Nodes
 
-* [MultiTech mDot](https://developer.mbed.org/platforms/mts-mdot-f411/)
 * [[The Things Uno|Hardware/Nodes/The-Things-Uno]]
-* [Adafruit Feather](https://www.adafruit.com/products/3076)
+* [MultiTech mDot 868/915 Mhz](https://developer.mbed.org/platforms/mts-mdot-f411/)
+* [Adafruit Feather 868/915 MHz](https://www.adafruit.com/products/3078)
+* [Adafruit Feather 433 MHz](https://www.adafruit.com/products/3079)
 * [SODAQ LoRaONE](https://www.kickstarter.com/projects/sodaq/loraone-the-lora-iot-development-board)
+* [IMST iM880B-L 868 MHz](http://www.wireless-solutions.de/products/radiomodules/im880b-l)
+* [LoPy 868/915 Mhz](https://www.kickstarter.com/projects/1795343078/lopy-the-lora-wifi-and-bluetooth-iot-development-p)
+* [Moteino Mega 433/868/915 Mhz](https://lowpowerlab.com/shop/Moteino/moteinomega)
 
-## Shields and Modules
+## Communication Chips
+
+* [Microchip RN2483 433/868 MHz](https://www.microchip.com/wwwproducts/en/RN2483)
+* [Microchip RN2903 915 MHz](https://www.microchip.com/wwwproducts/en/RN2903)
+* [Embit LR1272 868/915 MHz](http://www.embit.eu/products/wireless-modules/emb-lr1272/)
+* [HopeRF RFM95W 868 MHz](http://www.hoperf.nl/RFM95W)
+* [HopeRF RFM98W 433 MHz](http://www.hoperf.nl/RFM98W)
+* [Modtronix inAir9B 868/915 MHz](http://modtronix.com/inair9B.html)
+* [Modtronix inAir4 433 MHz](http://modtronix.com/inair4.html)
+
+## Assembled breakout boards / shields
 
 * [Dragino LoRa Shield](http://wiki.dragino.com/index.php?title=Lora_Shield)
 * [Froggy Factory LoRa Shield](http://www.froggyfactory.com/froggy/index.php)
 * [SODAQ LoRaBee](http://shop.sodaq.com/en/sodaq-lorabee-rn2483.html)
+* [Adafruit RFM95W Breakout 868 Mhz](https://www.adafruit.com/products/3072)
+* [Adafruit RFM98W Breakout 433 Mhz](https://www.adafruit.com/products/3073)
 
-## Communication Chips
+## Bare breakout boards
 
-* [Microchip RN2483](https://www.microchip.com/wwwproducts/en/RN2483)
-* [Embit LR1272](http://www.embit.eu/products/wireless-modules/emb-lr1272/)
-* [IMST iM880A-L](http://www.wireless-solutions.de/products/radiomodules/im880a)
-* [HopeRF RFM92W](http://www.hoperf.nl/RFM92W)
-* [HopeRF RFM95W](http://www.hoperf.nl/RFM95W)
-* [Modtronix inAir9B](http://modtronix.com/inair9B.html)
+* [Breakout for RN2483/RN2903](https://www.tindie.com/products/DrAzzy/rn2483-breakout-bare-board/)
+* [Breakout for RFM9xW](https://oshpark.com/shared_projects/B4OxoEv8)
+* [Breakout for RFM9xW](https://oshpark.com/shared_projects/OGIoTFPT)
+* [FeatherWing for RFM9xW](https://oshpark.com/shared_projects/X6nJejfZ)
 
 ## DIY Nodes
 

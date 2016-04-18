@@ -16,4 +16,4 @@ After you figure out which gateway you want, you probably also want to take a lo
 [[lightning protection|Hardware/Gateways/Lightning-Protection]].
 3. Follow the setup guide for your specific gateway (see the links on the bottom of this page).
 4. Configure the gateway for The Things Network. Instructions for this can be found in the setup guide from the previous step. You can also follow the more general [[packet forwarder setup guide|Hardware/Gateways/Packet-Forwarder-Setup]].
-5. You can register your gateway in your dashboard on [thethingsnetwork.org](http://thethingsnetwork.org/).
+5. Log in to [thethingsnetwork.org](http://thethingsnetwork.org/), and register your gateway from your user profile.

@@ -9,9 +9,9 @@ Suitable for indoor use
 **Installation:** Requires a technician  
 **Hardware:** radio proprietary, MCU board: open source  
 **Software:** open source  
+
 Tested by several TTN communities.  
-**Installation:** [Automated](https://github.com/ttn-zh/ic880a-gateway/wiki)  
 
-Basically the same as the [[Lorank 8|Hardware/Gateways/Lorank]], but slightly more DIY.
+Basically the same as the [[Lorank 8|Hardware/Gateways/Lorank]], but more DIY. The device is built upon the radio board of IMST and a Raspberry Pi.
 
-The device is built upon the radio board of IMST and a Raspberry Pi
+Check [this step-by-step guide](https://github.com/ttn-zh/ic880a-gateway/wiki) on where to buy and how to install it.
