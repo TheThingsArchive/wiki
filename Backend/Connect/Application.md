@@ -19,10 +19,11 @@ MQTT supports wildcards in topic paths: `+` for a single level and `#` for the r
 #### Uplink
 
 Path: `<AppEUI>/devices/<DevEUI>/up`
+
 Commonly used: `+/devices/+/up` to get data from all devices
 
 Format (`payload` is base64 encoded):
-```json
+```
 { payload: 'DZYLXQCn',
   port: 1,
   counter: 3478,
@@ -50,7 +51,7 @@ Format (`payload` is base64 encoded):
 Path: `<AppEUI>/devices/<DevEUI>/down`
 
 Format (payload is base64 encoded):
-```json
+```
 { payload: 'SGVsbG8gd29ybGQK',
   port: 1,
   ttl: '1h' }
@@ -59,6 +60,7 @@ Format (payload is base64 encoded):
 #### Activations
 
 Path: `<AppEUI>/devices/<DevEUI>/activations`
+
 Commonly used: `+/devices/+/activations` to get activations from all devices
 
 > TODO: Example
