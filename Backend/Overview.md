@@ -5,17 +5,27 @@ In the backend of The Things Network, we consider 5 internet-connected component
 
 In private networking setups, the components are statically connected:
 
-[[/uploads/TTN-Private-Deployment.png]]
+[[/uploads/TTN-Simple-Deployment.png]]
 
 In public networking setups, components are dynamically connected:
 
-[[/uploads/TTN-Public-Deployment.png]]
+[[/uploads/TTN-Distributed-Deployment.png]]
 
 The connections between the components can be local connections on the same machine, connections within a private network or connections over the internet. Therefore, The Things Network back-end components can deployed for different scenarios:
 
 1. **Public community network**: Gateways are provided by the community, Routers, Brokers and Handlers (with limited capability) are operated by The Things Network Foundation and other community operators. Users may use their own Handler instance;
 2. **Private connected network**: Gateways, Router, Broker and Handler are operated by the user. Packets that cannot be handled by the private network are sent to the community network, and the public community network provides fallback coverage for the private network;
 3. **Private offline network**: Gateways, Router, Broker and Handler are operated by the user and is not connected to the public community network. This is useful in firewalled scenarios or when using The Things Network back-end in an offline setup, for example on a Raspberry Pi.
+
+# Connect to the Network
+
+In order to interact with The Things Network, you need an user account. Learn more about [[Security|Backend/Security]].
+
+Read more about the key scenarios of connecting to The Things Network:
+
+1. [[Connect your gateway|Backend/Connect/Gateway]]
+2. [[Connect your application|Backend/Connect/Application]]
+3. [[Connect as operator|Backend/Connect/Operator]]
 
 # Network Operators
 

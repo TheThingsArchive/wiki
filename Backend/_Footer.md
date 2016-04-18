@@ -1,3 +1,7 @@
+**Connecting to the Backend**
+[[Gateway|Backend/Connect/Gateway]]
+[[Application|Backend/Connect/Application]]
+
 **[[Backend Components|Backend/Overview]]:**
 [[Router|Backend/Router]] |
 [[Broker|Backend/Broker]] |
