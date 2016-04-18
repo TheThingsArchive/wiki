@@ -2,11 +2,11 @@
 
 > TODO: Make an overview of LoRaWAN bands per country
 
-## Europe 863-870MHz
+## EU 863-870MHz
 
 Also used in Russia, India and large parts of Africa
 
-## Europe 433MHz
+## EU 433MHz
 
 Also used in other parts of the world
 

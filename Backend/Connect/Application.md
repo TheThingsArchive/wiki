@@ -18,11 +18,9 @@ MQTT supports wildcards in topic paths: `+` for a single level and `#` for the r
 
 #### Uplink
 
-Path: `<AppEUI>/devices/<DevEUI>/up`
+Path: `<AppEUI>/devices/<DevEUI>/up` (use `+/devices/+/up` to get data from all devices)
 
-Commonly used: `+/devices/+/up` to get data from all devices
-
-Format (`payload` is base64 encoded):
+Format:
 ```
 { payload: 'DZYLXQCn',
   port: 1,
@@ -50,18 +48,19 @@ Format (`payload` is base64 encoded):
 
 Path: `<AppEUI>/devices/<DevEUI>/down`
 
-Format (payload is base64 encoded):
 ```
 { payload: 'SGVsbG8gd29ybGQK',
   port: 1,
   ttl: '1h' }
 ```
 
+`payload` is base64 encoded.
+
+The time-to-live (`ttl`) of the message specifies how long the message should be queued for downlink before it expires. Depending on the class of the device (see [[LoRaWAN|LoRaWAN/Overview]]), the downlink message is a reply to the uplink message, it is sent on a schedule or it is sent immediately.
+
 #### Activations
 
-Path: `<AppEUI>/devices/<DevEUI>/activations`
-
-Commonly used: `+/devices/+/activations` to get activations from all devices
+Path: `<AppEUI>/devices/<DevEUI>/activations` (use `+/devices/+/activations` to get activations from all devices)
 
 > TODO: Example
 

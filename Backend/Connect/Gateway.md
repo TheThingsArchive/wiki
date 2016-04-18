@@ -1,4 +1,4 @@
-# Connecting a Gateway
+# Connect a Gateway
 
 [[/uploads/TTN-Simple-Deployment.png]]
 
