@@ -6,7 +6,7 @@ To find out why we started all this, read our [Manifesto](https://github.com/The
 
 # Overview
 
-The Things Network uses the [[LoRaWAN|LoRaWAN/Overview]] network technology to provide **low-power** wireless connectivity over **long distances**.
+The Things Network uses the [[LoRaWAN|LoRaWAN/Overview]] network technology to provide **low power** wireless connectivity over **long range**.
 
 If we look at The Things Network from a high level, we can distinguish the following components:
 
@@ -14,7 +14,7 @@ If we look at The Things Network from a high level, we can distinguish the follo
 
 * **[[Nodes:|Hardware/Nodes/Overview]]** Simple devices that are deployed "in the wild". They can do measurements, collect data or perform actions. Nodes can broadcast or receive small messages (usually about 1/10 the size of an SMS) either periodically (some devices broadcast every couple of minutes, other devices only once in a number of hours).
 * **[[Gateways:|Hardware/Gateways/Overview]]** Antennas that receive broadcasts from Nodes and send data back to Nodes. Gateways are connected to the Internet and communicate with The Things Network's servers. Gateways have a long range, so they can provide connectivity to nodes that are multiple kilometers away.
-* **[[The Things Network Servers|Backend/Overview]]** route messages from Nodes to the right Application, and back.
+* **[[The Things Network Backend|Backend/Overview]]** route messages from Nodes to the right Application, and back.
 * **Your Application** connects to The Things Network's servers to receive messages from and send messages to your Nodes. What you do with it is entirely up to you!
 
 # Getting Involved
@@ -34,7 +34,7 @@ Next to this wiki, we have a number of other places where you can find the infor
 
 * [Getting Started](http://gettingstarted.thethingsnetwork.org/)
 * [The Forum](http://forum.thethingsnetwork.org/)
-* [Github](https://github.com/TheThingsNetwork/ttn)
+* [Github](https://github.com/TheThingsNetwork) ([backend](https://github.com/TheThingsNetwork/ttn), [examples](https://github.com/TheThingsNetwork/examples), [sdk](https://github.com/TheThingsNetwork/sdk))
 * [Slack](http://slack.thethingsnetwork.org/)
 
 # Social Media
