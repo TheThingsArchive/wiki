@@ -40,17 +40,17 @@ Password: <enter password>
 
 ## Application Management
 
-Now create a new application with [`ttnctl applications create`](ttnctl_applications_create). In this example we will create and use an application with AppEUI `0807060504030201`. You can choose your own EUI now, but in the future, The Things Network will assign an EUI here.
+Now create a new application with [`ttnctl applications create`](ttnctl_applications_create). In this example we will create an application named `Hello World App`. The
 
 ```
-❯ ttnctl applications create 0807060504030201 'Hello World App'
+❯ ttnctl applications create 'Hello World App'
   INFO Application created successfully
 ```
 
 If you work in a group, you can authorize your colleagues to manage the application with the [`ttnctl applications authorize`](ttnctl_applications_authorize) command:
 
 ```
-❯ ttnctl applications authorize 0807060504030201 hylke@thethingsnetwork.org
+❯ ttnctl applications authorize 0807060504030201 john@doe.org
   INFO User authorized successfully
 ```
 
