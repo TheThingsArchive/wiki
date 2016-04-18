@@ -44,6 +44,8 @@ Format:
        latitude: 53.18977 } ] }
 ```
 
+The application payload `payload` is base64 encoded.
+
 #### Downlink
 
 Path: `<AppEUI>/devices/<DevEUI>/down`
@@ -54,9 +56,9 @@ Path: `<AppEUI>/devices/<DevEUI>/down`
   ttl: '1h' }
 ```
 
-`payload` is base64 encoded.
+The application payload `payload` is base64 encoded.
 
-The time-to-live (`ttl`) of the message specifies how long the message should be queued for downlink before it expires. Depending on the class of the device (see [[LoRaWAN|LoRaWAN/Overview]]), the downlink message is a reply to the uplink message, it is sent on a schedule or it is sent immediately.
+The time-to-live (`ttl`) of the message specifies for how long the message should be queued for downlink before it expires. Depending on the class of the device (see [[LoRaWAN|LoRaWAN/Overview]]), the downlink message is a reply to the uplink message, it is sent on a schedule or it is sent immediately.
 
 #### Activations
 

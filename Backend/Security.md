@@ -8,10 +8,10 @@ The Things Network is a highly secure public network that supports true end-to-e
 
 Users need an account to use The Things Network. User accounts are identified by an e-mail address and protected by a password. In private networking setups, users may use their own authentication and authorization mechanism.
 
-Use [[ttnctl|Backend/ttnctl/QuickStart.md]] to create a user account.
+Use [ttnctl](ttnctl/QuickStart.md) to create a user account.
 
 ## Applications
 
 Users can create applications and they can authorize other users access to applications. Applications are identified by a globally unique AppEUI, a 64-bit number issued by The Things Network Foundation. Each Application has one or more Access Keys to access application data.
 
-Use [[ttnctl|Backend/ttnctl/QuickStart.md]] to manage applications.
+Use [ttnctl](ttnctl/QuickStart.md) to manage applications.

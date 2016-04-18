@@ -23,8 +23,8 @@ In order to interact with The Things Network, you need an user account. Learn mo
 
 Read more about the key scenarios of connecting to The Things Network:
 
-1. [[Connect your gateway|Backend/Connect/Gateway]]
-2. [[Connect your application|Backend/Connect/Application]]
+1. [[Connect a gateway|Backend/Connect/Gateway]]
+2. [[Connect a application|Backend/Connect/Application]]
 3. [[Connect as operator|Backend/Connect/Operator]]
 
 # Network Operators
