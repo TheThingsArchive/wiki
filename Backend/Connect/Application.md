@@ -6,6 +6,10 @@
 
 Use any MQTT client to connect to the Handler. For example, [Paho](http://www.eclipse.org/paho/) is an open source, feature-complete client for many programming languages. You can also use the builtin MQTT input node in [Node-RED](http://nodered.org).
 
+### MQTT Broker
+
+The MQTT broker can be reached at `staging.thethingsnetwork.org` (default port 1883).
+
 ### Authentication
 
 Use the AppEUI as username and Access Key as password. [[More about Security|Backend/Security]]
