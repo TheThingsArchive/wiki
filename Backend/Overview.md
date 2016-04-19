@@ -35,3 +35,7 @@ In terms of operations, we consider a number of operators that own and maintain 
 * **Router Operators** run the [ttn router](ttn/ttn_router) component and are responsible for gateway registrations. They could also inform **Gateway Operators** when a problem with their gateway is detected.
 * **Broker Operators** run the [ttn broker](ttn/ttn_broker) component and are responsible for application registrations and device address registrations within their assigned address space.
 * **Handler Operators** run the [ttn handler](ttn/ttn_handler) component and are responsible for encryption/decryption and for communication with applications. Handlers can be public or private, or can even be integrated in an application.
+
+# Backend Components
+
+[[/uploads/TTN-Backend-Components.png]]
