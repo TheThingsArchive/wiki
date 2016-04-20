@@ -6,7 +6,7 @@ LoRaWAN networks use a star-of-stars topology in which gateways forward messages
 
 [[/uploads/TTN-Overview.jpg]]
 
-Communication between nodes and gateways is spread out on different [[frequency channels|LoRaWAN/Frequencies]] and data rates. The selection of the data rate is a trade-off between communication range and message duration. LoRaWAN data rates range from 0.3 kbps to 50 kbps.
+Communication between nodes and gateways is spread out on different [[channels|LoRaWAN/Channels]] and data rates. The [[frequencies|LoRaWAN/Frequencies]] that LoRaWAN uses, depend the geographic region and its radio spectrum regulations. Selection of the data rate is a trade-off between communication range and message duration.
 
 The LoRaWAN standard is steered by the [LoRa Alliance](https://www.lora-alliance.org/).
 
@@ -17,7 +17,7 @@ LoRaWAN defines three classes of nodes:
 
 ## Addressing
 
-Devices and applications have a 64 bit unique identifier (`DevEUI` and `AppEUI`). When a device joins the network, it receives a dynamic (non-unique) 32-bit address (`DevAddr`). See the [[Addressing|LoRaWAN/Address-Space]] page for more information about the address space and join procedure in LoRaWAN.
+Devices and applications have a 64 bit unique identifier (`DevEUI` and `AppEUI`). When a device joins the network, it receives a dynamic (non-unique) 32-bit address (`DevAddr`). See the [[Addressing|LoRaWAN/Address-Space]] page for more information about the address space and device activation procedure in LoRaWAN.
 
 ## Security
 
