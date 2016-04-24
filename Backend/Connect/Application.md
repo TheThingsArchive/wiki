@@ -54,10 +54,11 @@ The application payload `payload` is base64 encoded.
 
 Path: `<AppEUI>/devices/<DevEUI>/down`
 
+Example message "Hello world":
 ```
-{ payload: 'SGVsbG8gd29ybGQK',
-  port: 1,
-  ttl: '1h' }
+{ "payload": "SGVsbG8gd29ybGQK",
+  "port": 1,
+  "ttl": "1h" }
 ```
 
 The application payload `payload` is base64 encoded.
