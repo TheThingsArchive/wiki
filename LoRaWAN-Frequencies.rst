@@ -55,7 +55,7 @@ defined by the PingSlotChannelReq MAC command. The default frequency is
 
 ERC Recommendation 70-03
 
-g 865.0 – 868.0 MHz 1% or LBT+AFA, 25 mW (=14dBm)
+g 863.0 – 868.0 MHz 1% or LBT+AFA, 25 mW (=14dBm)
 
 g1 868.0 – 868.6 MHz 1% or LBT+AFA, 25 mW
 
