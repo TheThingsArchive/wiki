@@ -2,7 +2,7 @@
 
 We're a crowd-sourced long-distance wireless network,
 that's free to use and owned by its community. You can
-read more about us on http://thethingsnetwork.org and in
+read more about us on [thethingsnetwork.org](http://thethingsnetwork.org) and in
 our [manifest](https://github.com/TheThingsNetwork/Manifest).
 
 ## Quick Index
