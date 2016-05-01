@@ -5,6 +5,14 @@ that's free to use and owned by its community. You can
 read more about us on [thethingsnetwork.org](http://thethingsnetwork.org) and in
 our [manifest](https://github.com/TheThingsNetwork/Manifest).
 
+## WORK IN PROGRESS!
+
+You're reading the official public wiki, but The Things Network is in heavy
+development: in March 2016 [a new staging environment of TTN Back-end 1.0 was announced](http://forum.thethingsnetwork.org/t/announcing-staging-environment-of-ttn-back-end-1-0/1852).
+
+And with that staging environment comes **[an updated wiki](http://staging.thethingsnetwork.org/wiki)** as well.
+
+
 ## Quick Index
 
   * [Frequently Asked Questions](faq)
