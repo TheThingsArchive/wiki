@@ -1,5 +1,10 @@
 **Wanting to Get started with your data?**
 
+Before reading the information below, please be aware that version 1 of the new backend has been released.
+For more information see [this forum post](http://forum.thethingsnetwork.org/t/announcing-staging-environment-of-ttn-back-end-1-0/1852)
+
+Most information below is about the "old" backend.
+
 To start developing applications using the network **API** or **MQTT**,
 please [see below](#getting-the-data).
 
