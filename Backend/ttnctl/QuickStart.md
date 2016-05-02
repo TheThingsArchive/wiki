@@ -145,4 +145,4 @@ Scheduling downlink messages is done with the [`ttnctl downlink`](ttnctl_downlin
 ❯ ttnctl downlink 0000000001020304 --plain 'Hello back!'
 ```
 
-> If the node doesn't send an uplink message within those 2 hours, the scheduled downlink message is dropped.
+With an additional argument you can specify the `ttl` of a message. The default `ttl` is `1h` (one hour). If the node doesn't send an uplink message within that timespan, the scheduled downlink message is dropped.
