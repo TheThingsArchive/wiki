@@ -47,6 +47,8 @@ Now create a new application with [`ttnctl applications create`](ttnctl_applicat
   INFO Application created successfully
 ```
 
+Show your applications along with their assigned EUIs with `ttnctl applications` command.
+
 If you work in a group, you can authorize your colleagues to manage the application with the [`ttnctl applications authorize`](ttnctl_applications_authorize) command:
 
 ```
