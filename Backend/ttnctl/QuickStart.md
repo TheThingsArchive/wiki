@@ -43,7 +43,7 @@ Password: <enter password>
 Now create a new application with [`ttnctl applications create`](ttnctl_applications_create). In this example we will create an application named `Hello World App`. The
 
 ```
-❯ ttnctl applications create 'Hello World App'
+❯ ttnctl applications create "Hello World App"
   INFO Application created successfully
 ```
 
@@ -142,7 +142,7 @@ You can also supply a DevEUI if you only want to see messages from a specific de
 Scheduling downlink messages is done with the [`ttnctl downlink`](ttnctl_downlink) command. In the following example we plan a downlink message for an ABP device with DevAddr `01020304` with a TTL of 2 hours:
 
 ```
-❯ ttnctl downlink 0000000001020304 'Hello back!' 2h
+❯ ttnctl downlink 0000000001020304 "Hello back!" 2h
 ```
 
 > If the node doesn't send an uplink message within those 2 hours, the scheduled downlink message is dropped.
