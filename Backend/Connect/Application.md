@@ -14,6 +14,17 @@ The MQTT broker can be reached at `staging.thethingsnetwork.org` (default port 1
 
 Use the AppEUI as username and Access Key as password. [[More about Security|Backend/Security]]
 
+You can find the AppEUI and Access Key with the `ttnctl applications` command:
+
+```
+❯ ttnctl applications
+  INFO Found 1 application(s)
+EUI             	Name           	Owner                    	Access Keys                                 	Valid
+0807060504030201	Hello World App	demo@thethingsnetwork.org	cVKh9rgDsBIjJA26O7mMIopTU1X10VPXvwGEE6ATZag=	true
+```
+
+In this example, the MQTT username is `0807060504030201` and the password is `I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI=`.
+
 ### Topics
 
 The Handler publishes uplink messages from nodes to applications as well as activations of nodes, and subscribes to downlink messages from applications to nodes.
@@ -50,6 +61,12 @@ Format:
 
 The application payload `payload` is base64 encoded.
 
+With the Mosquitto MQTT client you would connect and subscribe with the following command:
+
+```
+mosquitto_sub -h staging.thethingsnetwork.org -t '0807060504030201/devices/+/up' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI='
+```
+
 #### Downlink
 
 Path: `<AppEUI>/devices/<DevEUI>/down`
@@ -64,6 +81,14 @@ Example message "Hello world":
 The application payload `payload` is base64 encoded.
 
 The time-to-live (`ttl`) of the message specifies for how long the message should be queued for downlink before it expires. Depending on the class of the device (see [[LoRaWAN|LoRaWAN/Overview]]), the downlink message is a reply to the uplink message, it is sent on a schedule or it is sent immediately.
+
+With the Mosquitto MQTT client you would connect and schedule a downlink with the following command:
+
+```
+mosquitto_pub -h staging.thethingsnetwork.org -t '0807060504030201/devices/0102030405060708/down' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI=' -m '{ "payload":"SGVsbG8gd29ybGQK","port":1,"ttl":"1h"}'
+```
+
+**Note**: the `port` is not yet supported, and will always be `1`.
 
 #### Activations
 
