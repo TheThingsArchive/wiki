@@ -11,6 +11,12 @@ ttnctl devices info shows information about a specific device.
 ttnctl devices info [DevAddr|DevEUI]
 ```
 
+### Options
+
+```
+      --lmic   Print info for LMiC
+```
+
 ### Options inherited from parent commands
 
 ```
