@@ -104,7 +104,36 @@ mosquitto_pub --cafile <path>/mqtt-ca.pem -p 8883 -h staging.thethingsnetwork.or
 
 Path: `<AppEUI>/devices/<DevEUI>/activations` (use `+/devices/+/activations` to get activations from all devices)
 
-> TODO: Example
+topic returned on activation 
+````
+<EUI>/devices/0004A30B001B2F9C/activations
+```
+payload contains metatdata only
+````
+{
+    "metadata" : [
+    {
+        "frequency" : 868.3,
+        "datarate" : "SF7BW125",
+        "codingrate" : "4/5",
+        "gateway_timestamp" : 606962443,
+        "gateway_time" : "2016-05-13T20:24:46.801449Z",
+        "channel" : 1,
+        "server_time" : "2016-05-13T20:24:46.836998337Z",
+        "rssi" : -73,
+        "lsnr" : 8.8,
+        "rfchain" : 1,
+        "crc" : 1,
+        "modulation" : "LORA",
+        "gateway_eui" : "1DEE192E3D82B8E4",
+        "altitude" : 0,
+        "longitude" : 4.79,
+        "latitude" : 52.23985
+    }
+  ]
+}
+
+```
 
 ## Stored Data
 
