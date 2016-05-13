@@ -9,6 +9,7 @@ Use any MQTT client to connect to the Handler. For example, [Paho](http://www.ec
 ### MQTT Broker
 
 The MQTT broker can be reached at `staging.thethingsnetwork.org` (default port 1883).
+TLS is supported (default port 8883), download the [staging mqtt-ca](staging.thethingsnetwork.org/mqtt-ca.pem) to connect.
 
 ### Authentication
 
