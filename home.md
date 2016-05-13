@@ -1,5 +1,8 @@
 # Welcome to the The Things Network wiki!
 
+**You have reached the OLD wiki. Please consult [the NEW wiki](http://staging.thethingsnetwork.org/wiki/Home) for up to date information!**
+
+
 We're a crowd-sourced long-distance wireless network,
 that's free to use and owned by its community. You can
 read more about us on [thethingsnetwork.org](http://thethingsnetwork.org) and in
