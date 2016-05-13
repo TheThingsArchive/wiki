@@ -64,13 +64,13 @@ The application payload `payload` is base64 encoded.
 
 With the Mosquitto MQTT client you would connect and subscribe with the following command:
 
-````
+```
 mosquitto_sub -h staging.thethingsnetwork.org -t '0807060504030201/devices/+/up' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI='
-````
+```
 To enable TLS you would use the following command:
-````
+```
 mosquitto_sub --cafile <path>/mqtt-ca.pem -p 8883 -h staging.thethingsnetwork.org -t '0807060504030201/devices/+/up' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI='
-````
+```
 
 #### Downlink
 
@@ -104,12 +104,12 @@ mosquitto_pub --cafile <path>/mqtt-ca.pem -p 8883 -h staging.thethingsnetwork.or
 
 Path: `<AppEUI>/devices/<DevEUI>/activations` (use `+/devices/+/activations` to get activations from all devices)
 
-topic returned on activation 
-````
+The following topic will be returned on activation 
+```
 <EUI>/devices/0004A30B001B2F9C/activations
 ```
-payload contains metatdata only
-````
+The payload contains metadata only
+```
 {
     "metadata" : [
     {
