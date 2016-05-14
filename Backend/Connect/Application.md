@@ -67,6 +67,10 @@ With the Mosquitto MQTT client you would connect and subscribe with the followin
 ```
 mosquitto_sub -h staging.thethingsnetwork.org -t '0807060504030201/devices/+/up' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI='
 ```
+To enable TLS you would use the following command:
+```
+mosquitto_sub --cafile <path>/mqtt-ca.pem -p 8883 -h staging.thethingsnetwork.org -t '0807060504030201/devices/+/up' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI='
+```
 
 #### Downlink
 
@@ -88,6 +92,11 @@ With the Mosquitto MQTT client you would connect and schedule a downlink with th
 ```
 mosquitto_pub -h staging.thethingsnetwork.org -t '0807060504030201/devices/0102030405060708/down' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI=' -m '{ "payload":"SGVsbG8gd29ybGQK","port":1,"ttl":"1h"}'
 ```
+To enable TLS you would use the following command:
+```
+mosquitto_pub --cafile <path>/mqtt-ca.pem -p 8883 -h staging.thethingsnetwork.org -t '0807060504030201/devices/0102030405060708/down' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI=' -m '{ "payload":"SGVsbG8gd29ybGQK","port":1,"ttl":"1h"}'
+```
+
 
 **Note**: the `port` is not yet supported, and will always be `1`.
 
@@ -95,7 +104,36 @@ mosquitto_pub -h staging.thethingsnetwork.org -t '0807060504030201/devices/01020
 
 Path: `<AppEUI>/devices/<DevEUI>/activations` (use `+/devices/+/activations` to get activations from all devices)
 
-> TODO: Example
+The following topic will be returned on activation 
+```
+<EUI>/devices/0004A30B001B2F9C/activations
+```
+The payload contains metadata only
+```
+{
+    "metadata" : [
+    {
+        "frequency" : 868.3,
+        "datarate" : "SF7BW125",
+        "codingrate" : "4/5",
+        "gateway_timestamp" : 606962443,
+        "gateway_time" : "2016-05-13T20:24:46.801449Z",
+        "channel" : 1,
+        "server_time" : "2016-05-13T20:24:46.836998337Z",
+        "rssi" : -73,
+        "lsnr" : 8.8,
+        "rfchain" : 1,
+        "crc" : 1,
+        "modulation" : "LORA",
+        "gateway_eui" : "1DEE192E3D82B8E4",
+        "altitude" : 0,
+        "longitude" : 4.79,
+        "latitude" : 52.23985
+    }
+  ]
+}
+
+```
 
 ## Stored Data
 
