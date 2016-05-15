@@ -13,7 +13,7 @@
 **Installation:** requires a skilled technician  
 **Hardware:** proprietary  
 **Software:** open source & proprietary  
-**Backhaul:** Ethernet (UTP) or Cellurlar (2G/3G)  
+**Backhaul:** Ethernet (UTP) or Cellular (2G/3G)  
 **LoRa Bands:** 868MHz, 915MHz or 920/925MHz (choose corrct band when ordering)  
 **GPS:** Onboard GPS  
 **Package:** Kerlink IoT Station, Antenna + 1m cable, PoE injector, mounting brackets for pole mounting  
