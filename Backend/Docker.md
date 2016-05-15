@@ -77,9 +77,9 @@ Installation platform
 - Install Docker Engine
 
 ```
-- sudo apt-get update
-- sudo apt-get install apt-transport-https ca-certificates
-- sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+$sudo apt-get update
+$sudo apt-get install apt-transport-https ca-certificates
+$sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 ```
 
 Open the /etc/apt/sources.list.d/docker.list file in your favorite editor. If the file doesn’t exist, create it.
@@ -89,56 +89,57 @@ deb https://apt.dockerproject.org/repo ubuntu-trusty main
 ```
 save and close
 ```
-- sudo apt-get update
-- sudo apt-get purge lxc-docker
+$sudo apt-get update
+$sudo apt-get purge lxc-docker
 ```
  verify the repos are correct 
 ```
-- apt-cache policy docker-engine
+$apt-cache policy docker-engine
 ```
 
 Install linux-image-extra package
 ```
-- sudo apt-get install linux-image-extra-$(uname -r)
+$sudo apt-get install linux-image-extra-$(uname -r)
 ```
 Install apparmor
 ```
-- apt-get install apparmor
+$apt-get install apparmor
 ```
 Finally install docker engine 
 ```
-- sudo apt-get install docker-engine
+$sudo apt-get install docker-engine
 ```
 start and test
 ```
-- sudo service docker start
-- sudo docker run hello-world
+$sudo service docker start
+$sudo docker run hello-world
 ```
 
 - Install Docker Compose
 ```
-- sudo -i
-- curl -L https://github.com/docker/compose/releases/download/1.7.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
-- chmod +x /usr/local/bin/docker-compose
-- exit
+$sudo -i
+$curl -L https://github.com/docker/compose/releases/download/1.7.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+$chmod +x /usr/local/bin/docker-compose
+$exit
 ```
 Test the installation
 ```
-- docker-compose --version
+$docker-compose --version
 ```
 
 ### Install TTN (router,broker,handler)
 
 Create a folder e.g. TTN_Workspace
 ```
-- mkdir TTN_Workspace & cd TTN_Workspace
+$mkdir TTN_Workspace & cd TTN_Workspace
 ```
 Copy the configuration above (start of the page)
 Create a file "docker-compose.yml" under the TTN_Workspace and paste the content in it
 
 Compose the file using docker compose inside 'TTN_Workspace' write the following command
-- sudo docker-compose up
-
+```
+$sudo docker-compose up
+```
 Now you are running the local version of TTN. 
 
 PS: The console will be inactive and will just printout logs. If you want to interact with TTN open another console and follow the next session.
