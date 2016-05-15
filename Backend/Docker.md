@@ -64,3 +64,6 @@ services:
       - "1782:1782"   # Public access to the public RPC port
       - "10702:10702" # Public access to the status port
 ```
+```bash
+hello
+```
