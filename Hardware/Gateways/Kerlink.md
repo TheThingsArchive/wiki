@@ -13,10 +13,10 @@
 **Installation:** requires a skilled technician  
 **Hardware:** proprietary  
 **Software:** open source & proprietary  
-**Backhaul:** Ethernet (UTP) or Cellurlar (2G/3G)
-**LoRa Bands:** 868MHz, 915MHz or 920/925MHz (choose corrct band when ordering)
-**GPS:** Onboard GPS
-**Package:** Kerlink IoT Station, Antenna + 1m cable, PoE injector, mounting brackets for pole mounting
+**Backhaul:** Ethernet (UTP) or Cellurlar (2G/3G)  
+**LoRa Bands:** 868MHz, 915MHz or 920/925MHz (choose corrct band when ordering)  
+**GPS:** Onboard GPS  
+**Package:** Kerlink IoT Station, Antenna + 1m cable, PoE injector, mounting brackets for pole mounting  
 
 This is an industrial solution suitable for people who want to mount the gateway outside and who have sufficient technical skills to connect, mount and maintain the device themselves. We have tested the device and although we have remarks about the somewhat older software that is being used, this device will do the job. A trained software engineer will be able to update the device using the software from The Things Network.
 
