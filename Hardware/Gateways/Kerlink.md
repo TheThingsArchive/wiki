@@ -155,3 +155,7 @@ GPSDNS=yes
 GPRSUSER=internet
 GPRSPASSWORD=internet
 ```
+
+## External Resources
+
+- [@swiatecki: Regain Root access on Kerlink](https://github.com/swiatecki/IoTPublic/blob/master/howto.md) (2016-05-14)
