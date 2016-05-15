@@ -21,19 +21,19 @@ This is an industrial solution suitable for people who want to mount the gateway
 
 After unpacking the Kerlink IoT Station, open the case by putting a screwdriver in the top notch (where the antenna is located).
 
-> TODO: Photo
+[[/uploads/Kerlink-Details/Open-Case.jpg]]
 
 Connect a UTP network cable on the green connector, cable colors are noted next to the connector. You can use an existing cable by cutting of the connector of one side, or you need to make a new cable including attaching the connector (watch the coloring scheme).
 
-> TODO: Photo
+[[/uploads/Kerlink-Details/UTP-Cable.jpg]]
 
 Attach the UTP cable attached to the Kerlink IoT Station to the “data & power Out” port of the power adapter. Connect the “data IN” port of the power adapter to your existing network. If you use POE (Power Over Ethernet) switches, the power adapter is not needed.
 
-> TODO: Photo
+[[/uploads/Kerlink-Details/PoE-Adapter.jpg]]
 
 After powering on, check your DHCP server which IP-address the gateway uses. The LEDs inside the gateway do not work by default, they only work for about a minute after shortly pressing the “Test” button. This includes the power LEDs.
 
-> TODO: Photo?
+[[/uploads/Kerlink-Details/Test-Button.jpg]]
 
 Check if the gateway is on by directing a web browser to the IP-address of the gateway, for example http://10.1.0.117 (depending on the given IP-address by the DHCP server). The page will show “Hello World!” if the gateway is responding.
 
