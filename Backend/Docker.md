@@ -11,6 +11,13 @@ services:
     image: ansi/mosquitto
     ports:
       - "1883:1883" # Public access to MQTT
+  redis:
+    image: redis
+    command: redis-server --appendonly yes
+    ports:
+      #- "6379:6379" # No public access to Redis
+    volumes:
+      - /var/lib/docker/redis:/data
   router:
     image: thethingsnetwork/ttn
     command: router
@@ -58,6 +65,7 @@ services:
       - TTN_HANDLER_MQTT_BROKER=mosquitto:1883        # The mosquitto container
       - TTN_HANDLER_MQTT_USERNAME=yourusername        # You don't need this if you use
       - TTN_HANDLER_MQTT_PASSWORD=yourpassword        #   the default mosquitto server
+      - TTN_HANDLER_REDIS_ADDR=redis:6379             # The redis server
       - TTN_HANDLER_INTERNAL_ADDRESS_ANNOUNCE=handler # Hostname where brokers can reach the handler
     ports:
       # - "1882:1882" # No public access to the private RPC port
