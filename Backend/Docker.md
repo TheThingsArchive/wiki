@@ -17,7 +17,7 @@ services:
     ports:
       #- "6379:6379" # No public access to Redis
     volumes:
-      - /var/lib/docker/redis:/data
+      - /home/dockeruser/redis-data:/data
   router:
     image: thethingsnetwork/ttn
     command: router
