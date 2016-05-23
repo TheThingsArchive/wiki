@@ -31,6 +31,6 @@ For an overview of node hardware available, have a look at [[our Node overview|H
 
 
 ## Connect an application
-Once the hardware is ready, you'll need to register your application (for free) and connect to the network to receive and send packages from and to your node(s). Currently the network supports the pub/sub MQTT protocol. Previously The Things Network foundation supported a REST API with data storage, but this has been deprecated.
+Once the hardware is ready, you'll need to register your application (for free) and connect to the network to receive and send packages from and to your node(s). Currently the network supports the pub/sub MQTT protocol. Previously The Things Network foundation supported a REST API with data storage, but this has been deprecated. In the near future, there might be non-commercial and commercial applications available (made by you?).
 
 For instructions, see [[Connect Your Application Backend/Connect/Application]].
