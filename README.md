@@ -9,7 +9,7 @@ This is the content of The Things Network's wiki.
 
 * Clone the repository [github.com/TheThingsNetwork/wiki](https://github.com/TheThingsNetwork/wiki)
 * Install [gollum](https://github.com/gollum/gollum/wiki/Installation)
-* Run `gollum`
+* Run `gollum`. While on rewrite branch, run with `gollum -r rewrite`.
 * Go to `localhost:4567`
 
 ## Running Locally (with TTN styles)
