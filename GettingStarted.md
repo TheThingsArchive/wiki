@@ -1,70 +1,52 @@
-# Getting Started with The Things Network
+# Step 0: Get Informed
+For an introduction into the communication technology used by The
+Things Network, read through [this page](IntoductionLorawan).
 
-## LoRa and LoRaWAN
-Wireless connectivity on The Things Network uses the
-**LoRa** technology. LoRa enables a serial data connection
-between two devices. A smart filtering mechanism allows
-connections over very long distances (2-25km) on a free
-bandwidth (868MHz EU, 915MHz USA, 433MHz Asia), although
-data throughput is limited (1-50 kbps). The connection is
-best suited for short data packets.
+# Step 1: Get A Gateway
+The gateway is the portal between your IoT Device to the internet
+& thethingsnetwork. It will connect all your nodes within a range
+of 2-15km with applications on the internet.
 
-**LoRaWAN** is a software stack on top of LoRa connections,
-describing a network of multiple gateways connected to a
-central server. The Things Network uses LoRaWAN, but replaces
-the central server with a distributed network owned by the
-community.
-(todo: link to papers on LoRaWan)
+There might be a gateway already available in your neighborhood.
+To find out, have a look at [this gateway map](http://thethingsnetwork.org/map),
+one of the maps [mentioned here](CurrentNetwork), and search on the
+[forum](http://forum.thethingsnetwork.org/) for nearby communities.
 
-##Minimal Setup
-###Gateway
-This is something, when you are lucky is already in the neighborhood available. Otherwise this is something you have to build. The gateway is the portal between your IoT Device to the internet & thethingsnetwork.
-###Node
-This is the IoT device that does something. for example a temperature sensor or a small blinking light. It will communicate through the Gateway to the things network. An IoT device you configure once (or the supplier does this) and then you can use it everywhere on the world where an TTN gateway is.
-(todo: insert image of LoRaWan architecture (incl technology)
+If there isn't a gateway available yet, you or your community has to buy
+(or build) one. Have a look at [Which Gateway to buy](Hardware/OverviewGateways).
+
+# Step 2: Prototype a Node
+You'll need a IoT device that does something and uses the network.
+For example, a temperature sensor or a small blinking light. It will
+communicate through the Gateway to the things network. An IoT device
+you configure once (by you or the supplier) and then you can use it
+everywhere on the world while in range of a local TTN gateway.
 
     node  <------->  gateway  <-->  /-----\
               __/                  | cloud | <--> your server
     node  <--/---->  gateway  <-->  \-----/
                 /
     node  <----/
+    
+To prototype your first node, have a look at [Build your Node](Hardware/OverviewNodes).
+The page will point to online introductions in hardware prototyping,
+and features information on many different hardware devices that can connect
+to The Things Network Gateways over the LoRaWAN protocol.
+    
 
-## Supported Hardware
-Like WiFi and 3G/4G, LoRa connections need specific hardware
-support for connections. Since the technology is only gaining
-traction now, most devices won't support it (yet). You'll need
-to build (or buy) devices yourself.
-
-###Nodes###
-There's at least ten providers selling breakout boards for
-LoRa(WAN) nodes. All of them use the SX1272 or SX1276 chip,
-produced by SemTech and providing the 'raw' LoRa hardware
-protocol. 
-
-A **node** has two building blocks. a communication part and a calculation part. 
-
-**Communication** is done via the SX1272 or SX1276 chip this is the modem part of the node. 
-**Calculation** is done by a separate [MCU](https://www.quora.com/What-is-the-difference-between-a-microprocessor-and-microcontroller) like  an Arduino or ARM Cortex.
-The LoRaWAN software stack needs to run on the MCU (the calculation part)
-Some boards include a MCU, some don't and just provide the modem interface of the chip. 
-There are bare breakout boards, Bee connectors, or all-included development boards. There are a few different implementations, and they're not yet all compatible with each other.
-
-To get started building a node, see our **[Hardware Nodes Overview](Hardware/OverviewNodes)**.
-This includes hardware, software and how to buy or build it.
-
-###Gateway###
-On the gateway side there's also a few options. 
-The Gateway also has a communication part and a calculation part. 
-The gateway supports many nodes thus the calculation part should be bigger then the node.
-
-For **Communication** there are two options for the chip the SX1272/SX1276 option and the SX1301 + SX1257 option.
-*the SX1272/SX1276 only allows for one (1) connection at a time,
-*the SX1301 + SX1257 chips allows up to eight (8() simultaneous connections (typically supporting 10000 ~ 20000 nodes).
-For the **Calculation** part a device that supports linux is usually used. These are provided by many many suppliers, more on this in ouw Hardware Gateway Overview.
-
-To get started with gateways, see our **[Hardware Gateway Overview](Hardware/OverviewGateways)**.
-This includes hardware, software and how to buy or build it.
-
-## Network
+# Step 3: Connect an Application
 Once you've got a node ready to transmit and/or receive data via a Gateway,
-start with our **[Software Overview](Software/Overview)**.
+start with our **[Software Overview](Software/Overview)**. The node will
+connect over the network to application servers you choose. Currently, the
+first useful application servers are being set up, but you might want to
+start by building your own test application. There is a REST API (for web
+development) and MQTT broker (real-time) + hosted Node-RED interface available.
+
+
+# What's next
+Have a look at the [TTN Forum](http://forum.thethingsnetwork.org/) to see what
+people are using TTN for. Team up with [an existing community](http://thethingsnetwork.org/)
+or [start your own](http://thethingsnetwork.org/start-a-community/). Help other
+people getting started with The Things Network, and bootstrap cool and innovative
+usecases locally or globally. Help changing the world!
+

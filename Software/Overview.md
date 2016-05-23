@@ -1,3 +1,13 @@
+**Wanting to Get started with your data?**
+
+Before reading the information below, please be aware that version 1 of the new backend has been released.
+For more information see [this forum post](http://forum.thethingsnetwork.org/t/announcing-staging-environment-of-ttn-back-end-1-0/1852)
+
+Most information below is about the "old" backend.
+
+To start developing applications using the network **API** or **MQTT**,
+please [see below](#getting-the-data).
+
 ## Prototype Network Setup
 
 The current setup is temporary, but available for use.
@@ -6,21 +16,23 @@ you can get a glimpse of what's coming by reading this page.
 Of course, things will break and evolve over time, so
 if you have questions please get in [contact](Contact)
 
-![data flow overview](https://raw.githubusercontent.com/wiki/TheThingsNetwork/docs/imgs/ttn_prototype_data_flow.png)
-
 For an overview of the current network, see
 [[CurrentNetwork]]
 
+For an overview of the (upcoming) network architecture, see
+[[Architecture]]
+
 ## Description of distributed network setup
-As we're planning it now, the gateways (open-source packet handler) will send packets to one or multiple routers (open source router software) routing to one or multiple application servers (open source or closed software). Any (set of) nodes can be linked to any set of application servers, and the routers will perform the mapping. We're bootstrapping this mapping with DNS, but eventually want to run something more distributed there as well.
+The gateways (open-source packet handler) will send packets to one or multiple routers (open source router software) routing to one or multiple application servers (open source or closed software). Any (set of) nodes can be linked to any set of application servers, and the routers will perform the mapping. We might bootstrap this mapping with DNS, but eventually want to run something more distributed there as well.
 
 So, there shouldn't be any "central" point in the near future, once more people start running routers and application servers. Of course we will provide a default router and application server with API, to get started, but everyone is free to add routers and app servers to the network.
 
 Right now, though, there's one router and one application server running, and we're rewriting the proof-of-concept into a more stable version. Details will follow soon ;-)
 
 
-## Instructions Upstream (Things side)
+## Instructions Upstream (Things / Node side)
 ### Kerlink
+* An installation guide [Installation guide](../Installing-your-Kerlink)
 * Install Demo LoRa Packet forwarder as described [Here](http://wikikerlink.fr/lora-station/doku.php?id=wiki:semtech#demo_lora_packet_forwarderready-to-use_package).
 * Change and add the following lines in /mnt/fsuser-1/demo_gps_loramote/local_conf.json
 * Don't change your gateway_ID, it's linked to your serial.
@@ -29,10 +41,10 @@ local_conf.json:
 
 	{
 	  "gateway_conf": {
-	      "gateway_ID": *YOUR_OWN_SERIAL*,
+	      "gateway_ID": "*YOUR_OWN_SERIAL*",
 		  "serv_port_up": 1700,
 		  "serv_port_down": 1700,
-		  "server_address": "croft.thethings.girovito.nl",
+		  "server_address": "SEE_BELOW",
 		  "forward_crc_valid": true,
 		  "forward_crc_error": false,
 		  "forward_crc_disabled": true
@@ -41,14 +53,34 @@ local_conf.json:
 
 Want to connect the Kerlink over gprs/3g using a simcard? Follow [these](gateways/kerlink/mobile-connection) instructions.
 
+The `server_address` depends on the region:
+
+```
+router.eu.thethings.network # EU 433 and EU 863-870
+router.us.thethings.network # US 902-928
+router.cn.thethings.network # China 470-510 and 779-787
+router.au.thethings.network # Australia 915-928 MHz
+```
+
+See more info [here](http://forum.thethingsnetwork.org/t/new-addresses-for-cloud-services-update-your-gateways/1813)
+
+### Other gateways
+If you have another gateway, you might find help on the [TTN forum](http://forum.thethingsnetwork.org/).
+There's many different gateways out there already, so you'll probably be able to
+find a thread for your gateway already. If so, please add a link to the thread here.
 
 
-## Instructions Downstream (Server side)
+## Instructions Downstream (Server side: application development)
 
 ### Getting the Data
-By default, all packets sent by any node using our default key settings,
-will be saved in a database (InfluxDB) for undetermined amount of time
-(currently forever).
+Currently there are two different ways of getting the data:
+
+  - pull from REST API: for batched or semi-realtime data gathering (based on storage)
+  - connect to MQTT stream: for realtime pub/sub data gathering (live data only)
+
+By default, all packets sent by any node that are encrypted using our default
+key settings, will be both saved in a database (MongoDB) for undetermined amount
+of time (currently forever), and made available via the MQTT broker.
 
 ### API
 There's a REST API available to query for the latest packets.
@@ -59,16 +91,13 @@ Here's the endpoints:
 
 | endpoint                       | GET parameters (optional)               | explanation                                  |
 | ------------------------------ | --------------------------------------- | -------------------------------------------- |
-| **`/nodes/`**                  | `time_span` e.g. 10m, 4h, 1w            | Last single packet for all available nodes   |
-|                                |                                         | within given timeframe                       |
-| **`/nodes/{node_eui}/`**       | `time_span` e.g. 10m, 4h, 1w            | Last packets for given node                  |
-|                                | `limit` (int, def=20) per gateway       |                                              |
-|                                | `offset` (int) per gateway              |                                              |
-| **`/gateways/`**               | `time_span` e.g. 10m, 4h, 1w            | Last single status update for all gateways   |
-|                                | `limit` (int, def=20)                   | within given timeframe                       |
+| **`/nodes/`**                  | `limit` (int, def=100, max=250)         | Aggregated info on nodes (sorted last seen)  |
 |                                | `offset` (int)                          |                                              |
-| **`/gateways/{eui}`**          | `time_span` e.g. 10m, 4h, 1w            | Last status updates for given gateway        |
-|                                | `limit` (int, def=20)                   | within given timeframe                       |
+| **`/nodes/{node_eui}/`**       | `limit` (int, def=100, max=250)         | Last packets for given node                  |
+|                                | `offset` (int)                          |                                              |
+| **`/gateways/`**               | `limit` (int, def=100, max=250)         | Aggregated info on all gateways (sorted last |
+|                                | `offset` (int)                          | status message received)                     |
+| **`/gateways/{eui}`**          | `limit` (int, def=100, max=250)         | Last status messages for given gateway       |
 |                                | `offset` (int)                          |                                              |
 
 The node packets will include the following data fields:
@@ -78,24 +107,75 @@ The node packets will include the following data fields:
   * `data_plain`: ascii version of decrypted data (if `data` decode-able into ascii)
   * `data_json`: json object / dictionary (if `data_plain` contains json)
 
+A second, simpler REST API (`v0.1`) exposes the same data and is available at `http://thethingsnetwork.org/api/v0.1`. 
+
+Endpoints:
+
+| endpoint                  | explanation                                  |
+| ------------------------- | -------------------------------------------- |
+| **`/nodes/`**             | Aggregated info on nodes that have been      |
+|                           | active in the past 7 days (sorted last seen) |
+|                           |                                              |
+| **`/nodes/{node_eui}/`**  | Last packets for given node                  |
+|                           |                                              |
+| **`/gateways/`**          | Aggregated info on all gateways that have    |
+|                           | been active in the past 7 days (sorted last  |
+|                           | status message received)                     |
+| **`/gateways/{eui}`**     | Last status messages for given gateway       |
+|                           |                                              |
+
+The node packets will include the following data fields:
+
+  * `data_raw`: the unencrypted payload
+  * `data`: base64-encoded decrypted data (if encrypted with standard key)
+
+
+
+
+### MQTT and NodeRED
+MQTT is gaining momentum as the defacto protocol used for Internet of Things
+applications. It allows for real-time data communication between any combination
+of `publishers` (sending data) and `subscribers` (receiving data) via a semi-distributed
+network. There's client libraries available for most programming languages.
+
+For real-time publish-subscribe (Pub/Sub) connections we're hosting an MQTT broker at:
+
+    tcp://croft.thethings.girovito.nl:1883
+    
+The topics you can subscribe to are:
+
+* **Messages from nodes**: `nodes/{devAddr}/packets`
+* **Status updates from gateways**: `gateways/{eui}/status`
+    
+    
+For demo purposes, there's also a hosted version of [Node-RED](http://nodered.org/) here:
+
+    http://croft.thethings.girovito.nl:1880/
+
+For long-term usage, it's better to host your [own version of Node-RED](http://nodered.org/docs/), as there's currently no authentication for the web interface. Node-RED comes pre-installed in Rasbian-Jessie (November 2015) for RaspberryPi
+    
 
 ### Work In Progress
 A note of caution:
 The current setup is temporary and not as distributed as we would like it to be.
-As we're rewriting the routing system we might change detauls like API endpoints
+As we're rewriting the routing system we might change details like API endpoints
 and data format, but we'll try to keep the system available in a more or less
 stable format.
 
-Upcoming: distributed routing, app registration API, publication subscriptions,
-hosted Node-RED, example application dashboard; all available as open-source
+Upcoming: distributed routing, app registration API, example application dashboard, etc; all available as open-source
 software to run on your own server.
 
-Bare with us while we're finalising the first version! Can't wait? Get in [[Contact]].
+Bear with us while we're finalising the first version! Can't wait? Get in [[Contact]].
 
-# Android SDK
 
-Ready to develop Android apps using data from The Things Network? Grab the Android SDK and you're ready to go. Find it on GitHub (below).
+### Android SDK
 
+Ready to develop Android apps using data from The Things Network?
+Grab the Android SDK (which is implementing the REST API) and you're ready to
+go. Find it on GitHub (below).
+
+Example Android app:
+[The Things Network SDK Sample](https://play.google.com/store/apps/details?id=org.ttn.android.sample)
 
 ## Github Repositories
 
@@ -118,3 +198,5 @@ Ready to develop Android apps using data from The Things Network? Grab the Andro
 
 ### Application software
 * [Android SDK](https://github.com/TheThingsNetwork/android-sdk)
+
+**[back to GettingStarted](../GettingStarted)**

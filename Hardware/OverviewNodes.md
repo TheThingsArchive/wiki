@@ -1,21 +1,70 @@
 # LoRa hardware - Nodes
 
+## Short note on hardware development
+Below is technical information on various options for developing your own
+Internet of Things node. If you've never done hardware development before,
+you might want to start with some online resources first.
+Have a look at the free [IoT introduction courses on coursera](https://www.coursera.org/specializations/iot).
+(Note that the courses are freely accessible by searching for the course names
+on Coursera.org.) Some background in programming both Arduino's and Raspberry
+Pi's will greatly help prototyping your own IoT devices. There's many more
+resources available on connecting particular hardware components to Arduino-compatible
+microcontrollers, for example [this Sparkfun introduction](https://learn.sparkfun.com/tutorials/what-is-an-arduino),
+[ladyada's tutorial](http://www.ladyada.net/learn/arduino/) and the
+official practical [Arduino introductory booklet](https://store.arduino.cc/product/B000001).
+
+
+## Supported Hardware
+Like WiFi and 3G/4G, LoRa connections need specific hardware
+support for connections. Since the technology is only gaining
+traction now, most devices won't support it (yet). In the near
+future (2016/2017) commercial devices might hit the market.
+For now, you'll need to build (or buy) devices yourself.
+
+
+## Node summary
+There's at least ten providers selling breakout boards for
+LoRa(WAN) nodes. All of them use the SX1272 or SX1276 chip,
+produced by SemTech and providing the 'raw' LoRa hardware
+protocol. 
+
+A **node** has two building blocks. a communication part and a calculation part. 
+
+**Communication** is done via the SX1272 or SX1276 chip this is the modem part of the node. 
+**Calculation** is done by a separate [MCU](https://www.quora.com/What-is-the-difference-between-a-microprocessor-and-microcontroller) like  an Arduino or ARM Cortex.
+The LoRaWAN software stack needs to run on the MCU (the calculation part)
+Some boards include a MCU, some don't and just provide the modem interface of the chip. 
+There are bare breakout boards, Bee connectors, or all-included development boards. There are a few different implementations, and they're not yet all compatible with each other.
+
+To get started building a node, see our **[Hardware Nodes Overview](Hardware/OverviewNodes)**.
+This includes hardware, software and how to buy or build it.
+
+
 ## Overview
 Here's a table of a few hardware boards supporting LoRa.
 Specific instructions can be found below. If you're unsure
 what to buy, send us an [email](Contact).
 
-| Device            | | Chip   | | MCU       || Connector   || Cost (EUR)   || Comments                   |
-| ----------------- |-| ------ |-| --------- || ----------- || -------------|| -------------------------- |
-| Sodaq Tatu + Bee  | | ?      | | AVR +     || Bee         || 35,- + 35,-  || Arduino-IDE compatible     |
-| Kickst. TTN Uno   | | SX1276 | | ? + ?     || IO          || tbd (35-45)  || Arduino-IDE compatible     |
-| Netblocks         | | SX1272 | | STM32L151 || IO          || 35,-         || program with ST-link       |
-| Libelium          | | SX1272 | | -         || Bee         || 45,-         || Arduino library available  |
-| HopeRF RFM92W     | | SX1272 | | no        || 2mm pin smd || 10,-         || Working with Arduino       |
-| HopeRF RFM95W     | | SX1276 | | no        || 2mm pin smd || 10,-         || Working with Arduino       |
-| Kerlink loramote  | | SX1272 | | yes       || IO          || 150,-        || professional; has GPS      |
-| Embit EMB-LR1272  | | SX1272 | | yes       ||             || ?            ||                            |
-| Froggyfactory     | | SX127X | | yes       || Uno         || ?            || is it LoraWAN?             |
+| Device            | | Chip   | | MCU          || Connector   || Cost (EUR)   || Comments                   |
+| ----------------- |-| ------ |-| ------------ || ----------- || -------------|| -------------------------- |
+| Sodaq Tatu + Bee  | | LR1272 | | ATMega 1284P || Bee         || 35,- + 35,-  || Arduino-IDE compatible     |
+| Sodaq Mbili + Bee | | RN2483 | | ATMega 1284P || Bee         || 98,-         || Arduino-IDE compatible     |
+| Kickst. TTN Uno   | | SX1276 | | ? + ?        || IO          || tbd (35-45)  || Arduino-IDE compatible     |
+| Netblocks         | | SX1272 | | STM32L151    || IO          || 35,-         || program with ST-link       |
+| Libelium          | | SX1272 | | -            || Bee         || 45,-         || Arduino library available  |
+| HopeRF RFM92W     | | SX1272 | | no           || 2mm pin smd || 10,-         || Working with Arduino       |
+| HopeRF RFM95W     | | SX1276 | | no           || 2mm pin smd || 10,-         || Working with Arduino       |
+| [NiceRF LoRa1276](http://goo.gl/CqBBWU) | | SX1276 | | no           || smd         || 10,-         || Working with Arduino and RaspberryPi   |
+| [Lora Shield V95](http://wiki.dragino.com/index.php?title=Lora_Shield)     | | SX1276 | | no           || Arduino Shield || 18,-         || HopeRF Module , Arduino Shield Style       |
+| [Lora Shield V98](http://wiki.dragino.com/index.php?title=Lora_Shield)     | | SX1278 | | no           || Arduino Shield|| 18,-         || HopeRF Module, Arduino Shield Style       |
+| Kerlink loramote  | | SX1272 | | yes          || IO          || 150,-        || professional; has GPS      |
+| Embit EMB-LR1272  | | SX1272 | | yes          ||             || ?            ||                            |
+| Froggyfactory     | | SX127X | | yes          || Uno         || 99,-         || This is LoRa FABian		|
+| RFM95W + ESP8266  | | SX1276 | | esp8266      || DIY         || 10,-         || Arduino + [HLC](http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484)
+| RFM95 + Arduino Pro Mini	|	| SX1276|| Atmega 28	|| DIY	|| 9,-	|| LMIC-1.51 library with smaller AES
+| IMST iM880a       | | SX1272 | | STM32L151Cx  || smd         || 19.-         || program with ST-link       |
+| Microchip RN2483  | | SX1276 | | yes PIC?     || smd         || 12.-         || +Lorawan stack, see [microchip](http://www.microchip.com/wwwproducts/Devices.aspx?product=RN2483) |
+| Modtronix inAir9B | | SX1276 | | no           || 2.4mm       || 15.-         || Tested with Teensy 3.2 & LMIC 1.5 |
 
 LoRa devices are roughly divided into two categories:
 
@@ -24,8 +73,36 @@ LoRa devices are roughly divided into two categories:
 
 Some devices are somewhat hybrid - they contain the transceiver and a microcontroller, but instead of supplying a full, precompiled LoRaWAN stack and exposing a serial API, they supply the code for the LoRaWAN stack so you can run both the LoRaWAN stack and your own application inside the microcontroller.
 
-### SODAQ Tatu with LoRaBee
-The SODAQ Tatu is based on the ATmega1284P and Arduino compatible. It does not do LoRaWAN by itself, but it contains a "Bee socket" and can be combined with the LoRaBee, which is a full-stack LoRaWAN board (based on the Embit EMB-LR1272) in Bee form factor.
+### DIY ESP8266 + Hopermf -> $10
+Port of LMIC library to the ESP8266 based NodeMCU board and a DS18B20 temperature sensor (working).
+
+* [https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20](https://github.com/things4u/LoRa-Thing/tree/master/esp-lmic-v1.5-ds18b20)
+
+Documentation is on [http://things4u.github.com](http://things4u.github.com) 
+the system is working on a Wemos D1-Mini NodeMCU-like board so will probably work 
+with most other NodeMCU boards as well.
+
+Other project of Hoeksma (Work in process)
+
+* http://forum.thethingsnetwork.org/t/hoeks-ma-location-hlc-zonder-gps-dat-vreet-batterij/484
+
+
+
+### RFM95 and Arduino Pro-Mini (Atmega 328) running full LMIC-1.5 stack with smaller AES encryption lib
+
+As the LMIC-1.5 library does not fit for the Atmega 328 based MCU's, most importantly because the static AES datastructures in aes.cpp are very large,
+another encryption library has been used in this LMIC version that uses far less memory.
+
+It is possible to build very small and cheap sensors using for example the Arduino Pro-Mini ($1.50-$2.00 on Aliexpress) and a RFM95 module. 
+Total cost would be less than 9 Euro. But of course it is also possible to use an Arduino Uno incombination with a shield and nice antenna.
+
+You can find the code on [Things4U github](https://github.com/things4u/LoRa-LMIC-1.51). 
+The documentation is on things4u.github.io
+ 
+ 
+
+### SODAQ Mbili/Tatu with LoRaBee
+The SODAQ Mbili and Tatu are based on the ATmega1284P and Arduino compatible. They do not do LoRaWAN by itself, but they contain a "Bee socket" and can be combined with the LoRaBee, which is a full-stack LoRaWAN board (based on the Embit EMB-LR1272 or Microchip RN2483) in Bee form factor.
 
 Note that it should be possible to use the LoRaBee with other (Arduino) boards, using an XBee shield or breakout.
 
@@ -33,7 +110,8 @@ Get them:
 
 * Tatu: [http://shop.sodaq.com/en/sodaq-tatu.html](http://shop.sodaq.com/en/sodaq-tatu.html)
   OR Mbili (bigger): [http://shop.sodaq.com/en/sodaq-mbili.html](http://shop.sodaq.com/en/sodaq-mbili.html)
-* LoRa bee: [http://shop.sodaq.com/en/lorabee.html](http://shop.sodaq.com/en/lorabee.html)
+* LoRa bee (based on EMB-lr1272): [http://shop.sodaq.com/en/lorabee.html](http://shop.sodaq.com/en/lorabee.html)
+  OR LoRa bee based on RN2483: [http://shop.sodaq.com/en/lorabee-rn2483.html](http://shop.sodaq.com/en/lorabee-rn2483.html)
 
 Program them:
 
@@ -42,6 +120,9 @@ Program them:
    Ignore the part on bootloaders, just extract the zip within the Arduino hardware folder and restart the IDE.
 3. Install dependencies: [https://github.com/bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 4. Clone our demo repository: [https://github.com/TheThingsNetwork/loraduino](https://github.com/TheThingsNetwork/loraduino)
+   Note: if you have the newer LoraBee based on the Microchip RN2483, you probably want to start from this library:
+   [https://github.com/SodaqMoja/Sodaq_RN2483](https://github.com/SodaqMoja/Sodaq_RN2483).
+   Please let us know if you made a nice example application repository.
 5. Add sensors, add custom logic in the .ino Arduino sketch file:
     * uncomment the right `DEVICE_` line, optionally change other define statements on top
     * you may want to change the `measure()` and `send_measurement()` functions for your particular sensors
@@ -51,12 +132,13 @@ Program them:
    The device will start sending measurements about once every two minutes.
 
 
-### Kickstarter TTN Arduino Uno
-We'll launch a kickstarter early October, including an Arduino Uno with build-in
+### Kickstarter TTN Arduino UNO
+We ran a Kickstarter campaign in 2015, including an Arduino UNO with built-in
 LoRa chip and open-source libraries to connect to The Things Network gateways.
 More info: [http://thethingsnetwork.org/landing/kickstarter](http://thethingsnetwork.org/landing/kickstarter)
 
-This board will be an Arduino-compatible board with a full-stack LoRaWAN module integrated (so 2 microcontrollers on board - one in the LoRaWAN module and one on the main board for you to program), making it a perfect board to get started.
+This board will be an Arduino-compatible board with a full-stack [Microchip RN2483 Class A LoRaWAN module](http://www.microchip.com/wwwproducts/Devices.aspx?product=RN2483) integrated (so 2 microcontrollers on board - one in the LoRaWAN module and one on the main board for you to program), making it a perfect board to get started.
+Early version of the docs (for beta testers) are available [here](http://forum.thethingsnetwork.org/t/ttn-uno-beta-release-documentation/290) (mirror [docs](https://www.dropbox.com/s/679gjqza5fk5tp3/LoRa%20QuickStart%20Guide%20%28English%29.pdf?dl=0) and [code](https://www.dropbox.com/s/vg53hw5plkjxi3h/LoRa_with_button_and_led_test_working.zip?dl=0)). Microchip's RN2483 LoRa Technology Module Command Reference User's Guide is [here](http://ww1.microchip.com/downloads/en/DeviceDoc/40001784C.pdf).
 
 As we're getting closer to shipping this page will be updated with instructions.
 
@@ -74,6 +156,9 @@ Program them:
 
 1. [https://github.com/TheThingsNetwork/XRange](https://github.com/TheThingsNetwork/XRange)
 2. ask us what to do next ;-)
+
+### IMST iM880a
+This module has an SX1272 and a Cortex M3 MCU that you can also use to program directly. Toolchain is not as easy to use as Arduino (especially on non-Windows OSes). To program it, you can either get an ST-Link in-circuit debugger or use the starter kit board that IMST also sells.
 
 ### Libelium
 Libelium has SX1272 modules that contain the Semtech SX1272 transceiver and an antenna plug. They use the Bee form factor, but do not use TTL serial like most Bee modules, but instead use SPI serial. If you use these modules, make sure to doublecheck the pinout, most XBee shields will likely not have the right connections.
@@ -126,11 +211,34 @@ Cost: less than €30 (incl. VAT).
  * You can power the Teensy via the USB port, or a battery (e.g. 3.7V) on the 5v pin. But not both at the same time.
  * Questions? -> Forum!
  
+### Modtronix inAir9B & Teensy 3.2
+ * wired in the same manner as the Teensy & HopeRF above
+ * Antenna: +2db antenna with male SMA connector
+ * Tested with LMIC 1.5 and the example program
+ 
 ### Kerlink Loramote
 This device should work out-of-the-box. It will start sending GPS, temperature and battery data as soon as it is powered.
 
 TODO: custom applications compile. Kerlink has a nice wiki with instructions.
 
+
+### MultiTech Systems mDot module
+This module is available in surface mount or with xbee compatible pins.
+The default firmware as shipped from the factory has an AT command interfacethat enables the mDot to be used with another mcu or USB to serial device.
+
+For advanced users, the firmware can be replaced using the [mbed programming environment](https://developer.mbed.org/).
+The mDot hardware is described at [https://developer.mbed.org/platforms/MTS-mDot-F411/](https://developer.mbed.org/platforms/MTS-mDot-F411/).
+Programming requires the [mDot Developer Kit](http://www.multitech.com/models/94558010LF) although it is possible to upload firmware via the bootloader.
+
+An example application that works with The Things Network is at [https://developer.mbed.org/users/SomeRandomBloke/code/mDot_TTN_DS18B20/](https://developer.mbed.org/users/SomeRandomBloke/code/mDot_TTN_DS18B20/).
+
+
+### Dragino Lora Shield
+Dragino Lora Shield is an easy to use Arduino Shield to test the Lora Technolog. it use the SX127x chip and compatible with both 3.3v/5v level Arduino board.  With the lora shield, User can test the TTN network just in few steps. A simpel demo set up can be found from [Instructable](http://www.instructables.com/id/Use-Lora-Shield-and-RPi-to-Build-a-LoRaWAN-Gateway/): It shows:
+
+ * How to use Lora Shield to set up single channel gateway for TTN network.
+ * How to use Lora Shield to set up a Lora Node.
+ * How is the communication between the Lora Node and Lora Gateway.
 
 
 ### Do you know about other devices? Add them here!
@@ -167,3 +275,6 @@ that all devices (no matter the LoRaWAN implementation) should set:
 
 # Software (where's my data?)
 [Software Overview](http://thethingsnetwork.org/wiki/Software/Overview)
+
+
+**[back to GettingStarted](../GettingStarted)**

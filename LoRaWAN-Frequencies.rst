@@ -18,7 +18,7 @@ LoRaWAN Default Channels:
 
 868.30 MHz (g1)
 
-868.30 MHz (g1)
+868.50 MHz (g1)
 
 Those channels are the minimum set that all network gateways should
 always be listening on.
@@ -55,7 +55,7 @@ defined by the PingSlotChannelReq MAC command. The default frequency is
 
 ERC Recommendation 70-03
 
-g 865.0 – 868.0 MHz 1% or LBT+AFA, 25 mW (=14dBm)
+g 863.0 – 868.0 MHz 1% or LBT+AFA, 25 mW (=14dBm)
 
 g1 868.0 – 868.6 MHz 1% or LBT+AFA, 25 mW
 
@@ -71,8 +71,8 @@ LBT+AFA: Listen Before Talk (LBT) with Adaptive Frequency Agility (AFA).
 
 The gateway receive bandwidth extends from 863MHz to 870 MHz. However
 the 10 different channels cannot be dispatched arbitrarily inside this
-entire range because of the way the radio front- end receiver is
-actually implemented. The 10 channels must fall in two 1.2 MHz wide
+entire range because of the way the radio front-end receiver is
+actually implemented (2x SX1257). The 10 channels must fall in two 1.0 MHz wide
 intervals.
 
 Default configuration Semtech packet forwarder:
@@ -116,24 +116,24 @@ Chan , Freq , Modulation , BW , SF , radio, band, duty-cyle limit
 // Channel = { Frequency \[Hz\], { ( ( DrMax &lt;&lt; 4 ) | DrMin ) },
 Band }
 
-\#define LC1 { 868100000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 1 }
+\#define LC1 { 868100000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 1 }
 
-\#define LC2 { 868300000, { ( ( DR\_6 &lt;&lt; 4 ) | DR\_0 ) }, 1 } //
+\#define LC2 { 868300000, { ( ( DR\_6 << 4 ) | DR\_0 ) }, 1 } //
 DR6 = SF7BW250
 
-\#define LC3 { 868500000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 1 }
+\#define LC3 { 868500000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 1 }
 
-\#define LC4 { 867100000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC4 { 867100000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC5 { 867300000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC5 { 867300000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC6 { 867500000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC6 { 867500000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC7 { 867700000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC7 { 867700000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC8 { 867900000, { ( ( DR\_5 &lt;&lt; 4 ) | DR\_0 ) }, 0 }
+\#define LC8 { 867900000, { ( ( DR\_5 << 4 ) | DR\_0 ) }, 0 }
 
-\#define LC9 { 868800000, { ( ( DR\_7 &lt;&lt; 4 ) | DR\_7 ) }, 2 } //
+\#define LC9 { 868800000, { ( ( DR\_7 << 4 ) | DR\_7 ) }, 2 } //
 FSK
 
 Note: LC2 is two channels (BW125 and BW250)
@@ -180,17 +180,14 @@ LoRaMac-board.h file as follows:
 // Channel = { Frequency \[Hz\], { ( ( DrMax &lt;&lt; 4 ) | DrMin ) },
 Band }
 
-\#define LC1 { 868100000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 1 }
+\#define LC1 { 868100000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 1 }
 
-\#define LC2 { 868300000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 1 }
+\#define LC2 { 868300000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 1 }
 
-\#define LC3 { 868500000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 1 }
+\#define LC3 { 868500000, { ( ( DR\_SF7 << 4 ) | DR\_SF12 ) }, 1 }
 
-\#define LC4 { 868850000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 2 }
+Rx2 - 869.525 MHz
 
-\#define LC5 { 869050000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 2 }
-
-\#define LC6 { 869525000, { ( ( DR\_SF7 &lt;&lt; 4 ) | DR\_SF12 ) }, 3 }
 
 **Actility ThingPark Wireless**
 

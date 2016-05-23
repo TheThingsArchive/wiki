@@ -13,9 +13,28 @@ Set your APN settings in /etc/sysconfig/network:
 	GPRSUSER=kerlink
 	GPRSPASSWORD=password
     
+    # Bearers priority order
+	BEARERS_PRIORITY="ppp0,eth0,eth1"
+    
+Configure the autoconnect in /knet/knetd.xml
 
-To make use of the 3G/gprs connection please change the connection priority order:
-into:
+	<!-- ############## local device configuration ############## -->
+	<LOCAL_DEV role="KNONE"/>
+	 
+	<!-- ############## connection parameters ############## -->
+	<!-- enable the autoconnect feature (YES/NO) -->
+	<CONNECT auto_connection="YES" />
+	<!-- frequency of connection monitoring -ping- (in seconds) -->
+	<CONNECT link_timeout="30"/>
+	<!-- DNS servers will be pinged if commented or deleted. Some operators can block the ping on there DNS servers -->
+	<CONNECT ip_link="192.168.4.90"/>
+ 
+	<!-- ############## default area for connection policy ############## -->
+ 
+	<AREA id="default">
+	<ACCESS_POINT bearer="gprs" />
+	</AREA>    
+
 ---
 > _**Warning!** There is a bug in the software: When GPRSUSER and GPRSPASSWORD needs to stay empty the Kerlink does funny things and no connection is made. 
 To resolve this problem, please apply [this patch](https://github.com/TheThingsNetwork/kerlink-station-firmware/blob/master/dota/dota_update_gprs_script.tar.gz?raw=true)._
