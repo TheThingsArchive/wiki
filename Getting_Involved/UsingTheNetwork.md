@@ -28,3 +28,9 @@ Some boards include a MCU, some don't and just provide the modem interface of th
 There are bare breakout boards, Bee connectors, or all-included development boards. There are a few different implementations, and they're not yet all compatible with each other.
 
 For an overview of node hardware available, have a look at [[our Node overview|Hardware/Nodes/Overview]].
+
+
+## Connect an application
+Once the hardware is ready, you'll need to register your application (for free) and connect to the network to receive and send packages from and to your node(s). Currently the network supports the pub/sub MQTT protocol. Previously The Things Network foundation supported a REST API with data storage, but this has been deprecated.
+
+For instructions, see [[Connect Your Application Backend/Connect/Application]].
