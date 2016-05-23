@@ -23,7 +23,7 @@ There are many ways to get involved with The Things Network:
 
 * [[Starting or joining a community|Getting_Involved/Community]] doesn't require any technical knowledge. Find an existing local community, or start a new community with other interested people.
 * [[Expanding the network|Getting_Involved/Infrastructure]] by contributing infrastructure components, such as gateways (the network needs antennas), a good location for the gateways (maybe you have a nice high building) or servers (to route data between gateways and applications). Any contribution can help your local community and the global TTN community grow the network.
-* [[Building things|Hardware/Nodes/Overview]] to help solve real world issues with the network. You can help designing use cases, or developing them, or manufacturing them. If possible, share your knowledge and projects with others on any of the communication channels.
+* [[Using the Network|Getting_Involved/UsingTheNetwork]]: **build things** to help solve real world issues with the network. You can help designing use cases, or developing them, or manufacturing them. If possible, share your knowledge and projects with others on any of the communication channels.
 * [[Developing the network's backend|Getting_Involved/Development]] is extremely important, especially because the network is growing fast. We need efficient software to route data between gateways and applications. This does require some good programming skills.
 
 **You are the network. Let's build this thing together.**
