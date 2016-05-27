@@ -32,7 +32,7 @@ There are many ways to get involved with The Things Network:
 
 Next to this wiki, we have a number of other places where you can find the information you're looking for.
 
-* [Getting Started](http://gettingstarted.thethingsnetwork.org/)
+* [The Labs](https://thethingsnetwork.org/labs/)
 * [The Forum](http://forum.thethingsnetwork.org/)
 * [Github](https://github.com/TheThingsNetwork) ([backend](https://github.com/TheThingsNetwork/ttn), [examples](https://github.com/TheThingsNetwork/examples), [sdk](https://github.com/TheThingsNetwork/sdk))
 * [Slack](http://slack.thethingsnetwork.org/)
