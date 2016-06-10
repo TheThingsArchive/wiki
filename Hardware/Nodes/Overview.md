@@ -4,8 +4,10 @@
 
 * [[The Things Uno|Hardware/Nodes/The-Things-Uno]]
 * [MultiTech mDot 868/915 Mhz](https://developer.mbed.org/platforms/mts-mdot-f411/)
-* [Adafruit Feather 868/915 MHz](https://www.adafruit.com/products/3078)
-* [Adafruit Feather 433 MHz](https://www.adafruit.com/products/3079)
+* [Adafruit Feather 32u4 868/915 MHz](https://www.adafruit.com/products/3078)
+* [Adafruit Feather 32u4 433 MHz](https://www.adafruit.com/products/3079)
+* [Adafruit Feather M0 868/915 MHz](https://www.adafruit.com/products/3178)
+* [Adafruit Feather M0 433 MHz](https://www.adafruit.com/products/3179)
 * [SODAQ LoRaONE](https://www.kickstarter.com/projects/sodaq/loraone-the-lora-iot-development-board)
 * [IMST iM880B-L 868 MHz](http://www.wireless-solutions.de/products/radiomodules/im880b-l)
 * [LoPy 868/915 Mhz](https://www.kickstarter.com/projects/1795343078/lopy-the-lora-wifi-and-bluetooth-iot-development-p)
