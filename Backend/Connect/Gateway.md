@@ -30,6 +30,8 @@ router.au.staging.thethings.network # Australia 915-928 MHz
 
 ## Configuring Your Gateway
 
+*NOTE: Please use a packet forwarder based on version 2.2.x. The new `lora_pkt_fwd` version 3.0.0 is not supported yet.*
+
 In the `local_conf.json` of the packet forwarder, update the fields `server_address` as follows:
 
 ```
