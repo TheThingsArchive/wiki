@@ -25,6 +25,10 @@ Instructions:
 
     **NOTE**: The package requires DNS to be set up on the conduit to find the TTN backend!
 
+    If you use a static IP address, an easy way to enable DNS is to add
+        post-up echo "nameserver 8.8.8.8" > /etc/resolv.conf
+    to /etc/network/interfaces immediately following the 'gateway' setting, replacing 8.8.8.8 with your nameserver address.
+
 7.  Edit **/var/config/lora/local_conf.json**.
 <pre><code>
 {
@@ -34,7 +38,7 @@ Instructions:
 	/* you must pick a unique 64b number for each gateway (represented by an hex string) */
         "gateway_ID": "AA555A000004BABA",
         /* Email of gateway operator, max 40 chars*/
-        "contact_email": "operator@gateway.tst", 
+        "contact_email": "operator@gateway.tst",
         /* Public description of this device, max 64 chars */
         "description": "Update me",
 	/* Enter VALID GPS coordinates below before enabling fake GPS */
@@ -46,13 +50,13 @@ Instructions:
 }</code></pre>
 
     You need to change the following:
-    
+
     * <em>gateway_ID</em> can be obtained by running **mts-io-sysfs show lora/eui**
     * <em>ref_latitude</em>, <em>ref_logitude</em> and <em>ref_altitude</em> can all be got from Google
     * <em>fake_gps</em> set to true
     * <em>contact_email</em>
     * <em>description</em>
-    
+
 8.  Edit **/etc/init.d/lora-network-server**.  Around line 17 you need to change from using <em>basic_pkt_fwd</em> to using <em>poly_pkt_fwd</em>:
 	<pre><code>pkt_fwd=/opt/lora/poly_pkt_fwd</code></pre>
 
@@ -64,16 +68,16 @@ Instructions:
 		#-c $conf_file --lora-eui $lora_eui --lora-path $run_dir --db $conf_db \
 		#--noconsole -l $net_server_log
 		#sleep 1</code></pre>
-    
-    Make sure the -c option for the new packet_forwarder under <pre>start packet forwarder</pre> is set to 
+
+    Make sure the -c option for the new packet_forwarder under <pre>start packet forwarder</pre> is set to
     <pre><code>-c $conf_dir</code></pre> instead of <pre>-c $run_dir/1</pre>
-	
+
     Note: The /1 is introduced in newer versions of Multitech software to support multiple cards.
-    If you do not remove the /1, the network server will not start. 
-	    
+    If you do not remove the /1, the network server will not start.
+
 
     Similarly comment out the network server line in <em>do_stop()</em> a little further down:
-    
+
     <pre><code>   do_stop() {
 		echo -n "Stopping $NAME: "
     	#start-stop-daemon --stop --quiet --oknodo --pidfile $net_server_pidfile --r
@@ -81,6 +85,6 @@ Instructions:
     	rm -f $net_server_pidfile $pkt_fwd_pidfile
     	echo "OK"
     	}</code></pre>
-    
+
 9.  Restart the lora-network server:   **/etc/init.d/lora-network-server restart**
 10. If things have gone well you should be able to go to [http://thethingsnetwork.org/api/v0/gateways/](http://thethingsnetwork.org/api/v0/gateways/) and see your gateway appear in the list.  Congratulations!
