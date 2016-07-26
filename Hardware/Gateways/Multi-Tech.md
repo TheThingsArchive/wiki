@@ -59,6 +59,14 @@ Install `poly_pkt_fwd` on your Conduit using **opkg install poly-packet-forwarde
 
 **NOTE**: The package requires DNS to be set up on the conduit to find the TTN backend!
 
+If you use a static IP address, an easy way to enable DNS is to add 
+
+```
+post-up echo "nameserver 8.8.8.8" > /etc/resolv.conf
+```
+
+to `/etc/network/interfaces` immediately following the `gateway` setting, replacing `8.8.8.8` with your nameserver address.
+
 Edit **/var/config/lora/local_conf.json**:
 
 ```js
