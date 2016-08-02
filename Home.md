@@ -4,7 +4,7 @@ The Things Network is a global, open, crowd-sourced Internet of Things data netw
 
 To find out why we started all this, read our [Manifesto](https://github.com/TheThingsNetwork/Manifest). A lot of information is also available on our [website](http://thethingsnetwork.org), [forum](http://forum.thethingsnetwork.org/) and [Github](https://github.com/TheThingsNetwork).
 
->Looking for the old wiki? It's archived on [GitHub](https://github.com/TheThingsNetwork/wiki).
+>Looking for the old wiki? It's archived on [GitHub](https://github.com/TheThingsNetwork/wiki/tree/master).
 
 # Overview
 
