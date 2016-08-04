@@ -38,6 +38,7 @@ Next to this wiki, we have a number of other places where you can find the infor
 * [The Forum](http://forum.thethingsnetwork.org/)
 * [Github](https://github.com/TheThingsNetwork) ([backend](https://github.com/TheThingsNetwork/ttn), [examples](https://github.com/TheThingsNetwork/examples), [sdk](https://github.com/TheThingsNetwork/sdk))
 * [Slack](http://slack.thethingsnetwork.org/)
+* [Our story](https://medium.com/@wienke/the-things-network-building-a-global-iot-data-network-in-6-months-adc2c0b1ae9b)
 
 # Social Media
 
