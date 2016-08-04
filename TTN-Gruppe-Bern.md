@@ -1,0 +1,1 @@
+****Wir wollen in Bern ab September eine gute Abdeckung der Gateways erzielen um praktische Erfahrungen mit dem TTN zu machen. ****
