@@ -16,6 +16,7 @@ Example:
 * [DutchNews: Locating your bike, feeding the cat: Dutch start-up boosts the Internet of Things](http://www.dutchnews.nl/features/2016/01/the-internet-of-things-is-here/) (2016-01-04)
 * [IEEE IoT: Building a Crowdsourced Global IoT Network Operator](http://iot.ieee.org/newsletter/january-2016/building-a-crowdsourced-global-iot-network-operator.html) (2016-01-12)
 * [The Verge: This $1 chip will connect your things to the city for free](http://www.theverge.com/2016/2/17/11030692/Lorawan-internet-of-things-network-amsterdam) (2016-02-17)
+* [LoRa offers a cheaper link to the Internet of Things](http://www.reuters.com/article/us-tech-communications-lora-idUSKCN10E2TE) (2016-08-03)
 
 ## Dutch media
 
