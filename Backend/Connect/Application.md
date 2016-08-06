@@ -15,14 +15,7 @@ TLS is supported (default port 8883), download the [staging mqtt-ca](http://stag
 
 Use the AppEUI as username and Access Key as password. [[More about Security|Backend/Security]]
 
-You can find the AppEUI and Access Key with the `ttnctl applications` command:
-
-```
-❯ ttnctl applications
-  INFO Found 1 application(s)
-EUI             	Name           	Owner                    	Access Keys                                 	Valid
-0807060504030201	Hello World App	demo@thethingsnetwork.org	cVKh9rgDsBIjJA26O7mMIopTU1X10VPXvwGEE6ATZag=	true
-```
+You can find the AppEUI and Access Key with the `ttnctl applications` command, or in [The Things Network Dashboard](https://staging.thethingsnetwork.org) (in your application, click "learn how to get data").
 
 In this example, the MQTT username is `0807060504030201` and the password is `I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI=`.
 
