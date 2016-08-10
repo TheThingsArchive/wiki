@@ -18,6 +18,9 @@ Tested by The Things Network Crew.
 
 Discussion: We have one, results of our test will follow asap.
 First draft of an [installation guide](/wiki/Installing-your-Multitech-mLinux-Conduit)
+**Links:** 
+* [Tutorial to configure your MultiTech mLinux conduit](https://www.thethingsnetwork.org/labs/story/configure-your-multitech-mlinux-conduit-for-the-things-network)
+* [Tutorial to configure your MultiTech AEP conduit](https://www.thethingsnetwork.org/labs/story/configure-your-multitech-aep-conduit-for-the-things-network)
 
 ## Prerequisites
 
