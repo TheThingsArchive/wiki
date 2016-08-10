@@ -6,15 +6,14 @@
 
 > TODO: Fact-checking
 
-**Price:**
-**Availability:**
-**Capacity:**
-Suitable for indoor use  
-**Installation:**
+**Price:**  
+**Availability:**  
+**Capacity:** Suitable for indoor use  
+**Installation:**  
 **Hardware:** proprietary  
 **Software:**
 
-**Links:** 
+**Relevant links:** 
 * [Tutorial to configure your MultiTech mLinux conduit](https://www.thethingsnetwork.org/labs/story/configure-your-multitech-mlinux-conduit-for-the-things-network)
 * [Tutorial to configure your MultiTech AEP conduit](https://www.thethingsnetwork.org/labs/story/configure-your-multitech-aep-conduit-for-the-things-network)
 
