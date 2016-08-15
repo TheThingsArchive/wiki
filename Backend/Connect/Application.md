@@ -71,7 +71,7 @@ Path: `<AppEUI>/devices/<DevEUI>/down`
 
 Example message "Hello world":
 ```
-{ "payload": "SGVsbG8gd29ybGQK",
+{ "payload": "SGVsbG8gd29ybGQK=",
   "port": 1,
   "ttl": "1h" }
 ```
@@ -83,11 +83,11 @@ The time-to-live (`ttl`) of the message specifies for how long the message shoul
 With the Mosquitto MQTT client you would connect and schedule a downlink with the following command:
 
 ```
-mosquitto_pub -h staging.thethingsnetwork.org -t '0807060504030201/devices/0102030405060708/down' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI=' -m '{ "payload":"SGVsbG8gd29ybGQK","port":1,"ttl":"1h"}'
+mosquitto_pub -h staging.thethingsnetwork.org -t '0807060504030201/devices/0102030405060708/down' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI=' -m '{ "payload":"SGVsbG8gd29ybGQK=","port":1,"ttl":"1h"}'
 ```
 To enable TLS you would use the following command:
 ```
-mosquitto_pub --cafile <path>/mqtt-ca.pem -p 8883 -h staging.thethingsnetwork.org -t '0807060504030201/devices/0102030405060708/down' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI=' -m '{ "payload":"SGVsbG8gd29ybGQK","port":1,"ttl":"1h"}'
+mosquitto_pub --cafile <path>/mqtt-ca.pem -p 8883 -h staging.thethingsnetwork.org -t '0807060504030201/devices/0102030405060708/down' -u 0807060504030201 -P 'I0f+e1W+CWgIiuIC4SjR5cpLxFZQfK2agDEpuCBpttI=' -m '{ "payload":"SGVsbG8gd29ybGQK=","port":1,"ttl":"1h"}'
 ```
 
 
