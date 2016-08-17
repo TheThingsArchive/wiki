@@ -1,0 +1,1 @@
+rxpk update: {"rxpk":[{"tmst":3292502394,"chan":0,"rfch":0,"freq":902.300000,"stat":1,"modu":"LORA","datr":"SF9BW125","codr":"4/5","lsnr":10,"rssi":-49,"size":33,"data":"dGVtcGVyYXR1cmU6MjUuMTIsIGh1bWlkaXR5OjI3LjM0"}]}
