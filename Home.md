@@ -4,7 +4,7 @@ The Things Network is a global, open, crowd-sourced Internet of Things data netw
 
 To find out why we started all this, read our [Manifesto](https://github.com/TheThingsNetwork/Manifest). A lot of information is also available on our [website](http://thethingsnetwork.org), [forum](http://forum.thethingsnetwork.org/) and [Github](https://github.com/TheThingsNetwork).
 
->Looking for the old wiki? It's archived on [GitHub](https://github.com/TheThingsNetwork/wiki/tree/master).
+:information_source: Looking for the old wiki? It's archived on [GitHub](https://github.com/TheThingsNetwork/wiki/tree/master).
 
 # Overview
 
@@ -40,7 +40,7 @@ Next to this wiki, we have a number of other places where you can find the infor
 * [Slack](http://slack.thethingsnetwork.org/)
 * [Our story](https://medium.com/@wienke/the-things-network-building-a-global-iot-data-network-in-6-months-adc2c0b1ae9b)
 
-> Beware of references to the deprecated REST API (sometimes referred to as "Croft/Jolie", using URLs starting with `thethingsnetwork.org/api`); see [[Connect an Application| Backend/Connect/Application]] to use MQTT instead.
+:warning: Beware of references to the deprecated REST API (sometimes referred to as "Croft/Jolie", using URLs starting with `thethingsnetwork.org/api`); see [[Connect an Application| Backend/Connect/Application]] to use MQTT instead.
 
 # Social Media
 
