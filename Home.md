@@ -40,6 +40,8 @@ Next to this wiki, we have a number of other places where you can find the infor
 * [Slack](http://slack.thethingsnetwork.org/)
 * [Our story](https://medium.com/@wienke/the-things-network-building-a-global-iot-data-network-in-6-months-adc2c0b1ae9b)
 
+> Beware of references to the deprecated REST API (sometimes referred to as "Croft/Jolie", using URLs starting with `thethingsnetwork.org/api`); see [[Connect an Application| Backend/Connect/Application]] to use MQTT instead.
+
 # Social Media
 
 * [Twitter](https://twitter.com/thethingsntwrk)
