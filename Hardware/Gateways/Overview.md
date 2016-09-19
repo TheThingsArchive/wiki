@@ -12,7 +12,7 @@ After you figure out which gateway you want, you probably also want to take a lo
 # Setting up a Gateway
 
 1. Choose the right gateway for your purpose. There are gateways for both indoor and outdoor placement.
-2. Find a spot for your gateway. Higher is usually better. If you place your gateway outside, you probably should have a look at [[antennas|Hardware/Gateways/Antennas]] and
+2. Find a [[good spot for your gateway|Hardware/Gateways/Placement]]. Higher is usually better. If you place your gateway outside, you probably should have a look at [[antennas|Hardware/Gateways/Antennas]] and
 [[lightning protection|Hardware/Gateways/Lightning-Protection]].
 3. Follow the setup guide for your specific gateway (see the links on the bottom of this page).
 4. Configure the gateway for The Things Network. See [[Connect a Gateway|Backend/Connect/Gateway]]
