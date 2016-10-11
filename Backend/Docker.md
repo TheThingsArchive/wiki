@@ -19,7 +19,7 @@ services:
     volumes:
       - /home/dockeruser/redis-data:/data
   router:
-    image: thethingsnetwork/ttn
+    image: thethingsnetwork/ttn:v1-staging
     command: router
     links:
       - broker
@@ -36,7 +36,7 @@ services:
       # - "1780:1780"   # No public access to the downlink RPC port
       - "10700:10700"   # Public access to the status port
   broker:
-    image: thethingsnetwork/ttn
+    image: thethingsnetwork/ttn:v1-staging
     command: broker
     volumes:
       - /home/dockeruser/ttn-data:/data
@@ -50,7 +50,7 @@ services:
       # - "1881:1881" # No public access to the uplink RPC port
       - "10701:10701" # Public access to the status port
   handler:
-    image: thethingsnetwork/ttn
+    image: thethingsnetwork/ttn:v1-staging
     command: handler
     links:
       - broker
