@@ -5,11 +5,11 @@ In the backend of The Things Network, we consider 5 internet-connected component
 
 In private networking setups, the components are statically connected:
 
-[[/uploads/TTN-Simple-Deployment.png]]
+[[/uploads/private-network.png]]
 
 In public networking setups, components are dynamically connected:
 
-[[/uploads/TTN-Distributed-Deployment.png]]
+[[/uploads/public-network.png]]
 
 The connections between the components can be local connections on the same machine, connections within a private network or connections over the internet. Therefore, The Things Network back-end components can deployed for different scenarios:
 
