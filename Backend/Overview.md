@@ -8,7 +8,8 @@ The backend systems of The Things Network are responsible for routing Internet o
 <br>
 [![ttn-components.png](https://s15.postimg.org/xvlkvgfej/ttn_components.png)](https://postimg.org/image/xvlkvgfef/)
 <br>
-_The Things Network’s different components:
+
+<center>_The Things Network’s different components:
 Gateway, Router, Broker, NetworkServer, Handler and Application_
 </p>
 
@@ -20,27 +21,27 @@ The goal of The Things Network is to be very flexible in terms of deployment opt
 
 <br>
 [![public-network.png](https://s14.postimg.org/5794zc9a9/public_network.png)](https://postimg.org/image/xk4mpsv0d/)
-<br>
-_Public Community Network_
+
+<center>_Public Community Network_
 
 It should also be possible to deploy private networks, by running all previously components in a private environment. This way, all data will remain within the private environment as shown in Figure.
 
 <br>
 [![private-network.png](https://s13.postimg.org/vx1tl5d93/private_network.png)](https://postimg.org/image/nrjrmzp03/)
 <br>
-_Private Network_
+<center>_Private Network_
 
 Hybrid deployments will be possible in the future. The most simple option for this, is for someone to run his own Handler, allowing him to handle the encryption and decryption of messages. A more complicated option is a private network that exchanges data with the public network. For this to work, private Routers will have to connect to public Brokers and vice versa. In this case the private network can offload public traffic to the community network and use the public community network as back-up.
 
 [![semi-private-network-2.png](https://s21.postimg.org/8loaggzs7/semi_private_network_2.png)](https://postimg.org/image/kasa4fqqr/)
 <br>
-_Private Handler_
+<center>_Private Handler_
 
 <br>
 <br>
 [![semi-private-network.png](https://s21.postimg.org/9n7gisy5z/semi_private_network.png)](https://postimg.org/image/aphn1cgz7/)
 <br>
-_Private Network with Community Exchange_
+<center>_Private Network with Community Exchange_
 
 ## Core Functionality
 
@@ -64,8 +65,8 @@ Based on this separation of concerns we implemented The Things Network's backend
 
 <br>
 [![flow.png](https://s18.postimg.org/6eg028e2x/flow.png)](https://postimg.org/image/pjj9bzsqt/)
-<br>
-_Processing Flow_
+
+<center>_Processing Flow_
 
 <br>
 
@@ -75,8 +76,8 @@ When a gateway receives a message that was transmitted over LoRa, it is encapsul
 
 <br>
 [![packet-forwarding.png](https://s16.postimg.org/whzdi2i4l/packet_forwarding.png)](https://postimg.org/image/zc2ivikap/)
-<br>
-_Forwarding LoRaWAN Packets to the Backend_
+
+<center>_Forwarding LoRaWAN Packets to the Backend_
 
 Most gateway protocols have the same structure. When one or more messages are received, their binary data (usually base64-encoded) is forwarded to the backend, together with some metadata such as signal strength (RSSI) and signal-to-noise ratio (SNR). Periodically the gateway also sends some status information about the gateway itself, such as GPS coordinates and the number of packets received and transmitted.
 
@@ -229,7 +230,7 @@ The first prototype of The Things Network's backend used a Message Queue to faci
 <br>
 [![croft-jolie.png](https://s12.postimg.org/xbpfcrpd9/croft_jolie.png)](https://postimg.org/image/an08d77zd/)
 
-_Message Queue between components_
+<center>_Message Queue between components_
 
 <br>
 Many cloud-based systems communicate using web APIs. It is very common for a service to communicate with the REST API or JSON endpoint of another service. The second implementation of The Things Network's backend used a similar strategy as shown in the figure. We soon realized that this would not scale, as each uplink message would lead to a large number of HTTP connections being opened for a really short time.
@@ -237,7 +238,7 @@ Many cloud-based systems communicate using web APIs. It is very common for a ser
 <br>
 [![webhooks.png](https://s21.postimg.org/z62s7d2hz/webhooks.png)](https://postimg.org/image/75yon2z1f/)
 
-_HTTP request/response communication between components_
+<center>_HTTP request/response communication between components_
 
 <br>
 Re-using TCP connections already significantly improves the performance, but it is still inefficient to scale this.
@@ -294,7 +295,7 @@ When more gateways connect to the network, it is easy to scale horizontally by i
 <br>
 [![router-scale.png](https://s18.postimg.org/tna994dm1/router_scale.png)](https://postimg.org/image/ks9eyloth/)
 
-_Router instances behind a load balancer, separate Brokers_
+<center>_Router instances behind a load balancer, separate Brokers_
 
 When the network traffic (uplink messages) increases, the Brokers will be the next bottleneck as they have to handle de-duplication and do a series of MIC checks. The de-duplication step makes it difficult to scale Brokers horizontally. The first step in scaling Brokers is making each broker responsible for a smaller subset of devices by adapting the prefix it announces as shown in the figure. However, this means that a Handler needs to connect to multiple Brokers in order to receive messages that are sent by different devices that happen to have a different prefix in their address. Further research is necessary to find an efficient solution for this.
 
