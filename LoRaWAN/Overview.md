@@ -1,10 +1,13 @@
 # LoRaWAN
 
-LoRaWAN is a media access control (MAC) protocol for wide area networks. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections. LoRaWAN can be mapped to the second and third layer of the OSI model. It is implemented on top of LoRa or FSK modulation in industrial, scientific and medical (ISM) radio bands. The LoRaWAN protocols are defined by the [LoRa Alliance](https://www.lora-alliance.org/) and formalized in the [LoRaWAN Specification](https://www.lora-alliance.org/portals/0/specs/LoRaWAN%20Specification%201R0.pdf). A LoRaWAN stack is displayed below: 
+LoRaWAN is a media access control (MAC) protocol for wide area networks. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections. LoRaWAN can be mapped to the second and third layer of the OSI model. It is implemented on top of LoRa or FSK modulation in industrial, scientific and medical (ISM) radio bands. The LoRaWAN protocols are defined by the [LoRa Alliance](https://www.lora-alliance.org/) and formalized in the [LoRaWAN Specification](https://www.lora-alliance.org/portals/0/specs/LoRaWAN%20Specification%201R0.pdf). A LoRaWAN stack is displayed below:
 
+<br>
 ![alt text](https://s15.postimg.org/uu8fs8f97/lorawan_overview.png)
 
-_Overview of The Things Network's LoRaWAN stack_
+<center>_Overview of The Things Network's LoRaWAN stack_ </center>
+
+<br>
 
 ## Terminology
 * **[Device, Node, Mote](https://www.thethingsnetwork.org/wiki/Hardware/Nodes/Overview)** - an object with an embedded low-power communication device
@@ -15,7 +18,7 @@ _Overview of The Things Network's LoRaWAN stack_
 
 * **Application** - a piece of software, running on a server
 
-* **Uplink Message** - a message from a Device to an Application 
+* **Uplink Message** - a message from a Device to an Application
 
 * **Downlink Message** - a message from an Application to a Device
 
@@ -26,18 +29,24 @@ The LoRaWAN specification defines three device types. All LoRaWAN devices must i
 
 * **Class A** devices support bi-directional communication between a device and a gateway. Uplink messages (from the device to the server) can be sent at any time (randomly). As depicted in the figure, the device then opens two receive windows at specified times (1s and 2s) after an uplink transmission. If the server does not respond in either of these receive windows (situation 1 in the figure), the next opportunity will be after the next uplink transmission from the device.  The server can respond either in the first receive window (situation 2 in the figure), or the second receive window (situation 3 in the figure).
 
+<br>
+
 ![rx-window.png](https://s21.postimg.org/3t9evci7r/rx_window.png)
 
-_Receive window of Class A devices_
+<center>_Receive window of Class A devices_ </center>
+
+<br>
 
 * **Class B** devices extend Class A by adding scheduled receive windows for downlink messaages from the server. Using time-synchronized beacons transmitted by the gateway, the devices periodically open receive windows.
 
 * **Class C** devices extend Class A by keeping the receive windows open unless they are transmitting, as shown in the figure below. This allows for low-latency communication but is many times more energy consuming than Class A devices.
 
+<br>
 ![rx-class-c.png](https://s3.postimg.org/eoy5nok5v/rx_class_c.png)
 
-_Receive window of Class C devices_
+<center>_Receive window of Class C devices_ </center>
 
+<br>
 ## Frequency Bands
 
 LoRaWAN operates in unlicensed radio spectrum. This means that anyone can use the radio frequencies without having to pay million dollar fees for transmission rights. It is similar to WiFi, which uses the 2.4GHz and 5GHz ISM bands worldwide. Anyone is allowed to set up WiFi routers and transmit WiFi signals without the need for a license or permit.
@@ -46,7 +55,7 @@ LoRaWAN uses lower radio frequencies with a longer range. The fact that frequenc
 
 #### European 863-870 MHz and 433 MHz bands
 Of the available ISM frequency bands, LoRaWAN uses the 863-870 MHz and 433 MHz bands. The former, which is usually referred to as the 868 MHz band, is currently supported by The Things Network, whereas the latter will be implemented later.
- 
+
 The LoRaWAN specification defines 3 common 125 kHz channels for the 868 MHz band (868.10, 868.30 and 868.50 MHz) that must be supported by all devices and networks, and that all gateways should always be receiving on. These three channels form a common set of channels that all devices can use to join with a network. During this join procedure, the network can instruct the devices to add additional channels to its channel set. These channels are used for both uplink and downlink messages.
 
 ##### Duty Cycle
@@ -74,10 +83,12 @@ Devices and applications have a 64 bit unique identifier (`DevEUI` and `AppEUI`)
 
 LoRaWAN knows three distinct 128-bit security keys. The application key `AppKey` is only known by the device and by the application. When a device joins the network (this is called a join or activation), an application session key `AppSKey` and a network session key `NwkSKey` are generated. The `NwkSKey` is shared with the network, while the `AppSKey` is kept private. These session keys will be used for the duration of the session.
 
+<br>
 ![keys.png](https://s9.postimg.org/702mme9qn/keys.png)
 
-_Keys and Encryption in LoRaWAN_
+<center>_Keys and Encryption in LoRaWAN_ </center>
 
+<br>
 The above figure shows how these keys are used. The `AppSKey` is used for end-to-end encryption of the frame payload. The algorithm used for this is AES-128, similar to the algorithm used in the 802.15.4 standard. The `NwkSKey` is known by the network and the device and is used to validate the integrity of each message by its Message Integrity Code (MIC). This MIC is similar to a checksum, except that it prevents intentional tampering with a message. For this, LoRaWAN uses AES-CMAC.
 
 ##### [Frame Counters](https://www.thethingsnetwork.org/wiki/LoRaWAN/Security#security-in-lorawan-and-ttn_frame-counters)
