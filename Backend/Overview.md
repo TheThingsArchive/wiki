@@ -10,7 +10,7 @@ The backend systems of The Things Network are responsible for routing Internet o
 <br>
 
 <center>_The Things Network’s different components:
-Gateway, Router, Broker, NetworkServer, Handler and Application_
+Gateway, Router, Broker, NetworkServer, Handler and Application_ </center>
 </p>
 
 The Things Network's vision is to perform all these routing functions in a decentralized and distributed way. Any interested party should be able to set up their own network and their own part of the backend, allowing them to participate in the global community network. In order to decentralize the network, it was split up into a number of components shown in the figure above. To simplify, components are only shown once, even though it is possible to have one-to-many or many-to-many relations between components. These kind of relations are indicated with asterisks.
