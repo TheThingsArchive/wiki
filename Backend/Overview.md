@@ -145,7 +145,7 @@ When all checks have succeeded, the Broker can continue processing the message. 
 
 #### Selecting Best Downlink Option (Broker)
 
-The Broker has to select the best option for a downlink response to a message. As the Broker does not have any information about the gateway that received a message, it is very difficult to do this. Therefore the Router already calculated a _score_ for each downlink configuration **insert link**. If this _score_ calculation is done in a standard way, the Broker now only has to sort all possible downlink options and use the best option.
+The Broker has to select the best option for a downlink response to a message. As the Broker does not have any information about the gateway that received a message, it is very difficult to do this. Therefore the Router already calculated a _score_ for each [downlink configuration](https://www.thethingsnetwork.org/wiki/Backend/Overview#the-things-network-backend_processing-flow-of-uplink-messages_downlink-configuration-router). If this _score_ calculation is done in a standard way, the Broker now only has to sort all possible downlink options and use the best option.
 
 #### Device State and MAC Commands (Network Server)
 
