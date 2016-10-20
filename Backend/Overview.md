@@ -1,12 +1,12 @@
 # The Things Network Backend
 
-[![Infrastructure Overview@2x (1).png](https://s21.postimg.org/5na6kaezr/Infrastructure_Overview_2x_1.png)](https://postimg.org/image/utb4r4g9v/)
+[![Infrastructure Overview@2x (1).png](https://s21.postimg.org/5na6kaezr/Infrastructure_Overview_2x_1.png)]
 
 ## Architecture
 The backend systems of The Things Network are responsible for routing Internet of Things data between devices and applications. A typical Internet of Things network requires gateways as a bridge between specific radio protocols and the Internet. In cases where the devices themselves support the IP stack, these gateways only have to forward packets to the Internet. Non-IP protocols such as LoRaWAN require some form of routing and processing before messages can be delivered to an application. The Things Network is positioned between the gateways and the applications (see Figure below) and takes care of these routing and processing steps.
 
 <br>
-[![ttn-components.png](https://s15.postimg.org/xvlkvgfej/ttn_components.png)](https://postimg.org/image/xvlkvgfef/)
+[![ttn-components.png](https://s15.postimg.org/xvlkvgfej/ttn_components.png)]
 <br>
 
 <center>_The Things Network’s different components:
@@ -20,26 +20,26 @@ Nodes (N in the top Figure) broadcast LoRaWAN messages over the LoRa radio proto
 The goal of The Things Network is to be very flexible in terms of deployment options. The preferred option is to connect to the public community network hosted by The Things Network Foundation. In this case the Application connects to The Things Network Foundation's Handler as shown in Figure.
 
 <br>
-[![public-network.png](https://s14.postimg.org/5794zc9a9/public_network.png)](https://postimg.org/image/xk4mpsv0d/)
+[![public-network.png](https://s14.postimg.org/5794zc9a9/public_network.png)]
 
 <center>_Public Community Network_ </center>
 
 It should also be possible to deploy private networks, by running all previously components in a private environment. This way, all data will remain within the private environment as shown in Figure.
 
 <br>
-[![private-network.png](https://s13.postimg.org/vx1tl5d93/private_network.png)](https://postimg.org/image/nrjrmzp03/)
+[![private-network.png](https://s13.postimg.org/vx1tl5d93/private_network.png)]
 <br>
 <center>_Private Network_ </center>
 
 Hybrid deployments will be possible in the future. The most simple option for this, is for someone to run his own Handler, allowing him to handle the encryption and decryption of messages. A more complicated option is a private network that exchanges data with the public network. For this to work, private Routers will have to connect to public Brokers and vice versa. In this case the private network can offload public traffic to the community network and use the public community network as back-up.
 
-[![semi-private-network-2.png](https://s21.postimg.org/8loaggzs7/semi_private_network_2.png)](https://postimg.org/image/kasa4fqqr/)
+[![semi-private-network-2.png](https://s21.postimg.org/8loaggzs7/semi_private_network_2.png)]
 <br>
 <center>_Private Handler_ </center>
 
 <br>
 <br>
-[![semi-private-network.png](https://s21.postimg.org/9n7gisy5z/semi_private_network.png)](https://postimg.org/image/aphn1cgz7/)
+[![semi-private-network.png](https://s21.postimg.org/9n7gisy5z/semi_private_network.png)]
 <br>
 <center>_Private Network with Community Exchange_ </center>
 
@@ -64,7 +64,7 @@ In order to make the different backend components as decoupled as possible, we m
 Based on this separation of concerns we implemented The Things Network's backend. As each component component has a number of high-level responsibilities, it has to execute a number of tasks when processing uplink and downlink messages. An overview of this flow is depicted in the Figure and is discussed in detail in the rest of this section.
 
 <br>
-[![flow.png](https://s18.postimg.org/6eg028e2x/flow.png)](https://postimg.org/image/pjj9bzsqt/)
+[![flow.png](https://s18.postimg.org/6eg028e2x/flow.png)]
 
 <center>_Processing Flow_ </center>
 
@@ -75,13 +75,12 @@ Based on this separation of concerns we implemented The Things Network's backend
 When a gateway receives a message that was transmitted over LoRa, it is encapsulated and forwarded to The Things Network over the Internet (see figure below). Many gateways use the same reference gateway protocol, but alternative protocols have been developed for specific backends. The Things Network is also developing its own gateway protocol that is more suitable for The Things Network than the reference protocol in terms of security and access control.
 
 <br>
-[![packet-forwarding.png](https://s16.postimg.org/whzdi2i4l/packet_forwarding.png)](https://postimg.org/image/zc2ivikap/)
-
+[![packet-forwarding.png](https://s16.postimg.org/whzdi2i4l/packet_forwarding.png)]
 <center>_Forwarding LoRaWAN Packets to the Backend_ </center>
 
 Most gateway protocols have the same structure. When one or more messages are received, their binary data (usually base64-encoded) is forwarded to the backend, together with some metadata such as signal strength (RSSI) and signal-to-noise ratio (SNR). Periodically the gateway also sends some status information about the gateway itself, such as GPS coordinates and the number of packets received and transmitted.
 
-We expect to connect gateways from different vendors, running different protocols. In order to keep the backend of The Things Network as generic as possible, we will implement a number of _bridges_ that translate from each vendor-specific gateway protocol to the common communication protocol used in the backend of The Things Network (*Link to 4.5*).
+We expect to connect gateways from different vendors, running different protocols. In order to keep the backend of The Things Network as generic as possible, we will implement a number of _bridges_ that translate from each vendor-specific gateway protocol to the common [communication protocol](https://www.thethingsnetwork.org/wiki/Backend/Overview#the-things-network-backend_communication-between-components) used in the backend of The Things Network.
 
 #### Gateway Status and Metadata (Router)
 
@@ -228,7 +227,7 @@ In a distributed network like The Things Network it is important that communicat
 The first prototype of The Things Network's backend used a Message Queue to facilitate communication between the two components of the system, as shown in the figure. In this prototype the component that is responsible for translation of the gateway protocol (Croft), published messages to the queue, while the other component (Jolie) subscribed to those messages and stored them in a database. This method worked well in the prototype, but when the network will consist of hundreds of distributed components, setting up message queue servers between all components will have too much overhead.
 
 <br>
-[![croft-jolie.png](https://s12.postimg.org/xbpfcrpd9/croft_jolie.png)](https://postimg.org/image/an08d77zd/)
+[![croft-jolie.png](https://s12.postimg.org/xbpfcrpd9/croft_jolie.png)]
 
 <center>_Message Queue between components_ </center>
 
@@ -236,7 +235,7 @@ The first prototype of The Things Network's backend used a Message Queue to faci
 Many cloud-based systems communicate using web APIs. It is very common for a service to communicate with the REST API or JSON endpoint of another service. The second implementation of The Things Network's backend used a similar strategy as shown in the figure. We soon realized that this would not scale, as each uplink message would lead to a large number of HTTP connections being opened for a really short time.
 
 <br>
-[![webhooks.png](https://s21.postimg.org/z62s7d2hz/webhooks.png)](https://postimg.org/image/75yon2z1f/)
+[![webhooks.png](https://s21.postimg.org/z62s7d2hz/webhooks.png)]
 
 <center>_HTTP request/response communication between components_ </center>
 
@@ -293,7 +292,7 @@ The described architecture is one step in the process of making The Things Netwo
 When more gateways connect to the network, it is easy to scale horizontally by increasing the number of Routers. A load balancer can then make sure that each Router handles an (approximately) equal amount of connections from gateways. The gateway will keep a persistent connection to one specific Router behind the load balancer while new gateways will connect to a different Router. This concept is shown in the figure.
 
 <br>
-[![router-scale.png](https://s18.postimg.org/tna994dm1/router_scale.png)](https://postimg.org/image/ks9eyloth/)
+[![router-scale.png](https://s18.postimg.org/tna994dm1/router_scale.png)]
 
 <center>_Router instances behind a load balancer, separate Brokers_ </center>
 
