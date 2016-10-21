@@ -4,7 +4,7 @@ LoRaWAN is a media access control (MAC) protocol for wide area networks. It is d
 
 <br>
 <center>
-![alt text](https://s15.postimg.org/uu8fs8f97/lorawan_overview.png)
+[[/uploads/lorawan-overview.png]]
 
 _Overview of The Things Network's LoRaWAN stack_ </center>
 
