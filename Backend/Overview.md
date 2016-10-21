@@ -77,20 +77,11 @@ We expect to connect gateways from different vendors, running different protocol
 
 #### Gateway Status and Metadata (Router)
 
-The GPS coordinates of a gateway can especially be relevant to the application. Therefore the backend stores the latest status message sent by the gateway and injects the GPS information into the metadata of each uplink message. The implementation allows for two strategies: local storage and shared storage. When the local storage option is used, the backend stores the gateway statuses in-memory to keep the lookup times as short as possible. For a distributed system it is often desirable to keep as little state as possible. However, in this specific case it can be acceptable, because gateways already have a persistent connection to one backend server. When some load balancing features are added that might make this impossible, it is easy to switch to the shared storage (cache) implemented with [Redis](http://redis.io/) as both options have the same interface:
-
-```c
-type StatusStore interface {
-    // Insert or Update the status
-    Update(status *gateway.Status) error
-    // Get the last status
-    Get() (*gateway.Status, error)
-}
-```
+The GPS coordinates of a gateway can especially be relevant to the application. Therefore the backend stores the latest status message sent by the gateway and injects the GPS information into the metadata of each uplink message.
 
 #### Downlink Configuration (Router)
 
-In LoRaWAN the downlink response to an uplink message is highly dependent on the geographic region of the gateway.  [Frequency bands](https://www.thethingsnetwork.org/wiki/LoRaWAN/Overview#lorawan_frequency-bands) section describes the different channel plans and requirements. As the Router is responsible for all gateway-related and region-specific details, the Router has to determine how a downlink response can be sent to a device. As described in [LoRaWAN devices](https://www.thethingsnetwork.org/wiki/LoRaWAN/Overview#lorawan_devices) section, each has two receive windows, one at exactly 1 second after the uplink, the other after 2 seconds. Therefore, for each gateway that received the uplink message, a Router builds two downlink configurations.
+In LoRaWAN the downlink response to an uplink message is highly dependent on the geographic region of the gateway. The [Frequency bands](https://www.thethingsnetwork.org/wiki/LoRaWAN/Overview#lorawan_frequency-bands) section describes the different channel plans and requirements. As the Router is responsible for all gateway-related and region-specific details, the Router has to determine how a downlink response can be sent to a device. As described in the [LoRaWAN devices](https://www.thethingsnetwork.org/wiki/LoRaWAN/Overview#lorawan_devices) section, each has two receive windows, one at exactly 1 second after the uplink, the other after 2 seconds. Therefore, for each gateway that received the uplink message, a Router builds two downlink configurations.
 
 In order to select the best option later, the Router additionally has to calculate a _score_ for each option. This score is influenced by a number of factors. At the moment we consider airtime, signal strength, gateway utilization and already scheduled transmissions. The latter is quite obvious, as a gateway can not do two transmissions at the same time. Scheduling a downlink message on a gateway that had a better signal strength (signal-to-noise ratio) also makes it more likely that a node will receive the downlink correctly.
 
