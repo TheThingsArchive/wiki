@@ -18,28 +18,24 @@ Nodes (N in the top Figure) broadcast LoRaWAN messages over the LoRa radio proto
 
 The goal of The Things Network is to be very flexible in terms of deployment options. The preferred option is to connect to the public community network hosted by The Things Network Foundation. In this case the Application connects to The Things Network Foundation's Handler as shown in Figure.
 
-<br>
-![public-network.png](https://s14.postimg.org/5794zc9a9/public_network.png)
+[[/uploads/Public-Network.png]]
 
 <center>_Public Community Network_ </center>
 
 It should also be possible to deploy private networks, by running all previously components in a private environment. This way, all data will remain within the private environment as shown in Figure.
 
-<br>
-![private-network.png](https://s13.postimg.org/vx1tl5d93/private_network.png)
-<br>
+[[/uploads/Private-Network.png]]
+
 <center>_Private Network_ </center>
 
 Hybrid deployments will be possible in the future. The most simple option for this, is for someone to run his own Handler, allowing him to handle the encryption and decryption of messages. A more complicated option is a private network that exchanges data with the public network. For this to work, private Routers will have to connect to public Brokers and vice versa. In this case the private network can offload public traffic to the community network and use the public community network as back-up.
 
-![semi-private-network-2.png](https://s21.postimg.org/8loaggzs7/semi_private_network_2.png)
-<br>
+[[/uploads/Private-Handler.png]]
+
 <center>_Private Handler_ </center>
 
-<br>
-<br>
-![semi-private-network.png](https://s21.postimg.org/9n7gisy5z/semi_private_network.png)
-<br>
+[[/uploads/Private-Exchange.png]]
+
 <center>_Private Network with Community Exchange_ </center>
 
 ## Core Functionality
