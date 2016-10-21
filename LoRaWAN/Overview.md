@@ -31,10 +31,10 @@ The LoRaWAN specification defines three device types. All LoRaWAN devices must i
 * **Class A** devices support bi-directional communication between a device and a gateway. Uplink messages (from the device to the server) can be sent at any time (randomly). As depicted in the figure, the device then opens two receive windows at specified times (1s and 2s) after an uplink transmission. If the server does not respond in either of these receive windows (situation 1 in the figure), the next opportunity will be after the next uplink transmission from the device.  The server can respond either in the first receive window (situation 2 in the figure), or the second receive window (situation 3 in the figure).
 
 <br>
+<center>
+[[/uploads/rx-window.png]]
 
-![rx-window.png](https://s21.postimg.org/3t9evci7r/rx_window.png)
-
-<center>_Receive window of Class A devices_ </center>
+_Receive window of Class A devices_ </center>
 
 <br>
 
@@ -43,9 +43,10 @@ The LoRaWAN specification defines three device types. All LoRaWAN devices must i
 * **Class C** devices extend Class A by keeping the receive windows open unless they are transmitting, as shown in the figure below. This allows for low-latency communication but is many times more energy consuming than Class A devices.
 
 <br>
-![rx-class-c.png](https://s3.postimg.org/eoy5nok5v/rx_class_c.png)
+<center>
+[[/uploads/rx-class-c.png]]
 
-<center>_Receive window of Class C devices_ </center>
+_Receive window of Class C devices_ </center>
 
 <br>
 ## Frequency Bands
@@ -85,9 +86,10 @@ Devices and applications have a 64 bit unique identifier (`DevEUI` and `AppEUI`)
 LoRaWAN knows three distinct 128-bit security keys. The application key `AppKey` is only known by the device and by the application. When a device joins the network (this is called a join or activation), an application session key `AppSKey` and a network session key `NwkSKey` are generated. The `NwkSKey` is shared with the network, while the `AppSKey` is kept private. These session keys will be used for the duration of the session.
 
 <br>
-![keys.png](https://s9.postimg.org/702mme9qn/keys.png)
+<center>
+[[/uploads/keys.png]]
 
-<center>_Keys and Encryption in LoRaWAN_ </center>
+_Keys and Encryption in LoRaWAN_ </center>
 
 <br>
 The above figure shows how these keys are used. The `AppSKey` is used for end-to-end encryption of the frame payload. The algorithm used for this is AES-128, similar to the algorithm used in the 802.15.4 standard. The `NwkSKey` is known by the network and the device and is used to validate the integrity of each message by its Message Integrity Code (MIC). This MIC is similar to a checksum, except that it prevents intentional tampering with a message. For this, LoRaWAN uses AES-CMAC.
