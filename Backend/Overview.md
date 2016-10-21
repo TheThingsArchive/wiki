@@ -1,15 +1,14 @@
 # The Things Network Backend
 
-![Infrastructure Overview@2x (1).png](https://s21.postimg.org/5na6kaezr/Infrastructure_Overview_2x_1.png)
+[[/uploads/Infrastructure Overview.png]]
 
 ## Architecture
-The backend systems of The Things Network are responsible for routing Internet of Things data between devices and applications. A typical Internet of Things network requires gateways as a bridge between specific radio protocols and the Internet. In cases where the devices themselves support the IP stack, these gateways only have to forward packets to the Internet. Non-IP protocols such as LoRaWAN require some form of routing and processing before messages can be delivered to an application. The Things Network is positioned between the gateways and the applications (see Figure below) and takes care of these routing and processing steps.
 
-<br>
-![ttn-components.png](https://s15.postimg.org/xvlkvgfej/ttn_components.png)
-<br>
+The backend systems of The Things Network are responsible for routing Internet of Things data between devices and applications. A typical Internet of Things network requires gateways as a bridge between specific radio protocols and the Internet. In cases where the devices themselves support the IP stack, these gateways only have to forward packets to the Internet. Non-IP protocols such as LoRaWAN require some form of routing and processing before messages can be delivered to an application. The Things Network is positioned between the gateways and the applications (see the figure below) and takes care of these routing and processing steps.
 
-<center>_The Things Network’s different components:
+[[/uploads/Routing Services.png]]
+
+<center>_The Things Network’s different routing service components:  
 Gateway, Router, Broker, NetworkServer, Handler and Application_ </center>
 </p>
 
