@@ -52,25 +52,22 @@ Finally, and most importantly, as The Things Network will be a distributed netwo
 
 ## Separation of Concerns
 
-In order to make the different backend components as decoupled as possible, we make a clear separation of the responsibilities of each component. An overview of these responsibilities will be published soon. The general idea is that the Router is responsible for all gateway-related functionality and region-specific details. A Broker handles a range of device addresses and is responsible for finding the right Handler to forward each message to. The Network Server is responsible for keeping the state of all individual devices. The Handler is responsible for encryption and decryption of messages and for forwarding messages to applications.
+In order to make the different backend components as decoupled as possible, we make a clear separation of the responsibilities of each component. An overview of these responsibilities will be published soon. The general idea is that the Router is responsible for all gateway-related functionality and region-specific details. A Broker handles a range of device addresses and is responsible for finding the right Handler to forward each message to. The Network Server is responsible for keeping the state of all individual devices. The Handler is responsible for encryption, decryption and conversion of messages and for forwarding messages to applications.
 
 ## Processing Flow of Uplink Messages
 
 Based on this separation of concerns we implemented The Things Network's backend. As each component component has a number of high-level responsibilities, it has to execute a number of tasks when processing uplink and downlink messages. An overview of this flow is depicted in the Figure and is discussed in detail in the rest of this section.
 
-<br>
-![flow.png](https://s18.postimg.org/6eg028e2x/flow.png)
+[[/uploads/Processing-Flow.png]]
 
 <center>_Processing Flow_ </center>
-
-<br>
 
 #### Gateway Protocol Translation (Router/Bridge)
 
 When a gateway receives a message that was transmitted over LoRa, it is encapsulated and forwarded to The Things Network over the Internet (see figure below). Many gateways use the same reference gateway protocol, but alternative protocols have been developed for specific backends. The Things Network is also developing its own gateway protocol that is more suitable for The Things Network than the reference protocol in terms of security and access control.
 
-<br>
-![packet-forwarding.png](https://s16.postimg.org/whzdi2i4l/packet_forwarding.png)
+[[/uploads/Packet-Forwarding.png]]
+
 <center>_Forwarding LoRaWAN Packets to the Backend_ </center>
 
 <br>
