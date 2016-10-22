@@ -211,17 +211,20 @@ In a distributed network like The Things Network it is important that communicat
 The first prototype of The Things Network's backend used a Message Queue to facilitate communication between the two components of the system, as shown in the figure. In this prototype the component that is responsible for translation of the gateway protocol (Croft), published messages to the queue, while the other component (Jolie) subscribed to those messages and stored them in a database. This method worked well in the prototype, but when the network will consist of hundreds of distributed components, setting up message queue servers between all components will have too much overhead.
 
 <br>
-![croft-jolie.png](https://s12.postimg.org/xbpfcrpd9/croft_jolie.png)
+<center>
+[[/uploads/croft-jolie.png]]
 
-<center>_Message Queue between components_ </center>
+_Message Queue between components_ </center>
 
 <br>
 Many cloud-based systems communicate using web APIs. It is very common for a service to communicate with the REST API or JSON endpoint of another service. The second implementation of The Things Network's backend used a similar strategy as shown in the figure. We soon realized that this would not scale, as each uplink message would lead to a large number of HTTP connections being opened for a really short time.
 
 <br>
-![webhooks.png](https://s21.postimg.org/z62s7d2hz/webhooks.png)
+<center>
+[[/uploads/webhooks.png]]
 
-<center>_HTTP request/response communication between components_ </center>
+
+_HTTP request/response communication between components_ </center>
 
 <br>
 Re-using TCP connections already significantly improves the performance, but it is still inefficient to scale this.
@@ -276,9 +279,10 @@ The described architecture is one step in the process of making The Things Netwo
 When more gateways connect to the network, it is easy to scale horizontally by increasing the number of Routers. A load balancer can then make sure that each Router handles an (approximately) equal amount of connections from gateways. The gateway will keep a persistent connection to one specific Router behind the load balancer while new gateways will connect to a different Router. This concept is shown in the figure.
 
 <br>
-![router-scale.png](https://s18.postimg.org/tna994dm1/router_scale.png)
+<center>
+[[/uploads/router-scale.png]]
 
-<center>_Router instances behind a load balancer, separate Brokers_ </center>
+_Router instances behind a load balancer, separate Brokers_ </center>
 
 <br>
 When the network traffic (uplink messages) increases, the Brokers will be the next bottleneck as they have to handle de-duplication and do a series of MIC checks. The de-duplication step makes it difficult to scale Brokers horizontally. The first step in scaling Brokers is making each broker responsible for a smaller subset of devices by adapting the prefix it announces as shown in the figure. However, this means that a Handler needs to connect to multiple Brokers in order to receive messages that are sent by different devices that happen to have a different prefix in their address. Further research is necessary to find an efficient solution for this.
