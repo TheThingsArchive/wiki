@@ -12,6 +12,7 @@
 * [IMST iM880B-L 868 MHz](http://www.wireless-solutions.de/products/radiomodules/im880b-l)
 * [LoPy 868/915 Mhz](https://www.kickstarter.com/projects/1795343078/lopy-the-lora-wifi-and-bluetooth-iot-development-p)
 * [Moteino Mega 433/868/915 Mhz](https://lowpowerlab.com/shop/Moteino/moteinomega)
+* [Twave Smove 868 MHz] (http://www.twave.eu)
 
 ## Communication Chips
 
