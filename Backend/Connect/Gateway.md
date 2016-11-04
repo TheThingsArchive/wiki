@@ -37,9 +37,12 @@ In the `local_conf.json` of the packet forwarder, update the fields `server_addr
 ```
 "gateway_conf": {
         ...
-        "server_address": "<insert server address here>",
-        "serv_port_up": 1700,
-        "serv_port_down": 1700,
-        ...
+        "servers": [{
+            "server_address": "<insert server address here>",
+            "serv_port_up": 1700,
+            "serv_port_down": 1700,
+            "serv_enabled": true,
+            ...
+        }]
 }
 ```
