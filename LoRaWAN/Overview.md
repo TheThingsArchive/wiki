@@ -38,7 +38,7 @@ _Receive window of Class A devices_ </center>
 
 <br>
 
-* **Class B** devices extend Class A by adding scheduled receive windows for downlink messaages from the server. Using time-synchronized beacons transmitted by the gateway, the devices periodically open receive windows.
+* **Class B** devices extend Class A by adding scheduled receive windows for downlink messages from the server. Using time-synchronized beacons transmitted by the gateway, the devices periodically open receive windows.
 
 * **Class C** devices extend Class A by keeping the receive windows open unless they are transmitting, as shown in the figure below. This allows for low-latency communication but is many times more energy consuming than Class A devices.
 
