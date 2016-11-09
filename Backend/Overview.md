@@ -146,7 +146,7 @@ The Broker has to select the best option for a downlink response to a message. A
 
 Before forwarding the uplink message to the Handler, it is first sent to the Network Server so that the device's state can be updated. The Network Server also adds a _downlink template_ to the message. This template can be used by the Handler to send a downlink message back to the device. It contains all necessary values (such as the frame counter, message type and option flags) so that the Handler only has to add the application payload to the message. Additionally, this gives the Network Server a chance to add MAC commands to the message. For example, based on the number of gateways that received a message and their signal strength, the Network Server may add MAC commands that instruct the device to transmit at a higher data rate.
 
-#### Message Decruption (Handler)
+#### Message Decryption (Handler)
 
 As messages are end-to-end encrypted, the backend is also responsible for decrypting messages. However, not in all cases the application owner might want The Things Network to be responsible for that. Therefore message decryption is placed in a separate component (the Handler), allowing an application owner to run this Handler in his own private environment as shown in [Figure](https://www.thethingsnetwork.org/wiki/Backend/Overview#the-things-network-backend_architecture).
 
