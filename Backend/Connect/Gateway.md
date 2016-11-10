@@ -46,3 +46,50 @@ In the `local_conf.json` of the packet forwarder, update the fields `server_addr
         }]
 }
 ```
+
+
+## Checking connectivity
+To see what happens under the hood, and make sure your gateway is sending its packets to the TTN-routers there are two approaches you can follow.
+
+### Inspecting the port
+Your gateway communicates with the routers via an UDP connection on port 1700; So if we listen to this port we should see packets being transferred.
+
+```
+sudo tcpdump -AUq port 1700
+```
+If your gateway is up and running this feed would (at least) give a stat packet every 30-60seconds:
+
+```
+08:07:33.801265 IP 192.168.178.20.47497 > 52.169.76.203.1700: UDP, length 221
+E....Z@.@..h....4.L........'.6...'......{"stat":{"time":"2016-11-10 08:07:33 GMT","lati":51.1,"long":5.9,"alti":23,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"pfrm":"IMST + Rpi","mail":"info@example.nl","desc":"my-first-gateway"}}
+```
+If your gateway receives a transmission from a nearby node it wil issue a `rxpk` which also shows up in the feed. 
+
+### Inspecting the log files
+The packet forwarder periodically writes its status to a log file located at: `/var/log/syslog` You could tail this file to see what happens:
+
+```
+sudo tail -f /var/log/syslog
+```
+
+example log
+```
+##### 2016-11-10 08:10:33 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 2 (442 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 6 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+### [GPS] ###
+# Invalid gps time reference (age: 1478765433 sec)
+# Manual GPS coordinates: latitude 51.1, longitude 5.9, altitude 23 m
+##### END #####
+```
+
+
