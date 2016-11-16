@@ -32,7 +32,7 @@ The LoRaWAN specification defines three device types. All LoRaWAN devices must i
 
 <br>
 <center>
-[[/uploads/rx-class-c.png]]
+[[/uploads/rx-window.png]]
 
 _Receive window of Class A devices_ </center>
 
