@@ -9,7 +9,8 @@ This is the content of The Things Network's wiki.
 
 * Clone the repository [github.com/TheThingsNetwork/wiki](https://github.com/TheThingsNetwork/wiki)
 * Install [gollum](https://github.com/gollum/gollum/wiki/Installation)
-* Run `gollum`. While on rewrite branch, run with `gollum -r rewrite`.
+* Run `gollum`.
+  * While on rewrite branch, run with `gollum -r rewrite`.
 * Go to `localhost:4567`
 
 ## Running Locally (with TTN styles)
@@ -20,4 +21,5 @@ This is the content of The Things Network's wiki.
   * `bundle install` (if something goes wrong, you might miss some [dependencies](https://github.com/gollum/gollum/wiki/Installation))
   * `export ACCOUNT_SERVER_URL=https://account.thethingsnetwork.org`
   * `bundle exec bin/gollum ../wiki --config config.rb` (where `../wiki` points to the location of the **wiki** repository)
+    * While on rewrite branch, run with `bundle exec bin/gollum ../wiki --config config.rb --ref rewrite`.
 * Go to `localhost:4567`
