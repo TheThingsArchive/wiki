@@ -18,5 +18,6 @@ This is the content of The Things Network's wiki.
 * Clone the **gollum** repository [github.com/TheThingsNetwork/gollum](https://github.com/TheThingsNetwork/gollum)
 * In the location of the **gollum** repository, run
   * `bundle install` (if something goes wrong, you might miss some [dependencies](https://github.com/gollum/gollum/wiki/Installation))
+  * `export ACCOUNT_SERVER_URL=https://account.thethingsnetwork.org`
   * `bundle exec bin/gollum ../wiki --config config.rb` (where `../wiki` points to the location of the **wiki** repository)
 * Go to `localhost:4567`
