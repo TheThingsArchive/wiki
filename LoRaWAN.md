@@ -1,0 +1,1 @@
+LoRaWan no slash
