@@ -11,11 +11,11 @@ _Overview of The Things Network's LoRaWAN stack_ </center>
 <br>
 
 ## Terminology
-* **[Device, Node, Mote](https://www.thethingsnetwork.org/wiki/Hardware/Nodes/Overview)** - an object with an embedded low-power communication device
+* **[Device, Node, Mote](https://www.thethingsnetwork.org/wiki/Hardware/Nodes/Home)** - an object with an embedded low-power communication device
 
-* **[Network](https://www.thethingsnetwork.org/wiki/Backend/Overview)** - route messages from Nodes to the right Application, and back.
+* **[Network](https://www.thethingsnetwork.org/wiki/Backend/Home)** - route messages from Nodes to the right Application, and back.
 
-* **[Gateway](https://www.thethingsnetwork.org/wiki/Hardware/Gateways/Overview)** - antennas that receive broadcasts from Nodes and send data back to Nodes
+* **[Gateway](https://www.thethingsnetwork.org/wiki/Hardware/Gateways/Home)** - antennas that receive broadcasts from Nodes and send data back to Nodes
 
 * **Application** - a piece of software, running on a server
 
