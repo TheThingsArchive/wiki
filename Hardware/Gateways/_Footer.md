@@ -1,4 +1,4 @@
-**[[Gateways|Hardware/Gateways/Overview]]:**
+**[[Gateways|Hardware/Gateways/Home]]:**
 [[The Things Gateway|Hardware/Gateways/The-Things-Gateway]] |
 [[Kerlink LoRa IoT Station|Hardware/Gateways/Kerlink]] |
 [[Multi-Tech MultiConnect Conduit|Hardware/Gateways/Multi-Tech]] |
