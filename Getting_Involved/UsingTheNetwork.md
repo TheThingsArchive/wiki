@@ -27,7 +27,7 @@ protocol. The LoRa(WAN) software stack needs to run on a separate MCU, like an A
 Some boards include a MCU, some don't and just provide the modem interface of the chip. 
 There are bare breakout boards, Bee connectors, or all-included development boards. There are a few different implementations, and they're not yet all compatible with each other.
 
-For an overview of node hardware available, have a look at [[our Node overview|Hardware/Nodes/Overview]].
+For an overview of node hardware available, have a look at [[our Node overview|Hardware/Nodes/Home]].
 
 
 ## Connect an application
