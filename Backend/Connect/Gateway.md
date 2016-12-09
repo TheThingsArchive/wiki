@@ -4,29 +4,18 @@
 
 ## Server Addresses
 
-Choose the Router instance depending on the region as specified in the LoRaWAN 1.0.1 specification (still under NDA, [download 1.0](https://www.lora-alliance.org/portals/0/specs/LoRaWAN%20Specification%201R0.pdf)). This may not be the closest router geographically. For example, Brazil supports 915-928 MHz, but these are only specified by the LoRa Alliance for Australia, so Brazilian gateways should connect to the Australian router.
+Choose the Router instance depending on the region as specified in the [LoRaWAN Regional Parameters 1.0 Document](https://www.lora-alliance.org/For-Developers/LoRaWANDevelopers). This may not be the closest router geographically. For example, Brazil supports 915-928 MHz, but these are only specified by the LoRa Alliance for Australia, so Brazilian gateways should connect to the Australian router.
 
 ```
 router.eu.thethings.network # EU 433 and EU 863-870
 router.us.thethings.network # US 902-928
 router.cn.thethings.network # China 470-510 and 779-787
 router.au.thethings.network # Australia 915-928 MHz
+router.as.thethings.network # Southeast Asia 923 MHz
+router.kr.thethings.network # Korea 920-923 MHz
 ```
-
-Today, these DNS records refer to the staging environment, but we will update the records to the production environment when it comes available this summer. This will be announced timely in advance. Note: the staging environment currently only supports EU 863-870.
 
 The geographical location of a server and the supported frequency plans are two different things. As the LoRa Alliance publishes more region specifications, we will deploy Routers in datacenters near that region. Also, the yet to be implemented decentralized routing architecture enables community operators to provide routing infrastructure to The Things Network.
-
-## Staging Environment
-
-It is highly recommended to update your gateway to the server addresses shown above. If you have test gateways that you want to force to use the staging environment and keep using the staging environment, use one of these server addresses. The staging environment will contain newer, but possibly less stable, builds of The Things Network back-end.
-
-```
-router.eu.staging.thethings.network # EU 433 and EU 863-870
-router.us.staging.thethings.network # US 902-928
-router.cn.staging.thethings.network # China 470-510 and 779-787
-router.au.staging.thethings.network # Australia 915-928 MHz
-```
 
 ## Configuring Your Gateway
 
@@ -60,7 +49,7 @@ sudo tcpdump -AUq port 1700
 If your gateway is up and running this feed would (at least) give a stat packet every 30-60seconds:
 
 ```
-08:07:33.801265 IP 192.168.178.20.47497 > 52.169.76.203.1700: UDP, length 221
+08:07:33.801265 IP 192.168.178.20.47497 > xx.xxx.xx.xxx.1700: UDP, length 221
 E....Z@.@..h....4.L........'.6...'......{"stat":{"time":"2016-11-10 08:07:33 GMT","lati":51.1,"long":5.9,"alti":23,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"pfrm":"IMST + Rpi","mail":"info@example.nl","desc":"my-first-gateway"}}
 ```
 If your gateway receives a transmission from a nearby node it wil issue a `rxpk` which also shows up in the feed. 
@@ -91,5 +80,4 @@ example log
 # Manual GPS coordinates: latitude 51.1, longitude 5.9, altitude 23 m
 ##### END #####
 ```
-
 
