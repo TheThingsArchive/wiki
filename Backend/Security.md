@@ -2,7 +2,7 @@
 
 The Things Network is a highly secure public network that supports true end-to-end encryption, mitigations against various man-in-the-middle attacks and support for different 128-bit encryption keys for every single end device.
 
-[[LoRaWAN enforces using AES 128-bit|LoRaWAN/Security]] message integrity check and payload encryption. Payload is encrypted and decrypted in your domain only: on the end device and in the Handler (see [[components|Backend/Overview]]). You can choose to operate your own Handler to keep your keys private. The Router and Broker route data based on public metadata and cannot decrypt payload.
+[[LoRaWAN enforces using AES 128-bit|LoRaWAN/Security]] message integrity check and payload encryption. Payload is encrypted and decrypted in your domain only: on the end device and in the Handler (see [[components|Backend/Home]]). You can choose to operate your own Handler to keep your keys private. The Router and Broker route data based on public metadata and cannot decrypt payload.
 
 ## User Accounts
 
