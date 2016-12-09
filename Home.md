@@ -8,15 +8,15 @@ To find out why we started all this, read our [Manifesto](https://github.com/The
 
 # Overview
 
-The Things Network uses the [[LoRaWAN|LoRaWAN/]] network technology to provide **low power** wireless connectivity over **long range**.
+The Things Network uses the [[LoRaWAN|LoRaWAN/Home]] network technology to provide **low power** wireless connectivity over **long range**.
 
 If we look at The Things Network from a high level, we can distinguish the following components:
 
 [[/uploads/TTN-Overview.jpg]]
 
-* **[[Nodes:|Hardware/Nodes/]]** Simple devices that are deployed "in the wild". They can do measurements, collect data or perform actions. Nodes can broadcast or receive small messages (usually about 1/10 the size of an SMS) either periodically (some devices broadcast every couple of minutes, other devices only once in a number of hours).
-* **[[Gateways:|Hardware/Gateways/]]** Antennas that receive broadcasts from Nodes and send data back to Nodes. Gateways are connected to the Internet and communicate with The Things Network's servers. Gateways have a long range, so they can provide connectivity to nodes that are multiple kilometers away.
-* **[[The Things Network Backend|Backend/]]** route messages from Nodes to the right Application, and back.
+* **[[Nodes:|Hardware/Nodes/Home]]** Simple devices that are deployed "in the wild". They can do measurements, collect data or perform actions. Nodes can broadcast or receive small messages (usually about 1/10 the size of an SMS) either periodically (some devices broadcast every couple of minutes, other devices only once in a number of hours).
+* **[[Gateways:|Hardware/Gateways/Home]]** Antennas that receive broadcasts from Nodes and send data back to Nodes. Gateways are connected to the Internet and communicate with The Things Network's servers. Gateways have a long range, so they can provide connectivity to nodes that are multiple kilometers away.
+* **[[The Things Network Backend|Backend/Home]]** route messages from Nodes to the right Application, and back.
 * **Your Application** connects to The Things Network's servers to receive messages from and send messages to your Nodes. What you do with it is entirely up to you!
 
 # Getting Involved
