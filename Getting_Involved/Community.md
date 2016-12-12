@@ -4,11 +4,9 @@ The easiest way to get involved is simply to join an existing community. You can
 
 # Starting a new Community
 
-If there's no community in your area yet, you can start a new community. There are a few ingredients for building a successful community:
+If there's no community in your area yet, you can start initiate one yourself. 
 
-* A community page on thethingsnetwork.org
-* Good communication channels for your community
-* Getting together and talk, discuss, build things and have fun
+With a small group of people it is possible to provide an entire city (or an area) with data connectivity for things to connect to the internet. In less than 6 weeks, the city-wide network in Amsterdam was crowdsourced and implemented, you can do the same in your area.
 
 ## Community Page
 
