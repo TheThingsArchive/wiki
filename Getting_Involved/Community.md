@@ -20,12 +20,13 @@ The core principles of The Things Network community are:
 
 ## Starting a new Community
 
-If there's no community in your area yet, you can start initiate one yourself via [this form](https://www.thethingsnetwork.org/start-a-community/). 
+If there's no community in your area yet, you can start initiate one yourself via [this form](https://www.thethingsnetwork.org/start-a-community/). The community manager Rish or Laurens will connect to you for a chat after you submit the form.
+
 
 With a small group of people it is possible to provide an entire city (or an area) with data connectivity for things to connect to the internet. In less than 6 weeks, the city-wide network in Amsterdam was crowdsourced and implemented, you can do the same in your area.
 
-###What is the role an initiator
-For a community to emerge, a community initiator is required. The Things Network supports the initiator with the first steps of building a community by creating a campaign page. The page acts as a platform to communicate all relevant information about the members, activities and the current state of the network in the given area.
+**What is the role an initiator**
+For a community to emerge, a community initiator is required. The Things Network supports the initiator with the first steps of building a community by creating a **campaign page** (see [the page of The Things Network Amsterdam](https://www.thethingsnetwork.org/community/amsterdam/) as an example). The page acts as a platform to communicate all relevant information about the members, activities and the current state of the network in the given area.
 
 
 Community initiators can always count on our full support and can carry the title “Initiator”. In return we ask initiators to respect the manifest, keep the community page up-to-date, make sure local meetings are organized and be approachable for people to connect to.
@@ -33,16 +34,6 @@ Community initiators can always count on our full support and can carry the titl
 
 Once your community becomes official [link], community initiators are allowed to carry the name “Initiator” forever, no-one will ever take this away from you.
 
-
-## Community Campaign Page
-
-To set up your community page on thethingsnetwork.org, we need a few details that you can submit using [this form](http://thethingsnetwork.org/start-a-community/). Before you fill in the form, you should ask yourself a couple of questions:
-
-* For what city or region are you setting up a community?
-* What do you want to accomplish with the community?
-* Do you have a couple of beautiful, high quality photos that represent your city or region (that you're allowed to use)?
-* Do you already have some community members?
-* How can potential community members contact you?
 
 ## Communication
 
