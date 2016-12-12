@@ -34,7 +34,7 @@ For a community to emerge, a community initiator is required. The Things Network
 Community initiators can always count on our full support and can carry the title *Initiator*. In return we ask initiators to respect the manifest, keep the community page up-to-date, make sure local meetings are organized and be approachable for people to connect to. NOTE: As an initiator you don't necessarily have to be a technological expert, you only have to make sure that there are experts in the community. 
 
 
-Once your community becomes official [link], community initiators are allowed to carry the name “Initiator” forever, no-one will ever take this away from you.
+Once your community becomes [official](https://www.thethingsnetwork.org/article/becoming-official-communities), community initiators are allowed to carry the name *Initiator* forever, no-one will ever take this away from you.
 
 
 ## Communication
