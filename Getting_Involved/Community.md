@@ -18,6 +18,8 @@ The core principles of The Things Network community are:
 * Regular social contact is the driving force of the community’s development
 * Diversity is crucial
 
+
+
 ## Starting a new Community
 
 If there's no community in your area yet, you can start initiate one yourself via [this form](https://www.thethingsnetwork.org/start-a-community/). The community manager Rish or Laurens will connect to you for a chat after you submit the form.
