@@ -21,3 +21,9 @@ In LoRaWAN we only send "join accepted" messages. If a join is not accepted, no 
 ## I don't receive data from my ABP device anymore. What's wrong?
 
 When messages from your ABP device stop arriving in the backend, your device probably restarted. When this happens, it resets the frame counters to 0 and starts sending again. The backend however will flag these messages as a possible replay attack, and will drop them. This behaviour can be disabled by disabling the frame counter check in your device's settings. This will make your device vulnerable to replay attacks, which is why we recommend to avoid ABP and prefer OTAA.
+
+## What about all those different versions of the backend?
+
+- `v0`, `croft`, `api/v0` and `api/v0.1` have been discontinued. 
+- `v1`, `staging`, `v1-staging` is the most widely used version, although this version is not considered production-ready.
+- `v2` will be released before the end of 2016, a preview is available as `v2-preview`
