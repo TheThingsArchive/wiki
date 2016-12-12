@@ -1,6 +1,22 @@
 # Getting involved with an existing Community
 
-There are over 300 communities worldwide that are collaboratively working on the realization of the open network. Find out what community is closest to your area [here](http://thethingsnetwork.org/community).
+There are over 300 local communities worldwide that are collaboratively working on the realization of the open network. Find out what community is closest to your area [here](http://thethingsnetwork.org/community).
+
+##What is a local community?
+Local communities take up the role to build the network in specific defined areas. For the realization of the network different stakeholders need to be involved to collect sufficient resources, including:
+*Budget for purchasing the LoRaWAN gateways
+*Technical skills for configuring the gateways and connecting devices
+*Proper locations for placing the gateways
+*Organizational skills for building a thriving network of people
+
+Communities are particularly suitable for transferring (technical) knowledge, enhancing creativity and discovering business opportunities. By bringing together people with different skills, backgrounds and expertise, beautiful things will happen.
+
+The core principles of The Things Network community are:
+*Endorsing the principles mentioned in the [Manifest](https://github.com/TheThingsNetwork/Manifest) of The Things Network
+*Open for anyone
+*People are the foundation of the community, not gateways
+*Regular social contact is the driving force of the community’s development
+*Diversity is crucial
 
 # Starting a new Community
 
