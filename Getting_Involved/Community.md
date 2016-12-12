@@ -18,13 +18,23 @@ The core principles of The Things Network community are:
 *Regular social contact is the driving force of the community’s development
 *Diversity is crucial
 
-# Starting a new Community
+## Starting a new Community
 
-If there's no community in your area yet, you can start initiate one yourself. 
+If there's no community in your area yet, you can start initiate one yourself via [this form](https://www.thethingsnetwork.org/start-a-community/). 
 
 With a small group of people it is possible to provide an entire city (or an area) with data connectivity for things to connect to the internet. In less than 6 weeks, the city-wide network in Amsterdam was crowdsourced and implemented, you can do the same in your area.
 
-## Community Page
+###What is the role an initiator
+For a community to emerge, a community initiator is required. The Things Network supports the initiator with the first steps of building a community by creating a campaign page. The page acts as a platform to communicate all relevant information about the members, activities and the current state of the network in the given area.
+
+
+Community initiators can always count on our full support and can carry the title “Initiator”. In return we ask initiators to respect the manifest, keep the community page up-to-date, make sure local meetings are organized and be approachable for people to connect to.
+
+
+Once your community becomes official [link], community initiators are allowed to carry the name “Initiator” forever, no-one will ever take this away from you.
+
+
+## Community Campaign Page
 
 To set up your community page on thethingsnetwork.org, we need a few details that you can submit using [this form](http://thethingsnetwork.org/start-a-community/). Before you fill in the form, you should ask yourself a couple of questions:
 
