@@ -1,0 +1,1 @@
+Prova de creació d'un node LORA
