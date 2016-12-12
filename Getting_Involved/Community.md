@@ -25,7 +25,7 @@ If there's no community in your area yet, you can start initiate one yourself vi
 
 With a small group of people it is possible to provide an entire city (or an area) with data connectivity for things to connect to the internet. In less than 6 weeks, the city-wide network in Amsterdam was crowdsourced and implemented, you can do the same in your area.
 
-**What is the role an initiator**
+####What is the role an initiator
 For a community to emerge, a community initiator is required. The Things Network supports the initiator with the first steps of building a community by creating a **campaign page** (see [the page of The Things Network Amsterdam](https://www.thethingsnetwork.org/community/amsterdam/) as an example). The page acts as a platform to communicate all relevant information about the members, activities and the current state of the network in the given area.
 
 
