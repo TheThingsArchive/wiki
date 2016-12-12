@@ -1,6 +1,6 @@
 # Getting involved with an existing Community
 
-The easiest way to get involved is simply to join an existing community. You can find a list of communities on the [main website of The Things Network](http://thethingsnetwork.org/#communities).
+There are over 300 communities worldwide that are collaboratively working on the realization of the open network. Find out what community is closest to your area [here](http://thethingsnetwork.org/community).
 
 # Starting a new Community
 
