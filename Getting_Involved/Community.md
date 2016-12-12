@@ -29,7 +29,7 @@ With a small group of people it is possible to provide an entire city (or an are
 For a community to emerge, a community initiator is required. The Things Network supports the initiator with the first steps of building a community by creating a **campaign page** (see [the page of The Things Network Amsterdam](https://www.thethingsnetwork.org/community/amsterdam/) as an example). The page acts as a platform to communicate all relevant information about the members, activities and the current state of the network in the given area.
 
 
-Community initiators can always count on our full support and can carry the title “Initiator”. In return we ask initiators to respect the manifest, keep the community page up-to-date, make sure local meetings are organized and be approachable for people to connect to.
+Community initiators can always count on our full support and can carry the title *Initiator*. In return we ask initiators to respect the manifest, keep the community page up-to-date, make sure local meetings are organized and be approachable for people to connect to. NOTE: As an initiator you don't necessarily have to be a technological expert, you only have to make sure that there are experts in the community. 
 
 
 Once your community becomes official [link], community initiators are allowed to carry the name “Initiator” forever, no-one will ever take this away from you.
