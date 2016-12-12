@@ -18,7 +18,7 @@ The core principles of The Things Network community are:
 * Regular social contact is the driving force of the community’s development
 * Diversity is crucial
 
-![Community diversity is crucial](/uploads/Diversity.jpg)
+![Community diversity is crucial](https://www.thethingsnetwork.org/wiki/uploads/Diversity.jpg)
 
 ## Starting a new Community
 
