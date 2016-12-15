@@ -1,6 +1,6 @@
 # The Things Network Backend
 
-[[/uploads/Infrastructure-Overview.png]]
+[[/uploads/Infrastructure-Overview-3.png]]
 
 ## Architecture
 
