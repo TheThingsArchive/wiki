@@ -16,4 +16,4 @@ After you figure out which gateway you want, you probably also want to take a lo
 [[lightning protection|Hardware/Gateways/Lightning-Protection]].
 3. Follow the setup guide for your specific gateway (see the links on the bottom of this page).
 4. Configure the gateway for The Things Network. See [[Connect a Gateway|Backend/Connect/Gateway]]
-5. Log in to [thethingsnetwork.org](http://thethingsnetwork.org/), and register your gateway from your user profile.
+5. Log in to the [console.org](https://console.thethingsnetwork.org/gateways), and start [registering your gateway](https://console.thethingsnetwork.org/gateways).
