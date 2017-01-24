@@ -17,9 +17,10 @@ _Could also be used in India and large parts of Africa_
 7. **867.7** - SF7BW125 to SF12BW125
 8. **867.9** - SF7BW125 to SF12BW125
 
-- **868.8** - FSK
+Other:
 
-**869.525** - SF9BW125 (RX2 downlink only)
+- **868.8** - FSK
+- **869.525** - SF9BW125 (RX2 downlink only)
 
 ## EU 433MHz
 
