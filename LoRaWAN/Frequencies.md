@@ -91,7 +91,7 @@ Downlink:
 7. **926.9** - SF7BW500 to SF12BW500
 8. **927.5** - SF7BW500 to SF12BW500
 
-## Asia 923MHz
+## Asia 923 MHz
 
 Can be used in the following countries:
 
@@ -110,3 +110,23 @@ Can be used in the following countries:
 ### Frequency Plan
 
 No frequency plan yet. Submit a proposal!
+
+## South Korea 920-923 MHz
+
+### Frequency Plan
+
+Uplink:
+
+1. **922.1** - SF7BW125 to SF12BW125
+2. **922.3** - SF7BW125 to SF12BW125 and SF7BW250
+3. **922.5** - SF7BW125 to SF12BW125
+4. **922.7** - SF7BW125 to SF12BW125
+5. **922.9** - SF7BW125 to SF12BW125
+6. **923.1** - SF7BW125 to SF12BW125
+7. **923.3** - SF7BW125 to SF12BW125
+8. _none_
+
+Downlink:
+
+- Uplink channels 1-7
+- **921.9** - SF12BW125 (RX2 downlink only; SF12BW125 might be changed to SF9BW125)
