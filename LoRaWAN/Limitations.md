@@ -28,4 +28,6 @@ The LoRaWAN **no** list:
 
 ## Sending responses from your Application to your Node (downlink)
 
-The capacity for downlink messages is even lower than for uplink messages, so don't waste it.
+We want to be able to handle as many Nodes as possible per Gateway. But as full-duplex radios are not widely available yet, a Gateway is not able to receive transmissions from Nodes while it is transmitting. Additionally, a Gateway can only transmit at one channel at a time (while it can receive on 8). As a result, the capacity for downlink messages is significantly lower than for uplink messages.
+
+Until gateways are more widely deployed, we therefore encourage you to consider your fellow community members and try finding a solution that doesn't require downlink. If you do use downlink, be as efficient as possible.
