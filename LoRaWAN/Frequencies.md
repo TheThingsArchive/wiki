@@ -27,7 +27,7 @@ Downlink:
 
 ### Frequency Plan
 
-No frequency plan yet. Please make a proposal!
+No frequency plan yet. Submit a proposal!
 
 ## United States 902-928MHz
 
@@ -62,7 +62,7 @@ Downlink:
 
 ### Frequency Plan
 
-No frequency plan yet. Please make a proposal!
+No frequency plan yet. Submit a proposal!
 
 ## Australia 915-928MHz
 
@@ -90,3 +90,23 @@ Downlink:
 6. **926.3** - SF7BW500 to SF12BW500
 7. **926.9** - SF7BW500 to SF12BW500
 8. **927.5** - SF7BW500 to SF12BW500
+
+## Asia 923MHz
+
+Can be used in the following countries:
+
+- Brunei [923-925 MHz]
+- Cambodia [923-925 MHz]
+- Hong Kong [920-925 MHz]
+- Indonesia [923-925 MHz]
+- Japan [920-928 MHz]
+- Laos [923-925 MHz]
+- New Zealand [915-928 MHz]
+- Singapore [920-925 MHz]
+- Taiwan [922-928 MHz]
+- Thailand [920-925 MHz]
+- Vietnam [920-925 MHz]
+
+### Frequency Plan
+
+No frequency plan yet. Submit a proposal!
