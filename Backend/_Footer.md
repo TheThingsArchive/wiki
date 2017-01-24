@@ -12,5 +12,3 @@
 [[Scalability|Backend/Scalability]] |
 [[Security and Privacy|Backend/Security]] |
 [[Service Discovery|Backend/Discovery]]
-
-**[[Croft Migration Guide|Backend/Migrate-From-Croft]]**
