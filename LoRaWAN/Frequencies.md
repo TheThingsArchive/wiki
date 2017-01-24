@@ -25,7 +25,9 @@ Downlink:
 
 ## EU 433MHz
 
-Also used in other parts of the world
+### Frequency Plan
+
+No frequency plan yet. Please make a proposal!
 
 ## United States 902-928MHz
 
@@ -58,8 +60,33 @@ Downlink:
 
 ## China 470-510MHz and 779-787MHz
 
-These are actually only used in China
+### Frequency Plan
+
+No frequency plan yet. Please make a proposal!
 
 ## Australia 915-928MHz
 
-Also used in other parts of the world
+### Frequency Plan
+
+Uplink:
+
+1. **916.8** - SF7BW125 to SF10BW125
+2. **917.0** - SF7BW125 to SF10BW125
+3. **917.2** - SF7BW125 to SF10BW125
+4. **917.4** - SF7BW125 to SF10BW125
+5. **917.6** - SF7BW125 to SF10BW125
+6. **917.8** - SF7BW125 to SF10BW125
+7. **918.0** - SF7BW125 to SF10BW125
+8. **918.2** - SF7BW125 to SF10BW125
+9. **917.5** SF8BW500
+
+Downlink:
+
+1. **923.3** - SF7BW500 to SF12BW500
+2. **923.9** - SF7BW500 to SF12BW500
+3. **924.5** - SF7BW500 to SF12BW500
+4. **925.1** - SF7BW500 to SF12BW500
+5. **925.7** - SF7BW500 to SF12BW500
+6. **926.3** - SF7BW500 to SF12BW500
+7. **926.9** - SF7BW500 to SF12BW500
+8. **927.5** - SF7BW500 to SF12BW500
