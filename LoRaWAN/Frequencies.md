@@ -118,7 +118,7 @@ No frequency plan yet. Submit a proposal!
 Uplink:
 
 1. **922.1** - SF7BW125 to SF12BW125
-2. **922.3** - SF7BW125 to SF12BW125 and SF7BW250
+2. **922.3** - SF7BW125 to SF12BW125
 3. **922.5** - SF7BW125 to SF12BW125
 4. **922.7** - SF7BW125 to SF12BW125
 5. **922.9** - SF7BW125 to SF12BW125
