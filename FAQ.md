@@ -29,5 +29,5 @@ When messages from your ABP device stop arriving in the backend, your device pro
 ## What about all those different versions of the backend?
 
 - `v0`, `croft`, `api/v0` and `api/v0.1` have been discontinued. 
-- `v1`, `staging`, `v1-staging` is the most widely used version, although this version is not considered production-ready.
-- `v2` will be released before the end of 2016, a preview is available as `v2-preview`
+- `v1`, `staging`, `v1-staging` will be discontinued in Q1 2017.
+- `v2` is the current version of the backend.
