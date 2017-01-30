@@ -26,12 +26,13 @@
 
 ## Assembled breakout boards / shields
 
+* [Arduino UNO LoRa Shield v0.1](http://www.benl.ebay.be/itm/292014187013?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1555.l2649)
 * [Dragino LoRa Shield](http://wiki.dragino.com/index.php?title=Lora_Shield)
 * [Froggy Factory LoRa Shield](http://www.froggyfactory.com/froggy/index.php)
 * [SODAQ LoRaBee](http://shop.sodaq.com/en/sodaq-lorabee-rn2483.html)
 * [Adafruit RFM95W Breakout 868 Mhz](https://www.adafruit.com/products/3072)
 * [Adafruit RFM98W Breakout 433 Mhz](https://www.adafruit.com/products/3073)
-* [Arduino UNO LoRa Shield v0.1](http://www.benl.ebay.be/itm/292014187013?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1555.l2649)
+
 
 ## Bare breakout boards
 
