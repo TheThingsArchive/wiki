@@ -14,9 +14,9 @@ The LoRaWAN **yes** list:
 The LoRaWAN **no** list:
 
 * **Live sensordata** - you can only send small packets every ±5 minutes
-* **Phone calls**
-* **Controlling lights in your house**
-* **Sending photos, watching Netflix**
+* **Phone calls** - you can do that with GPRS/3G/LTE
+* **Controlling lights in your house** - look into ZigBee or BlueTooth
+* **Sending photos, watching Netflix** - you might want to check out this technology called WiFi
 * **Geolocation / Triangulation** - use GPS or wait a couple of years until LoRaWAN can do it
 
 ## Sending data from a Node to your Application (uplink)
