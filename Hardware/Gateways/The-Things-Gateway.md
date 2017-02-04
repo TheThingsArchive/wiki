@@ -2,7 +2,7 @@
 
 [[/uploads/The-Things-Gateway.jpg]]
 
-**Price:** 225 euro  
+**Price:** 300 euro  
 **Availability:** [online](http://shop.thethingsnetwork.com/)  
 **Capacity:** 8 band
 Suitable for indoor use  
