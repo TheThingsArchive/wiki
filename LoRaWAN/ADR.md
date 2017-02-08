@@ -1,6 +1,6 @@
 # Adaptive Data Rate
 
-Adaptive Data Rate (ADR) is a mechanism for optimizing data rates, airtime and energy consumption in the network. Only static nodes should use ADR. ADR can also be used by mobile nodes that is able to detect when it is "parked" on a fixed spot. Nodes decide if ADR should be used or not, not the application or the network.
+Adaptive Data Rate (ADR) is a mechanism for optimizing data rates, airtime and energy consumption in the network. Only static nodes should use ADR. ADR can also be used by a mobile node that is able to detect when it is "parked" on a fixed spot. Nodes decide if ADR should be used or not, not the application or the network.
 
 From the moment a node indicates that it wants to use ADR, the network will collect metrics of the 20 most recent transmissions from the node. This history contains the frame counter, signal-to-noise ratio (SNR) and number of gateways that received each transmission.
 
