@@ -1,1 +1,0 @@
-test del primo gateway raspberry
