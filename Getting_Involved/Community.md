@@ -39,7 +39,7 @@ Once your community becomes [official](https://www.thethingsnetwork.org/article/
 
 ## Communication
 
-Communication is the most important thing in a community. Existing communities use [Facebook](https://www.facebook.com/), [forums](http://forum.thethingsnetwork.org/c/regions), [mailing lists](https://groups.google.com/). Probably the easiest way is to join the official [The Things Network Community Slack](http://slack.thethingsnetwork.org/) and create dedicated channels (chat rooms) for your community.
+Communication is the most important thing in a community. Existing communities use [Facebook](https://www.facebook.com/), [forums](http://forum.thethingsnetwork.org/c/regions), [mailing lists](https://groups.google.com/). Probably the easiest way is to [Request an Invite](https://account.thethingsnetwork.com/) to join the official [The Things Network Community Slack](http://thethingsnetwork.slack.com/) and create dedicated channels (chat rooms) for your community.
 
 ## Getting Together
 
