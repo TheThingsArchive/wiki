@@ -95,21 +95,21 @@ Downlink:
 
 Can be used in the following countries:
 
-- Brunei [923-925 MHz]
-- Cambodia [923-925 MHz]
-- Hong Kong [920-925 MHz]
-- Indonesia [923-925 MHz]
-- Japan [920-928 MHz]
-- Laos [923-925 MHz]
-- New Zealand [915-928 MHz]
-- Singapore [920-925 MHz]
-- Taiwan [922-928 MHz]
-- Thailand [920-925 MHz]
-- Vietnam [920-925 MHz]
+- Brunei
+- Cambodia
+- Hong Kong
+- Indonesia
+- Japan
+- Laos
+- New Zealand
+- Singapore
+- Taiwan
+- Thailand
+- Vietnam
 
 ### Frequency Plan
 
-No frequency plan yet. Submit a proposal!
+The frequency plans for these countries are currently being specified. Follow the discussion in issue [489](https://github.com/TheThingsNetwork/ttn/issues/489) and [491](https://github.com/TheThingsNetwork/ttn/issues/491) on Github.
 
 ## South Korea 920-923 MHz
 
