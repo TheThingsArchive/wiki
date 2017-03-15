@@ -1,1 +1,0 @@
-Hoop dat, dit beter, werkt dan, waardeloos Ziggo!!!!!!!!!? !
