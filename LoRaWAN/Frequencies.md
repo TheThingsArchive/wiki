@@ -93,23 +93,37 @@ Downlink:
 
 ## Asia 923 MHz
 
-Can be used in the following countries:
+We use two frequency plans, depending on the country. OTAA devices use two common channels: 923.2+923.4 and will receive the additional channels on successful join.
 
-- Brunei
-- Cambodia
-- Hong Kong
-- Indonesia
-- Japan
-- Laos
-- New Zealand
-- Singapore
-- Taiwan
-- Thailand
-- Vietnam
+### Frequency Plan AS920-923
 
-### Frequency Plan
+Used in Japan, Malaysia, Singapore, Thailand (South)
 
-The frequency plans for these countries are currently being specified. Follow the discussion in issue [489](https://github.com/TheThingsNetwork/ttn/issues/489) and [491](https://github.com/TheThingsNetwork/ttn/issues/491) on Github.
+1. **923.2** - SF7BW125 to SF12BW125
+2. **923.4** - SF7BW125 to SF12BW125
+3. **922.2** - SF7BW125 to SF12BW125
+4. **922.4** - SF7BW125 to SF12BW125
+5. **922.6** - SF7BW125 to SF12BW125
+6. **922.8** - SF7BW125 to SF12BW125
+7. **923.0** - SF7BW125 to SF12BW125
+8. **922.0** - SF7BW125 to SF12BW125
+9. **922.1** - SF7BW250
+10. **921.8** - FSK
+
+### Frequency Plan AS923-925
+
+Used in Brunei, Cambodia, Hong Kong, Indonesia, Laos, New Zealand, Taiwan, Thailand (North), Vietnam
+
+1. **923.2** - SF7BW125 to SF12BW125
+2. **923.4** - SF7BW125 to SF12BW125
+3. **923.6** - SF7BW125 to SF12BW125
+4. **923.8** - SF7BW125 to SF12BW125
+5. **924.0** - SF7BW125 to SF12BW125
+6. **924.2** - SF7BW125 to SF12BW125
+7. **924.4** - SF7BW125 to SF12BW125
+8. **924.6** - SF7BW125 to SF12BW125
+9. **924.5** - SF7BW250
+10. **924.8** - FSK
 
 ## South Korea 920-923 MHz
 
