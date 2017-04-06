@@ -20,7 +20,7 @@ _Could also be used in India and large parts of Africa_
 
 Downlink:
 
-- Uplink channels 1-8
+- Uplink channels 1-9 (RX1)
 - **869.525** - SF9BW125 (RX2 downlink only)
 
 ## EU 433MHz
@@ -99,6 +99,8 @@ We use two frequency plans, depending on the country. OTAA devices use two commo
 
 Used in Japan, Malaysia, Singapore, Thailand (South)
 
+Uplink:
+
 1. **923.2** - SF7BW125 to SF12BW125
 2. **923.4** - SF7BW125 to SF12BW125
 3. **922.2** - SF7BW125 to SF12BW125
@@ -110,9 +112,16 @@ Used in Japan, Malaysia, Singapore, Thailand (South)
 9. **922.1** - SF7BW250
 10. **921.8** - FSK
 
+Downlink:
+
+- Uplink channels 1-10 (RX1)
+- **923.2** - SF10BW125 (RX2)
+
 ### Frequency Plan AS923-925
 
 Used in Brunei, Cambodia, Hong Kong, Indonesia, Laos, New Zealand, Taiwan, Thailand (North), Vietnam
+
+Uplink:
 
 1. **923.2** - SF7BW125 to SF12BW125
 2. **923.4** - SF7BW125 to SF12BW125
@@ -124,6 +133,11 @@ Used in Brunei, Cambodia, Hong Kong, Indonesia, Laos, New Zealand, Taiwan, Thail
 8. **924.6** - SF7BW125 to SF12BW125
 9. **924.5** - SF7BW250
 10. **924.8** - FSK
+
+Downlink:
+
+- Uplink channels 1-10 (RX1)
+- **923.2** - SF10BW125 (RX2)
 
 ## South Korea 920-923 MHz
 
