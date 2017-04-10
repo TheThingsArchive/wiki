@@ -10,7 +10,7 @@ There are two options for the communication chip:
 * [Outdoor setup](http://www.meiland.nl/2015/12/outdoor-lora-gateway/)
 
 ## Single-channel forwarders (SX127x)
-* [TTN-compatible semi-LoRaWAN @tftelkamp](https://github.com/tftelkamp/single_chan_pkt_fwd)
-* [DIY lora forwarder](http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html) (not LoRaWAN/TTN compatible)
-* [http://www.daveakerman.com/?p=1719](http://www.daveakerman.com/?p=1719) (not LoRaWAN/TTN compatible)
-* [TTN-compatible ESP8266 Single Channel Gateway](https://github.com/JaapBraam/LoRaWanGateway) (all SF, up&downlink, OTAA)
+* [semi-LoRaWAN @tftelkamp](https://github.com/tftelkamp/single_chan_pkt_fwd) (not LoRaWAN compliant, but works partly on TTN)
+* [DIY lora forwarder](http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html) (not LoRaWAN compliant)
+* [http://www.daveakerman.com/?p=1719](http://www.daveakerman.com/?p=1719) (not LoRaWAN compliant)
+* [TTN-compatible ESP8266 Single Channel Gateway](https://github.com/JaapBraam/LoRaWanGateway) (not LoRaWAN compliant, but listens on all SF, has support for up&downlink, works on TTN)
