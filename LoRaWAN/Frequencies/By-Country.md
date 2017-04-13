@@ -235,7 +235,7 @@
 | Slovenia
 | Solomon Islands
 | Somalia
-| South Africa
+| South Africa | EU 863-870MHz<br />EU 433MHz | [The Radio Frequency Spectrum Regulations 2015](http://www.amateurradio.org.za/Government%20Gazzette%2038641_30-3_IcasaCV01%20-%20Radio%20Frequency%20Spectrum%20Regulations%202015%20(2).pdf) | 
 | South Korea
 | South Sudan
 | Spain
