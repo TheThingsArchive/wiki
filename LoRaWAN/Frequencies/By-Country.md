@@ -1,5 +1,7 @@
 # Frequency plan and regulations by country.
 
+This document is only a summary of radio regulations, and the appropriate frequency plans that should be used for TTN in the respective countries. **This is in no way an official document and the user is still obliged to find, study and adhere to his own country's regulations.**
+
 ### A
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
