@@ -4,16 +4,16 @@
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Afghanistan | | |
-| Albania | | |
+| Albania | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Algeria | | |
-| Andorra | | |
+| Andorra | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Angola | | |
 | Antigua and Barbuda | | |
 | Argentina | | |
 | Armenia | | |
 | Australia | | |
-| Austria | | |
-| Azerbaijan | | |
+| Austria | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| Azerbaijan | unknown, no CEPT | CEPT Rec. 70-03 |
 
 ### B
 | Country | Frequency Plan | Regulatory document |
@@ -22,17 +22,17 @@
 | Bahrain
 | Bangladesh
 | Barbados
-| Belarus
-| Belgium
+| Belarus | unknown, limited CEPT | CEPT Rec. 70-03 |
+| Belgium | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Belize
 | Benin
 | Bhutan
 | Bolivia
-| Bosnia and Herzegovina
+| Bosnia and Herzegovina | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Botswana
 | Brazil
 | Brunei
-| Bulgaria
+| Bulgaria | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Burkina Faso
 | Burundi
 
@@ -53,15 +53,15 @@
 | Republic of the Congo
 | Costa Rica
 | Cote d'Ivoire
-| Croatia
+| Croatia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Cuba
-| Cyprus
-| Czech Republic
+| Cyprus | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| Czech Republic | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 
 ### D
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Denmark
+| Denmark | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Djibouti
 | Dominica
 | Dominican Republic
@@ -74,25 +74,25 @@
 | El Salvador
 | Equatorial Guinea
 | Eritrea
-| Estonia
+| Estonia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Ethiopia
 
 ### F
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Fiji
-| Finland
-| France
+| Finland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| France | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 
 ### G
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Gabon
 | Gambia
-| Georgia
-| Germany
+| Georgia | unknown, limited CEPT | CEPT Rec. 70-03 |
+| Germany | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Ghana
-| Greece
+| Greece | unknown, limited CEPT | CEPT Rec. 70-03 |
 | Grenada
 | Guatemala
 | Guinea
@@ -104,19 +104,19 @@
 | --- | --- | --- |
 | Haiti
 | Honduras
-| Hungary
+| Hungary | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 
 ### I
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Iceland
+| Iceland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | India
 | Indonesia
 | Iran
 | Iraq
-| Ireland
+| Ireland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Israel
-| Italy
+| Italy | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 
 ### J
 | Country | Frequency Plan | Regulatory document |
@@ -139,34 +139,34 @@
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Laos
-| Latvia
+| Latvia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Lebanon
 | Lesotho
 | Liberia
 | Libya
-| Liechtenstein
-| Lithuania
-| Luxembourg
+| Liechtenstein | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| Lithuania | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| Luxembourg | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 
 ### M
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Macedonia (FYROM)
+| Macedonia (FYROM) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Madagascar
 | Malawi
 | Malaysia
 | Maldives
 | Mali
-| Malta
+| Malta | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Marshall Islands
 | Mauritania
 | Mauritius
 | Mexico
 | Micronesia
-| Moldova
+| Moldova | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Monaco
 | Mongolia
-| Montenegro
+| Montenegro | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Morocco
 | Mozambique
 | Myanmar (Burma)
@@ -177,13 +177,13 @@
 | Namibia
 | Nauru
 | Nepal
-| Netherlands | EU 863-870MHz<br />EU 433MHz | [Regeling gebruik van frequentieruimte zonder vergunning en zonder meldingsplicht 2015](http://wetten.overheid.nl/BWBR0036378/2015-03-05) |
+| Netherlands | EU 863-870MHz<br />EU 433MHz | [Regeling gebruik van frequentieruimte zonder vergunning en zonder meldingsplicht 2015](http://wetten.overheid.nl/BWBR0036378/2015-03-05), CEPT Rec. 70-03 |
 | New Zealand
 | Nicaragua
 | Niger
 | Nigeria
 | North Korea
-| Norway
+| Norway | unknown, limited CEPT | CEPT Rec. 70-03 |
 
 ### O
 | Country | Frequency Plan | Regulatory document |
@@ -201,8 +201,8 @@
 | Paraguay
 | Peru
 | Philippines
-| Poland
-| Portugal
+| Poland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| Portugal | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 
 ### Q
 | Country | Frequency Plan | Regulatory document |
@@ -212,8 +212,8 @@
 ### R
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Romania
-| Russia
+| Romania | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| Russia | unknown, limited CEPT | CEPT Rec. 70-03 |
 | Rwanda
 
 ### S
@@ -227,24 +227,24 @@
 | Sao Tome and Principe
 | Saudi Arabia
 | Senegal
-| Serbia
+| Serbia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Seychelles
 | Sierra Leone
 | Singapore
-| Slovakia
-| Slovenia
+| Slovakia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| Slovenia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Solomon Islands
 | Somalia
 | South Africa | EU 863-870MHz<br />EU 433MHz | [The Radio Frequency Spectrum Regulations 2015](http://www.amateurradio.org.za/Government%20Gazzette%2038641_30-3_IcasaCV01%20-%20Radio%20Frequency%20Spectrum%20Regulations%202015%20(2).pdf) | 
 | South Korea
 | South Sudan
-| Spain
+| Spain | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Sri Lanka
 | Sudan
 | Suriname
 | Swaziland
-| Sweden
-| Switzerland
+| Sweden | EU 433MHz (CEPT 868MHz not implemented) | CEPT Rec. 70-03 |
+| Switzerland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Syria
 
 ### T
@@ -259,7 +259,7 @@
 | Tonga
 | Trinidad and Tobago
 | Tunisia
-| Turkey
+| Turkey | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Turkmenistan
 | Tuvalu
 
@@ -267,9 +267,9 @@
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Uganda
-| Ukraine
+| Ukraine | unknown, limited CEPT | CEPT Rec. 70-03 |
 | United Arab Emirates (UAE)
-| United Kingdom (UK)
+| United Kingdom (UK) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | United States of America (USA)
 | Uruguay
 | Uzbekistan
