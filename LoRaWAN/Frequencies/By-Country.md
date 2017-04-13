@@ -11,9 +11,9 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Andorra | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Angola | | |
 | Antigua and Barbuda | | |
-| Argentina | | |
+| Argentina | United States 902-928MHz | |
 | Armenia | | |
-| Australia | | |
+| Australia | Australia 915-928MHz | |
 | Austria | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Azerbaijan | unknown, no CEPT | CEPT Rec. 70-03 |
 
@@ -29,11 +29,11 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Belize
 | Benin
 | Bhutan
-| Bolivia
+| Bolivia | United States 902-928MHz | |
 | Bosnia and Herzegovina | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Botswana
 | Brazil
-| Brunei
+| Brunei | Frequency Plan AS923-925 | |
 | Bulgaria | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Burkina Faso
 | Burundi
@@ -42,14 +42,14 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Cabo Verde
-| Cambodia
+| Cambodia | Frequency Plan AS923-925 | |
 | Cameroon
-| Canada
+| Canada | United States 902-928MHz | |
 | Central African Republic (CAR)
 | Chad
-| Chile
+| Chile | United States 902-928MHz | |
 | China
-| Colombia
+| Colombia | United States 902-928MHz | |
 | Comoros
 | Democratic Republic of the Congo
 | Republic of the Congo
@@ -71,7 +71,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 ### E
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Ecuador
+| Ecuador | United States 902-928MHz | |
 | Egypt
 | El Salvador
 | Equatorial Guinea
@@ -99,13 +99,14 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Guatemala
 | Guinea
 | Guinea-Bissau
-| Guyana
+| Guyana | United States 902-928MHz | |
 
 ### H
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Haiti
 | Honduras
+| Hong Kong (different than China) | Frequency Plan AS923-925 | |
 | Hungary | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 
 ### I
@@ -113,7 +114,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Iceland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | India
-| Indonesia
+| Indonesia | Frequency Plan AS923-925 | |
 | Iran
 | Iraq
 | Ireland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
@@ -124,7 +125,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Jamaica
-| Japan
+| Japan | Frequency Plan AS920-923 | |
 | Jordan
 
 ### K
@@ -140,7 +141,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 ### L
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Laos
+| Laos | Frequency Plan AS923-925 | |
 | Latvia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Lebanon
 | Lesotho
@@ -156,7 +157,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Macedonia (FYROM) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Madagascar
 | Malawi
-| Malaysia
+| Malaysia | Frequency Plan AS920-923 | |
 | Maldives
 | Mali
 | Malta | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
@@ -180,7 +181,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Nauru
 | Nepal
 | Netherlands | EU 863-870MHz<br />EU 433MHz | [Regeling gebruik van frequentieruimte zonder vergunning en zonder meldingsplicht 2015](http://wetten.overheid.nl/BWBR0036378/2015-03-05), CEPT Rec. 70-03 |
-| New Zealand
+| New Zealand | Frequency Plan AS923-925 | |
 | Nicaragua
 | Niger
 | Nigeria
@@ -200,8 +201,8 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Palestine
 | Panama
 | Papua New Guinea
-| Paraguay
-| Peru
+| Paraguay | United States 902-928MHz | |
+| Peru | United States 902-928MHz | |
 | Philippines
 | Poland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Portugal | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
@@ -232,18 +233,18 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Serbia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Seychelles
 | Sierra Leone
-| Singapore
+| Singapore | Frequency Plan AS920-923 | |
 | Slovakia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Slovenia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Solomon Islands
 | Somalia
 | South Africa | EU 863-870MHz<br />EU 433MHz | [The Radio Frequency Spectrum Regulations 2015](http://www.amateurradio.org.za/Government%20Gazzette%2038641_30-3_IcasaCV01%20-%20Radio%20Frequency%20Spectrum%20Regulations%202015%20(2).pdf), follows CEPT Rec. 70-03 | 
-| South Korea
+| South Korea | South Korea 920-923 MHz | |
 | South Sudan
 | Spain | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Sri Lanka
 | Sudan
-| Suriname
+| Suriname | United States 902-928MHz | |
 | Swaziland
 | Sweden | EU 433MHz (CEPT 868MHz not implemented) | CEPT Rec. 70-03 |
 | Switzerland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
@@ -252,10 +253,10 @@ This document is only a summary of radio regulations, and the appropriate freque
 ### T
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Taiwan
+| Taiwan | Frequency Plan AS923-925 | |
 | Tajikistan
 | Tanzania
-| Thailand
+| Thailand | North: Frequency Plan AS923-925<br />South: Frequency Plan AS920-923 | |
 | Timor-Leste
 | Togo
 | Tonga
@@ -272,8 +273,8 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Ukraine | unknown, limited CEPT | CEPT Rec. 70-03 |
 | United Arab Emirates (UAE)
 | United Kingdom (UK) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| United States of America (USA)
-| Uruguay
+| United States of America (USA) | United States 902-928MHz | |
+| Uruguay | United States 902-928MHz | |
 | Uzbekistan
 
 ### V
@@ -281,8 +282,8 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Vanuatu
 | Vatican City (Holy See)
-| Venezuela
-| Vietnam
+| Venezuela | United States 902-928MHz | |
+| Vietnam | Frequency Plan AS923-925 | |
 
 ### Y
 | Country | Frequency Plan | Regulatory document |
