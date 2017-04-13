@@ -177,7 +177,7 @@
 | Namibia
 | Nauru
 | Nepal
-| Netherlands
+| Netherlands | EU 863-870MHz<br />EU 433MHz | [Regeling gebruik van frequentieruimte zonder vergunning en zonder meldingsplicht 2015](http://wetten.overheid.nl/BWBR0036378/2015-03-05) |
 | New Zealand
 | Nicaragua
 | Niger
@@ -293,4 +293,14 @@
 | Zambia   | | |
 | Zimbabwe | | |
 
-Source: https://www.countries-ofthe-world.com/all-countries.html
+Country list source: https://www.countries-ofthe-world.com/all-countries.html
+
+## CEPT Recommendation 70-03
+
+http://www.erodocdb.dk/docs/doc98/official/pdf/rec7003e.pdf
+
+Already implemented in: Albania, Andorra, Austria, Belgium, Bosnia & Herzegovina, Bulgaria, Cyprus, Czech Republic, Germany, Denmark, Spain, Estonia, France, Finland, United Kingdom, Hungary, Netherlands, Croatia, Italy, Ireland, Iceland, Liechtenstein, Lithuania, Luxembourg, Latvia, Moldova, Former Yugoslav Republic of Macedonia, Malta, Montenegro, Poland, Portugal, Romania, Sweden(433), Serbia, Switzerland, Slovak Republic, Slovenia, Turkey
+
+Limited implementation: Belarus, Georgia(433), Greece, Norway, Russian Federation, Ukrain
+
+Not implemented in: Azerbaijan, Georgia(868), Sweden(868)
