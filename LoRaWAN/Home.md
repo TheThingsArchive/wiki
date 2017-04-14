@@ -67,7 +67,7 @@ The European frequency regulations impose specific duty-cycles on devices for ea
 In the United States, LoRaWAN operates in the 902-928 MHz frequency band. Unlike the European band, the US band has dedicated uplink and downlink channels. The band is divided into 8 sub-bands that each have 8x125 kHz uplink channels, 1x500 kHz uplink channel and 1x500 kHz downlink channel.
 
 #### Australia 915-928 MHz
-The specification of the Australian 915-928 MHz band is practically the same as the US 902- 928 MHz, except that its uplink frequencies are on higher frequencies than in the US band. Its downlink channels are the same as in the US 868 MHz band.
+The specification of the Australian 915-928 MHz band is practically the same as the US 902-928 MHz, except that its uplink frequencies are on higher frequencies than in the US band. Its downlink channels are the same as in the US 902-928 MHz band.
 
 #### China 779-787 MHz and 470-510 MHz
 The Chinese 779-787 MHz band behaves similar to the European bands. The 779-787 MHz band also has three common 125 kHz channels (779.5, 779.7 and 779.9 MHz). The Chinese 470-510 MHz band behaves similar to the US bands. There are 96 uplink channels and 48 downlink channels. In some regions, a subset of these channels is used by China Electric Power and can therefore not be used for LoRaWAN.
