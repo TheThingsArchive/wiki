@@ -300,7 +300,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 
 Country list source: https://www.countries-ofthe-world.com/all-countries.html
 
-## CEPT Recommendation 70-03
+## CEPT/ERC Recommendation 70-03 relating to the use of short range devices (SRD)
 
 http://www.erodocdb.dk/docs/doc98/official/pdf/rec7003e.pdf
 
