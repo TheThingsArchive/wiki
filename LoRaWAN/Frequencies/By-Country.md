@@ -145,8 +145,8 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Laos | Frequency Plan AS923-925 | |
 | Latvia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Lebanon
-| Lesotho
+| Lebanon 
+| Lesotho | EU 863-870MHz<br />EU 433MHz | [Radio Spectrum Management Guidelines and Procedures 2014](http://www.lca.org.ls/images/documents/Radio%20Spectrum%20Management%20Guidelines%20and%20Procedures_2014.pdf)
 | Liberia
 | Libya
 | Liechtenstein | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
