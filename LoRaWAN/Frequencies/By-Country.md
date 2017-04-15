@@ -310,10 +310,12 @@ Limited implementation: Belarus, Georgia(433), Greece, Norway, Russian Federatio
 
 Not implemented in: Azerbaijan, Georgia(868), Sweden(868)
 
-## CRASA
+## Communications Regulators' Association of Southern Africa (CRASA)
 
-CRASA implemented CEPT Rec. 70-03:
-http://www.crasa.org/common_up/crasa-setup/06-07-2015_FRAME%20WORK%20FOR%20HARMONISATION%20FREQUENICES%20FOR%20SHORT%20RANGE%20DEVICES%20%20OF%20%20SHORT%20RANGE%20DEVICES%20%20(SRDs)%20-%20ANNEXURE%20A.pdf
+### CRASA implemented CEPT Rec. 70-03
+[CRASA Harmonised Frequency Bands For SRD Applications](http://www.crasa.org/common_up/crasa-setup/06-07-2015_FRAME%20WORK%20FOR%20HARMONISATION%20FREQUENICES%20FOR%20SHORT%20RANGE%20DEVICES%20%20OF%20%20SHORT%20RANGE%20DEVICES%20%20(SRDs)%20-%20ANNEXURE%20A.pdf)
 
-Countries:
+### Countries
 Angola, Botswana, Democratic Republic of Congo, Lesotho, Malawi, Mauritius, Mozambique, South Africa, Namibia, Swaziland, Tanzania, Zambia, Zimbabwe.
+
+Even though there is an overlap between the Southern African Development Community (SADC) and CRASA, the Seychelles and Madagascar are not members of CRASA.
