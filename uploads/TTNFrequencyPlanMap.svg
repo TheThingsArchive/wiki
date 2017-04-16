@@ -154,7 +154,12 @@
  * }
  *
  */
-EU868, .al, .ad, .at, .be, .ba, .bg, .hr, .cy, .cz, .dk, .ee, .fi, .fr, .de, .hu, .is, .ir, .it, .lv, .li, .lt, .lu, .mk, .mt, .md, .me, .nl, .pl, .pt, .ro, .rs, .sk, .si, .za, .es, .se, .ch, .tr, .gb
+EU868, .al, .ad, .at, .be, .ba, .bg, .hr, .cy, .cz, .dk, .ee, .fi, .fr, .de, .hu, .is, .ir, .it, .lv, .li, .lt, .lu, .mk, .mt, .md, .me, .nl, .pl, .pt, .ro, .rs, .sk, .si, .es, .se, .ch, .tr, .gb
+{
+  fill: #386cb0
+}
+
+CRASA, .ao, .bw, .cd, .ls, .mw, .mu, .mz, .za, .na, .sz, .tz, .zm, .zw
 {
   fill: #386cb0
 }
@@ -171,12 +176,12 @@ CHINA, .cn
 
 AUSTRALIA, .au
 {
-  fill: #fdc086
+  fill: #bf5b17
 }
 
 ASIAlow, .jp, .my, .sg
 {
-  fill: #bf5b17
+  fill: #fdc086
 }
 
 ASIAhigh, .bn, .kh, .hk, .id, .la, .nz, .tw, .vn
