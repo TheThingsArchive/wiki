@@ -230,7 +230,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Samoa
 | San Marino
 | Sao Tome and Principe
-| Saudi Arabia
+| Saudi Arabia | EU 863-870MHz<br />EU 433MHz | http://www.citc.gov.sa/en/RulesandSystems/RegulatoryDocuments/FrequencySpectrum/Documents/SM%20002%20E-NFP.pdf |
 | Senegal
 | Serbia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Seychelles
@@ -273,7 +273,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Uganda
 | Ukraine | unknown, limited CEPT | CEPT Rec. 70-03 |
-| United Arab Emirates (UAE)
+| United Arab Emirates (UAE) | EU 863-870MHz<br />EU 433MHz | https://www.tra.gov.ae/assets/YXsb1a9i.pdf.aspx |
 | United Kingdom (UK) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | United States of America (USA) | United States 902-928MHz | |
 | Uruguay | United States 902-928MHz | |
