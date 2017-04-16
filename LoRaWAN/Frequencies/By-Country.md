@@ -34,7 +34,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Bolivia | United States 902-928MHz | |
 | Bosnia and Herzegovina | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Botswana | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
-| Brazil
+| Brazil | United States 902-928MHz | [National Telecommunications Agency (ANATEL) Resolution No. 506, from July 1, 2008](http://www.americascompliance.com/wp-content/uploads/2011/08/506-English_1.pdf), Article 40 VI |
 | Brunei | Frequency Plan AS923-925 | |
 | Bulgaria | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Burkina Faso
