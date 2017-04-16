@@ -2,6 +2,8 @@
 
 This document is only a summary of radio regulations, and the appropriate frequency plans that should be used for TTN in the respective countries. **This is in no way an official document and the user is still obliged to find, study and adhere to his own country's regulations.**
 
+![Map of frequency plans](/wiki/uploads/TTNFreuencyPlanMap.svg)
+
 ### A
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
@@ -9,7 +11,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Albania | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Algeria | | |
 | Andorra | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Angola | | |
+| Angola | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Antigua and Barbuda | | |
 | Argentina | United States 902-928MHz | |
 | Armenia | | |
@@ -31,7 +33,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Bhutan
 | Bolivia | United States 902-928MHz | |
 | Bosnia and Herzegovina | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Botswana
+| Botswana | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Brazil
 | Brunei | Frequency Plan AS923-925 | |
 | Bulgaria | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
@@ -51,7 +53,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | China
 | Colombia | United States 902-928MHz | |
 | Comoros
-| Democratic Republic of the Congo
+| Democratic Republic of the Congo | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Republic of the Congo
 | Costa Rica
 | Cote d'Ivoire
@@ -143,8 +145,8 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Laos | Frequency Plan AS923-925 | |
 | Latvia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Lebanon
-| Lesotho
+| Lebanon 
+| Lesotho | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03, [Radio Spectrum Management Guidelines and Procedures 2014](http://www.lca.org.ls/images/documents/Radio%20Spectrum%20Management%20Guidelines%20and%20Procedures_2014.pdf)
 | Liberia
 | Libya
 | Liechtenstein | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
@@ -156,14 +158,14 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Macedonia (FYROM) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Madagascar
-| Malawi
+| Malawi | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Malaysia | Frequency Plan AS920-923 | |
 | Maldives
 | Mali
 | Malta | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Marshall Islands
 | Mauritania
-| Mauritius
+| Mauritius | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Mexico
 | Micronesia
 | Moldova | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
@@ -171,13 +173,13 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Mongolia
 | Montenegro | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Morocco
-| Mozambique
+| Mozambique | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Myanmar (Burma)
 
 ### N
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Namibia
+| Namibia | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Nauru
 | Nepal
 | Netherlands | EU 863-870MHz<br />EU 433MHz | [Regeling gebruik van frequentieruimte zonder vergunning en zonder meldingsplicht 2015](http://wetten.overheid.nl/BWBR0036378/2015-03-05), CEPT Rec. 70-03 |
@@ -238,14 +240,14 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Slovenia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Solomon Islands
 | Somalia
-| South Africa | EU 863-870MHz<br />EU 433MHz | [The Radio Frequency Spectrum Regulations 2015](http://www.amateurradio.org.za/Government%20Gazzette%2038641_30-3_IcasaCV01%20-%20Radio%20Frequency%20Spectrum%20Regulations%202015%20(2).pdf), follows CEPT Rec. 70-03 | 
+| South Africa | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03, [The Radio Frequency Spectrum Regulations 2015](http://www.amateurradio.org.za/Government%20Gazzette%2038641_30-3_IcasaCV01%20-%20Radio%20Frequency%20Spectrum%20Regulations%202015%20(2).pdf) | 
 | South Korea | South Korea 920-923 MHz | |
 | South Sudan
 | Spain | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Sri Lanka
 | Sudan
 | Suriname | United States 902-928MHz | |
-| Swaziland
+| Swaziland | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Sweden | EU 433MHz (CEPT 868MHz not implemented) | CEPT Rec. 70-03 |
 | Switzerland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Syria
@@ -255,7 +257,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Taiwan | Frequency Plan AS923-925 | |
 | Tajikistan
-| Tanzania
+| Tanzania | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Thailand | North: Frequency Plan AS923-925<br />South: Frequency Plan AS920-923 | |
 | Timor-Leste
 | Togo
@@ -293,12 +295,12 @@ This document is only a summary of radio regulations, and the appropriate freque
 ### Z
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Zambia   | | |
-| Zimbabwe | | |
+| Zambia | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
+| Zimbabwe | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 
 Country list source: https://www.countries-ofthe-world.com/all-countries.html
 
-## CEPT Recommendation 70-03
+## CEPT/ERC Recommendation 70-03 relating to the use of short range devices (SRD)
 
 http://www.erodocdb.dk/docs/doc98/official/pdf/rec7003e.pdf
 
@@ -307,3 +309,13 @@ Already implemented in: Albania, Andorra, Austria, Belgium, Bosnia & Herzegovina
 Limited implementation: Belarus, Georgia(433), Greece, Norway, Russian Federation, Ukrain
 
 Not implemented in: Azerbaijan, Georgia(868), Sweden(868)
+
+## Communications Regulators' Association of Southern Africa (CRASA)
+
+### CRASA implemented CEPT Rec. 70-03
+[CRASA Harmonised Frequency Bands For SRD Applications](http://www.crasa.org/common_up/crasa-setup/06-07-2015_FRAME%20WORK%20FOR%20HARMONISATION%20FREQUENICES%20FOR%20SHORT%20RANGE%20DEVICES%20%20OF%20%20SHORT%20RANGE%20DEVICES%20%20(SRDs)%20-%20ANNEXURE%20A.pdf)
+
+### Countries
+Angola, Botswana, Democratic Republic of Congo, Lesotho, Malawi, Mauritius, Mozambique, South Africa, Namibia, Swaziland, Tanzania, Zambia, Zimbabwe.
+
+Even though there is an overlap between the Southern African Development Community (SADC) and CRASA, the Seychelles and Madagascar are not members of CRASA.
