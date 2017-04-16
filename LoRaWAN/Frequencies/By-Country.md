@@ -218,7 +218,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Romania | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Russia | unknown, limited CEPT | CEPT Rec. 70-03 |
+| Russia | EU 863-870MHz | CEPT Rec. 70-03, http://minsvyaz.ru/ru/documents/4039/, Appendix 10 |
 | Rwanda
 
 ### S
