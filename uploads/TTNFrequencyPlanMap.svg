@@ -166,7 +166,7 @@ CRASA, .ao, .bw, .cd, .ls, .mw, .mu, .mz, .za, .na, .sz, .tz, .zm, .zw
 
 US923, .us, .ca, .ar, .bo, .cl, .co, .ec, .gy, .py, .pe, .sr, .uy, .ve, .gf
 {
-  fill: #7fc97f
+  fill: #fdc086
 }
 
 CHINA, .cn
@@ -181,12 +181,12 @@ AUSTRALIA, .au
 
 ASIAlow, .jp, .my, .sg
 {
-  fill: #fdc086
+  fill: #f0027f
 }
 
 ASIAhigh, .bn, .kh, .hk, .id, .la, .nz, .tw, .vn
 {
-  fill: #f0027f
+  fill: #7fc97f
 }
 
 SouthKorea
