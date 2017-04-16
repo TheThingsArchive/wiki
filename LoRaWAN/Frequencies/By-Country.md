@@ -115,7 +115,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Iceland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| India
+| India |  EU 863-870MHz | [Use of low power wireless equipments in the frequency band 865-867MHz for RFID](http://www.wpc.gov.in/WriteReadData/userfiles/file/RFID%20Delicensing.doc)
 | Indonesia | Frequency Plan AS923-925 | |
 | Iran
 | Iraq
