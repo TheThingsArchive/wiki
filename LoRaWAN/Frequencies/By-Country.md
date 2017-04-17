@@ -23,7 +23,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Bahamas
-| Bahrain
+| Bahrain | EU 863-870MHz<br />EU 433MHz | [Kingdom Of Bahrain National Frequency Plan](http://www.tra.org.bh/media/document/The%202009%20National%20Frequency%20Plan.pdf) |
 | Bangladesh
 | Barbados
 | Belarus | unknown, limited CEPT | CEPT Rec. 70-03 |
