@@ -9,21 +9,21 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Afghanistan | | |
 | Albania | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Algeria | | |
+| Algeria | | [CONDITIONS D’UTILISATION DES EQUIPEMENTS D’IDENTIFICATION PAR RADIOFREQUENCES - RFID](http://www.anf.dz/pdf/caf/RFID.pdf) |
 | Andorra | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Angola | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Antigua and Barbuda | | |
 | Argentina | United States 902-928MHz | |
-| Armenia | | |
+| Armenia | | EN 302 208  |
 | Australia | Australia 915-928MHz | |
 | Austria | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Azerbaijan | unknown, no CEPT | CEPT Rec. 70-03 |
+| Azerbaijan | unknown, no CEPT | EN 302 208, CEPT Rec. 70-03 |
 
 ### B
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Bahamas
-| Bahrain
+| Bahrain | EU 863-870MHz<br />EU 433MHz | [Kingdom Of Bahrain National Frequency Plan](http://www.tra.org.bh/media/document/The%202009%20National%20Frequency%20Plan.pdf) |
 | Bangladesh
 | Barbados
 | Belarus | unknown, limited CEPT | CEPT Rec. 70-03 |
@@ -34,7 +34,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Bolivia | United States 902-928MHz | |
 | Bosnia and Herzegovina | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Botswana | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
-| Brazil
+| Brazil | United States 902-928MHz | [National Telecommunications Agency (ANATEL) Resolution No. 506, from July 1, 2008](http://www.americascompliance.com/wp-content/uploads/2011/08/506-English_1.pdf), Article 40 VI |
 | Brunei | Frequency Plan AS923-925 | |
 | Bulgaria | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Burkina Faso
@@ -55,7 +55,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Comoros
 | Democratic Republic of the Congo | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Republic of the Congo
-| Costa Rica
+| Costa Rica | United States 902-928MHz | |
 | Cote d'Ivoire
 | Croatia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Cuba
@@ -68,7 +68,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Denmark | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Djibouti
 | Dominica
-| Dominican Republic
+| Dominican Republic | United States 902-928MHz | |
 
 ### E
 | Country | Frequency Plan | Regulatory document |
@@ -115,12 +115,12 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Iceland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| India
+| India |   | [Use of low power wireless equipments in the frequency band 865-867MHz for RFID](http://www.wpc.gov.in/WriteReadData/userfiles/file/RFID%20Delicensing.doc)
 | Indonesia | Frequency Plan AS923-925 | |
-| Iran
+| Iran | | EN 302 208 |
 | Iraq
 | Ireland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Israel
+| Israel | | EN 302 208 |
 | Italy | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 
 ### J
@@ -157,7 +157,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Macedonia (FYROM) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Madagascar
+| Madagascar | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Malawi | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Malaysia | Frequency Plan AS920-923 | |
 | Maldives
@@ -166,13 +166,13 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Marshall Islands
 | Mauritania
 | Mauritius | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
-| Mexico
+| Mexico | United States 902-928MHz | |
 | Micronesia
 | Moldova | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Monaco
 | Mongolia
 | Montenegro | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Morocco
+| Morocco |  | [Decision ANRT/DG/Nº08/13 - 20th June 2013](https://www.anrt.ma/sites/default/files/2013-08-13-condit-tech-install-radioelect-app-faible-puissance-fr.pdf) |
 | Mozambique | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Myanmar (Burma)
 
@@ -193,7 +193,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 ### O
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Oman
+| Oman | | EN 302 208 |
 
 ### P
 | Country | Frequency Plan | Regulatory document |
@@ -201,13 +201,14 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Pakistan
 | Palau
 | Palestine
-| Panama
+| Panama | United States 902-928MHz | |
 | Papua New Guinea
 | Paraguay | United States 902-928MHz | |
 | Peru | United States 902-928MHz | |
 | Philippines
 | Poland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Portugal | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| Puerto Rico | United States 902-928MHz | |
 
 ### Q
 | Country | Frequency Plan | Regulatory document |
@@ -218,7 +219,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Romania | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Russia | unknown, limited CEPT | CEPT Rec. 70-03 |
+| Russia | EU 863-870MHz | CEPT Rec. 70-03, http://minsvyaz.ru/ru/documents/4039/, Appendix 10 |
 | Rwanda
 
 ### S
@@ -230,10 +231,10 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Samoa
 | San Marino
 | Sao Tome and Principe
-| Saudi Arabia
+| Saudi Arabia | EU 863-870MHz<br />EU 433MHz | http://www.citc.gov.sa/en/RulesandSystems/RegulatoryDocuments/FrequencySpectrum/Documents/SM%20002%20E-NFP.pdf |
 | Senegal
 | Serbia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Seychelles
+| Seychelles | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Sierra Leone
 | Singapore | Frequency Plan AS920-923 | |
 | Slovakia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
@@ -263,7 +264,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Togo
 | Tonga
 | Trinidad and Tobago
-| Tunisia
+| Tunisia | | EN 302 208 |
 | Turkey | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Turkmenistan
 | Tuvalu
@@ -273,7 +274,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Uganda
 | Ukraine | unknown, limited CEPT | CEPT Rec. 70-03 |
-| United Arab Emirates (UAE)
+| United Arab Emirates (UAE) | EU 863-870MHz<br />EU 433MHz | EN 302 208, https://www.tra.gov.ae/assets/YXsb1a9i.pdf.aspx |
 | United Kingdom (UK) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | United States of America (USA) | United States 902-928MHz | |
 | Uruguay | United States 902-928MHz | |
@@ -283,7 +284,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Vanuatu
-| Vatican City (Holy See)
+| Vatican City (Holy See) | EU 863-870MHz<br />EU 433MHz | |
 | Venezuela | United States 902-928MHz | |
 | Vietnam | Frequency Plan AS923-925 | |
 
@@ -318,4 +319,4 @@ Not implemented in: Azerbaijan, Georgia(868), Sweden(868)
 ### Countries
 Angola, Botswana, Democratic Republic of Congo, Lesotho, Malawi, Mauritius, Mozambique, South Africa, Namibia, Swaziland, Tanzania, Zambia, Zimbabwe.
 
-Even though there is an overlap between the Southern African Development Community (SADC) and CRASA, the Seychelles and Madagascar are not members of CRASA.
+Even though there is an overlap between the Southern African Development Community (SADC) and CRASA, the Seychelles and Madagascar are not members of CRASA. They are however included in the SADC Frequency allocation plan: http://www.crasa.org/common_up/crasa-setup/12-03-2015_SADC%20FREQUENCY%20BAND%20%202013.pdf
