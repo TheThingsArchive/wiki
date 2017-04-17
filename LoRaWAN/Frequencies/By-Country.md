@@ -172,7 +172,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Monaco
 | Mongolia
 | Montenegro | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Morocco
+| Morocco |  | [Decision ANRT/DG/Nº08/13 - 20th June 2013](https://www.anrt.ma/sites/default/files/2013-08-13-condit-tech-install-radioelect-app-faible-puissance-fr.pdf) |
 | Mozambique | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Myanmar (Burma)
 
