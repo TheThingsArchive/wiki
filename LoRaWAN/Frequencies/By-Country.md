@@ -157,7 +157,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Macedonia (FYROM) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Madagascar
+| Madagascar | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Malawi | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Malaysia | Frequency Plan AS920-923 | |
 | Maldives
@@ -234,7 +234,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Saudi Arabia | EU 863-870MHz<br />EU 433MHz | http://www.citc.gov.sa/en/RulesandSystems/RegulatoryDocuments/FrequencySpectrum/Documents/SM%20002%20E-NFP.pdf |
 | Senegal
 | Serbia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Seychelles
+| Seychelles | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Sierra Leone
 | Singapore | Frequency Plan AS920-923 | |
 | Slovakia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
@@ -319,4 +319,4 @@ Not implemented in: Azerbaijan, Georgia(868), Sweden(868)
 ### Countries
 Angola, Botswana, Democratic Republic of Congo, Lesotho, Malawi, Mauritius, Mozambique, South Africa, Namibia, Swaziland, Tanzania, Zambia, Zimbabwe.
 
-Even though there is an overlap between the Southern African Development Community (SADC) and CRASA, the Seychelles and Madagascar are not members of CRASA.
+Even though there is an overlap between the Southern African Development Community (SADC) and CRASA, the Seychelles and Madagascar are not members of CRASA. They are however included in the SADC Frequency allocation plan: http://www.crasa.org/common_up/crasa-setup/12-03-2015_SADC%20FREQUENCY%20BAND%20%202013.pdf
