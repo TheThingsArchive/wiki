@@ -154,17 +154,22 @@
  * }
  *
  */
-EU868, .al, .ad, .at, .be, .ba, .bg, .hr, .cy, .cz, .dk, .ee, .fi, .fr, .de, .hu, .is, .ir, .it, .lv, .li, .lt, .lu, .mk, .mt, .md, .me, .nl, .pl, .pt, .ro, .rs, .sk, .si, .es, .se, .ch, .tr, .gb
+EU868, .al, .ad, .at, .be, .ba, .bg, .hr, .cy, .cz, .dk, .ee, .fi, .fr, .de, .hu, .is, .ie, .it, .lv, .li, .lt, .lu, .mk, .mt, .md, .me, .nl, .pl, .pt, .ro, .rs, .sk, .si, .es, .se, .ch, .tr, .gb
 {
   fill: #386cb0
 }
 
-CRASA, .ao, .bw, .cd, .ls, .mw, .mu, .mz, .za, .na, .sz, .tz, .zm, .zw
+OTHER868, .by, .gr, .no, .ru, .ua, .ae, .sa, .om, .bh
 {
   fill: #386cb0
 }
 
-US923, .us, .ca, .ar, .bo, .cl, .co, .ec, .gy, .py, .pe, .sr, .uy, .ve, .gf
+CRASA, .ao, .bw, .cd, .ls, .mg, .mw, .mu, .mz, .za, .na, .sc, .sz, .tz, .zm, .zw
+{
+  fill: #386cb0
+}
+
+US923, .us, .ca, .ar, .bo, .cl, .co, .ec, .gy, .py, .pe, .sr, .uy, .ve, .gf, .br, .cr, .do, .mx, .pa, .pr
 {
   fill: #fdc086
 }
@@ -184,12 +189,12 @@ ASIAlow, .jp, .my, .sg
   fill: #f0027f
 }
 
-ASIAhigh, .bn, .kh, .hk, .id, .la, .nz, .tw, .vn
+ASIAhigh, .bn, .kh, .hk, .id, .la, .nz, .tw, .vn, .th
 {
   fill: #7fc97f
 }
 
-SouthKorea
+SouthKorea, .kr
 {
   fill: #beaed4
 }
