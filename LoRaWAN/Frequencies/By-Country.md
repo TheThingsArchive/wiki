@@ -14,10 +14,10 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Angola | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Antigua and Barbuda | | |
 | Argentina | United States 902-928MHz | |
-| Armenia | | |
+| Armenia | | EN 302 208  |
 | Australia | Australia 915-928MHz | |
 | Austria | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Azerbaijan | unknown, no CEPT | CEPT Rec. 70-03 |
+| Azerbaijan | unknown, no CEPT | EN 302 208, CEPT Rec. 70-03 |
 
 ### B
 | Country | Frequency Plan | Regulatory document |
@@ -55,7 +55,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Comoros
 | Democratic Republic of the Congo | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Republic of the Congo
-| Costa Rica
+| Costa Rica | United States 902-928MHz | |
 | Cote d'Ivoire
 | Croatia | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Cuba
@@ -68,7 +68,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Denmark | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Djibouti
 | Dominica
-| Dominican Republic
+| Dominican Republic | United States 902-928MHz | |
 
 ### E
 | Country | Frequency Plan | Regulatory document |
@@ -117,10 +117,10 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Iceland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | India |  EU 863-870MHz | [Use of low power wireless equipments in the frequency band 865-867MHz for RFID](http://www.wpc.gov.in/WriteReadData/userfiles/file/RFID%20Delicensing.doc)
 | Indonesia | Frequency Plan AS923-925 | |
-| Iran
+| Iran | | EN 302 208 |
 | Iraq
 | Ireland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Israel
+| Israel | | EN 302 208 |
 | Italy | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 
 ### J
@@ -166,7 +166,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Marshall Islands
 | Mauritania
 | Mauritius | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
-| Mexico
+| Mexico | United States 902-928MHz | |
 | Micronesia
 | Moldova | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Monaco
@@ -193,7 +193,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 ### O
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Oman
+| Oman | | EN 302 208 |
 
 ### P
 | Country | Frequency Plan | Regulatory document |
@@ -201,13 +201,14 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Pakistan
 | Palau
 | Palestine
-| Panama
+| Panama | United States 902-928MHz | |
 | Papua New Guinea
 | Paraguay | United States 902-928MHz | |
 | Peru | United States 902-928MHz | |
 | Philippines
 | Poland | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Portugal | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
+| Puerto Rico | United States 902-928MHz | |
 
 ### Q
 | Country | Frequency Plan | Regulatory document |
@@ -263,7 +264,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Togo
 | Tonga
 | Trinidad and Tobago
-| Tunisia
+| Tunisia | | EN 302 208 |
 | Turkey | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Turkmenistan
 | Tuvalu
@@ -273,7 +274,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Uganda
 | Ukraine | unknown, limited CEPT | CEPT Rec. 70-03 |
-| United Arab Emirates (UAE) | EU 863-870MHz<br />EU 433MHz | https://www.tra.gov.ae/assets/YXsb1a9i.pdf.aspx |
+| United Arab Emirates (UAE) | EU 863-870MHz<br />EU 433MHz | EN 302 208, https://www.tra.gov.ae/assets/YXsb1a9i.pdf.aspx |
 | United Kingdom (UK) | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | United States of America (USA) | United States 902-928MHz | |
 | Uruguay | United States 902-928MHz | |
@@ -283,7 +284,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Vanuatu
-| Vatican City (Holy See)
+| Vatican City (Holy See) | EU 863-870MHz<br />EU 433MHz | |
 | Venezuela | United States 902-928MHz | |
 | Vietnam | Frequency Plan AS923-925 | |
 
