@@ -9,7 +9,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 | --- | --- | --- |
 | Afghanistan | | |
 | Albania | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
-| Algeria | | |
+| Algeria | | [CONDITIONS D’UTILISATION DES EQUIPEMENTS D’IDENTIFICATION PAR RADIOFREQUENCES - RFID](http://www.anf.dz/pdf/caf/RFID.pdf) |
 | Andorra | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Angola | EU 863-870MHz<br />EU 433MHz | CRASA follows CEPT Rec. 70-03 |
 | Antigua and Barbuda | | |
