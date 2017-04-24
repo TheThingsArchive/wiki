@@ -19,8 +19,6 @@ The geographical location of a server and the supported frequency plans are two 
 
 ## Configuring Your Gateway
 
-*NOTE: Please use a packet forwarder based on version 2.2.x. The new `lora_pkt_fwd` version 3.0.0 is not supported yet.*
-
 In the `local_conf.json` of the packet forwarder, update the fields `server_address` as follows:
 
 ```
