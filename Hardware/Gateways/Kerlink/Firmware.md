@@ -1,3 +1,5 @@
+> See also our official documentation for the Kerlink IoT Station: https://www.thethingsnetwork.org/docs/gateways/kerlink/
+
 # Kerlink Firmware
 
 - Installed from USB drive
