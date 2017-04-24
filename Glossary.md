@@ -13,8 +13,10 @@ During the _Registraton_ of a _Device_ or _Gateway_ you set or get keys. Activat
 The bridge between a _Node / Device_ and The Things Network. Talks to Nodes via _LoRaWAN_ and connects to The Things Network via an internet connection, either via WiFi or Ethernet.
 
 ## LoRa
+LoRa is a spread spectrum radio technology featuring long range, low power consumption and secure data transmission.
 
 ## LoRaWAN
+Is a Low Power Wide Area Network (LPWAN) specification based on LoRa technology.
 
 ## Node / Device
 Connects to an _Application_ on the internet via a _Gateway_ that forwards messages to The Things Network.
