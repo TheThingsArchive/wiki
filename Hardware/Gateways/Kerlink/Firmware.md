@@ -65,3 +65,10 @@ Update Process:
 
 - Set a password in `/etc/usbkey.txt` on the gateway
 - The same password must be in `usbkey.txt` on the USB drive
+
+## Resources
+
+- v2.3.3 firmware: [usbflashdrive_wirmav2_wirgrid_v2.3.3.zip](https://thethings.blob.core.windows.net/klkmirror/station/usbflashdrive_wirmav2_wirgrid_v2.3.3.zip) and [produsb_wirgrid_v2.3.3.zip](https://thethings.blob.core.windows.net/klkmirror/station/produsb_wirgrid_v2.3.3.zip)
+- v3.1 firmware: [usbflashdrive_wirmav2_wirnet_v3.1.zip](https://thethings.blob.core.windows.net/klkmirror/station/usbflashdrive_wirmav2_wirnet_v3.1.zip) and [produsb_wirnet_v3.1.zip](https://thethings.blob.core.windows.net/klkmirror/station/produsb_wirnet_v3.1.zip)
+- v4.1.3 custo for LBT: [custo_libloragw_4.1.3-klk3_wirnet.tar.gz](https://thethings.blob.core.windows.net/klkmirror/station/custo_libloragw_4.1.3-klk3_wirnet.tar.gz)
+- v4.1.3 dota: [dota_spf_3.1.0-klk11_4.1.3-klk3_wirnet_31_03_2017.tar.gz](https://thethings.blob.core.windows.net/klkmirror/station/dota_spf_3.1.0-klk11_4.1.3-klk3_wirnet_31_03_2017.tar.gz)
