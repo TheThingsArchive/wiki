@@ -10,7 +10,7 @@ Yes, if you know what you're doing, you can run a private deployment of our open
 
 ## What is the difference between a "single-channel gateway" and a "real gateway"?
 
-A real gateway is able to listen on 8 channels and all spreading factors at the same time. Single-channel gateways are fixed to one channel and spreading factor, so they will only receive about 2% of the messages unless you specifically configure your nodes to send at the exact same configuration as your single-channel gateway.
+A real gateway is able to listen on multiple (typically 8) channels and all spreading factors at the same time. Single-channel gateways are fixed to one channel and spreading factor, so they will only receive about 2% of the messages unless you specifically configure your nodes to send at the exact same configuration as your single-channel gateway.
 
 As LoRaWAN is a spread-spectrum radio protocol, single-channel gateways are not LoRaWAN-compatible. They can only be used for plain LoRa (without WAN) communication or for testing, and are not supported by The Things Network.
 
@@ -24,7 +24,7 @@ In LoRaWAN we only send "join accepted" messages. If a join is not accepted, no 
 
 ## I don't receive data from my ABP device anymore. What's wrong?
 
-When messages from your ABP device stop arriving in the backend, your device probably restarted. When this happens, it resets the frame counters to 0 and starts sending again. The backend however will flag these messages as a possible replay attack, and will drop them. This behaviour can be disabled by disabling the frame counter check in your device's settings. This will make your device vulnerable to replay attacks, which is why we recommend to avoid ABP and prefer OTAA.
+When messages from your ABP device stop arriving in the backend, your device probably restarted. When this happens, your device typically resets the frame counters to 0 and starts sending again. The backend however will flag these messages as a possible replay attack, and will drop them. This behaviour can be disabled by disabling the frame counter check in your device's settings. This will make your device vulnerable to replay attacks, which is why we recommend to avoid ABP and prefer OTAA.
 
 ## What about all those different versions of the backend?
 
