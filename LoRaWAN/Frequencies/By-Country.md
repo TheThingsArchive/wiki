@@ -2,6 +2,8 @@
 
 This document is only a summary of radio regulations, and the appropriate frequency plans that should be used for TTN in the respective countries. **This is in no way an official document and the user is still obliged to find, study and adhere to his own country's regulations.**
 
+For discussions about the frequency plans in different countries, see the posts on the forum tagged with [Country/Frequency-Plan](https://www.thethingsnetwork.org/forum/c/country/frequency-plan).
+
 ![Map of frequency plans](/wiki/uploads/TTNFrequencyPlanMap.svg)
 
 ### A
