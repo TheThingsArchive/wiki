@@ -1,6 +1,6 @@
 # Getting involved with an existing Community
 
-There are over 300 local communities worldwide that are collaboratively working on the realization of the open network. Find out what community is closest to your area [here](http://thethingsnetwork.org/community).
+There are over 400 local communities worldwide that are collaboratively working on the realization of the open network. Find out what community is closest to your area [here](http://thethingsnetwork.org/community).
 
 ##What is a local community?
 Local communities take up the role to build the network in specific defined areas. For the realization of the network different stakeholders need to be involved to collect sufficient resources, including:
