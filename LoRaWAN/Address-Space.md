@@ -48,7 +48,7 @@ It's good to keep in mind that device addresses are not unique. We can (and prob
 `0x20/0x21`: Italy: A2A Smart City  
 `0x22/0x23`: India, Sri Lanka, Nepal, Bangladesh and the Maldives Islands: TATA Communication  
 `0x24/0x25`: World: Kerlink  
-`0x26/0x27`: World: The Things Network  
+`0x26/0x27`: **World: The Things Network**  
 `0x28/0x29`: Germany, Switzerland, China: DIGIMONDO GmbH  
 `0x2a/0x2b`: World: Cisco Systems  
 `0x2c/0x2d`: China: Computer Network Information Center & Chinese of Sciences Guangzhou Sub-center (CNIC)  
