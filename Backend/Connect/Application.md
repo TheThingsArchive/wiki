@@ -10,4 +10,4 @@ You can find a Quick Start and API Reference for the MQTT broker in the [documen
 
 ## Stored Data
 
-The Things Network Handler does not store data. The [[Storage Handler|Backend/Storage Handler]] component is planned. This component stores data in a time-series database.
+The Things Network Handler does not store data. The **Storage Integration** can be activated to store data in a time-series database.
