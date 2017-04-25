@@ -29,6 +29,8 @@ It's good to keep in mind that device addresses are not unique. We can (and prob
 
 ### Prefix assignments
 
+`Prefixes` Region: Name (NetID)
+
 `0x00/0x01` Local: Experimental nodes (0x00)  
 `0x02/0x03` Local: Experimental nodes (0x01)  
 `0x04/0x05` World: Actility (0x02)  
