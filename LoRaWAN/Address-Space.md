@@ -27,6 +27,59 @@ The NetworkServer assigns device addresses to devices (based on configuration). 
 
 It's good to keep in mind that device addresses are not unique. We can (and probably will) give hundreds of devices the same address. Finding the actual device that belongs to that address is done by matching the cryptographic signature (MIC) of the message to a device in the database.
 
+### Prefix assignments
+
+`0x00/0x01`: Local: Experimental nodes  
+`0x02/0x03`: Local: Experimental nodes  
+`0x04/0x05`: World: Actility  
+`0x06/0x07`: Europe: Proximus  
+`0x08/0x09`: Europe: Swisscom  
+`0x0a/0x0b`: Singapore, indonesia , Australia, Africa , India: SingTel  
+`0x0c/0x0d`: Europe: La Poste  
+`0x0e/0x0f`: Europe: Bouygues Telecom  
+`0x10/0x11`: World: Orbiwise  
+`0x12/0x13`: U.S: SENET  
+`0x14/0x15`: Europe: KPN  
+`0x16/0x17`: Russia: EveryNet  
+`0x18/0x19`: Africa: FastNet  
+`0x1a/0x1b`: World: SK Telecom  
+`0x1c/0x1d`: World: SagemCom  
+`0x1e/0x1f`: Europe: Orange France  
+`0x20/0x21`: Italy: A2A Smart City  
+`0x22/0x23`: India, Sri Lanka, Nepal, Bangladesh and the Maldives Islands: TATA Communication  
+`0x24/0x25`: World: Kerlink  
+`0x26/0x27`: World: The Things Network  
+`0x28/0x29`: Germany, Switzerland, China: DIGIMONDO GmbH  
+`0x2a/0x2b`: World: Cisco Systems  
+`0x2c/0x2d`: China: Computer Network Information Center & Chinese of Sciences Guangzhou Sub-center (CNIC)  
+`0x2e/0x2f`: World: MultiTech Systems  
+`0x30/0x31`: World: Loriot  
+`0x32/0x33`: World: NNNCo  
+`0x34/0x35`: World: Flashnet  
+`0x36/0x37`: World: TrackNet  
+`0x38/0x39`: World: Lar.Tech  
+`0x3a/0x3b`: World: Swiss Led  
+`0x3c/0x3d`: CIS, Europe: Net868  
+`0x3e/0x3f`: Italy: Axatel  
+`0x40/0x41`: Germany: Telent (Netzikon)  
+`0x42/0x43`: World: Patavina Technologies  
+`0x44/0x45`: North America: Comcast  
+`0x46/0x47`: Australia, New Zealand: Ventia  
+`0x48/0x49`: World: Gimasi  
+`0x4a/0x4b`: World: Talkpool  
+`0x4c/0x4d`: Italy: Telemar  
+`0x4e/0x4f`: World: MCF88 SRL  
+`0x50/0x51`: Malaysia: VADSLYFE  
+`0x52/0x53`: World: GIoT  
+`0x54/0x55`: World: M2B Communications  
+`0x56/0x57`: China: ZTE  
+`0x58/0x59`: Australia: Airlora  
+`0x5a/0x5b`: World: Rai Way  
+`0x5c/0x5d`: World: Levikom  
+`0x5e/0x5f`: South Africa: Comsol Networks  
+`0x60/0x61`: World: SoftBank  
+`0x62/0x63`: World: Inmarsat
+
 ## Applications
 
 Applications in LoRaWAN and The Things Network have a 64 bit unique identifier (`AppEUI`). When you run the `ttnctl applications create` command, The Things Network's account server allocates an `AppEUI` from our MAC address block. This means that every `AppEUI` starts with `70B3D57ED`.
