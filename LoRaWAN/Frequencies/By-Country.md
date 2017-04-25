@@ -98,7 +98,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Georgia | unknown, limited CEPT | CEPT Rec. 70-03 |
 | Germany | EU 863-870MHz<br />EU 433MHz | CEPT Rec. 70-03 |
 | Ghana
-| Greece | unknown, limited CEPT | CEPT Rec. 70-03 |
+| Greece | EU 863-870MHz<br />EU 433MHz | [Radio frequency regulations](http://www.eett.gr/opencms/export/sites/default/admin/downloads/Announcments/AP399_034.pdf), [433MHz SRD regulations](http://www.eett.gr/opencms/export/sites/default/EETT/Electronic_Communications/Radio_Communications/TelecommunicationsEquipment/104v2.pdf), [868MHz SRD regulations](http://www.eett.gr/opencms/export/sites/default/EETT/Electronic_Communications/Radio_Communications/TelecommunicationsEquipment/105v2.pdf), CEPT Rec. 70-03 |
 | Grenada
 | Guatemala
 | Guinea
