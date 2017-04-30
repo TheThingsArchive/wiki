@@ -10,7 +10,7 @@
 * [Adafruit Feather M0 433 MHz](https://www.adafruit.com/products/3179)
 * [SODAQ LoRaONE](https://www.kickstarter.com/projects/sodaq/loraone-the-lora-iot-development-board)
 * [IMST iM880B-L 868 MHz](http://www.wireless-solutions.de/products/radiomodules/im880b-l)
-* [LoPy 868/915 Mhz](https://www.kickstarter.com/projects/1795343078/lopy-the-lora-wifi-and-bluetooth-iot-development-p)
+* [LoPy 868/915 Mhz](https://www.pycom.io/product/lopy)
 * [Moteino Mega 433/868/915 Mhz](https://lowpowerlab.com/shop/Moteino/moteinomega)
 * [Twave Smove 868 MHz] (http://www.twave.eu)
 
