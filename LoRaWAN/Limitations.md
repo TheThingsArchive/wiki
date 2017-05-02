@@ -13,7 +13,7 @@ The LoRaWAN **yes** list:
 
 The LoRaWAN **no** list:
 
-* **Live sensordata** - you can only send small packets every couple of minutes
+* **Realtime data** - you can only send small packets every couple of minutes
 * **Phone calls** - you can do that with GPRS/3G/LTE
 * **Controlling lights in your house** - check out ZigBee or BlueTooth
 * **Sending photos, watching Netflix** - check out WiFi
