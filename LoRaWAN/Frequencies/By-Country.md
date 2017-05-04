@@ -277,7 +277,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Uganda
 | Ukraine | unknown, limited CEPT | CEPT Rec. 70-03 |
 | United Arab Emirates (UAE) | EU 863-870MHz<br />EU 433MHz | EN 302 208, https://www.tra.gov.ae/assets/YXsb1a9i.pdf.aspx |
-| United Kingdom (UK) | EU 863-870MHz<br />EU 433MHz | (Forum thread about requirements)[https://www.thethingsnetwork.org/forum/t/uk-legal-requirements-for-equipment/6239], CEPT Rec. 70-03 |
+| United Kingdom (UK) | EU 863-870MHz<br />EU 433MHz | [Forum thread about requirements](https://www.thethingsnetwork.org/forum/t/uk-legal-requirements-for-equipment/6239), CEPT Rec. 70-03 |
 | United States of America (USA) | United States 902-928MHz | |
 | Uruguay | United States 902-928MHz | |
 | Uzbekistan
