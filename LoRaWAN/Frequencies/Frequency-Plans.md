@@ -31,7 +31,7 @@ No frequency plan yet. Submit a proposal!
 
 ## United States 902-928MHz
 
-Also used in Canada and South America (except Brazil)
+Also used in Canada and South America
 
 ### Frequency Plan
 
