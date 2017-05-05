@@ -1,6 +1,6 @@
 # LoRaWAN Frequencies
 
-To know which frequency plan to use in your country, see the [frequency plans by country list](LoRaWAN/Frequencies/By-Country).
+To know which frequency plan to use in your country, see the [frequency plans by country list](By-Country).
 
 ## EU 863-870MHz
 
