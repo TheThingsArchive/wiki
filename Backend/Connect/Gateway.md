@@ -4,7 +4,7 @@
 
 ## Server Addresses
 
-Choose the Router instance depending on the frequency plan used in your region. Have a look at the [LoRaWAN Regional Parameters 1.0 Document](https://www.lora-alliance.org/For-Developers/LoRaWANDevelopers) and the wiki page on [country specific frequency plans](/wiki/LoRaWAN/Frequencies/Frequency-Plans).
+Choose the Router instance depending on the frequency plan used in your region. Have a look at the [LoRaWAN Regional Parameters 1.0 Document](https://www.lora-alliance.org/For-Developers/LoRaWANDevelopers) and the wiki page on [country specific frequency plans](/wiki/LoRaWAN/Frequencies/By-Country).
 
 ```
 router.eu.thethings.network # EU 433 and EU 863-870
