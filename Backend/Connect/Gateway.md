@@ -4,7 +4,7 @@
 
 ## Server Addresses
 
-Choose the Router instance depending on the region as specified in the [LoRaWAN Regional Parameters 1.0 Document](https://www.lora-alliance.org/For-Developers/LoRaWANDevelopers). This may not be the closest router geographically. For example, Brazil supports 915-928 MHz, but these are only specified by the LoRa Alliance for Australia, so Brazilian gateways should connect to the Australian router.
+Choose the Router instance depending on the frequency plan used in your region. Have a look at the [LoRaWAN Regional Parameters 1.0 Document](https://www.lora-alliance.org/For-Developers/LoRaWANDevelopers) and the wiki page on [country specific frequency plans](/wiki/LoRaWAN/Frequencies/Frequency-Plans).
 
 ```
 router.eu.thethings.network # EU 433 and EU 863-870
