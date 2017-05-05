@@ -185,7 +185,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Nauru
 | Nepal
 | Netherlands | EU 863-870MHz<br />EU 433MHz | [Regeling gebruik van frequentieruimte zonder vergunning en zonder meldingsplicht 2015](http://wetten.overheid.nl/BWBR0036378/2015-03-05), CEPT Rec. 70-03 |
-| New Zealand | Frequency Plan AS923-925 | |
+| New Zealand | Australia 915-928MHz | [Radio Spectrum Management](https://www.rsm.govt.nz/about-rsm/spectrum-policy/gazette/gurl/short-range-devices) |
 | Nicaragua
 | Niger
 | Nigeria
