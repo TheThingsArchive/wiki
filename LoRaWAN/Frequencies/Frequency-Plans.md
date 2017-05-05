@@ -4,7 +4,7 @@ To know which frequency plan to use in your country, see the [frequency plans by
 
 ## EU 863-870MHz
 
-_Could also be used in India and large parts of Africa_
+_Could also be used in large parts of Africa_
 
 ### Frequency Plan
 
@@ -158,3 +158,7 @@ Downlink:
 
 - Uplink channels 1-7
 - **921.9** - SF12BW125 (RX2 downlink only; SF12BW125 might be changed to SF9BW125)
+
+## India 865-867 MHz
+
+_India uses the 865MHz to 867MHz band. We are busy drafting a preliminary frequency plan to fit this band._
