@@ -1,6 +1,6 @@
 # Frequency plan and regulations by country.
 
-This document is only a summary of radio regulations, and the appropriate frequency plans that should be used for TTN in the respective countries. **This is in no way an official document and the user is still obliged to find, study and adhere to his own country's regulations.**
+This document is only a summary of radio regulations, and the appropriate frequency plans that should be used for TTN in the respective countries. **This is in no way an official document and the user is still obliged to find, study and adhere to his own country's regulations.** Some countries also expect you to register your gateway, or obtain a license. In that case you are using a "free band", not a "license free band". In some countries it is also necessary that the gateway is certified (CE, FCC, ...) if you allow other people to also communicate via it.
 
 For discussions about the frequency plans in different countries, see the posts on the forum tagged with [Country/Frequency-Plan](https://www.thethingsnetwork.org/forum/c/country/frequency-plan).
 
