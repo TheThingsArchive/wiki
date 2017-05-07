@@ -52,7 +52,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Central African Republic (CAR)
 | Chad
 | Chile | US902-928 | |
-| China
+| China | CN470-510<br />CN779-787 | |
 | Colombia | US902-928 | |
 | Comoros
 | Democratic Republic of the Congo | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
@@ -117,7 +117,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Iceland | EU863-870<br />EU433 | CEPT Rec. 70-03 |
-| India |   | [Use of low power wireless equipments in the frequency band 865-867MHz for RFID](http://www.wpc.gov.in/WriteReadData/userfiles/file/RFID%20Delicensing.doc)
+| India | IN865-867 | [Use of low power wireless equipments in the frequency band 865-867MHz for RFID](http://www.wpc.gov.in/WriteReadData/userfiles/file/RFID%20Delicensing.doc)
 | Indonesia | AS923-925 | |
 | Iran | | EN 302 208 |
 | Iraq
