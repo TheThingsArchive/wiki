@@ -117,7 +117,7 @@ Downlink:
 - Uplink channels 1-10 (RX1)
 - **923.2** - SF10BW125 (RX2)
 
-### Frequency Plan AS923-925
+### AS923-925
 
 Used in Brunei, Cambodia, Hong Kong, Indonesia, Laos, Taiwan, Thailand, Vietnam
 
