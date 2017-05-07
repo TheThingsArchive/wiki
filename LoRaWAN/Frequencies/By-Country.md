@@ -52,7 +52,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Central African Republic (CAR)
 | Chad
 | Chile | US902-928 | |
-| China
+| China | CN470-510<br />CN779-787 | |
 | Colombia | US902-928 | |
 | Comoros
 | Democratic Republic of the Congo | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
@@ -117,7 +117,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Iceland | EU863-870<br />EU433 | CEPT Rec. 70-03 |
-| India |   | [Use of low power wireless equipments in the frequency band 865-867MHz for RFID](http://www.wpc.gov.in/WriteReadData/userfiles/file/RFID%20Delicensing.doc)
+| India | IN865-867 | [Use of low power wireless equipments in the frequency band 865-867MHz for RFID](http://www.wpc.gov.in/WriteReadData/userfiles/file/RFID%20Delicensing.doc)
 | Indonesia | AS923-925 | |
 | Iran | | EN 302 208 |
 | Iraq
@@ -221,7 +221,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Romania | EU863-870<br />EU433 | CEPT Rec. 70-03 |
-| Russia | EU 863-870MHz | CEPT Rec. 70-03, http://minsvyaz.ru/ru/documents/4039/, Appendix 10 |
+| Russia | EU863-870<br />EU433 | CEPT Rec. 70-03, http://minsvyaz.ru/ru/documents/4039/, Appendix 10 |
 | Rwanda
 
 ### S
@@ -244,14 +244,14 @@ For discussions about the frequency plans in different countries, see the posts 
 | Solomon Islands
 | Somalia
 | South Africa | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03, [The Radio Frequency Spectrum Regulations 2015](http://www.amateurradio.org.za/Government%20Gazzette%2038641_30-3_IcasaCV01%20-%20Radio%20Frequency%20Spectrum%20Regulations%202015%20(2).pdf) | 
-| South Korea | South Korea 920-923 MHz | |
+| South Korea | KR920-923 | |
 | South Sudan
 | Spain | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Sri Lanka
 | Sudan
 | Suriname | US902-928 | |
 | Swaziland | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
-| Sweden | EU 433MHz (CEPT 868MHz not implemented) | CEPT Rec. 70-03 |
+| Sweden | EU433 (CEPT 868MHz not implemented) | CEPT Rec. 70-03 |
 | Switzerland | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Syria
 
