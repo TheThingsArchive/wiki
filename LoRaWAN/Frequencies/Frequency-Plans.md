@@ -133,7 +133,7 @@ Downlink:
 - Uplink channels 1-10 (RX1)
 - **923.2** - SF10BW125 (RX2)
 
-## KR920-923 MHz
+## KR920-923
 
 Uplink:
 
