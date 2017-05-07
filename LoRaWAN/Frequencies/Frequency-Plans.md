@@ -2,7 +2,7 @@
 
 To know which frequency plan to use in your country, see the [frequency plans by country list](By-Country).
 
-## EU 863-870MHz
+## EU863-870
 
 _Could also be used in large parts of Africa_
 
@@ -23,15 +23,15 @@ Downlink:
 - Uplink channels 1-9 (RX1)
 - **869.525** - SF9BW125 (RX2 downlink only)
 
-## EU 433MHz
+## EU433
 
 ### Frequency Plan
 
 No frequency plan yet. Submit a proposal!
 
-## United States 902-928MHz
+## US902-928
 
-Also used in Canada and South America
+Used in USA, Canada and South America
 
 ### Frequency Plan
 
@@ -58,13 +58,13 @@ Downlink:
 7. **926.9** - SF7BW500 to SF12BW500
 8. **927.5** - SF7BW500 to SF12BW500
 
-## China 470-510MHz and 779-787MHz
+## CN470-510
+No frequency plans yet. Submit a proposal!
 
-### Frequency Plan
+## CN779-787
+No frequency plans yet. Submit a proposal!
 
-No frequency plan yet. Submit a proposal!
-
-## Australia 915-928MHz
+## AU915-928
 
 ### Frequency Plan
 
@@ -91,11 +91,11 @@ Downlink:
 7. **926.9** - SF7BW500 to SF12BW500
 8. **927.5** - SF7BW500 to SF12BW500
 
-## Asia 923 MHz
+## AS923
 
-We use two frequency plans, depending on the country. OTAA devices use two common channels: 923.2+923.4 and will receive the additional channels on successful join.
+We use two frequency plans, depending on the country. OTAA devices use two common channels: 923.2MHz and 923.4MHz. They will receive the additional channels on a successful join.
 
-### Frequency Plan AS920-923
+### AS920-923
 
 Used in Japan, Malaysia, Singapore
 
@@ -119,7 +119,7 @@ Downlink:
 
 ### Frequency Plan AS923-925
 
-Used in Brunei, Cambodia, Hong Kong, Indonesia, Laos, New Zealand, Taiwan, Thailand, Vietnam
+Used in Brunei, Cambodia, Hong Kong, Indonesia, Laos, Taiwan, Thailand, Vietnam
 
 Uplink:
 
@@ -139,7 +139,7 @@ Downlink:
 - Uplink channels 1-10 (RX1)
 - **923.2** - SF10BW125 (RX2)
 
-## South Korea 920-923 MHz
+## KR920-923 MHz
 
 ### Frequency Plan
 
@@ -159,6 +159,6 @@ Downlink:
 - Uplink channels 1-7
 - **921.9** - SF12BW125 (RX2 downlink only; SF12BW125 might be changed to SF9BW125)
 
-## India 865-867 MHz
+## IN865-867
 
 _India uses the 865MHz to 867MHz band. We are busy drafting a preliminary frequency plan to fit this band._
