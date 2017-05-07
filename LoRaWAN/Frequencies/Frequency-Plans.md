@@ -1,12 +1,10 @@
 # LoRaWAN Frequencies
 
-To know which frequency plan to use in your country, see the [frequency plans by country list](By-Country).
+This is a list of frequency plan definitions, based on what is specified in the LoRaWAN regional parameter document. To know which frequency plan to use for TTN in your country, see the [frequency plans by country list](By-Country).
 
 ## EU863-870
 
-_Could also be used in large parts of Africa_
-
-### Frequency Plan
+Uplink:
 
 1. **868.1** - SF7BW125 to SF12BW125
 2. **868.3** - SF7BW125 to SF12BW125 and SF7BW250
@@ -24,8 +22,6 @@ Downlink:
 - **869.525** - SF9BW125 (RX2 downlink only)
 
 ## EU433
-
-### Frequency Plan
 
 No frequency plan yet. Submit a proposal!
 
@@ -65,8 +61,6 @@ No frequency plans yet. Submit a proposal!
 No frequency plans yet. Submit a proposal!
 
 ## AU915-928
-
-### Frequency Plan
 
 Uplink:
 
@@ -140,8 +134,6 @@ Downlink:
 - **923.2** - SF10BW125 (RX2)
 
 ## KR920-923 MHz
-
-### Frequency Plan
 
 Uplink:
 
