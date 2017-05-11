@@ -2,6 +2,8 @@
 
 [[/uploads/The-Things-Gateway.jpg]]
 
+![TTN Gateway circuit board from Wienke's forum post](https://www.thethingsnetwork.org/forum/uploads/default/original/2X/8/86ab756ed096564e838ec4808e73d55eaff1c531.jpg)
+
 **Price:** 300 euro  
 **Availability:** [online](http://shop.thethingsnetwork.com/)  
 **Capacity:** 8 band
