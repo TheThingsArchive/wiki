@@ -53,6 +53,9 @@
 * [IBM LMIC](https://www.research.ibm.com/labs/zurich/ics/lrsc/lmic.html)
 * [Semtech LoRaMAC](https://github.com/Lora-net/LoRaMac-node)
 
-## Examples
+## Development Platforms 
+* [Zerynth - Python for Microcontrollers, IoT and Embedded Applications](https://www.zerynth.com/) 
 
-Examples can be found in [github.com/TheThingsNetwork/examples](https://github.com/TheThingsNetwork/examples).
+## Examples 
+* Official TTN examples can be found in [github.com/TheThingsNetwork/examples](https://github.com/TheThingsNetwork/examples) 
+* [Getting started with Python and LoraWAN using Zerynth and The Things Network](https://www.zerynth.com/blog/getting-started-with-lorawan-and-python-using-zerynth-and-the-things-network/)
