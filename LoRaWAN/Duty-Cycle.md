@@ -37,3 +37,9 @@ Every radio device must be compliant with the regulated duty cycle limits. This 
 In practice, this means that you should program your nodes in such that they stay within the limits. The easiest way to do this, is to calculate how much _airtime_ each message consumes using one of the many [airtime calculators](https://docs.google.com/spreadsheets/d/1QvcKsGeTTPpr9icj4XkKXq4r2zTc2j0gsHLrnplzM3I/edit) and use that information to choose a good transmit interval.
 
 Some radio modules (such as the RN2483) also enforce the duty cycle limits. If you exceed the limits, the module will complain with a message `no_free_channel`. Specifically, the RN2483 limits the duty cycle on a per-channel basis. This means that if you only have 1 channel configured, the module will start enforcing the duty cycle after the first message. If the node uses 8 channels (when you use our Arduino library or OTAA) you can send 8 messages before the duty cycle is enforced by the module.
+
+[[/uploads/DutyCycleSingleChannelOffAir.png]]
+
+[[/uploads/DutyCycleMultiChannelOffAir.png]]
+
+[[/uploads/DutyCycleMultiBandOffAir.png]]
