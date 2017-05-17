@@ -52,6 +52,6 @@ As a per-channel duty cycle limit is easier to implement, you can also divide th
 
 This method is also implemented by the RN2483 module, and as a result, instead of seeing the `no_free_ch` when you send too quickly after the first message you can send multiple messages before all 8 channels are "blocked" and the duty cycle is enforced.
 
-_The figure below shows enforcement on three channels, each with a 20% duty cycle limit_
+_The figure below shows enforcement on those same two bands, but enforced per channel_
 
 [[/uploads/DutyCycleMultiChannelOffAir2.png]]
