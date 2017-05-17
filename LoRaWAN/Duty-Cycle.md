@@ -54,4 +54,4 @@ This method is also implemented by the RN2483 module, and as a result, instead o
 
 _The figure below shows enforcement on three channels, each with a 20% duty cycle limit_
 
-[[/uploads/DutyCycleMultiChannelOffAir.png]]
+[[/uploads/DutyCycleMultiChannelOffAir2.png]]
