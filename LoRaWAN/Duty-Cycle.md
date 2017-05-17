@@ -38,14 +38,20 @@ In practice, this means that you should program your nodes in such that they sta
 
 Some radio modules (such as the RN2483) also enforce the duty cycle limits. If you exceed the limits, the module will complain with a message `no_free_ch`. Specifically, the RN2483 limits the duty cycle on a per-channel basis. This means that if you only have 1 channel configured, the module will start enforcing the duty cycle after the first message.
 
+_The figure below shows enforcement on a resource with a 20% duty cycle limit_
+
 [[/uploads/DutyCycleSingleChannelOffAir.png]]
 
 In the European band, a transmission on a channel within a frequency band, also influences the other frequencies in that band. 
+
+_The figure below shows enforcement on two bands, each with a 20% duty cycle limit_
 
 [[/uploads/DutyCycleMultiBandOffAir.png]]
 
 As a per-channel duty cycle limit is easier to implement, you can also divide the sub-band duty cycle over the number of channels in that sub-band. So for example, in a sub-band with 8 channels and a duty cycle of 1%, each channel has a duty cycle of 1/8% (that's 0.125%). 
 
 This method is also implemented by the RN2483 module, and as a result, instead of seeing the `no_free_ch` when you send too quickly after the first message you can send multiple messages before all 8 channels are "blocked" and the duty cycle is enforced.
+
+_The figure below shows enforcement on three channels, each with a 20% duty cycle limit_
 
 [[/uploads/DutyCycleMultiChannelOffAir.png]]
