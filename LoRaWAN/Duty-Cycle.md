@@ -29,3 +29,11 @@ In Europe, duty cycles are regulated by section 7.2.3 of the ETSI EN300.220 stan
 Additionally, the LoRaWAN specification dictates duty cycles for the _join frequencies_, the frequencies devices of all LoRaWAN-compliant networks use for over-the-air activations (OTAA) of devices. In most regions this duty cycle is set to **1%**.
 
 Finally, on The Things Network's public community network, we have a **Fair Access Policy** that limits the **uplink airtime** to **30 seconds per day (24 hours) per node** and the **downlink messages** to **10 messages per day (24 hours) per node**. If you use a private network, these limits does not apply, but you still have to be compliant with the governmental and LoRaWAN limits.
+
+## Compliance
+
+Every radio device must be compliant with the regulated duty cycle limits. This applies to **both nodes and gateways**.
+
+In practice, this means that you should program your nodes in such that they stay within the limits. The easiest way to do this, is to calculate how much _airtime_ each message consumes using one of the many [airtime calculators](https://docs.google.com/spreadsheets/d/1QvcKsGeTTPpr9icj4XkKXq4r2zTc2j0gsHLrnplzM3I/edit) and use that information to choose a good transmit interval.
+
+Some radio modules (such as the RN2483) also enforce the duty cycle limits. If you exceed the limits, the module will complain with a message `no_free_channel`. Specifically, the RN2483 limits the duty cycle on a per-channel basis. This means that if you only have 1 channel configured, the module will start enforcing the duty cycle after the first message. If the node uses 8 channels (when you use our Arduino library or OTAA) you can send 8 messages before the duty cycle is enforced by the module.
