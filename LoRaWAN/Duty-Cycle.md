@@ -13,3 +13,17 @@ However, if we also consider _channels_, things get a bit more complicated. When
 In our European frequency plan, we have channels in different _sub-bands_, so when considering the duty cycle, we also have to consider these. Let's say the 3 channels we used before, are in 2 different _sub-bands_. Each separate _channel_ still has a duty cycle of 20%, the _device_ still has a duty cycle of 60%, but we now see that _Band 1_ is in use for 2 _time units_ every 10 _time units_ (20%), while _Band 2_ is in use for 4 _time units_ every 10 _time units_ (40%).
 
 [[/uploads/DutyCycleMultiBand.png]]
+
+## Maximum Duty Cycle
+
+The duty cycle of radio devices is often regulated by government. If this is the case, the duty cycle is commonly set to 1%, but make sure to check the regulations of your local government to be sure.
+
+In Europe, duty cycles are regulated by section 7.2.3 of the ETSI EN300.220 standard. This standard defines the following sub-bands and their duty cycles:
+
+* **g** (863.0 – 868.0 MHz): 1%
+* **g1** (868.0 – 868.6 MHz): 1%
+* **g2** (868.7 – 869.2 MHz): 0.1%
+* **g3** (869.4 – 869.65 MHz): 10%
+* **g4** (869.7 – 870.0 MHz): 1%
+
+Additionally, the LoRaWAN specification dictates duty cycles for the _join frequencies_, the frequencies devices of all LoRaWAN-compliant networks use for over-the-air activations (OTAA) of devices. In most regions this duty cycle is set to **1%**.
