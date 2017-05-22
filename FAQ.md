@@ -1,5 +1,11 @@
 # Frequently Asked Questions
 
+## Does The Things Network have coverage where I live?
+
+You can have a look on the following two pages to see if there is a gateway in your vicinity:
+https://www.thethingsnetwork.org/map
+https://ttnmapper.org
+
 ## Can I register a device to multiple applications?
 
 Yes, but the device can only activate for one application at the same time. The keys you use here determine the application it will work with. To switch application you need to switch keys.
