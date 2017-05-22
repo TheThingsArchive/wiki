@@ -2,9 +2,9 @@
 
 ## Does The Things Network have coverage where I live?
 
-You can have a look on the following two pages to see if there is a gateway in your vicinity:
-https://www.thethingsnetwork.org/map
-https://ttnmapper.org
+You can have a look on the following pages to see if there is a gateway in your vicinity:
+* https://www.thethingsnetwork.org/map
+* https://ttnmapper.org
 
 ## Can I register a device to multiple applications?
 
