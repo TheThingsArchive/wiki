@@ -12,6 +12,8 @@ router.us.thethings.network # US 902-928
 router.cn.thethings.network # China 470-510 and 779-787
 router.au.thethings.network # Australia 915-928 MHz
 router.as.thethings.network # Southeast Asia 923 MHz
+router.as1.thethings.network # Southeast Asia 920-923 MHz
+router.as2.thethings.network # Southeast Asia 923-925 MHz
 router.kr.thethings.network # Korea 920-923 MHz
 ```
 
@@ -78,4 +80,3 @@ example log
 # Manual GPS coordinates: latitude 51.1, longitude 5.9, altitude 23 m
 ##### END #####
 ```
-
