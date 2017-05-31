@@ -55,3 +55,5 @@ This method is also implemented by the RN2483 module, and as a result, instead o
 _The figure below shows enforcement on those same two bands, but enforced per channel_
 
 [[/uploads/DutyCycleMultiChannelOffAir2.png]]
+
+_(note: channel 3 is blocked until slot 11)_
