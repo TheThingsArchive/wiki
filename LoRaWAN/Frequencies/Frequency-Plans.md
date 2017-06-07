@@ -153,4 +153,15 @@ Downlink:
 
 ## IN865-867
 
-_India uses the 865MHz to 867MHz band. We are busy drafting a preliminary frequency plan to fit this band._
+_India uses the 865MHz to 867MHz band. Currently we support the three LoRaWAN default frequencies, but plan to add more channels later. Therefore consider this as a BETA version of the India frequency plan._
+
+Uplink:
+
+1. **865.0625** - SF7BW125 to SF12BW125
+2. **865.4025** - SF7BW125 to SF12BW125
+3. **865.9850** - SF7BW125 to SF12BW125
+
+Downlink:
+
+- Uplink channels 1-3 (RX1)
+- **866.550** - SF10BW125 (RX2)
