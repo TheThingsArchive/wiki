@@ -153,7 +153,7 @@ Downlink:
 
 ## IN865-867
 
-_India uses the 865MHz to 867MHz band. Currently we support the three LoRaWAN default frequencies, but plan to add more channels later. Therefore consider this as a BETA version of the India frequency plan._
+_India uses the 865MHz to 867MHz band. Currently we support the three LoRaWAN default frequencies ([according to KotahiNet](http://kotahi.net/network/sending-data/)), but plan to add more channels later. Therefore consider this as a BETA version of the Indian frequency plan._
 
 Uplink:
 
