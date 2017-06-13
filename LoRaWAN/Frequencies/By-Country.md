@@ -61,6 +61,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Cote d'Ivoire
 | Croatia | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Cuba
+| Curaçao |  | [Ministeriële regeling vrijstelling telecommunicatiemachtiging 2015](http://btnp.org/images/stories/pdf/telecom/PB_20153.pdf)
 | Cyprus | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Czech Republic | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 
