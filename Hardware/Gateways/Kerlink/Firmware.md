@@ -19,6 +19,7 @@ Update Process:
 
 ## System Firmware (v3.1)
 
+- WARNING: After installation of this firmware you will not be able to revert to v2.3.3 - an attempt will brick your gateway. Refer Kerlink Wiki.
 - The Gateway is shipped with Kerlink's "stock system firmware".
 - A backup of this system firmware is kept for recovery purposes (on the rescue FS).
 - The system firmware can be updated by putting the contents of `usbflashdrive_wirmav2_wirnet_v3.1.zip` on a USB drive.
