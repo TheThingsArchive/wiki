@@ -28,6 +28,10 @@ Procom CXL 900-6LW-NB/868 MHz [LINK](http://procom.dk/products/528-cxl-900-6lw-n
 
 Taoglas OMB.915.B03F21 [PDF](http://www.taoglas.com/wp-content/uploads/2015/06/OMB.915.B03F21.pdf)
 
+## Comparisons / Evaluations
+
+- Coredump compared some LoRa 868 MHz antennas: https://www.coredump.ch/2017/04/30/lorawan-868mhz-antenna-test-part-2/
+
 ## Regulations
 
 In case the gateway is placed on the roof of a building in the city center or on a monumental building, review the governmental regulations around placing antennas. In some cases you need to apply for a permit.
