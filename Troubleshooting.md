@@ -42,7 +42,7 @@
     - What went wrong?
     - Please provide as many IDs as possible: Gateway IDs, Device IDs, Application IDs, Usernames
         - Please send these IDs as text, not as screenshots
-        - What kind of node/gateway/application? What kind of software is running on it? What version?
-        - When did it stop working?
-        - What do your log files look like?
+    - What kind of node/gateway/application? What kind of software is running on it? What version?
+    - When did it stop working?
+    - What do your log files look like?
     - Do you have screenshots?
