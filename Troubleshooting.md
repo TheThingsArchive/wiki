@@ -30,7 +30,7 @@
 
 - Notify the `#ops` channel on Slack. When multiple people have the same problem, we can investigate deeper.
 - Examples:
-    - _"Possible problem in {eu,us,asia,...}: No longer receiving data for {application+device,gateway,...} {id} since {time}"_
+    - _"Possible problem in {eu,us,asia,...}: No longer receiving data for {app+device/gateway,...} {appid+devid/gatewayid} since {time}"_
     - _"Possible problem in {eu,us,...}: {MQTT/API/Console} seems to be down since {time}"_
 
 ## Support Ticket
