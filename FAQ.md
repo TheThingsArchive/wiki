@@ -12,7 +12,7 @@ Yes, but the device can only activate for one application at the same time. The 
 
 ## Can I run The Things Network on my own server?
 
-Yes, if you know what you're doing, you can run a private deployment of our open source routing services. Check out [our Github](https://github.com/TheThingsNetwork/ttn) to read how. We recommend most people to just use the public community network, as this will save you a lot of time and allows you to build awesome applications instead.
+Yes, if you know what you're doing, you can run a private deployment of our open source routing services. Check out [this article](https://www.thethingsnetwork.org/article/setting-up-a-private-routing-environment) to read how. We recommend most people to just use the public community network, as this will save you a lot of time and allows you to build awesome applications instead. If you're interested in setting up a public server for the community network, please contact us.
 
 ## What is the difference between a "single-channel gateway" and a "real gateway"?
 
