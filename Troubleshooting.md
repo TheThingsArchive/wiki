@@ -29,8 +29,9 @@
 ## I still have a problem
 
 - Notify the `#ops` channel on Slack. When multiple people have the same problem, we can investigate deeper.
-    - `Possible problem in {eu,us,asia,...}: No longer receiving data for {application+device,gateway,...} {id} since {time}`
-    - `Possible problem in {eu,us,...}: {MQTT/API/Console} seems to be down`
+- Examples:
+    - _"Possible problem in {eu,us,asia,...}: No longer receiving data for {application+device,gateway,...} {id} since {time}"_
+    - _"Possible problem in {eu,us,...}: {MQTT/API/Console} seems to be down since {time}"_
 
 ## Support Ticket
 
