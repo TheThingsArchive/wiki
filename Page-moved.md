@@ -1,1 +1,3 @@
-This page was moved to https://www.thethingsnetwork.org/wiki/External/Research
+# Page Moved
+
+This page was moved to our official docs: https://www.thethingsnetwork.org/docs/
