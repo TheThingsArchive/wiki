@@ -2,7 +2,7 @@
 
 ## I have a problem
 
-- Check the TTN status page (under construction), the Forum, the `#ops` channel on Slack or our Twitter account to see if there are any planned/known service disruptions.
+- Check the [TTN status page](https://status.thethings.network), the Forum, the `#ops` channel on Slack or our Twitter account to see if there are any planned/known service disruptions.
 
 ## I am no longer receiving data in my Application
 
