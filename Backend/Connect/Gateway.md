@@ -40,13 +40,16 @@ In the `local_conf.json` of the packet forwarder, update the fields `server_addr
 ## Checking connectivity
 To see what happens under the hood, and make sure your gateway is sending its packets to the TTN-routers there are two approaches you can follow.
 
+### Don't use `ping`
+The routers are load balancers that do not respond to `ping` commands.
+
 ### Inspecting the port
-Your gateway communicates with the routers via an UDP connection on port 1700; So if we listen to this port we should see packets being transferred.
+Your gateway communicates with the routers via an UDP connection on port 1700. So if we listen to this port we should see packets being transferred.
 
 ```
 sudo tcpdump -AUq port 1700
 ```
-If your gateway is up and running this feed would (at least) give a stat packet every 30-60seconds:
+If your gateway is up and running this feed would (at least) give a stat packet every 30-60 seconds:
 
 ```
 08:07:33.801265 IP 192.168.178.20.47497 > xx.xxx.xx.xxx.1700: UDP, length 221
