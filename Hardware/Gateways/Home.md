@@ -1,6 +1,6 @@
 # Gateways for The Things Network
 
-Which gateway is right for you, depends a lot on your use-case and budget. Unfortunately, our [[The Things Gateway|Hardware/Gateways/The-Things-Gateway]] is not shipping until Summer 2016, so until then, you should use one of the alternatives. We know many people that are quite happy with their [[Kerlink|Hardware/Gateways/Kerlink]], [[Multi-Tech|Hardware/Gateways/Multi-Tech]] or [[Lorank|Hardware/Gateways/Lorank]] gateway. There are some other options, and you can even [[build your own|Hardware/Gateways/DIY]].
+Which gateway is right for you, depends a lot on your use-case and budget. Unfortunately, our [[The Things Gateway|Hardware/Gateways/The-Things-Gateway]] will not be available in retail before the end of 2017, so until then, you should use one of the alternatives. We know many people that are quite happy with their [[Kerlink|Hardware/Gateways/Kerlink]], [[Multi-Tech|Hardware/Gateways/Multi-Tech]] or [[Lorank|Hardware/Gateways/Lorank]] gateway. There are some other options, and you can even [[build your own|Hardware/Gateways/DIY]].
 
 We also love the [comparison matrix](https://www.loriot.io/lora-gateways.html) our friends at Loriot built.
 
