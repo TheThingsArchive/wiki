@@ -13,6 +13,8 @@
 * [LoPy 868/915 Mhz](https://www.pycom.io/product/lopy)
 * [Moteino Mega 433/868/915 Mhz](https://lowpowerlab.com/shop/Moteino/moteinomega)
 * [Twave Smove 868 MHz] (http://www.twave.eu)
+* [Seeeduino LoraWAN] (https://www.seeedstudio.com/Seeeduino-LoRaWAN-p-2780.html)
+* [Seeeduino LoraWAN GPS] (https://www.seeedstudio.com/Seeeduino-LoRaWAN-W%2FGPS-p-2781.html)
 
 ## Communication Chips
 
