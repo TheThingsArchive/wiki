@@ -6,8 +6,8 @@
 <body>
     <p id="status">Connecting...</p>
     <script>
-    var token = 'YOUR_AUTHENTICATION_TOKEN_HERE';
-    var url = 'YOUR_TARGET_URL_HERE (incl {token} part)';
+    var token = 'ttn-account-v2.C3kRB8XiUdFNu2-izq_dSaNcQs8G16WBeOq1aBeJNXQ';
+    var url = 'router.eu.thethings.network';
     var ws = new WebSocket(url.replace('{token}', token));
     ws.onopen = function() {
         document.querySelector('#status').textContent = 'Connected';
