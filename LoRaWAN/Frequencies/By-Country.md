@@ -259,7 +259,7 @@ For discussions about the frequency plans in different countries, see the posts 
 ### T
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Taiwan | AS923-925 ("AS2") | |
+| Taiwan | AS923-925 ("AS2") | [LP0002 2016](http://www.rootlaw.com.tw/Attach/L-Doc/A040110071000200-1050823-1000-001.pdf) or [LP0002 2011](http://www.ncc.gov.tw/chinese/law_detail.aspx?site_content_sn=3441&is_history=0&sn_f=1807), section 4, "Radio Frequency Identification, RFID" |
 | Tajikistan
 | Tanzania | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
 | Thailand | AS923-925 ("AS2") | |
@@ -323,3 +323,16 @@ Not implemented in: Azerbaijan, Georgia(868), Sweden(868)
 Angola, Botswana, Democratic Republic of Congo, Lesotho, Malawi, Mauritius, Mozambique, South Africa, Namibia, Swaziland, Tanzania, Zambia, Zimbabwe.
 
 Even though there is an overlap between the Southern African Development Community (SADC) and CRASA, the Seychelles and Madagascar are not members of CRASA. They are however included in the SADC Frequency allocation plan: http://www.crasa.org/common_up/crasa-setup/12-03-2015_SADC%20FREQUENCY%20BAND%20%202013.pdf
+
+## The Things Network Gateway Regional Configuration Settings
+LoRaWAN gateways are normally configured by a json file, which defines the frequencies used by the gateway. The following regional configuration settings are available from GitHub at https://github.com/TheThingsNetwork/gateway-conf.  The suffix `...-global_conf.json` means that the file is intended to be used as the gateway's `global_conf.json` file after it has been downloaded.
+
+| Region | Shorthand | File |
+|:------:|:---------:|:-----|
+| AS920-923 | AS1 | [AS1-global_conf.json](https://github.com/TheThingsNetwork/gateway-conf/blob/master/AS1-global_conf.json) |
+| AS923-925 | AS2 | [AS2-global_conf.json](https://github.com/TheThingsNetwork/gateway-conf/blob/master/AS2-global_conf.json) |
+|  EU863-870 | EU | [EU-global_conf.json](https://github.com/TheThingsNetwork/gateway-conf/blob/master/EU-global_conf.json) |
+| IN865-867 | IN | [IN-global_conf.json](https://github.com/TheThingsNetwork/gateway-conf/blob/master/IN-global_conf.json) |
+| KR920-923 | KR | [KR-global_conf.json](https://github.com/TheThingsNetwork/gateway-conf/blob/master/KR-global_conf.json) |
+| US902-928 | US | [US-global_conf.json](https://github.com/TheThingsNetwork/gateway-conf/blob/master/US-global_conf.json) |
+
