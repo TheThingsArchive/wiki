@@ -37,7 +37,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Bosnia and Herzegovina | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Botswana | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
 | Brazil | US902-928 | [National Telecommunications Agency (ANATEL) Resolution No. 506, from July 1, 2008](http://www.americascompliance.com/wp-content/uploads/2011/08/506-English_1.pdf), Article 40 VI |
-| Brunei | AS923-925 | |
+| Brunei | AS923-925 ("AS2") | |
 | Bulgaria | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Burkina Faso
 | Burundi
@@ -46,7 +46,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Cabo Verde
-| Cambodia | AS923-925 | |
+| Cambodia | AS923-925 ("AS2") | |
 | Cameroon
 | Canada | US902-928 | |
 | Central African Republic (CAR)
@@ -111,7 +111,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | --- | --- | --- |
 | Haiti
 | Honduras
-| Hong Kong (different than China) | AS923-925 | |
+| Hong Kong (different than China) | AS923-925 ("AS2") | |
 | Hungary | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 
 ### I
@@ -119,7 +119,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | --- | --- | --- |
 | Iceland | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | India | IN865-867 | [Use of low power wireless equipments in the frequency band 865-867MHz for RFID](http://www.wpc.gov.in/WriteReadData/userfiles/file/RFID%20Delicensing.doc)
-| Indonesia | AS923-925 | |
+| Indonesia | AS923-925 ("AS2") | |
 | Iran | | EN 302 208 |
 | Iraq
 | Ireland | EU863-870<br />EU433 | CEPT Rec. 70-03 |
@@ -130,7 +130,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Jamaica
-| Japan | AS920-923 | |
+| Japan | AS920-923 ("AS1") | |
 | Jordan
 
 ### K
@@ -146,7 +146,7 @@ For discussions about the frequency plans in different countries, see the posts 
 ### L
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Laos | AS923-925 | |
+| Laos | AS923-925 ("AS2") | |
 | Latvia | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Lebanon 
 | Lesotho | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03, [Radio Spectrum Management Guidelines and Procedures 2014](http://www.lca.org.ls/images/documents/Radio%20Spectrum%20Management%20Guidelines%20and%20Procedures_2014.pdf)
@@ -162,7 +162,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Macedonia (FYROM) | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Madagascar | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
 | Malawi | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
-| Malaysia | AS920-923 | |
+| Malaysia | AS920-923 ("AS1") | |
 | Maldives
 | Mali
 | Malta | EU863-870<br />EU433 | CEPT Rec. 70-03 |
@@ -239,7 +239,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Serbia | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Seychelles | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
 | Sierra Leone
-| Singapore | AS920-923 | |
+| Singapore | AS920-923 ("AS1") | |
 | Slovakia | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Slovenia | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Solomon Islands
@@ -259,10 +259,10 @@ For discussions about the frequency plans in different countries, see the posts 
 ### T
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
-| Taiwan | AS923-925 | |
+| Taiwan | AS923-925 ("AS2") | |
 | Tajikistan
 | Tanzania | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
-| Thailand | AS923-925 | |
+| Thailand | AS923-925 ("AS2") | |
 | Timor-Leste
 | Togo
 | Tonga
@@ -289,7 +289,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Vanuatu
 | Vatican City (Holy See) | EU863-870<br />EU433 | |
 | Venezuela | US902-928 | |
-| Vietnam | AS923-925 | |
+| Vietnam | AS923-925 ("AS2") | |
 
 ### Y
 | Country | Frequency Plan | Regulatory document |
