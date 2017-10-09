@@ -130,7 +130,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
 | Jamaica
-| Japan | AS920-923 ("AS1") | |
+| Japan | AS920-923 ("AS1") | [ARIB STD-T108](https://www.arib.or.jp/english/html/overview/doc/5-STD-T108v1_0-E1.pdf) |
 | Jordan
 
 ### K
