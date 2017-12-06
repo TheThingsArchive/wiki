@@ -1,1 +1,0 @@
-Frequency Standard in Pakistan
