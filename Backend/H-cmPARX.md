@@ -1,1 +1,0 @@
-Handler for cMORE parking
