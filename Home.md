@@ -1,4 +1,4 @@
-# ようこそThe Things Network Japanコミュニティへ!
+# ようこそ！　The Things Network Japanコミュニティへ
 
 The Things Networkは、グローバル、オープン、クラウドベースのIoTプラットフォームです。The Things Network日本コミュニティでは、下記の基本原則で運営をおこなっております。
 
