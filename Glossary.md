@@ -8,6 +8,13 @@ Puzzled by all the different terms flying around? Let's create a glossary with a
 
 During the _Registraton_ of a _Device_ or _Gateway_ you set or get keys. Activation is the process of using the keys to connect/identify with The Things Network.
 
+ABP
+:    t.b.d.
+
+OTAA
+:    Over The Air Activation
+
+
 ## Application
 
 
