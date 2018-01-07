@@ -2,12 +2,13 @@
 
 There are two options for the communication chip:
 * SX1272/SX1276: Only supports one simultaneous connection (not LoRaWAN compliant)
-* SX1301/SX1257: Supports 8 simultaneous connections (LoRaWAN compliant)
+* SX1301/SX1308/SX1257: Supports 8 simultaneous connections (LoRaWAN compliant)
 
 ## Full LoRaWAN-compliant gateways (SX1301 + SX1257)
 * [Based on Multitech mCard-LoRa](https://github.com/mirakonta/lora_gateway/wiki)
 * [Based on IMST iC880a](https://github.com/ttn-zh/ic880a-gateway/wiki)
 * [Outdoor setup](http://www.meiland.nl/2015/12/outdoor-lora-gateway/)
+* [Based on RAK831](https://www.hackster.io/naresh-krish/getting-started-with-the-rak-831-lora-gateway-and-rpi3-e3351d/)
 
 ## Single-channel forwarders (SX127x)
 * [semi-LoRaWAN @tftelkamp](https://github.com/tftelkamp/single_chan_pkt_fwd) (not LoRaWAN compliant, but works partly on TTN)
