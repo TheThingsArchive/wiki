@@ -185,7 +185,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Namibia | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
 | Nauru
 | Nepal
-| Netherlands | EU863-870<br />EU433 | [Regeling gebruik van frequentieruimte zonder vergunning en zonder meldingsplicht 2015](http://wetten.overheid.nl/BWBR0036378/2015-03-05), CEPT Rec. 70-03 |
+| Netherlands | EU863-870<br />EU433 | [Regeling gebruik van frequentieruimte zonder vergunning en zonder meldingsplicht 2015](http://wetten.overheid.nl/BWBR0036378/2016-12-28), CEPT Rec. 70-03 |
 | New Zealand | AU915-928 | [Radio Spectrum Management](https://www.rsm.govt.nz/about-rsm/spectrum-policy/gazette/gurl/short-range-devices) |
 | Nicaragua
 | Niger
