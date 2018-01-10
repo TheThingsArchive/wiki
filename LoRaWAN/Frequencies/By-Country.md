@@ -323,7 +323,7 @@ Not implemented in: Azerbaijan, Georgia(868), Sweden(868)
 ### Countries
 Angola, Botswana, Democratic Republic of Congo, Lesotho, Malawi, Mauritius, Mozambique, South Africa, Namibia, Swaziland, Tanzania, Zambia, Zimbabwe.
 
-Even though there is an overlap between the Southern African Development Community (SADC) and CRASA, the Seychelles and Madagascar are not members of CRASA. They are however included in the SADC Frequency allocation plan: http://www.crasa.org/common_up/crasa-setup/12-03-2015_SADC%20FREQUENCY%20BAND%20%202013.pdf
+Even though there is an overlap between the Southern African Development Community (SADC) and CRASA, the Seychelles and Madagascar are not members of CRASA. They are however included in the SADC Frequency allocation plan: [SADC Frequency Allocation Plan](http://www.crasa.org/common_up/crasa-setup/12-03-2015_SADC%20FREQUENCY%20BAND%20%202013.pdf)
 
 ## The Things Network Gateway Regional Configuration Settings
 LoRaWAN gateways are normally configured by a json file, which defines the frequencies used by the gateway. The following regional configuration settings are available from GitHub at https://github.com/TheThingsNetwork/gateway-conf.  The suffix `...-global_conf.json` means that the file is intended to be used as the gateway's `global_conf.json` file after it has been downloaded.
