@@ -235,7 +235,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Samoa
 | San Marino
 | Sao Tome and Principe
-| Saudi Arabia | EU863-870<br />EU433 | http://www.citc.gov.sa/en/RulesandSystems/RegulatoryDocuments/FrequencySpectrum/Documents/SM%20002%20E-NFP.pdf |
+| Saudi Arabia | EU863-870<br />EU433 | [National frequency plan in the kingdom of Saudi Arabia](http://www.citc.gov.sa/en/RulesandSystems/RegulatoryDocuments/FrequencySpectrum/Documents/SM%20002%20E-NFP.pdf) |
 | Senegal
 | Serbia | EU863-870<br />EU433 | CEPT Rec. 70-03 |
 | Seychelles | EU863-870<br />EU433 | CRASA follows CEPT Rec. 70-03 |
@@ -336,4 +336,3 @@ LoRaWAN gateways are normally configured by a json file, which defines the frequ
 | IN865-867 | IN | [IN-global_conf.json](https://github.com/TheThingsNetwork/gateway-conf/blob/master/IN-global_conf.json) |
 | KR920-923 | KR | [KR-global_conf.json](https://github.com/TheThingsNetwork/gateway-conf/blob/master/KR-global_conf.json) |
 | US902-928 | US | [US-global_conf.json](https://github.com/TheThingsNetwork/gateway-conf/blob/master/US-global_conf.json) |
-
