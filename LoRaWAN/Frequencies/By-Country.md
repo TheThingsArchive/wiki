@@ -42,6 +42,7 @@ For discussions about the frequency plans in different countries, see the posts 
 | Burkina Faso
 | Burundi
 
+
 ### C
 | Country | Frequency Plan | Regulatory document |
 | --- | --- | --- |
