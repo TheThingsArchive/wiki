@@ -1,3 +1,3 @@
-# Communication Between Backend Components
+# Page moved
 
-[[/uploads/TTN-Backend-Communication.png]]
+This page has moved to our official documentation: https://www.thethingsnetwork.org/docs/network/architecture.html
